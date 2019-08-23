@@ -9,12 +9,12 @@ from pygame.locals import QUIT, MOUSEBUTTONDOWN, BUTTON_LEFT
 WIDTH = 20
 HEIGHT = 15
 SIZE = 50
-NUM_OF_BOMBS = 20
+NUM_OF_BOMBS = 30
 EMPTY = 0
 BOMB = 1
-OPENED = 2
+OPENED = 2 # 상태 정의 empty:비어있음, bomb:폭탄, opened:열린상태
 OPEN_COUNT = 0
-CHECKED = [[0 for _ in range(WIDTH)] for _ in range(HEIGHT)]
+CHECKED = [[0 for _ in range(WIDTH)] for _ in range(HEIGHT)] # 타일의 상태를 이미 확인했는지 기록하는 배열
 
 pygame.init()
 SURFACE = pygame.display.set_mode([WIDTH*SIZE, HEIGHT*SIZE])
@@ -38,7 +38,7 @@ def open_tile(field, x_pos, y_pos):
 
     CHECKED[y_pos][x_pos] = True
 
-    for yoffset in range(-1, 2):
+    for yoffset in range(-1, 2): # bfs로 주변 빈 타일을 열어줌
         for xoffset in range(-1, 2):
             xpos, ypos = (x_pos + xoffset, y_pos + yoffset)
             if 0 <= xpos < WIDTH and 0 <= ypos < HEIGHT and \
