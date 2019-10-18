@@ -3,10 +3,11 @@
 block_cipher = None
 
 
+
 a = Analysis(['main.py'],
              pathex=['C:\\Users\\ghdic\\OneDrive\\marinelifeirony\\Coding Challenge\\MapleStory'],
              binaries=[],
-             datas=[],
+             datas=add_files,
              hiddenimports=[],
              hookspath=[],
              runtime_hooks=[],
@@ -30,4 +31,5 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=False )
+          console=False,
+          icon='maple.ico' )

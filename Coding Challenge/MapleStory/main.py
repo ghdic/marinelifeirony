@@ -171,12 +171,11 @@ class Player(object):
                 SURFACE.blit(self.body_jump_right[1], (self.x + 6, self.y + 32))  # 팔 그리기
                 SURFACE.blit(self.body_jump_right[2], (self.x + 23, self.y + 36))  # 손 그리기
 
-
-
-        if self.hitbox_visible:
-            pygame.draw.rect(SURFACE, (255, 0, 0), self.hitbox, 2)
         self.hitbox.x = self.x - 2
         self.hitbox.y = self.y
+        if self.hitbox_visible:
+            pygame.draw.rect(SURFACE, (255, 0, 0), self.hitbox, 2)
+
 
 
 # ####  main loop  ####
