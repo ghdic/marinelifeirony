@@ -12,7 +12,7 @@
 # end if, end for 로 구문이 끝났음을 반드시 명시해줘야함
 # content block 을 이용한 특정 부분 소스 옮기기
 # pip install flask-sqlalchemy
-# pip install flask-bcryt
+# pip install flask-bcrypt
 
 # from flask_bcrypt import Bcrypt
 # bcrypt = Bcrypt()
@@ -20,3 +20,5 @@
 # print(bcrypt.check_password_hash(hash_pw, "key"))  # 해쉬값이랑 키를 통해 대조
 
 # pip install flask-login
+
+# pip install flask_wtf
