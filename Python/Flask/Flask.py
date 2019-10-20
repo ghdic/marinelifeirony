@@ -22,3 +22,5 @@
 # pip install flask-login
 
 # pip install flask_wtf
+
+# pip install flask-mail

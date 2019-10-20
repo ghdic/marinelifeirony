@@ -2,9 +2,9 @@ import os
 import secrets
 from PIL import Image
 from flask import render_template, url_for, flash, redirect, request, abort
-from flaskpuzzle import app, bcrypt, db
-from flaskpuzzle.forms import RegistrationForm, LoginForm, UpdateAccountForm, PostForm
-from flaskpuzzle.models import User, Post
+from flaskquiz import app, bcrypt, db
+from flaskquiz.forms import RegistrationForm, LoginForm, UpdateAccountForm, PostForm
+from flaskquiz.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
 
 
@@ -139,3 +139,11 @@ def delete_post(post_id):
     db.session.commit()
     flash('Your post has been deleted!', 'success')
     return redirect(url_for('home'))
+
+
+@app.route("/quiz",  methods=['GET', 'POST'])
+@login_required
+def quiz():
+    if request.method == 'Post':
+        print(request.form.get['pick'])
+    return render_template('quiz.html', title='quiz')
