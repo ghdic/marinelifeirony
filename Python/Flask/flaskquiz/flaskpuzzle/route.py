@@ -2,9 +2,9 @@ import os
 import secrets
 from PIL import Image
 from flask import render_template, url_for, flash, redirect, request, abort
-from flaskblog import app, bcrypt, db
-from flaskblog.forms import RegistrationForm, LoginForm, UpdateAccountForm, PostForm
-from flaskblog.models import User, Post
+from flaskpuzzle import app, bcrypt, db
+from flaskpuzzle.forms import RegistrationForm, LoginForm, UpdateAccountForm, PostForm
+from flaskpuzzle.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
 
 
