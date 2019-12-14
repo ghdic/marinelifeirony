@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1fd808fb-1687-4346-8bba-80f37507e5ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskQuiz/flaskquiz/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/.idea/flaskblog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/route.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/site.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/static/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/static/profile_pics/2382f7f91ff98eeb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/static/profile_pics/88f009b6e71e0959.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/static/profile_pics/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/static/profile_pics/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/static/profile_pics/fd4ee22563ea32f7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/templates/account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/templates/create_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/templates/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/templates/reset_request.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/templates/reset_token.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/flaskblog/templates/user_posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask/flaskblog/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pyqt5/paint/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pyqt5/paint/paint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/marinelifeirony.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/marinelifeirony.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/.idea/flaskblog.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/route.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/site.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/static/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/static/profile_pics/2382f7f91ff98eeb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/static/profile_pics/88f009b6e71e0959.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/static/profile_pics/default.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/static/profile_pics/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/static/profile_pics/fd4ee22563ea32f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/templates/account.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/templates/create_post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/templates/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/templates/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/templates/reset_request.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/templates/reset_token.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskblog/templates/user_posts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask/flaskQuiz/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/.idea/flaskquiz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask/flaskQuiz/.idea/flaskquiz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask/flaskQuiz/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask/flaskQuiz/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask/flaskQuiz/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask/flaskQuiz/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Flask/flaskQuiz/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/route.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/site.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/static/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/static/profile_pics/2382f7f91ff98eeb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/static/profile_pics/88f009b6e71e0959.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/static/profile_pics/default.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/static/profile_pics/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/static/profile_pics/fd4ee22563ea32f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/static/quiz_pics/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/templates/account.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/templates/create_post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/templates/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/templates/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/templates/quiz.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/flaskquiz/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/flaskquiz/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flask/run.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1UgpAXQjzNGG02LZbO0TRT8DTJH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fd808fb-1687-4346-8bba-80f37507e5ed" name="Default Changelist" comment="" />
+      <created>1575787949760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575787949760</updated>
+      <workItem from="1575787951090" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="186" key="FileChooserDialogImpl" timestamp="1575787965209">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="186" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1575787965209" />
+  </component>
+</project>
