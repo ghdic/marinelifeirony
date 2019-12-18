@@ -12,3 +12,17 @@ C:\Users\ghdic\OneDrive\marinelifeirony\c#\DrawScreen\obj\Debug\DrawScreen.Prope
 C:\Users\ghdic\OneDrive\marinelifeirony\c#\DrawScreen\obj\Debug\DrawScreen.csproj.GenerateResource.cache
 C:\Users\ghdic\OneDrive\marinelifeirony\c#\DrawScreen\obj\Debug\DrawScreen.exe
 C:\Users\ghdic\OneDrive\marinelifeirony\c#\DrawScreen\obj\Debug\DrawScreen.pdb
+D:\OneDrive - 호서대학교\marinelifeirony\c#\DrawScreen\obj\Debug\DrawScreen.csprojAssemblyReference.cache
+D:\OneDrive - 호서대학교\marinelifeirony\c#\DrawScreen\obj\Debug\MainWindow.g.cs
+D:\OneDrive - 호서대학교\marinelifeirony\c#\DrawScreen\obj\Debug\App.g.cs
+D:\OneDrive - 호서대학교\marinelifeirony\c#\DrawScreen\obj\Debug\DrawScreen_MarkupCompile.cache
+D:\OneDrive - 호서대학교\marinelifeirony\c#\DrawScreen\obj\Debug\DrawScreen_MarkupCompile.lref
+D:\OneDrive - 호서대학교\marinelifeirony\c#\DrawScreen\obj\Debug\DrawScreen.exe
+D:\OneDrive - 호서대학교\marinelifeirony\c#\DrawScreen\obj\Debug\DrawScreen.pdb
+D:\OneDrive - 호서대학교\marinelifeirony\c#\DrawScreen\bin\Debug\DrawScreen.exe.config
+D:\OneDrive - 호서대학교\marinelifeirony\c#\DrawScreen\bin\Debug\DrawScreen.exe
+D:\OneDrive - 호서대학교\marinelifeirony\c#\DrawScreen\bin\Debug\DrawScreen.pdb
+D:\OneDrive - 호서대학교\marinelifeirony\c#\DrawScreen\obj\Debug\MainWindow.baml
+D:\OneDrive - 호서대학교\marinelifeirony\c#\DrawScreen\obj\Debug\DrawScreen.g.resources
+D:\OneDrive - 호서대학교\marinelifeirony\c#\DrawScreen\obj\Debug\DrawScreen.Properties.Resources.resources
+D:\OneDrive - 호서대학교\marinelifeirony\c#\DrawScreen\obj\Debug\DrawScreen.csproj.GenerateResource.cache
