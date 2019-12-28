@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DrawScreen"
-        mc:Ignorable="d" ResizeMode="NoResize" UseLayoutRounding="True" WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="#02FFFFFF" AllowsTransparency="True" WindowStyle="None" Title="DrawScreen" Icon="Resources/drawscreen.ico">
+        mc:Ignorable="d" ResizeMode="NoResize" UseLayoutRounding="True" WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="{StaticResource FakeTransparent}" AllowsTransparency="True" WindowStyle="None" Title="DrawScreen" Icon="Resources/drawscreen.ico">
     <Grid>
         <InkCanvas x:Name="MainInkCanvas" Background="{x:Null}" MoveEnabled="False" ResizeEnabled="False">
             <InkCanvas.DefaultDrawingAttributes>

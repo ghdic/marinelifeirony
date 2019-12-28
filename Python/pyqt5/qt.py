@@ -546,19 +546,92 @@
 # sys.exit(App.exec())
 
 
-import turtle
+# # 18. GridLayout
+# from PyQt5.QtWidgets import QMainWindow, QApplication, QDialog, QGridLayout, QGroupBox, QPushButton, QVBoxLayout
+# from PyQt5 import QtGui
+# import sys
+#
+# class Window(QDialog):
+#     def __init__(self):
+#         super().__init__()
+#         self.title = "PyQt 5 GridLayOut"
+#         self.top = 100
+#         self.left = 100
+#         self.width = 300
+#         self.height = 100
+#         self.InitWindow()
+#
+#     def InitWindow(self):
+#         self.setWindowTitle(self.title)
+#         self.setGeometry(self.left, self.top, self.width, self.height)
+#         self.gridLayoutCreation()
+#         vboxLayout  = QVBoxLayout()
+#         vboxLayout.addWidget(self.groupBox)
+#         self.setLayout(vboxLayout)
+#         self.show()
+#
+#     def gridLayoutCreation(self):
+#         self.groupBox = QGroupBox("Grid Layout Example")
+#
+#         gridLayout = QGridLayout()
+#         # 위치 줄 수 있네
+#         gridLayout.addWidget(QPushButton('1'), 0, 0)
+#         gridLayout.addWidget(QPushButton('2'), 0, 1)
+#         gridLayout.addWidget(QPushButton('3'), 0, 2)
+#
+#         gridLayout.addWidget(QPushButton('4'), 2, 0)
+#         gridLayout.addWidget(QPushButton('5'), 1, 1)
+#         gridLayout.addWidget(QPushButton('6'), 1, 2)
+#
+#         self.groupBox.setLayout(gridLayout)
+#
+#
+# App = QApplication(sys.argv)
+# window = Window()
+# sys.exit(App.exec())
 
-aaa1 = turtle.Turtle()
-aaa1.pencolor('red')
-aaa2 = turtle.Turtle()
-aaa2.pencolor('blue')
 
-cnt = 0
-for kk in range(5 * 100):
-    aaa1.forward(1)
-    aaa2.forward(1)
-    cnt+=1
-    if cnt % 100 == 0:
-        aaa1.left(360 / 5)
-        aaa2.right(360 / 5)
+# 19. QCheckbox
+from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QCheckBox
+from PyQt5.QtCore import Qt
+import sys
 
+
+class Window(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.title = "PyQt 5 CheckBoxes"
+        self.top = 100
+        self.left = 100
+        self.width = 300
+        self.height = 100
+        self.InitWindow()
+
+    def InitWindow(self):
+
+        checkBox = QCheckBox("Do you like Football ?", self)
+        checkBox.move(20, 20)
+        checkBox.toggle()
+
+        checkBox.stateChanged.connect(self.checBoxChanged)
+
+        self.label = QLabel("Hello", self)
+        self.label.resize(1000, 20)
+        self.label.move(20, 40)
+
+        self.setWindowTitle(self.title)
+        self.setGeometry(self.left, self.top, self.width, self.height)
+
+        self.show()
+
+
+    def checBoxChanged(self, state):
+        if state == Qt.Checked:
+            self.label.setText("Yes I like Football")
+        else:
+            self.label.setText("No I Dont Like FootBall")
+
+
+App = QApplication(sys.argv)
+window = Window()
+sys.exit(App.exec())
