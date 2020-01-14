@@ -144,10 +144,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="bellmanford.cpp" />
+    <ClCompile Include="binarytree.cpp" />
     <ClCompile Include="dijkstra.cpp" />
     <ClCompile Include="flownetwork(ford-fulkerson).cpp" />
     <ClCompile Include="floydwashall.cpp" />
+    <ClCompile Include="segmenttree.cpp" />
     <ClCompile Include="Trie.cpp" />
+    <ClCompile Include="unionfind.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

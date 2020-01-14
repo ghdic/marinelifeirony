@@ -1,5 +1,5 @@
 // bellmanford 음의 가중치 있는 그래프 일대다 최단거리 구하는 알고리즘
-
+/*
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -61,3 +61,4 @@ int main() {
 	cout << "음의 가중치 사이클 생김? -> " << (Bellmanford() ? "YES\n" : "NO\n");
 	print();
 }
+*/

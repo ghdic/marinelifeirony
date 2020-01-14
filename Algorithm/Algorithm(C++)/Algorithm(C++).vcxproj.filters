@@ -30,5 +30,14 @@
     <ClCompile Include="bellmanford.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="binarytree.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="unionfind.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="segmenttree.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
