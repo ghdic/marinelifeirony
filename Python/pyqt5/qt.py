@@ -597,41 +597,196 @@ from PyQt5.QtCore import Qt
 import sys
 
 
-class Window(QMainWindow):
-    def __init__(self):
-        super().__init__()
-        self.title = "PyQt 5 CheckBoxes"
-        self.top = 100
-        self.left = 100
-        self.width = 300
-        self.height = 100
-        self.InitWindow()
+# class Window(QMainWindow):
+#     def __init__(self):
+#         super().__init__()
+#         self.title = "PyQt 5 CheckBoxes"
+#         self.top = 100
+#         self.left = 100
+#         self.width = 300
+#         self.height = 100
+#         self.InitWindow()
+#
+#     def InitWindow(self):
+#
+#         checkBox = QCheckBox("Do you like Football ?", self)
+#         checkBox.move(20, 20)
+#         checkBox.toggle()
+#
+#         checkBox.stateChanged.connect(self.checBoxChanged)
+#
+#         self.label = QLabel("Hello", self)
+#         self.label.resize(1000, 20)
+#         self.label.move(20, 40)
+#
+#         self.setWindowTitle(self.title)
+#         self.setGeometry(self.left, self.top, self.width, self.height)
+#
+#         self.show()
+#
+#
+#     def checBoxChanged(self, state):
+#         if state == Qt.Checked:
+#             self.label.setText("Yes I like Football")
+#         else:
+#             self.label.setText("No I Dont Like FootBall")
+#
+#
+# App = QApplication(sys.argv)
+# window = Window()
+# sys.exit(App.exec())
 
-    def InitWindow(self):
 
-        checkBox = QCheckBox("Do you like Football ?", self)
-        checkBox.move(20, 20)
-        checkBox.toggle()
+# # 20. QSPinkbox + - 마우스로 클릭해서 숫자 조정하는거
+# from PyQt5.QtWidgets import QApplication, QMainWindow, QSpinBox, QVBoxLayout, QLabel, QDoubleSpinBox
+# import sys
+#
+#
+# class Window(QMainWindow):
+#     def __init__(self):
+#         super().__init__()
+#         self.title = "PyQt 5 SPinBoxes"
+#         self.top = 100
+#         self.left = 100
+#         self.width = 300
+#         self.height = 100
+#         self.InitWindow()
+#
+#     def InitWindow(self):
+#
+#         vBoxLayout = QVBoxLayout()
+#         self.label = QLabel("Current Value", self)
+#         self.label.move(20, 20)
+#         self.label.resize(200, 40)
+#         vBoxLayout.addWidget(self.label)
+#
+#         self.spinBox = QSpinBox(self)
+#         self.spinBox.move(20, 0)
+#         self.spinBox.valueChanged.connect(self.valueChanged)
+#         self.spinBox.setMaximum(500)
+#
+#         self.doubleSpinBox = QDoubleSpinBox(self)
+#         self.doubleSpinBox.move(150, 0)
+#
+#
+#         self.setWindowTitle(self.title)
+#         self.setGeometry(self.left, self.top, self.width, self.height)
+#
+#         self.show()
+#
+#     def valueChanged(self):
+#         self.label.setText("Current Value " + str(self.spinBox.text()))
+#
+# App = QApplication(sys.argv)
+# window = Window()
+# sys.exit(App.exec())
 
-        checkBox.stateChanged.connect(self.checBoxChanged)
 
-        self.label = QLabel("Hello", self)
-        self.label.resize(1000, 20)
-        self.label.move(20, 40)
+# # 21. QPixmap image add
+# from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel
+# from PyQt5.QtGui import QPixmap
+# import sys
+#
+#
+# class Window(QMainWindow):
+#     def __init__(self):
+#         super().__init__()
+#         self.title = "PyQt 5 Image"
+#         self.top = 100
+#         self.left = 100
+#         self.width = 600
+#         self.height = 500
+#         self.InitWindow()
+#
+#     def InitWindow(self):
+#         self.label = QLabel(self)
+#         self.label.setPixmap(QPixmap('image.jpg'))
+#         self.label.setGeometry(60, 50, 1000, 700)
+#
+#         self.setWindowTitle(self.title)
+#         self.setGeometry(self.left, self.top, self.width, self.height)
+#
+#         self.show()
+#
+#
+#
+# App = QApplication(sys.argv)
+# window = Window()
+# sys.exit(App.exec())
 
-        self.setWindowTitle(self.title)
-        self.setGeometry(self.left, self.top, self.width, self.height)
-
-        self.show()
 
 
-    def checBoxChanged(self, state):
-        if state == Qt.Checked:
-            self.label.setText("Yes I like Football")
-        else:
-            self.label.setText("No I Dont Like FootBall")
+# # 22. QSlider1
+# from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QLineEdit, QSlider, QVBoxLayout
+# from PyQt5.QtCore import Qt
+# import sys
+#
+#
+# class Window(QWidget):
+#     def __init__(self):
+#         super().__init__()
+#         self.title = "PyQt 5 QSlider"
+#         self.top = 100
+#         self.left = 100
+#         self.width = 600
+#         self.height = 500
+#         self.InitWindow()
+#
+#     def InitWindow(self):
+#
+#         vboxLayout = QVBoxLayout()
+#         self.lineEdit = QLineEdit(self)
+#         self.lineEdit.move(100, 50)
+#         vboxLayout.addWidget(self.lineEdit)
+#
+#         self.slider = QSlider(Qt.Horizontal, self)
+#         self.slider.move(100, 20)
+#         self.slider.setMinimum(1)
+#         self.slider.setMaximum(99)
+#         self.slider.setValue(20)
+#         self.slider.setTickPosition(QSlider.TicksBelow)
+#         self.slider.setTickInterval(10)
+#         self.slider.valueChanged.connect(self.changedValude)
+#         vboxLayout.addWidget(self.slider)
+#
+#         self.setWindowTitle(self.title)
+#         self.setGeometry(self.left, self.top, self.width, self.height)
+#
+#         self.show()
+#
+#     def changedValude(self):
+#         size = str(self.slider.value())
+#         self.lineEdit.setText(size)
+#
+#
+# App = QApplication(sys.argv)
+# window = Window()
+# sys.exit(App.exec())
 
 
-App = QApplication(sys.argv)
-window = Window()
-sys.exit(App.exec())
+# # 23.
+# from PyQt5.QtWidgets import QApplication, QMainWindow
+# import sys
+#
+#
+# class Window(QMainWindow):
+#     def __init__(self):
+#         super().__init__()
+#         self.title = "PyQt 5 "
+#         self.top = 100
+#         self.left = 100
+#         self.width = 600
+#         self.height = 500
+#         self.InitWindow()
+#
+#     def InitWindow(self):
+#         self.setWindowTitle(self.title)
+#         self.setGeometry(self.left, self.top, self.width, self.height)
+#
+#         self.show()
+#
+#
+#
+# App = QApplication(sys.argv)
+# window = Window()
+# sys.exit(App.exec())
