@@ -1,0 +1,113 @@
+<!doctype html>
+<html ng-cloak ng-app="optionsApp">
+<head>
+  <title>설정</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/optionPage.css">
+</head>
+<body>
+<div class="wrap" ng-controller="mainCtrl" ng-switch="menu">
+  <div class="nav" ng-class="">
+    <button class="fui-gear menu" ng-click="menu = 'option'" ng-class="{on: menu === 'option'}">설정</button>
+    <button class="fui-user menu" ng-click="menu = 'feedback'" ng-class="{on: menu === 'feedback'}">피드백</button>
+  </div>
+  <div class="content" ng-switch-when="option" ng-controller="optionCtrl">
+    <div class="noti" ng-if="isChanged">
+      변경한 설정을 적용했습니다. 새로운 설정은 새 창을 열거나, 기존 창을 새로고침 하면 적용됩니다.
+    </div>
+
+    <h3 class="fui-arrow-right">사전 선택 방법</h3>
+    <p class="desc">페이지에서 사전을 불러오는 방법에 대한 설정입니다.</p>
+    <div class="box">
+      <h4>더블클릭</h4>
+      <ul>
+        <li class="item" ng-repeat="method in DBLCLICK_METHODS" data-analytics-event="options:changeTriggerMethod:{{method.value}}">
+          <input type="radio" name="dblclickMethod" id="dblclick-method-{{$index}}"
+            ng-model="options.dblclickMethod" value="{{method.value}}" ng-change="save()">
+          <label for="dblclick-method-{{$index}}">{{method.desc}}</label>
+        </li>
+      </ul>
+      <hr class="line">
+      <input type="checkbox" name="useDrag" id="use-drag" ng-model="options.useDrag" ng-change="save()">
+      <label for="use-drag">단어를 드래그했을 때에도 검색하기</label>
+      <div class="drag-option" ng-if="options.useDrag">
+        <h4>드래그</h4>
+        <ul>
+          <li class="item" ng-repeat="method in DRAG_METHODS" data-analytics-event="options:changeTriggerMethod:{{method.value}}">
+            <input type="radio" name="dragMethod" id="drag-method-{{$index}}"
+            ng-model="options.dragMethod" value="{{method.value}}" ng-change="save()">
+            <label for="drag-method-{{$index}}">{{method.desc}}</label>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="fui-arrow-right">단축키 사용 여부</h3>
+    <p class="desc">사전이 열렸을 때 단축키를 사용할 지 여부에 대한 설정입니다.</p>
+    <div class="box">
+      <input type="checkbox" name="useShortcut" id="use-shortcut" ng-model="options.useShortcut" ng-change="save()">
+      <label for="use-shortcut">단축키 사용하기</label>
+      <div class="shortcut" ng-if="options.useShortcut">
+        <hr class="line">
+        <h4>단축키 목록</h4>
+        <ul>
+          <li class="item" ng-repeat="(key, value) in SHORTCUTS">
+            - <strong>{{key.toUpperCase()}}</strong>: {{value}}
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="fui-arrow-right">사전 글자 크기</h3>
+    <p class="desc">사전의 글자 크기를 설정합니다.</p>
+    <div class="box font-size">
+      <div>
+        <button class="btn fui-triangle-down" ng-click="setSmaller()" data-analytics-event="options:changeFontSize:{{options.fontSize - 5}}">작게</button>
+        <strong class="current-font-size">{{options.fontSize}}%</strong>
+        <button class="btn fui-triangle-up" ng-click="setLarger()" data-analytics-event="options:changeFontSize:{{options.fontSize + 5}}">크게</button>
+      </div>
+      <iframe id="viewer" src="viewer.html"></iframe>
+    </div>
+  </div>
+
+  <div class="content" ng-switch-when="feedback" ng-controller="feedbackCtrl">
+    <h3 class="fui-arrow-right">공지사항</h3>
+    <ul class="notice" ng-model="notices">
+      <li class="notice-item" ng-repeat="notice in notices">
+        <div class="notice-title"><span>{{notice.version}} 버전</span></div>
+        <pre class="notice-desc">{{notice.desc}}</pre>
+      </li>
+    </ul>
+    <div class="other" ng-model="otherNotices" ng-if="otherNotices.length">
+      <span class="otherVersion">다른 버전 공지보기: </span>
+      <button class="version" ng-repeat="notice in otherNotices" ng-click="showNotice($index)">{{notice.version}}</button>
+    </div>
+
+    <h3 class="fui-arrow-right">개발 예정 목록</h3>
+    <p class="desc">현재 진행 중인 작업 목록입니다.<br>중요하거나 긴급한 순서대로 A,B,C로 우선순위를 나누어뒀고, 우선순위가 높은 건부터 적용될 예정입니다.<br>많은 분들이 의견주신 건은 우선순위를 높여 진행하려고 합니다. 피드백 주실 때 참고해주세요.</p>
+    <iframe id="todo" src="about:blank"></iframe>
+
+    <h3 class="fui-arrow-right">버그 신고 및 개선 의견 주기</h3>
+    <a class="outlink" href="{{bugUrl}}" target="_blank">버그 신고하기</a>
+    <a class="outlink" href="{{feedbackUrl}}" target="_blank">개선 의견주기</a>
+  </div>
+</div>
+
+<script src="vendor/jquery.js"></script>
+<script src="vendor/underscore.js"></script>
+<script src="vendor/angular.js"></script>
+<script src="vendor/q.js"></script>
+<script src="js/common/define.js"></script>
+<script src="js/common/constant.js"></script>
+<script src="js/common/message.js"></script>
+<script src="js/common/storage.js"></script>
+<script src="js/common/options.js"></script>
+<script src="js/common/f.js"></script>
+<script src="js/common/analytics.js"></script>
+<script src="js/options/notice.js"></script>
+<script src="js/options/optionPage.js"></script>
+</body>
+</html>

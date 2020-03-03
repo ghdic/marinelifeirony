@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Google Tegninger",
+    "description": "App name."
+  },
+  "appDesc": {
+    "message": "Lag figurer og diagrammer",
+    "description": "App description."
+  }
+}

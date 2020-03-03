@@ -1,0 +1,42 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "img/icon16.png",
+         "32": "img/icon32.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "captchaContent.js" ],
+      "matches": [ "https://api.blocksite.co/*", "http://api.blocksite.co/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://*.facebook.com  https://*.google.com  https://ssl.google-analytics.com https://*.wips.com https://*.facebook.net https://*.twitter.com https://*.doubleclick.net; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "19": "img/icon19.png",
+      "32": "img/icon32.png",
+      "48": "img/icon48.png"
+   },
+   "incognito": "split",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgFmSjU432CjKYI/w7UA8f6O2Z5TKhwccXRJd0EnDRwoGgi0wJqYkA++jqIMXHQMvqoZ1RC60H1woIYA8VY8O8Z3rIW5zmtE03YRVTI2VQYGDz1rK26ZKkS6Kg5u3eyre+bA7KWbesOWXDrZQ8NcczSgXtZJm8Oyj6vb95F4QaXwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "webNavigation", "\u003Call_urls>", "cookies", "management", "notifications", "contextMenus", "webRequest", "webRequestBlocking", "unlimitedStorage", "storage", "gcm" ],
+   "short_name": "__MSG_appShortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.10.1",
+   "web_accessible_resources": [ "blocked.html", "welcome.html", "img/notify-avatar-blue.png", "img/notify-avatar-red.png", "public.pem" ]
+}

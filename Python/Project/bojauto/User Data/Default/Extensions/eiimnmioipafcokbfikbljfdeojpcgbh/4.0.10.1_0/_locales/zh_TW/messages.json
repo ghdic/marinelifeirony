@@ -1,0 +1,1069 @@
+{
+   "aboutPageBlockCategoriesHeader": {
+      "message": "塊類別"
+   },
+   "aboutPageBlockCategoriesText": {
+      "message": "按下按鈕即可快速阻止整個類別"
+   },
+   "aboutPageChromeRateHeader": {
+      "message": "喜歡我們？讓全世界都知道。"
+   },
+   "aboutPageChromeRateText": {
+      "message": "若您認為 Block Site 很有幫助，請至 Chrome 網路商店評分。在此向您表達謝意。"
+   },
+   "aboutPageCreateBlockListHeader": {
+      "message": "建立封鎖清單"
+   },
+   "aboutPageCreateBlockListText": {
+      "message": "將您要封鎖的網站或網頁新增到「網站清單」，並自動重新導向到更安全、更正面的網站。您也可以建立友善網站清單，並從封鎖特定網站切換到僅允許特定網站運作。"
+   },
+   "aboutPageIcognitoHeader": {
+      "message": "無痕模式"
+   },
+   "aboutPageIcognitoText": {
+      "message": "只要允許無痕模式，Block Site 的所有功能即可以無痕模式運作。遵照以下指示來瞭解其運作方式："
+   },
+   "aboutPageKidsSafeHeader": {
+      "message": "保持互聯網安全"
+   },
+   "aboutPageKidsSafeText": {
+      "message": "透過擴充功能表啟用成人網站封鎖，輕輕一點就可以封鎖所有成人網站。"
+   },
+   "aboutPageOtherFuncHeader": {
+      "message": "其他功能"
+   },
+   "aboutPageOtherFuncText": {
+      "message": "您可以在黑名單和白名單之間切換。選擇您是否要在操作功能表中顯示「停用 Block Site」項目。允許傳送匿名統計資料，改善了 Block Site 的功能，所有統計資料都完全匿名，請放心。允許我們傳送新功能通知給您，通知我們的新增功能。請享用擴充功能，別忘了在 Firefox 附加元件商店中幫我們評分："
+   },
+   "aboutPagePrivacyPolicy": {
+      "message": "隐私政策"
+   },
+   "aboutPageProductivity": {
+      "message": "Block Site 能讓您集中精神，提高工作效率。您可以輕鬆封鎖任何擾人或有害網站。不用再靠意志力。"
+   },
+   "aboutPageRigtClickMenuHeader": {
+      "message": "右鍵功能表"
+   },
+   "aboutPageRigtClickMenuText": {
+      "message": "在任何網站上的任意處按一下滑鼠右鍵，即可開啟快速存取功能表。幾秒內即可封鎖網站，保持專注，避免拖延。"
+   },
+   "aboutPageSetUpPassHeader": {
+      "message": "設定密碼"
+   },
+   "aboutPageSetUpPassText": {
+      "message": "在「設定」頁面中設定密碼來限制 Block Site 選項的存取，或者啟用選項以密碼存取封鎖的網站。"
+   },
+   "aboutPageTerms": {
+      "message": "使用條款"
+   },
+   "aboutPageTimeBlockHeader": {
+      "message": "特定時間封鎖"
+   },
+   "aboutPageTimeBlockText": {
+      "message": "選擇您希望 Block Site 生效的日期和時間間隔。根據您的工作時間表（例如：09:00 - 17:00），設定自訂封鎖，讓您無論在辦公室或學校，都不會拖延工作。"
+   },
+   "aboutPageTitle": {
+      "message": "關於 Block Site"
+   },
+   "addInterval": {
+      "message": "新增間隔"
+   },
+   "addSiteOnboarding": {
+      "message": "開始將您要封鎖的網站新增到清單中。"
+   },
+   "allSitesBlocked": {
+      "message": "工作模式清單中所有網站都已封鎖"
+   },
+   "allSitesUnblockedMsg": {
+      "message": "工作模式清單中所有網站都已解除封鎖"
+   },
+   "androidQuestionHeader": {
+      "message": "喜歡 BlockSite 嗎？"
+   },
+   "androidTrytext": {
+      "message": "試試我們的 Android 應用程式"
+   },
+   "appDesc": {
+      "description": "應用程式的說明，顯示於 Web 商店中。",
+      "message": "專心一意，增進產能。輕鬆封鎖任何擾人或有害網站。終止拖延，一勞永逸！"
+   },
+   "appName": {
+      "description": "應用程式標題，顯示於 Web 商店中。",
+      "message": "Block Site - Website Blocker for Chrome™"
+   },
+   "appShortName": {
+      "description": "應用程式的簡短標題",
+      "message": "BlockSite"
+   },
+   "blockByCategoryText_adult": {
+      "message": "糟糕！ %domain% 不可用，因為它與成人有關，這是您'年前阻止的類別。保持專注，你已經明白了。"
+   },
+   "blockByCategoryText_gambling": {
+      "message": "糟糕！ %domain% 是不可用的，因為它與賭博有關，這是您'阻止的類別。保持專注，你已經明白了。"
+   },
+   "blockByCategoryText_news_and_media": {
+      "message": "糟糕！ %domain% 是不可用的，因為它關係到的新聞是你的類別'已經封鎖。保持專注，你已經明白了。"
+   },
+   "blockByCategoryText_social_networks_and_online_communities": {
+      "message": "糟糕！ %domain% 是不可用的，因為它涉及到社會這是你的類別'已經封鎖。保持專注，你已經明白了。"
+   },
+   "blockByCategoryText_sports": {
+      "message": "糟糕！ %domain% 是不可用的，因為它關係到體育這是你的類別'已經封鎖。保持專注，你已經明白了。"
+   },
+   "blockByCategoryTitle_adult": {
+      "message": "蟑螂。Severed Limbs。約翰古德曼。"
+   },
+   "blockByCategoryTitle_gambling": {
+      "message": "不要讓房子總是贏。"
+   },
+   "blockByCategoryTitle_news_and_media": {
+      "message": "沒有消息就是好消息。"
+   },
+   "blockByCategoryTitle_social_networks_and_online_communities": {
+      "message": "沒有張貼，沒有喜歡，只是生活。"
+   },
+   "blockByCategoryTitle_sports": {
+      "message": "保持冷靜並斷開連接。"
+   },
+   "blockByWordBlockedPageMsg": {
+      "message": "看起來您已封鎖了字詞“%blocked_word%”。就保持這樣吧。"
+   },
+   "blockByWordBlockedPageTitle": {
+      "message": "啊哦！"
+   },
+   "blockSitePageEveryDayLabel": {
+      "message": "每天"
+   },
+   "blockSitePageSubtitle": {
+      "message": "暫時或依照排程封鎖網站"
+   },
+   "blockSitePageTitle": {
+      "message": "Block Site"
+   },
+   "blockedMessage1": {
+      "message": "您已將 %domain% 列入「封鎖的網站」清單。事出必有因。"
+   },
+   "blockedMessage2": {
+      "message": "您已封鎖 %domain%，可以專心工作了。現在繼續工作吧。"
+   },
+   "blockedMessage3": {
+      "message": "呼，現在比較好了。回到正事。"
+   },
+   "blockedMessage4": {
+      "message": "已封鎖 %domain%。新增的擾人網站越多，您的效率就會越高。"
+   },
+   "blockedMoreSites": {
+      "message": "封鎖更多擾人網站"
+   },
+   "blockedOptionsEnterPassText": {
+      "message": "請輸入密碼，以利存取 BlockSite 選項頁面"
+   },
+   "blockedOptionsTitle": {
+      "message": "BlockSite 選項已被封鎖"
+   },
+   "blockedOptsIncorrectPassTooltip": {
+      "message": "糟糕！出錯了。請再試一次。"
+   },
+   "blockedWordTitle": {
+      "message": "封鎖的字"
+   },
+   "blocksiteLockedLabel": {
+      "message": "BlockSite 已封鎖"
+   },
+   "blocksiteLockedMessage": {
+      "message": "輸入密碼即可存取擴充功能設定"
+   },
+   "blocksiteOffMessage": {
+      "message": "Block Site 目前已關閉"
+   },
+   "breakIsOver": {
+      "message": "休息時間結束。"
+   },
+   "breakString": {
+      "message": "$BRAKE_TIME$ 休息",
+      "placeholders": {
+         "brake_time": {
+            "content": "$1",
+            "example": "05:00"
+         }
+      }
+   },
+   "breakTimeLeftText": {
+      "message": "還有 %BREAK_TIME_LEFT% 分鐘到休息時間",
+      "placeholders": {
+         "break_time_left": {
+            "content": "$1",
+            "example": "25"
+         }
+      }
+   },
+   "buildBlockList": {
+      "message": "建立封鎖清單"
+   },
+   "buildListLabel": {
+      "message": "建立您的清單！"
+   },
+   "buildListMessage": {
+      "message": "輸入您在工作時不想看到的網站。"
+   },
+   "cantBlockRedirectSiteMsg": {
+      "message": "無法封鎖設定為重新導向的網站"
+   },
+   "cantBlockRedirectWordMsg": {
+      "message": "無法阻止屬於重定向網址的單詞"
+   },
+   "cantRedirectMessage1": {
+      "message": "無法允許設定為重新導向的網站"
+   },
+   "cantRedirectMessage2": {
+      "message": "無法封鎖設定為重新導向的網站"
+   },
+   "cantRedirectToBlockedSite": {
+      "message": "哎呀！阻止站點列表會阻止此重定向站點"
+   },
+   "cantRedirectToBlockedWord": {
+      "message": "哎呀！您的重定向站點被Block By Words列表阻止"
+   },
+   "cantRedirectToWorkModeBlockedSite": {
+      "message": "哎呀！此工作模式列表會阻止此重定向站點"
+   },
+   "categoriesMenuDescription": {
+      "message": "請選擇要阻止的類別"
+   },
+   "changePass": {
+      "message": "變更密碼"
+   },
+   "context_add_currentPage": {
+      "message": "封鎖此網站"
+   },
+   "context_add_currentPage_whitelistOn": {
+      "message": "允許此網站"
+   },
+   "context_add_currentPage_workmode": {
+      "message": "將網站新增到工作模式清單"
+   },
+   "context_add_currentPage_workmode_whitelistOn": {
+      "message": "工作模式下允許此網站"
+   },
+   "context_add_link": {
+      "message": "封鎖此連結"
+   },
+   "context_add_link_whitelistOn": {
+      "message": "允許此連結"
+   },
+   "context_add_link_workmode": {
+      "message": "將連結位址新增到工作模式清單"
+   },
+   "context_add_link_workmode_whitelistOn": {
+      "message": "工作模式下允許此連結"
+   },
+   "continue": {
+      "message": "繼續"
+   },
+   "continueMsg": {
+      "message": "繼續"
+   },
+   "dayFriday": {
+      "message": "星期五"
+   },
+   "dayFridayLabel": {
+      "message": "週五"
+   },
+   "dayFridayLetter": {
+      "message": "F"
+   },
+   "dayMonday": {
+      "message": "星期一"
+   },
+   "dayMondayLabel": {
+      "message": "週一"
+   },
+   "dayMondayLetter": {
+      "message": "M"
+   },
+   "dayPickerClickToDeactivate": {
+      "message": "（按一下某天即可停用）"
+   },
+   "dayPickerSelectedDays": {
+      "message": "選取的天數"
+   },
+   "daySaturday": {
+      "message": "星期六"
+   },
+   "daySaturdayLabel": {
+      "message": "週六"
+   },
+   "daySaturdayLetter": {
+      "message": "S"
+   },
+   "daySunday": {
+      "message": "星期天"
+   },
+   "daySundayLabel": {
+      "message": "週日"
+   },
+   "daySundayLetter": {
+      "message": "S"
+   },
+   "dayThursday": {
+      "message": "星期四"
+   },
+   "dayThursdayLabel": {
+      "message": "週四"
+   },
+   "dayThursdayLetter": {
+      "message": "T"
+   },
+   "dayTuesday": {
+      "message": "星期二"
+   },
+   "dayTuesdayLabel": {
+      "message": "週二"
+   },
+   "dayTuesdayLetter": {
+      "message": "T"
+   },
+   "dayWednesday": {
+      "message": "星期三"
+   },
+   "dayWednesdayLabel": {
+      "message": "週三"
+   },
+   "dayWednesdayLetter": {
+      "message": "W"
+   },
+   "downloadAndroidText": {
+      "description": "## 和 %% 中間的文字將包含在 html 標記內，請勿移除此符號",
+      "message": "＃保持生產效率＃％跨設備％"
+   },
+   "downloadText": {
+      "message": "下載"
+   },
+   "editBlockSitesList": {
+      "message": "編輯 Block Site 清單"
+   },
+   "editWorkListMsg": {
+      "message": "之後您可在「工作模式選項」中編輯清單"
+   },
+   "editWorkModeList": {
+      "message": "編輯工作模式清單"
+   },
+   "editYourListBtn": {
+      "message": "編輯您的清單"
+   },
+   "emailPlaceholder": {
+      "message": "輸入您的電子郵件"
+   },
+   "enableIncognitoButtonText": {
+      "message": "在無痕模式下啟用"
+   },
+   "end": {
+      "message": "結束"
+   },
+   "endBreak": {
+      "message": "結束休息"
+   },
+   "enterPassMsg": {
+      "message": "輸入密碼以存取"
+   },
+   "enterPassPlaceholder": {
+      "message": "輸入密碼"
+   },
+   "enterWordInputPlaceholder": {
+      "message": "輸入字或詞"
+   },
+   "errorCantRedirectToBlocked": {
+      "message": "無法重新導向至封鎖的網站"
+   },
+   "errorEmptyList": {
+      "message": "您的清單為空白！沒有可匯出的項目。"
+   },
+   "errorIncorrectUrl": {
+      "message": "URL 不正確"
+   },
+   "exportList": {
+      "message": "匯出清單"
+   },
+   "exportSuccess": {
+      "message": "您的清單已成功匯出"
+   },
+   "feedbackFormBody": {
+      "message": "訊息 (選用)"
+   },
+   "feedbackFormSubject": {
+      "message": "主題"
+   },
+   "fogotPassModalMainText": {
+      "message": "已將您的密碼傳送至"
+   },
+   "fogotPassModalOkBtn": {
+      "message": "好的"
+   },
+   "fogotPassModalSentTitle": {
+      "message": "已傳送密碼"
+   },
+   "footerDownloadAndroidText": {
+      "message": "Android 版下載"
+   },
+   "footerHelpText": {
+      "message": "幫助我們改善"
+   },
+   "footerRateText": {
+      "message": "評價我們"
+   },
+   "forgotPasswordText": {
+      "message": "忘記密碼？"
+   },
+   "getBackToWorkTitle": {
+      "message": "按一下「繼續」，返回工作！"
+   },
+   "goBack": {
+      "message": "返回"
+   },
+   "goBackToWork": {
+      "message": "繼續工作"
+   },
+   "gotIt": {
+      "message": "瞭解"
+   },
+   "haveAppNow": {
+      "message": "我現在已有應用程式"
+   },
+   "howtoEnableInIncognitoStep1": {
+      "message": "前往 chrome://extensions"
+   },
+   "howtoEnableInIncognitoStep2": {
+      "message": "尋找 Block Site"
+   },
+   "howtoEnableInIncognitoStep3": {
+      "message": "核取「允許無痕模式」"
+   },
+   "howtoEnableInIncognitoText": {
+      "message": "若要在 Chrome 無痕模式中啟用 Block Site，請遵照以下步驟。"
+   },
+   "howtoEnableInIncognitoTitle": {
+      "message": "如何在無痕模式下啟用"
+   },
+   "importList": {
+      "message": "匯入清單"
+   },
+   "importListSuccessMsg": {
+      "message": "您的清單已成功匯入"
+   },
+   "incorrectFileStructMsg": {
+      "message": "檔案結構不正確。請嘗試匯出當前清單，以查看所需的 csv 格式"
+   },
+   "incorrectUrlMsg": {
+      "message": "URL 不正確"
+   },
+   "inctoduceGetStarted": {
+      "message": "立即開始"
+   },
+   "inctoduceMessage": {
+      "message": "工作模式計時器執行時，可保持專注並封鎖擾人的網站"
+   },
+   "inctoduceTitle": {
+      "message": "開始提高效率！"
+   },
+   "invalidPassMsg": {
+      "message": "密碼無效。再試一次。"
+   },
+   "letterMessageText": {
+      "message": "您會收到已開啟密碼保護功能的電子郵件通知"
+   },
+   "lockExtEmailLabel": {
+      "message": "電子郵件"
+   },
+   "lockExtEmailLabelVerify": {
+      "message": "需要驗證"
+   },
+   "lockExtNewPopupBtnText": {
+      "message": "請確認"
+   },
+   "lockExtNewPopupText1": {
+      "message": "利用密碼保護您的設定頁"
+   },
+   "lockExtNewPopupText2": {
+      "message": "利用密碼允許存取已封鎖的頁面"
+   },
+   "lockExtNewPopupText3": {
+      "message": "一旦有人移除 BlockSite，通知我"
+   },
+   "lockExtNewPopupText4": {
+      "message": "輕鬆找回您的密碼"
+   },
+   "lockExtNewPopupTitleNew": {
+      "message": "新增："
+   },
+   "lockExtNewPopupTitleProtectionText": {
+      "message": "密碼保護"
+   },
+   "lockExtPassChangedNotificationText": {
+      "message": "成功變更密碼設定"
+   },
+   "lockExtPassLabel": {
+      "message": "密碼"
+   },
+   "lockExtPopupResetPassRemovedText": {
+      "message": "若未重置密碼，則將其移除。"
+   },
+   "lockExtPopupRestPassBtnText": {
+      "message": "重置密碼"
+   },
+   "lockExtPopupRestPassText": {
+      "message": "為保護帳戶，請重置您的密碼並提供復原電子郵件。"
+   },
+   "lockExtPopupRestPassTitle": {
+      "message": "重置您的密碼\u003Cbr>，實現更好的安全性"
+   },
+   "lockExtProtectSettings": {
+      "message": "保護您的首選BlockSite選項和\u003Cbr>用密碼Chrome擴展頁面"
+   },
+   "lockExtRecieveEmail": {
+      "message": "解除安裝 BlockSite 後會收到電子郵件通知"
+   },
+   "lockExtRequirePass": {
+      "message": "須輸入密碼才能存取封鎖的網站"
+   },
+   "lockExtSavedNotificationText": {
+      "message": "已儲存保護設定"
+   },
+   "lockExtSetUpPassText": {
+      "message": "設定電子郵件和密碼以啟用"
+   },
+   "lockExtSettingsNotSavedAddBtn": {
+      "message": "新增電子郵件和密碼"
+   },
+   "lockExtSettingsNotSavedLeave": {
+      "message": "離開，不儲存"
+   },
+   "lockExtSettingsNotSavedText": {
+      "message": "請儲存您的電子郵件和密碼以啟用額外保護功能。"
+   },
+   "lockExtSettingsNotSavedTitle": {
+      "message": "未儲存設定"
+   },
+   "lockExtUpdateEmailAndPass": {
+      "message": "更新電子郵件和密碼"
+   },
+   "lockExtUpdatePassText": {
+      "message": "更新您的電子郵件和密碼以啟用"
+   },
+   "lockExtensionHeaderTitle": {
+      "message": "密碼保護偏好"
+   },
+   "lockExtsPageTitle1": {
+      "message": "Chrome 擴充功能程序頁 - 已保護"
+   },
+   "lockExtsPageTitle2": {
+      "message": "請輸入密碼以存取"
+   },
+   "lockedPopupPassPlaceholder": {
+      "message": "輸入密碼以解鎖"
+   },
+   "mandatoryPopupBtnAgreeText": {
+      "message": "同意"
+   },
+   "mandatoryPopupBtnDisagreeText": {
+      "message": "不同意"
+   },
+   "mandatoryPopupFooterText": {
+      "message": "如果按下「不同意」，您仍然可以使用 BlockSite，但是將無法使用成人網站封鎖功能。"
+   },
+   "mandatoryPopupText": {
+      "description": "#隱私政策#部分文字為可點按的連結，請勿移除 # 符號",
+      "message": "為了讓 BlockSite 能偵測與封鎖具有成人內容的網頁，我們需要您的許可，讓我們存取您造訪網站上的資訊。請按一下「同意」，允許我們依照#隱私政策#存取和使用此資訊。"
+   },
+   "mandatoryPopupTitle": {
+      "message": "請選擇一個選項，\u003Cbr>以繼續使用 BlockSite。"
+   },
+   "menuAbout": {
+      "message": "關於"
+   },
+   "menuBlockByWords": {
+      "message": "依字封鎖"
+   },
+   "menuBlockSites": {
+      "message": "Block Site"
+   },
+   "menuCategoriesBlock": {
+      "message": "分類目錄"
+   },
+   "menuLockExtension": {
+      "message": "密碼保護"
+   },
+   "menuSettings": {
+      "message": "設定"
+   },
+   "menuWorkMode": {
+      "message": "工作模式"
+   },
+   "mergeBtnText": {
+      "message": "合併"
+   },
+   "messageSent": {
+      "message": "訊息已傳送"
+   },
+   "modalPrivacyShortText": {
+      "description": "#Privacy Policy.#text will be clickable link, don't remove # symbols, just ignore it",
+      "message": "除非您同意讓我們訪問您訪問的網站上的信息（如我們的“隱私政策”中所述），否則您可以' t啟用類別阻止模式。 \u003Cbr>單擊同意以啟用"
+   },
+   "modalPrivacyText": {
+      "description": "#Privacy Policy.#text will be clickable link, don't remove # symbols, just ignore it",
+      "message": "除非您同意授予我們訪問您訪問的URL，IP地址，操作系統和瀏覽器信息的權限，否則您可以' t啟用類別阻止模式，以按照我們的“隱私政策”中的說明使用。 \u003Cbr>單擊同意以啟用"
+   },
+   "modalPrivacyTitle": {
+      "message": "糟糕！"
+   },
+   "motivationalText1": {
+      "message": "做的好..."
+   },
+   "motivationalText10": {
+      "message": "已攔截！"
+   },
+   "motivationalText2": {
+      "message": "Jose，不會吧。"
+   },
+   "motivationalText3": {
+      "message": "算了。"
+   },
+   "motivationalText4": {
+      "message": "你是認真的嗎？"
+   },
+   "motivationalText5": {
+      "message": "你到底在做什麼？"
+   },
+   "motivationalText6": {
+      "message": "別鬧了！"
+   },
+   "motivationalText7": {
+      "message": "小狗。奇怪的痣。小賈斯汀。"
+   },
+   "motivationalText8": {
+      "message": "蟑螂。Severed Limbs。約翰古德曼。"
+   },
+   "motivationalText9": {
+      "message": "奶奶。柯比布萊恩。外科手術。"
+   },
+   "no": {
+      "message": "否"
+   },
+   "notAvalible": {
+      "message": "在此頁面上無法使用"
+   },
+   "notSyncedText": {
+      "message": "未與應用程式同步"
+   },
+   "notValidShedule": {
+      "message": "您的排程無效"
+   },
+   "ok": {
+      "message": "好的"
+   },
+   "overrideBtnText": {
+      "message": "覆寫"
+   },
+   "overrideOrMergeConfirmationTitle": {
+      "message": "您想合併或覆寫當前清單嗎？"
+   },
+   "passIsSet": {
+      "message": "密碼已設定"
+   },
+   "passLengthTooltip": {
+      "message": "密碼至少需含 5 個字元"
+   },
+   "passPlaceholder": {
+      "message": "最少 5 個字元"
+   },
+   "passSettedMsg": {
+      "message": "已設定您的密碼"
+   },
+   "pauseBtnText": {
+      "message": "暫停"
+   },
+   "pauseFooterButton1": {
+      "message": "暫停"
+   },
+   "pauseFooterButton2": {
+      "message": "繼續工作"
+   },
+   "pauseHeaderMessage": {
+      "message": "您確定要停止工作，\u003Cbr>立刻暫停嗎？"
+   },
+   "pauseHeaderTitle": {
+      "message": "停下來是弱者的表現！"
+   },
+   "pauseTextTitle": {
+      "message": "現在是您表現的時候了！"
+   },
+   "privacyPolicyText1": {
+      "message": "為了符合資料保護法的規定，我們已更新"
+   },
+   "privacyPolicyText2": {
+      "message": "隐私政策"
+   },
+   "privacyPolicyText3": {
+      "message": "請閱讀所有內容，因為這些變更將影響您的法律權益。"
+   },
+   "privacyPolicyTitle": {
+      "message": "重要更新"
+   },
+   "privacySettingsShortSubtitle": {
+      "description": "#Privacy Policy# text will be clickable link, don't remove # symbols, just ignore it",
+      "message": "允許BlockSite訪問您訪問的網站上的信息，以按照我們的＃隱私政策＃的指示進行使用。"
+   },
+   "privacySettingsSubtitle": {
+      "description": "#Privacy Policy# text will be clickable link, don't remove # symbols, just ignore it",
+      "message": "允許BlockSite訪問您訪問的URL，IP地址，操作系統和瀏覽器信息，以按照我們的＃隱私政策＃的指示使用。"
+   },
+   "privacySettingsTitle": {
+      "message": "啟用\"按類別阻止\"功能"
+   },
+   "redirectBlockedSites": {
+      "message": "重定向被阻止的頁面"
+   },
+   "redirectBlockedWord": {
+      "message": "重定向被阻止的頁面"
+   },
+   "redirectButtonText": {
+      "message": "重新導向"
+   },
+   "redirectConsolidationModalMainText1": {
+      "message": "控制您的阻止列表，工作模式並在一個位置通過單詞重定向阻止。"
+   },
+   "redirectConsolidationModalMainText2": {
+      "message": "要更新，請轉到："
+   },
+   "redirectConsolidationModalMainText3": {
+      "message": "設置 - >阻止列表選項卡 - >重定向"
+   },
+   "redirectConsolidationModalTitle": {
+      "message": "一個重定向網址，用於控制所有被屏蔽的網站"
+   },
+   "redirectEditConsolidationModal": {
+      "message": "編輯重定向"
+   },
+   "redirectLabelText1": {
+      "message": "按一下設定重新導向網站"
+   },
+   "redirectLabelText2": {
+      "message": "重新導向至 $URL$",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://example.com"
+         }
+      }
+   },
+   "redirectTutorialBtnText": {
+      "message": "好的，知道了"
+   },
+   "redirectTutorialMainText": {
+      "message": "您可將已封鎖網站重新導向至任何您喜愛的網站。按一下上方「重新導向」，立即更改。"
+   },
+   "redirectTutorialTitle": {
+      "message": "供您參考"
+   },
+   "remove": {
+      "message": "移除"
+   },
+   "reportProblemText": {
+      "message": "報告問題"
+   },
+   "reportSendBtnText": {
+      "message": "傳送訊息"
+   },
+   "resetTimerMsg": {
+      "message": "重設計時器"
+   },
+   "reviewCallToActionText": {
+      "message": "請給我們一些鼓勵。"
+   },
+   "reviewQuestion": {
+      "message": "滿意 BlockSite 嗎？"
+   },
+   "saveBtnText": {
+      "message": "保存"
+   },
+   "searchbarPlaceholder": {
+      "message": "輸入網址（例如：facebook.com）"
+   },
+   "setPass": {
+      "message": "設定密碼"
+   },
+   "setShedule": {
+      "message": "設定排程"
+   },
+   "setTimes": {
+      "message": "設定時間"
+   },
+   "setUpBlockingShedule": {
+      "message": "設定封鎖排程"
+   },
+   "settingsAllowStat": {
+      "message": "允許傳送匿名統計資料到 Block Site"
+   },
+   "settingsEnableBlockSite": {
+      "message": "在操作功能表中（又稱右鍵功能表）啟用 Block Site 選項"
+   },
+   "settingsEnablePassAccess": {
+      "message": "針對封鎖網頁啟用密碼存取"
+   },
+   "settingsRequerePassAccess": {
+      "message": "需要密碼才能存取 Block Site 功能表"
+   },
+   "settingsSaved": {
+      "message": "設定儲存完畢"
+   },
+   "settingsSetPass": {
+      "message": "在下方設定密碼"
+   },
+   "settingsShowMotivational": {
+      "message": "在封鎖網頁上顯示激勵圖片"
+   },
+   "settingsShowQuestionsChallenge": {
+      "message": "阻止頁面挑戰-添加額外的步驟來取消阻止頁面"
+   },
+   "sheduleButtonText": {
+      "message": "排程"
+   },
+   "sheduleNegativeDiffConfirmationText": {
+      "message": "日程的開始時間晚於完成時間。這表示將在某一天開始，然後第二天完成。是否確定？"
+   },
+   "showSyncBtn": {
+      "message": "顯示「與行動裝置同步」按鈕"
+   },
+   "siteAddedMsg": {
+      "message": "已新增網站"
+   },
+   "siteIsBlocked": {
+      "message": "此網站目前已被封鎖"
+   },
+   "start": {
+      "message": "啟動"
+   },
+   "startAnotherSeesionQuestion": {
+      "message": "要啟動另一個工作模式工作階段？"
+   },
+   "startWorking": {
+      "message": "開始工作"
+   },
+   "suggestedWebsitesText1": {
+      "message": "建議網站"
+   },
+   "suggestedWebsitesText2": {
+      "message": "網站"
+   },
+   "syncAvaliableInChrome": {
+      "message": "目前適用於 Chrome"
+   },
+   "syncButtonHidedMsg": {
+      "message": "已移除同步按鈕。但可在「設定」中再次新增。"
+   },
+   "syncComingSoon": {
+      "message": "即將推出同步功能"
+   },
+   "syncDeviceDontHaveApp": {
+      "message": "我沒有應用程式"
+   },
+   "syncDeviceText": {
+      "description": "#mobile_icon# 將取代為行動裝置圖示影像，請勿變更此預留位置",
+      "message": "在 BlockSite 應用程式上，點按 #mobile_icon# 前往「設定」，然後再點按「與桌面同步」"
+   },
+   "syncDeviceText1": {
+      "message": "1. 在手機上開啟 BlockSite"
+   },
+   "syncDeviceText2": {
+      "message": "2. 點選#mobile_icon#、設定、同步 BlockSite"
+   },
+   "syncDeviceText3": {
+      "message": "3. 點選「立即掃描」，將手機對準畫面即可拍攝條碼"
+   },
+   "syncDeviceTitle": {
+      "message": "同步 Android 裝置"
+   },
+   "syncDialogBtnClose": {
+      "message": "關閉"
+   },
+   "syncDialogBtnSync": {
+      "message": "立即同步"
+   },
+   "syncDialogContent": {
+      "message": "您現在可以讓 BlockSite 擴充功能與 Android 裝置同步"
+   },
+   "syncDialogNew": {
+      "message": "新功能！"
+   },
+   "syncDialogTitle": {
+      "message": "與 Android 裝置同步"
+   },
+   "syncGoBack": {
+      "message": "返回"
+   },
+   "syncModalAlreadyHaveApp": {
+      "message": "我已有應用程式"
+   },
+   "syncModalCodeText": {
+      "message": "前往 Block Site 應用程式上的「與桌面同步」並輸入代碼："
+   },
+   "syncModalDoYouHaveBlocksiteForAndroid": {
+      "message": "您的 Android 裝置是否有安裝 BlockSite？"
+   },
+   "syncModalGooglePlay": {
+      "message": "Google Play"
+   },
+   "syncModalHaveAppMainTitle": {
+      "message": "同步 BlockSite"
+   },
+   "syncModalHaveAppSync": {
+      "message": "您現在可將 BlockSite 同步至 Android"
+   },
+   "syncModalIDontHaveDevice": {
+      "message": "我沒有 Android 裝置"
+   },
+   "syncModalQRText": {
+      "message": "QR 代碼"
+   },
+   "syncModalText1": {
+      "message": "下載 Android 版 BlockSite，然後按一下「繼續」"
+   },
+   "syncModalTitle": {
+      "message": "下載 Android 版 BlockSite"
+   },
+   "syncNotificationError": {
+      "message": "同步功能只能在 Android 上使用。同步按鈕已被移除，但可在設定中再次新增。"
+   },
+   "syncNotificationSuccess": {
+      "message": "BlockSite 擴充功能已與行動裝置同步"
+   },
+   "syncedText": {
+      "message": "與應用程式同步"
+   },
+   "tableTitleText1": {
+      "message": "允許的網站"
+   },
+   "tableTitleText2": {
+      "message": "封鎖的網站"
+   },
+   "timeForBreak": {
+      "message": "該休息了！"
+   },
+   "ulrAlreadyExistMsg": {
+      "message": "URL 已存在"
+   },
+   "verifyEmailModalText": {
+      "description": "** 中間的文字將以粗體表示，請勿移除 * 符號",
+      "message": "我們'剛剛向%USER_EMAIL%發送了一封確認電子郵件。 *在您設置帳戶的同一瀏覽器窗口中*，請單擊鏈接以驗證您的帳戶並啟用密碼保護。 （鏈接將在1小時後失效）"
+   },
+   "verifyEmailModalTitle": {
+      "message": "需要驗證"
+   },
+   "verifyEmailProtectionNotEnabledText1": {
+      "message": "密碼保護未啟用。 要啟用此功能，請在最初用於設置帳戶的同一瀏覽器窗口中打開電子郵件中的鏈接。"
+   },
+   "verifyEmailProtectionNotEnabledText2": {
+      "message": "若要啟用，請檢查您電子郵件中的驗證連結。"
+   },
+   "verifyEmailProtectionNotEnabledText3": {
+      "description": "## 中間的文字為可點按的連結，請勿移除 # 符號",
+      "message": "若未收到電子郵件，#請按這裡重新傳送#。"
+   },
+   "verifyEmailSuccessMsg": {
+      "message": "感謝您！您的電子郵件已驗證"
+   },
+   "verifyRecieveEmailText": {
+      "message": "BlockSite 會發送一封內含驗證電子郵件地址的電子郵件給您。\u003Cbr>您的電子郵件地址只用於發揮密碼保護的功能。"
+   },
+   "webAdressPlaceholder": {
+      "message": "網址（例如：google.com）"
+   },
+   "welcomeAgreeBtn": {
+      "message": "同意"
+   },
+   "welcomeConfirmDoNotEnable": {
+      "message": "不啟用功能"
+   },
+   "welcomeConfirmGoBack": {
+      "message": "返回"
+   },
+   "welcomeConfirmText": {
+      "message": "我們必須有存取您造訪網站之資訊的權限，才能啟用成人網站封鎖功能來自動偵測與封鎖成人網站。請注意，我們不會與任何第三方分享此資料，以用於行銷或針對個人使用者。"
+   },
+   "welcomeConfirmTitle": {
+      "message": "確定不想啟用成人網站封鎖功能嗎？"
+   },
+   "welcomeDisagreeBtn": {
+      "message": "不同意"
+   },
+   "welcomeInstallingTitle": {
+      "message": "感謝您安裝 BlockSite"
+   },
+   "welcomeMainShortText": {
+      "description": "#Privacy Policy.#text will be clickable link, don't remove # symbols, just ignore it",
+      "message": "為了讓 BlockSite 能偵測與封鎖具有成人內容的網頁，我們需要您的許可，讓我們存取您造訪網站上的資訊。請按一下「同意」，允許我們依照#隱私政策#存取和使用此資訊。"
+   },
+   "welcomeMainText": {
+      "description": "#Privacy Policy.#text will be clickable link, don't remove # symbols, just ignore it",
+      "message": "BlockSite 需請您開放下列權限，才能偵測及封鎖有成人內容的頁面：存取您造訪過的網址、IP 位址、作業系統以及瀏覽器資訊。請按一下「同意」，允許我們依照#隱私權政策#存取和使用此資訊。"
+   },
+   "welcomePrivacyPolicy": {
+      "message": "隐私政策"
+   },
+   "welcomeToBlocksiteTitle": {
+      "message": "歡迎使用 BlockSite"
+   },
+   "welcomeUpdatingTitle": {
+      "message": "感謝您更新 BlockSite"
+   },
+   "whitelistBlockedPageMsg": {
+      "message": "此網站未列入您的白名單。也許有充分理由。"
+   },
+   "whitelistBlockedPageTitle": {
+      "message": "做得好。"
+   },
+   "whitelistConfirmationText": {
+      "message": "除了清單內的網站以外，將封鎖所有網站"
+   },
+   "whitelistConfirmationTitle": {
+      "message": "是否確定？"
+   },
+   "whitelistMode": {
+      "message": "白名單模式"
+   },
+   "whitelistTooltip": {
+      "message": "阻止除白名單中的所有網站之外的所有網站"
+   },
+   "wordAddedMsg": {
+      "message": "新增字詞"
+   },
+   "wordAlreadyExistMsg": {
+      "message": "字詞已存在"
+   },
+   "wordBlockingHeaderSubtitle": {
+      "message": "阻止包含特定字詞的網址"
+   },
+   "wordBlockingHeaderTitle": {
+      "message": "依字封鎖"
+   },
+   "workListTitle": {
+      "message": "您的工作模式清單"
+   },
+   "workModeSubtitle": {
+      "message": "將工作模式計時器設置為在特定時間段內阻止網站"
+   },
+   "workModeTimerLabel": {
+      "message": "工作模式計時器"
+   },
+   "workModeTimerMessage": {
+      "message": "啟用後，工作模式清單中的網站都會被封鎖"
+   },
+   "workTime": {
+      "message": "工作時間"
+   },
+   "workTimeOver": {
+      "message": "工作時間結束。"
+   },
+   "yes": {
+      "message": "是"
+   }
+}

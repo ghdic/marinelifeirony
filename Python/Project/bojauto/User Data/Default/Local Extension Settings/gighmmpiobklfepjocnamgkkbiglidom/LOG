@@ -1,0 +1,29 @@
+2020/03/02-17:03:49.176 40c Reusing MANIFEST C:\Users\User\OneDrive - 호서대학교\marinelifeirony\Python\Project\bojauto\User Data\Default\Local Extension Settings\gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2020/03/02-17:04:04.322 ed0 Level-0 table #5: started
+2020/03/02-17:04:04.508 ed0 Level-0 table #5: 4029755 bytes OK
+2020/03/02-17:04:04.516 ed0 Delete type=0 #3
+2020/03/02-17:04:07.067 ed0 Level-0 table #7: started
+2020/03/02-17:04:07.302 ed0 Level-0 table #7: 3984905 bytes OK
+2020/03/02-17:04:07.310 ed0 Delete type=0 #4
+2020/03/02-17:04:25.865 ed0 Level-0 table #9: started
+2020/03/02-17:04:26.163 ed0 Level-0 table #9: 4943811 bytes OK
+2020/03/02-17:04:26.168 ed0 Delete type=0 #6
+2020/03/02-17:04:51.122 ed0 Level-0 table #11: started
+2020/03/02-17:04:51.453 ed0 Level-0 table #11: 4981636 bytes OK
+2020/03/02-17:04:51.462 ed0 Delete type=0 #8
+2020/03/02-17:04:53.643 ed0 Level-0 table #13: started
+2020/03/02-17:04:53.924 ed0 Level-0 table #13: 4981629 bytes OK
+2020/03/02-17:04:53.932 ed0 Delete type=0 #10
+2020/03/02-17:05:03.975 ed0 Level-0 table #15: started
+2020/03/02-17:05:04.193 ed0 Level-0 table #15: 4981911 bytes OK
+2020/03/02-17:05:04.201 ed0 Delete type=0 #12
+2020/03/02-17:05:04.204 ed0 Compacting 4@0 + 1@1 files
+2020/03/02-17:05:04.688 ed0 Generated table #16@0: 1 keys, 4981629 bytes
+2020/03/02-17:05:04.706 ed0 Generated table #17@0: 3 keys, 388 bytes
+2020/03/02-17:05:04.706 ed0 Compacted 4@0 + 1@1 files => 4982017 bytes
+2020/03/02-17:05:04.765 ed0 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/03/02-17:05:04.766 ed0 Delete type=2 #7
+2020/03/02-17:05:04.766 ed0 Delete type=2 #9
+2020/03/02-17:05:04.766 ed0 Delete type=2 #11
+2020/03/02-17:05:04.766 ed0 Delete type=2 #13
+2020/03/02-17:05:04.766 ed0 Delete type=2 #15

@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Créez des formes et des diagrammes"
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Google Drawings"
+   }
+}

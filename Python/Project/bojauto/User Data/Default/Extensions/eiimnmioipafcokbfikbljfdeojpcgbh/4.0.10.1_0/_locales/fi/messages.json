@@ -1,0 +1,1069 @@
+{
+   "aboutPageBlockCategoriesHeader": {
+      "message": "Estä luokat"
+   },
+   "aboutPageBlockCategoriesText": {
+      "message": "Estä kokonainen luokka nopeasti painikkeella"
+   },
+   "aboutPageChromeRateHeader": {
+      "message": "Pidätkö meistä? Kerro se kaikille."
+   },
+   "aboutPageChromeRateText": {
+      "message": "Arvostele meidät Chrome Webstoressa, jos Block Site on sinusta hyödyllinen. Olemme kiitollisia kaikista arvosteluista."
+   },
+   "aboutPageCreateBlockListHeader": {
+      "message": "Luo estolistoja"
+   },
+   "aboutPageCreateBlockListText": {
+      "message": "Lisää verkkosivustot ja sivut, jotka haluat estää, helposti ja kätevästi omaan sivustoluetteloosi, niin sinut ohjataan automaattisesti turvallisemmalle ja myönteisemmälle sivulle. Voit myös luoda luettelon sivuista, joita haluat käyttää, ja valita, haluatko käyttää listaa, joka estää tietyt sivut vai listaa, joka sallii vain tietyt sivut."
+   },
+   "aboutPageIcognitoHeader": {
+      "message": "Incognito-tila"
+   },
+   "aboutPageIcognitoText": {
+      "message": "Kaikkia Block Siten ominaisuuksia voi käyttää myös Incognito-tilassa, kunhan otat ne käyttöön. Näitä ohjeita seuraamalla näet, miten se onnistuu:"
+   },
+   "aboutPageKidsSafeHeader": {
+      "message": "Pidä Internet turvassa"
+   },
+   "aboutPageKidsSafeText": {
+      "message": "Ota aikuissisällön esto käyttöön laajennuksen valikosta ja estä kaikki aikuisille suunnatut sivut yhdellä napsautuksella."
+   },
+   "aboutPageOtherFuncHeader": {
+      "message": "Muut toiminnot"
+   },
+   "aboutPageOtherFuncText": {
+      "message": "Voit vaihtaa estolistan ja sallittujen listan välillä. Valitse, haluatko nähdä \"Poista Block Site käytöstä\" -valinnan pikavalikossa. Salli anonyymien tilastotietojen lähettäminen. Käytämme niitä Block Siten toimintojen parantamiseen, ja kaikki tiedot kerätään anonyymisti, joten voit olla huoletta. Anna meidän lähettää sinulle ilmoituksia uusista ominaisuuksista, niin saat tietää lisäämistämme uusista toiminnoista. Nauti laajennuksen käytöstä ja muista käydä arvostelemassa se Firefoxin laajennuskaupassa:"
+   },
+   "aboutPagePrivacyPolicy": {
+      "message": "Yksityisyyskäytäntö"
+   },
+   "aboutPageProductivity": {
+      "message": "Block Siten avulla voit keskittyä ja parantaa tuottavuuttasi. Voit estää haitalliset ja häiritsevät sivustot helposti. Ei vaadi tahdonvoimaa."
+   },
+   "aboutPageRigtClickMenuHeader": {
+      "message": "Pikavalikko"
+   },
+   "aboutPageRigtClickMenuText": {
+      "message": "Napsauta hiiren oikeaa painiketta millä tahansa sivustolla, niin pääset pikavalikkoon. Estä sivusto parissa sekunnissa, lopeta vitkuttelu ja pysy aiheessa."
+   },
+   "aboutPageSetUpPassHeader": {
+      "message": "Aseta salasana"
+   },
+   "aboutPageSetUpPassText": {
+      "message": "Ota asetusvalikossa käyttöön salasana, jolla voit rajoittaa Block Siten asetusten käyttöä tai sallia pääsyn estetyille sivuille salasanan avulla."
+   },
+   "aboutPageTerms": {
+      "message": "Käyttöehdot"
+   },
+   "aboutPageTimeBlockHeader": {
+      "message": "Tee estoja tietyille aikaväleille"
+   },
+   "aboutPageTimeBlockText": {
+      "message": "Valitse päiviä ja aikajaksoja, jolloin haluat estojen olevan käytössä. Aseta omia estojasi työaikataulujesi mukaisesti (esimerkiksi 09:00–17:00), niin että et lusmuile työ- tai koulupäivän aikana."
+   },
+   "aboutPageTitle": {
+      "message": "Tietoja Block Sitesta"
+   },
+   "addInterval": {
+      "message": "Lisää väli"
+   },
+   "addSiteOnboarding": {
+      "message": "Lisää luetteloosi sivustoja, jotka haluat estää."
+   },
+   "allSitesBlocked": {
+      "message": "Kaikki työtilaluettelosi sivustot on estetty"
+   },
+   "allSitesUnblockedMsg": {
+      "message": "Kaikkien työtilaluettelosi sivustojen esto on poistettu"
+   },
+   "androidQuestionHeader": {
+      "message": "Pidätkö BlockSitesta?"
+   },
+   "androidTrytext": {
+      "message": "Kokeile Android-sovellusta"
+   },
+   "appDesc": {
+      "description": "Sovelluksen kuvaus, niin kuin se näkyy verkkokaupassa.",
+      "message": "Keskity ja paranna tuottavuutta. Estä haitalliset ja häiritsevät sivustot helposti. Lopeta viivyttely!"
+   },
+   "appName": {
+      "description": "Sovelluksen otsikko, niin kuin se näkyy verkkokaupassa.",
+      "message": "Block Site – Esto-ohjelma Chrome™-selaimelle"
+   },
+   "appShortName": {
+      "description": "Sovelluksen lyhyt otsikko",
+      "message": "BlockSite"
+   },
+   "blockByCategoryText_adult": {
+      "message": "Oho! %domain%  ei ole käytettävissä, koska se liittyy aikuisten joka on kategorian ' ve tukossa. Pysy keskittyneenä, sinulla on tämä."
+   },
+   "blockByCategoryText_gambling": {
+      "message": "Oho! %domain%  ei ole käytettävissä, koska se liittyy uhkapeli joka on kategorian ' ve tukossa. Pysy keskittyneenä, sinulla on tämä."
+   },
+   "blockByCategoryText_news_and_media": {
+      "message": "Oho! %domain%  ei ole käytettävissä, koska se liittyy uutinen, joka on kategorian ' ve tukossa. Pysy keskittyneenä, sinulla on tämä."
+   },
+   "blockByCategoryText_social_networks_and_online_communities": {
+      "message": "Oho! %domain%  ei ole käytettävissä, koska se liittyy sosiaaliseen joka on kategorian ' ve tukossa. Pysy keskittyneenä, sinulla on tämä."
+   },
+   "blockByCategoryText_sports": {
+      "message": "Oho! %domain%  ei ole käytettävissä, koska se liittyy urheiluun, joka on kategorian ' ve tukossa. Pysy keskittyneenä, sinulla on tämä."
+   },
+   "blockByCategoryTitle_adult": {
+      "message": "Torakoita. Katkottuja raajoja. John Goodman."
+   },
+   "blockByCategoryTitle_gambling": {
+      "message": "Älä anna talon voittaa aina."
+   },
+   "blockByCategoryTitle_news_and_media": {
+      "message": "Ei uutisia on hyvä uutinen."
+   },
+   "blockByCategoryTitle_social_networks_and_online_communities": {
+      "message": "Ei lähettämistä, ei pidä, vain elävät."
+   },
+   "blockByCategoryTitle_sports": {
+      "message": "Ole rauhallinen ja irrota."
+   },
+   "blockByWordBlockedPageMsg": {
+      "message": "Ilmeisesti estit sanan \"%blocked_word%\". Pidetään siitä kiinni."
+   },
+   "blockByWordBlockedPageTitle": {
+      "message": "O-ou!"
+   },
+   "blockSitePageEveryDayLabel": {
+      "message": "Joka päivä"
+   },
+   "blockSitePageSubtitle": {
+      "message": "Estä sivustot pysyvästi tai aikataulusi mukaan"
+   },
+   "blockSitePageTitle": {
+      "message": "Estä sivustoja"
+   },
+   "blockedMessage1": {
+      "message": "Lisäsit toimialueen %domain% Block Siten estoluetteloon. Sinulla oli siihen varmasti hyvä syy."
+   },
+   "blockedMessage2": {
+      "message": "Estit toimialueen %domain%, jotta saisit hommasi tehtyä. Joten takaisin töihin."
+   },
+   "blockedMessage3": {
+      "message": "Kaikki hyvin taas. Palaa tekemään sitä, mitä olit tekemässä."
+   },
+   "blockedMessage4": {
+      "message": "%domain% on estetty. Lisää muita häiritseviä sivustoja, niin voit toimia entistäkin tehokkaammin."
+   },
+   "blockedMoreSites": {
+      "message": "Estä lisää häiritseviä sivustoja"
+   },
+   "blockedOptionsEnterPassText": {
+      "message": "Anna salasanasi käyttääksesi BlockSiten asetukset-sivua"
+   },
+   "blockedOptionsTitle": {
+      "message": "BlockSiten asetukset lukittu"
+   },
+   "blockedOptsIncorrectPassTooltip": {
+      "message": "Hups. Väärin meni. Yritä uudelleen."
+   },
+   "blockedWordTitle": {
+      "message": "Estetyt sanat"
+   },
+   "blocksiteLockedLabel": {
+      "message": "BlockSite on lukittu"
+   },
+   "blocksiteLockedMessage": {
+      "message": "Anna salasanasi käyttääksesi laajennuksen asetuksia"
+   },
+   "blocksiteOffMessage": {
+      "message": "Block Site ei ole käytössä"
+   },
+   "breakIsOver": {
+      "message": "Tauko on pidetty."
+   },
+   "breakString": {
+      "message": "$BRAKE_TIME$ tauko",
+      "placeholders": {
+         "brake_time": {
+            "content": "$1",
+            "example": "05:00"
+         }
+      }
+   },
+   "breakTimeLeftText": {
+      "message": "%BREAK_TIME_LEFT% minuuttia taukoon",
+      "placeholders": {
+         "break_time_left": {
+            "content": "$1",
+            "example": "25"
+         }
+      }
+   },
+   "buildBlockList": {
+      "message": "Tee oma estolistasi"
+   },
+   "buildListLabel": {
+      "message": "Tee luettelosi"
+   },
+   "buildListMessage": {
+      "message": "Lisää sivustot, joita haluat vältellä, kun teet töitä."
+   },
+   "cantBlockRedirectSiteMsg": {
+      "message": "Ei voida estää sivua, joka on asetettu uudelleenohjattavaksi"
+   },
+   "cantBlockRedirectWordMsg": {
+      "message": "Sanaa, joka on osa uudelleenohjaus-URL-osoitetta, ei voida estää"
+   },
+   "cantRedirectMessage1": {
+      "message": "Ei voida hyväksyä sivua, joka on asetettu uudelleenohjattavaksi"
+   },
+   "cantRedirectMessage2": {
+      "message": "Ei voida estää sivua, joka on asetettu uudelleenohjattavaksi"
+   },
+   "cantRedirectToBlockedSite": {
+      "message": "Oho! Estä sivustot -luettelo estää tämän uudelleenohjaussivun"
+   },
+   "cantRedirectToBlockedWord": {
+      "message": "Oho! Block By Words -luettelo estää tämän uudelleenohjaussivun"
+   },
+   "cantRedirectToWorkModeBlockedSite": {
+      "message": "Oho! Työtilaluettelo estää tämän uudelleenohjaussivun"
+   },
+   "categoriesMenuDescription": {
+      "message": "Valitse, mitkä kategoriat estetään"
+   },
+   "changePass": {
+      "message": "Vaihda salasana"
+   },
+   "context_add_currentPage": {
+      "message": "Estä tämä sivusto"
+   },
+   "context_add_currentPage_whitelistOn": {
+      "message": "Salli tämä sivusto"
+   },
+   "context_add_currentPage_workmode": {
+      "message": "Lisää sivuston osoite työtilaluetteloon"
+   },
+   "context_add_currentPage_workmode_whitelistOn": {
+      "message": "Salli sivusto työtilassa"
+   },
+   "context_add_link": {
+      "message": "Estä tämä linkki"
+   },
+   "context_add_link_whitelistOn": {
+      "message": "Salli tämä linkki"
+   },
+   "context_add_link_workmode": {
+      "message": "Lisää linkin osoite työtilaluetteloon"
+   },
+   "context_add_link_workmode_whitelistOn": {
+      "message": "Salli linkki työtilassa"
+   },
+   "continue": {
+      "message": "Jatka"
+   },
+   "continueMsg": {
+      "message": "Jatka"
+   },
+   "dayFriday": {
+      "message": "Perjantai"
+   },
+   "dayFridayLabel": {
+      "message": "Pe"
+   },
+   "dayFridayLetter": {
+      "message": "P"
+   },
+   "dayMonday": {
+      "message": "Maanantai"
+   },
+   "dayMondayLabel": {
+      "message": "Ma"
+   },
+   "dayMondayLetter": {
+      "message": "M"
+   },
+   "dayPickerClickToDeactivate": {
+      "message": "(deaktivoi napsauttamalla päivää)"
+   },
+   "dayPickerSelectedDays": {
+      "message": "VALITUT PÄIVÄT"
+   },
+   "daySaturday": {
+      "message": "Lauantai"
+   },
+   "daySaturdayLabel": {
+      "message": "La"
+   },
+   "daySaturdayLetter": {
+      "message": "S"
+   },
+   "daySunday": {
+      "message": "Sunnuntai"
+   },
+   "daySundayLabel": {
+      "message": "Su"
+   },
+   "daySundayLetter": {
+      "message": "S"
+   },
+   "dayThursday": {
+      "message": "Torstai"
+   },
+   "dayThursdayLabel": {
+      "message": "To"
+   },
+   "dayThursdayLetter": {
+      "message": "T"
+   },
+   "dayTuesday": {
+      "message": "Tiistai"
+   },
+   "dayTuesdayLabel": {
+      "message": "Ti"
+   },
+   "dayTuesdayLetter": {
+      "message": "T"
+   },
+   "dayWednesday": {
+      "message": "Keskiviikko"
+   },
+   "dayWednesdayLabel": {
+      "message": "Ke"
+   },
+   "dayWednesdayLetter": {
+      "message": "K"
+   },
+   "downloadAndroidText": {
+      "description": "The part between ## and %% will wrapped by html tags, please don't remove this symbols",
+      "message": "#Pysy tuottavasti #% kaikissa laitteissa%"
+   },
+   "downloadText": {
+      "message": "Lataa"
+   },
+   "editBlockSitesList": {
+      "message": "Muokkaa estettyjen sivujen luetteloa"
+   },
+   "editWorkListMsg": {
+      "message": "Voit milloin tahansa muokata luetteloa työtilan asetuksista"
+   },
+   "editWorkModeList": {
+      "message": "Muokkaa työtilaluetteloa"
+   },
+   "editYourListBtn": {
+      "message": "Muokkaa luetteloasi"
+   },
+   "emailPlaceholder": {
+      "message": "Anna sähköpostiosoitteesi"
+   },
+   "enableIncognitoButtonText": {
+      "message": "Ota käyttöön incognito-tilassa"
+   },
+   "end": {
+      "message": "Loppu"
+   },
+   "endBreak": {
+      "message": "Lopeta tauko"
+   },
+   "enterPassMsg": {
+      "message": "Anna salasana käyttääksesi"
+   },
+   "enterPassPlaceholder": {
+      "message": "Anna salasanasi"
+   },
+   "enterWordInputPlaceholder": {
+      "message": "Anna sana tai lause"
+   },
+   "errorCantRedirectToBlocked": {
+      "message": "Ei voida ohjata estetylle sivustolle"
+   },
+   "errorEmptyList": {
+      "message": "Luettelosi on tyhjä! Ei vietävää."
+   },
+   "errorIncorrectUrl": {
+      "message": "Virheellinen URL-osoite"
+   },
+   "exportList": {
+      "message": "Vie luettelo"
+   },
+   "exportSuccess": {
+      "message": "Luettelon vienti onnistui"
+   },
+   "feedbackFormBody": {
+      "message": "Viesti (valinnainen)"
+   },
+   "feedbackFormSubject": {
+      "message": "Aihe"
+   },
+   "fogotPassModalMainText": {
+      "message": "Salasanasi on lähetetty osoitteeseen"
+   },
+   "fogotPassModalOkBtn": {
+      "message": "OK"
+   },
+   "fogotPassModalSentTitle": {
+      "message": "Salasana lähetetty"
+   },
+   "footerDownloadAndroidText": {
+      "message": "Lataa Androidille"
+   },
+   "footerHelpText": {
+      "message": "Auta meitä olemaan parempia"
+   },
+   "footerRateText": {
+      "message": "Arvostele"
+   },
+   "forgotPasswordText": {
+      "message": "Unohditko salasanasi?"
+   },
+   "getBackToWorkTitle": {
+      "message": "Napsauta Jatka ja jatka töitäsi."
+   },
+   "goBack": {
+      "message": "Palaa"
+   },
+   "goBackToWork": {
+      "message": "Palaa töihin"
+   },
+   "gotIt": {
+      "message": "SELVÄ"
+   },
+   "haveAppNow": {
+      "message": "Minulla on nyt sovellus"
+   },
+   "howtoEnableInIncognitoStep1": {
+      "message": "Siirry osoitteeseen chrome://extensions"
+   },
+   "howtoEnableInIncognitoStep2": {
+      "message": "Etsi Block Site"
+   },
+   "howtoEnableInIncognitoStep3": {
+      "message": "Valitse \"Salli incognito-tilassa\""
+   },
+   "howtoEnableInIncognitoText": {
+      "message": "Ota Block Site käyttöön Chromen incognito-tilassa seuraavien ohjeiden avulla."
+   },
+   "howtoEnableInIncognitoTitle": {
+      "message": "Käyttöönotto incognito-tilassa"
+   },
+   "importList": {
+      "message": "Tuo luettelo"
+   },
+   "importListSuccessMsg": {
+      "message": "Luettelon tuonti onnistui"
+   },
+   "incorrectFileStructMsg": {
+      "message": "Virheellinen tiedostorakenne. Yritä viedä nykyinen luettelosi nähdäksesi vaaditun csv-muodon"
+   },
+   "incorrectUrlMsg": {
+      "message": "Virheellinen URL-osoite"
+   },
+   "inctoduceGetStarted": {
+      "message": "Aloita"
+   },
+   "inctoduceMessage": {
+      "message": "Keskity ja estä häiritsevät sivustot, kun työtila-ajastin on päällä."
+   },
+   "inctoduceTitle": {
+      "message": "Ole tehokas!"
+   },
+   "invalidPassMsg": {
+      "message": "Väärä salasana. Yritä uudelleen."
+   },
+   "letterMessageText": {
+      "message": "Saat sähköpostin, jolla ilmoitetaan, että salasanan suojaus on käytössä"
+   },
+   "lockExtEmailLabel": {
+      "message": "SÄHKÖPOSTI"
+   },
+   "lockExtEmailLabelVerify": {
+      "message": "Vahvistus vaaditaan"
+   },
+   "lockExtNewPopupBtnText": {
+      "message": "Tutustu"
+   },
+   "lockExtNewPopupText1": {
+      "message": "Suojaa Asetukset-sivu salasanalla"
+   },
+   "lockExtNewPopupText2": {
+      "message": "Salli pääsy estetyille sivustoille salasanalla"
+   },
+   "lockExtNewPopupText3": {
+      "message": "Pyydä ilmoitus, kun joku poistaa BlockSiten"
+   },
+   "lockExtNewPopupText4": {
+      "message": "Uusi salasanasi helposti"
+   },
+   "lockExtNewPopupTitleNew": {
+      "message": "Uutta:"
+   },
+   "lockExtNewPopupTitleProtectionText": {
+      "message": "Salasanasuojaus"
+   },
+   "lockExtPassChangedNotificationText": {
+      "message": "Salasanan asetukset muutettu"
+   },
+   "lockExtPassLabel": {
+      "message": "SALASANA"
+   },
+   "lockExtPopupResetPassRemovedText": {
+      "message": "Jos et vaihda salasanaasi, se poistetaan."
+   },
+   "lockExtPopupRestPassBtnText": {
+      "message": "Vaihda salasana"
+   },
+   "lockExtPopupRestPassText": {
+      "message": "Suojaa tilisi vaihtamalla salasanasi ja antamalla palautusta varten sähköpostiosoite."
+   },
+   "lockExtPopupRestPassTitle": {
+      "message": "Paranna turvallisuutta vaihtamalla salasana"
+   },
+   "lockExtProtectSettings": {
+      "message": "Suojaa haluamasi BlockSite-asetukset ja \u003Cbr> Chromen laajennussivu salasanalla"
+   },
+   "lockExtRecieveEmail": {
+      "message": "Pyydä ilmoitus sähköpostiin, kun BlockSiten asennus poistetaan"
+   },
+   "lockExtRequirePass": {
+      "message": "Vaadi salasana estettyjen sivustojen käyttöön"
+   },
+   "lockExtSavedNotificationText": {
+      "message": "Suojausasetukset tallennettu"
+   },
+   "lockExtSetUpPassText": {
+      "message": "Aktivoi asettamalla sähköposti ja salasana"
+   },
+   "lockExtSettingsNotSavedAddBtn": {
+      "message": "Lisää sähköpostiosoite ja salasana"
+   },
+   "lockExtSettingsNotSavedLeave": {
+      "message": "Poistu tallentamatta"
+   },
+   "lockExtSettingsNotSavedText": {
+      "message": "Ota ylimääräiset turvaominaisuudet käyttöön tallentamalla sähköpostiosoite ja salasana."
+   },
+   "lockExtSettingsNotSavedTitle": {
+      "message": "Asetuksia ei ole tallennettu"
+   },
+   "lockExtUpdateEmailAndPass": {
+      "message": "Päivitä sähköpostiosoite ja salasana"
+   },
+   "lockExtUpdatePassText": {
+      "message": "Ota asetukset käyttöön päivittämällä sähköposti ja salasana"
+   },
+   "lockExtensionHeaderTitle": {
+      "message": "Salasanan suojauksen asetukset"
+   },
+   "lockExtsPageTitle1": {
+      "message": "Chromen laajennukset-sivu – suojattu"
+   },
+   "lockExtsPageTitle2": {
+      "message": "Käyttöön vaaditaan salasana"
+   },
+   "lockedPopupPassPlaceholder": {
+      "message": "Poista lukitus antamalla salasana"
+   },
+   "mandatoryPopupBtnAgreeText": {
+      "message": "Hyväksy"
+   },
+   "mandatoryPopupBtnDisagreeText": {
+      "message": "Hylkää"
+   },
+   "mandatoryPopupFooterText": {
+      "message": "Jos napsautit Hylkää, voit edelleen käyttää BlockSitea, mutta aikuissisällön esto ei ole toiminnassa."
+   },
+   "mandatoryPopupText": {
+      "description": "#Tietosuojakäytäntö.# part of text will be clickable link, don't remove # symbols",
+      "message": "Pystyäkseen tunnistamaan ja estämään sivustoja, joilla on aikuisille suunnattua sisältöä, BlockSite tarvitsee luvan saada tietoa sivustoista, joilla käyt. Napsauttamalla \"Hyväksy\" annat luvan näiden tietojen käyttöön #tietosuojakäytäntömme# mukaisesti."
+   },
+   "mandatoryPopupTitle": {
+      "message": "Jatka BlockSiteen tekemällä valinta."
+   },
+   "menuAbout": {
+      "message": "Tietoja"
+   },
+   "menuBlockByWords": {
+      "message": "Estä sanojen perusteella"
+   },
+   "menuBlockSites": {
+      "message": "Estä sivustoja"
+   },
+   "menuCategoriesBlock": {
+      "message": "Luokat"
+   },
+   "menuLockExtension": {
+      "message": "Salasanasuojaus"
+   },
+   "menuSettings": {
+      "message": "Asetukset"
+   },
+   "menuWorkMode": {
+      "message": "Työtila"
+   },
+   "mergeBtnText": {
+      "message": "Yhdistä"
+   },
+   "messageSent": {
+      "message": "Viesti lähetetty"
+   },
+   "modalPrivacyShortText": {
+      "description": "#Privacy Policy.# text will be clickable link, don't remove # symbols, just ignore it",
+      "message": "Voit ' t päälle luokkiin estävän tilan ellet suostu antamaan meille pääsyn tietoa sivustoista, kuten meidän #Privacy Policy #. \u003Cbr> Ota käyttöön napsauttamalla Hyväksyn"
+   },
+   "modalPrivacyText": {
+      "description": "#Tietosuojakäytäntö.# text will be clickable link, don't remove # symbols, just ignore it",
+      "message": "Voit ' t päälle luokkiin estävän tilan ellet suostu antamaan meille pääsyn vieraili URL, IP-osoite, käyttöjärjestelmä ja selain tietoa, käytettäväksi kuvattu #Privacy Policy #. \u003Cbr> Ota käyttöön napsauttamalla Hyväksyn"
+   },
+   "modalPrivacyTitle": {
+      "message": "Hups!"
+   },
+   "motivationalText1": {
+      "message": "Hyvä yritys..."
+   },
+   "motivationalText10": {
+      "message": "Kiinni jäit!"
+   },
+   "motivationalText2": {
+      "message": "Älä unta näe."
+   },
+   "motivationalText3": {
+      "message": "Unohda."
+   },
+   "motivationalText4": {
+      "message": "Oletko tosissasi?"
+   },
+   "motivationalText5": {
+      "message": "Mitä luulet tekeväsi?"
+   },
+   "motivationalText6": {
+      "message": "Lopeta pelleily!"
+   },
+   "motivationalText7": {
+      "message": "Koiranpentuja. Outoja ruskeita myyriä. Justin Bieber."
+   },
+   "motivationalText8": {
+      "message": "Torakoita. Katkottuja raajoja. John Goodman."
+   },
+   "motivationalText9": {
+      "message": "Mummo. Kobe Bryant. Kirurgisia toimenpiteitä."
+   },
+   "no": {
+      "message": "Ei"
+   },
+   "notAvalible": {
+      "message": "Ei saatavilla tällä sivulla"
+   },
+   "notSyncedText": {
+      "message": "Ei synkronoitu sovelluksen kanssa"
+   },
+   "notValidShedule": {
+      "message": "Aikataulusi ei kelpaa"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "overrideBtnText": {
+      "message": "Korvaa"
+   },
+   "overrideOrMergeConfirmationTitle": {
+      "message": "Haluatko yhdistää vai korvata nykyisen luettelosi?"
+   },
+   "passIsSet": {
+      "message": "SALASANA ASETETTU"
+   },
+   "passLengthTooltip": {
+      "message": "Salasanassa tulee olla vähintään 5 merkkiä"
+   },
+   "passPlaceholder": {
+      "message": "Vähintään 5 merkkiä"
+   },
+   "passSettedMsg": {
+      "message": "Salasana on asetettu"
+   },
+   "pauseBtnText": {
+      "message": "Tauko"
+   },
+   "pauseFooterButton1": {
+      "message": "Tauko"
+   },
+   "pauseFooterButton2": {
+      "message": "Jatka työntekoa"
+   },
+   "pauseHeaderMessage": {
+      "message": "Oletko varma, että haluat lopettaa työnteon ja \u003Cbr> pitää tauon nyt?"
+   },
+   "pauseHeaderTitle": {
+      "message": "Tauon ovat heikkoja varten!"
+   },
+   "pauseTextTitle": {
+      "message": "Nyt on sinun aikasi loistaa!"
+   },
+   "privacyPolicyText1": {
+      "message": "Noudattaaksemme tietosuojalakeja olemme päivittäneet"
+   },
+   "privacyPolicyText2": {
+      "message": "Yksityisyyskäytäntö"
+   },
+   "privacyPolicyText3": {
+      "message": "Lue molemmat sillä muutokset vaikuttavat laillisiin oikeuksiisi."
+   },
+   "privacyPolicyTitle": {
+      "message": "Tärkeä päivitys"
+   },
+   "privacySettingsShortSubtitle": {
+      "description": "#Tietosuojakäytäntö# text will be clickable link, don't remove # symbols, just ignore it",
+      "message": "Antaa BlockSite: lle käyttää tietoja käytetyistä sivustoista käyttöä varten # Tietosuojakäytäntömme # ohjeiden mukaisesti."
+   },
+   "privacySettingsSubtitle": {
+      "description": "#Tietosuojakäytäntö# text will be clickable link, don't remove # symbols, just ignore it",
+      "message": "Antaa BlockSite -palvelun käyttää vierailemasi URL-osoitteita, IP-osoitetta, käyttöjärjestelmää ja selaintietoja käytettäväksi # Tietosuojakäytäntömme # ohjeiden mukaisesti."
+   },
+   "privacySettingsTitle": {
+      "message": "Ota käyttöön \" Estä luokkien mukaan \" ominaisuus"
+   },
+   "redirectBlockedSites": {
+      "message": "Ohjaa estetyt sivut"
+   },
+   "redirectBlockedWord": {
+      "message": "Ohjaa estetyt sivut"
+   },
+   "redirectButtonText": {
+      "message": "Ohjaa"
+   },
+   "redirectConsolidationModalMainText1": {
+      "message": "Hallitse estettyjen luetteloita, työtiloja ja estettyjen sanojen ohjaamia yhteen sijaintiin."
+   },
+   "redirectConsolidationModalMainText2": {
+      "message": "Päivitä siirtymällä osoitteeseen:"
+   },
+   "redirectConsolidationModalMainText3": {
+      "message": "Asetukset - > Estä luettelo -välilehti - > uudelleenohjaus"
+   },
+   "redirectConsolidationModalTitle": {
+      "message": "Yksi uudelleenohjaus-URL-osoite kaikkien estettyjen sivustojen hallintaan"
+   },
+   "redirectEditConsolidationModal": {
+      "message": "Muokkaa uudelleenohjausta"
+   },
+   "redirectLabelText1": {
+      "message": "Napsauta asettaaksesi verkkosivuston, jolle uudelleenohjaus tapahtuu"
+   },
+   "redirectLabelText2": {
+      "message": "Ohjaa sivustolle $URL$",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://example.com"
+         }
+      }
+   },
+   "redirectTutorialBtnText": {
+      "message": "Selvä homma"
+   },
+   "redirectTutorialMainText": {
+      "message": "Voit uudelleenohjata estetyt sivustot mille tahansa verkkosivustolle. Napsauta ohjaa uudelleen yltä ja muuta asetuksia."
+   },
+   "redirectTutorialTitle": {
+      "message": "Tiedoksi"
+   },
+   "remove": {
+      "message": "Poista"
+   },
+   "reportProblemText": {
+      "message": "Ilmoita ongelmasta"
+   },
+   "reportSendBtnText": {
+      "message": "Lähetä viesti"
+   },
+   "resetTimerMsg": {
+      "message": "Nollaa ajastin"
+   },
+   "reviewCallToActionText": {
+      "message": "Näytä meille, miten paljon pidät meistä."
+   },
+   "reviewQuestion": {
+      "message": "Oletko tyytyväinen BlockSiteen?"
+   },
+   "saveBtnText": {
+      "message": "Tallenna"
+   },
+   "searchbarPlaceholder": {
+      "message": "Siirry verkkosivulle (esim. facebook.com)"
+   },
+   "setPass": {
+      "message": "Aseta salasana"
+   },
+   "setShedule": {
+      "message": "Aseta aikataulu"
+   },
+   "setTimes": {
+      "message": "ASETA AJAT"
+   },
+   "setUpBlockingShedule": {
+      "message": "Aseta aikataulu estoille"
+   },
+   "settingsAllowStat": {
+      "message": "Salli anonyymien tilastotietojen lähettäminen Block Sitelle"
+   },
+   "settingsEnableBlockSite": {
+      "message": "Ota Block Site käyttöön pikavalikosta (eli hiiren kakkospainikkeella toimivasta valikosta)"
+   },
+   "settingsEnablePassAccess": {
+      "message": "Salli pääsy estetyille sivuille salasanalla"
+   },
+   "settingsRequerePassAccess": {
+      "message": "Vaadi salasana Block Siten valikon käyttöön"
+   },
+   "settingsSaved": {
+      "message": "Asetuksesi on tallennettu"
+   },
+   "settingsSetPass": {
+      "message": "ASETA SALASANA ALLA"
+   },
+   "settingsShowMotivational": {
+      "message": "Näytä motivoivia kuvia estetyillä sivuilla"
+   },
+   "settingsShowQuestionsChallenge": {
+      "message": "Estetty sivuhaaste - lisää ylimääräinen vaihe sivun estämiseksi"
+   },
+   "sheduleButtonText": {
+      "message": "Aikataulu"
+   },
+   "sheduleNegativeDiffConfirmationText": {
+      "message": "Tapahtuman alkamisaika on myöhemmin kuin loppumisaika. Tämä tarkoittaa sitä, että tapahtuma alkaa määrättynä päivänä ja päättyy seuraavana päivänä. Oletko varma?"
+   },
+   "showSyncBtn": {
+      "message": "Näytä \"Synkronoi mobiililaitteen kanssa\" -painike"
+   },
+   "siteAddedMsg": {
+      "message": "Sivusto lisätty"
+   },
+   "siteIsBlocked": {
+      "message": "Tämä sivusto on tällä hetkellä estetty"
+   },
+   "start": {
+      "message": "Alku"
+   },
+   "startAnotherSeesionQuestion": {
+      "message": "Aloitetaanko uusi istunto työtilassa?"
+   },
+   "startWorking": {
+      "message": "Aloita työskentely"
+   },
+   "suggestedWebsitesText1": {
+      "message": "EHDOTETUT VERKKOSIVUSTOT"
+   },
+   "suggestedWebsitesText2": {
+      "message": "VERKKOSIVUSTOT"
+   },
+   "syncAvaliableInChrome": {
+      "message": "Tällä hetkellä käytettävissä Chromella"
+   },
+   "syncButtonHidedMsg": {
+      "message": "Synkronointipainike on poistettu. Voit lisätä sen asetuksista."
+   },
+   "syncComingSoon": {
+      "message": "Synkronointi tulossa pian"
+   },
+   "syncDeviceDontHaveApp": {
+      "message": "Minulla ei ole sovellusta"
+   },
+   "syncDeviceText": {
+      "description": "#mobile_icon# will be replaced to mobile icon image, do not change this placeholder",
+      "message": "Napauta BlockSite-sovelluksessa #mobile_icon# siirry asetuksiin ja sitten Synkronoi pöytäkoneen kanssa"
+   },
+   "syncDeviceText1": {
+      "message": "1. Avaa BlockSite puhelimellasi"
+   },
+   "syncDeviceText2": {
+      "message": "2. Napauta #mobile_icon#, Asetukset, Synkronoi BlockSite"
+   },
+   "syncDeviceText3": {
+      "message": "3. Napauta \"Skannaa nyt\" ja kopioi koodi näytöltä puhelimellasi"
+   },
+   "syncDeviceTitle": {
+      "message": "Synkronoi Android-laite"
+   },
+   "syncDialogBtnClose": {
+      "message": "Sulje"
+   },
+   "syncDialogBtnSync": {
+      "message": "Synkronoi nyt"
+   },
+   "syncDialogContent": {
+      "message": "Voit nyt synkronisoida BlockSite-laajennuksen Android-laitteen kanssa"
+   },
+   "syncDialogNew": {
+      "message": "Uutta!"
+   },
+   "syncDialogTitle": {
+      "message": "Synkronoi Android-laitteen kanssa"
+   },
+   "syncGoBack": {
+      "message": "Palaa"
+   },
+   "syncModalAlreadyHaveApp": {
+      "message": "Minulla on sovellus"
+   },
+   "syncModalCodeText": {
+      "message": "Siirry BlockSite-sovelluksessa kohtaan \"Synkronoi pöytäkoneen kanssa\" ja anna koodi:"
+   },
+   "syncModalDoYouHaveBlocksiteForAndroid": {
+      "message": "Onko BlockSite asennettu Android-laitteellesi?"
+   },
+   "syncModalGooglePlay": {
+      "message": "Google Play"
+   },
+   "syncModalHaveAppMainTitle": {
+      "message": "Synkronoi BlockSite"
+   },
+   "syncModalHaveAppSync": {
+      "message": "Voit nyt synkronisoida BlockSiten Android-laitteen kanssa"
+   },
+   "syncModalIDontHaveDevice": {
+      "message": "Minulla ei ole Android-laitetta"
+   },
+   "syncModalQRText": {
+      "message": "QR-koodi"
+   },
+   "syncModalText1": {
+      "message": "Lataa BlockSite Androidille ja napsauta Jatka"
+   },
+   "syncModalTitle": {
+      "message": "Lataa BlockSite Androidille"
+   },
+   "syncNotificationError": {
+      "message": "Synkronointi on käytössä vain Androidilla. Synkronointipainike on poistettu, mutta se voidaan lisätä uudelleen asetuksista."
+   },
+   "syncNotificationSuccess": {
+      "message": "BlockSite-laajennus on synkronoitu mobiililaitteen kanssa"
+   },
+   "syncedText": {
+      "message": "Synkronoitu sovelluksen kanssa"
+   },
+   "tableTitleText1": {
+      "message": "SALLITUT SIVUSTOT"
+   },
+   "tableTitleText2": {
+      "message": "ESTETYT SIVUSTOT"
+   },
+   "timeForBreak": {
+      "message": "Aika pitää tauko!"
+   },
+   "ulrAlreadyExistMsg": {
+      "message": "URL-osoite on jo olemassa"
+   },
+   "verifyEmailModalText": {
+      "description": "The part between ** will bold text, please don't remove * symbols",
+      "message": "Me ' ve juuri lähettänyt vahvistuksen sähköpostitse %USER_EMAIL% . * Napsauta linkkiä vahvistaaksesi tilisi ja ottaaksesi käyttöön salasanasuojauksen samassa selainikkunassa, jossa määritit tilin *. (Linkki vanhenee 1 tunnissa)"
+   },
+   "verifyEmailModalTitle": {
+      "message": "Vahvistus vaaditaan"
+   },
+   "verifyEmailProtectionNotEnabledText1": {
+      "message": "Salasanasuojaus ei ole käytössä. Ota suojaus käyttöön avaamalla sähköpostin linkki samassa selainikkunassa, jossa loit tilisi."
+   },
+   "verifyEmailProtectionNotEnabledText2": {
+      "message": "Ota suojaus käyttöön tarkistamalla sähköpostisi, johon on lähetetty vahvistuslinkki."
+   },
+   "verifyEmailProtectionNotEnabledText3": {
+      "description": "The part between ## will clickable link, please don't remove # symbols",
+      "message": "Jos et saanut sähköpostia, #lähetä se uudelleen napsauttamalla.#"
+   },
+   "verifyEmailSuccessMsg": {
+      "message": "Kiitos! Sähköpostisi on vahvistettu"
+   },
+   "verifyRecieveEmailText": {
+      "message": "BlockSite lähettää sinulle sähköpostin, jossa on linkki, jolla voit vahvistaa sähköpostiosoitteesi.\u003Cbr>Sähköpostiosoitettasi käytetään vain salasanan suojaukseen."
+   },
+   "webAdressPlaceholder": {
+      "message": "Verkkosivu (esim. google.com)"
+   },
+   "welcomeAgreeBtn": {
+      "message": "Hyväksy"
+   },
+   "welcomeConfirmDoNotEnable": {
+      "message": "Älä ota ominaisuutta käyttöön"
+   },
+   "welcomeConfirmGoBack": {
+      "message": "Palaa"
+   },
+   "welcomeConfirmText": {
+      "message": "Aikuisviihdesivustojen esto vaatii, että meillä on oikeus käyttää vierailemiesi sivustojen tietoja, että voimme havaita ja estää aikuisviihdesivustot automaattisesti. Huomaa, että emme jaa näitä tietoja kolmansille osapuolille markkinointiin tai mainosten kohdentamiseen yksityisille käyttäjille."
+   },
+   "welcomeConfirmTitle": {
+      "message": "Oletko varma, että et halua aktivoida aikuisviihdesivustojen estoa?"
+   },
+   "welcomeDisagreeBtn": {
+      "message": "Hylkää"
+   },
+   "welcomeInstallingTitle": {
+      "message": "Kiitos, kun asensit BlockSiten"
+   },
+   "welcomeMainShortText": {
+      "description": "#Tietosuojakäytäntö.# text will be clickable link, don't remove # symbols, just ignore it",
+      "message": "Pystyäkseen tunnistamaan ja estämään sivustoja, joilla on aikuisille suunnattua sisältöä, BlockSite tarvitsee luvan saada tietoa sivustoista, joilla käyt. Napsauttamalla \"Hyväksy\" annat luvan näiden tietojen käyttöön #tietosuojakäytäntömme# mukaisesti."
+   },
+   "welcomeMainText": {
+      "description": "#Tietosuojakäytäntö.# text will be clickable link, don't remove # symbols, just ignore it",
+      "message": "Pystyäkseen tunnistamaan ja estämään sivustoja, joilla on aikuisille suunnattua sisältöä, BlockSite tarvitsee luvan saada tietoa sivustoista, joilla käyt sekä IP-osoitteen, käyttöjärjestelmän ja selaimen tiedot. Napsauttamalla \"Hyväksy\" annat luvan näiden tietojen käyttöön #tietosuojakäytäntömme# mukaisesti."
+   },
+   "welcomePrivacyPolicy": {
+      "message": "Yksityisyyskäytäntö"
+   },
+   "welcomeToBlocksiteTitle": {
+      "message": "Tervetuloa BlockSiteen"
+   },
+   "welcomeUpdatingTitle": {
+      "message": "Kiitos, kun päivitit BlockSiten"
+   },
+   "whitelistBlockedPageMsg": {
+      "message": "Tämä sivusto ei ole sallittujen sivustojen luettelossa. Siihen on varmaan hyvä syy."
+   },
+   "whitelistBlockedPageTitle": {
+      "message": "Hyvä yritys."
+   },
+   "whitelistConfirmationText": {
+      "message": "Kaikki, paitsi listalla olevat sivut, estetään"
+   },
+   "whitelistConfirmationTitle": {
+      "message": "Oletko varma?"
+   },
+   "whitelistMode": {
+      "message": "Sallitut-tila"
+   },
+   "whitelistTooltip": {
+      "message": "Estä kaikki verkkosivustot paitsi sallittujen luetteloiden sivustot"
+   },
+   "wordAddedMsg": {
+      "message": "Sana lisätty"
+   },
+   "wordAlreadyExistMsg": {
+      "message": "Sana on jo olemassa"
+   },
+   "wordBlockingHeaderSubtitle": {
+      "message": "Estä tiettyjä sanoja sisältävät URL-osoitteet"
+   },
+   "wordBlockingHeaderTitle": {
+      "message": "Estä sanojen perusteella"
+   },
+   "workListTitle": {
+      "message": "TYÖTILALUETTELO"
+   },
+   "workModeSubtitle": {
+      "message": "Aseta työtilan ajastin estämään sivustoja tietyksi ajaksi"
+   },
+   "workModeTimerLabel": {
+      "message": "Työtila-ajastin"
+   },
+   "workModeTimerMessage": {
+      "message": "Kun tämä on aktiivinen, kaikki työtilaluettelon sivustot on estetty"
+   },
+   "workTime": {
+      "message": "Työaika"
+   },
+   "workTimeOver": {
+      "message": "Työaika loppui."
+   },
+   "yes": {
+      "message": "Kyllä"
+   }
+}

@@ -1,0 +1,1069 @@
+{
+   "aboutPageBlockCategoriesHeader": {
+      "message": "Blockkategorien"
+   },
+   "aboutPageBlockCategoriesText": {
+      "message": "Sperren Sie schnell eine ganze Kategorie mit einem Tastendruck."
+   },
+   "aboutPageChromeRateHeader": {
+      "message": "Finden Sie uns gut? Dann sagen Sie das gerne weiter."
+   },
+   "aboutPageChromeRateText": {
+      "message": "Wenn Sie Block Site hilfreich finden, bewerten Sie uns bitte im Chrome Webstore. Wir würden uns sehr darüber freuen."
+   },
+   "aboutPageCreateBlockListHeader": {
+      "message": "Erstellen Sie Blockierlisten"
+   },
+   "aboutPageCreateBlockListText": {
+      "message": "Fügen Sie einfach die gewünschten Websites oder Seiten zu Ihrer Liste hinzu und lassen Sie sich automatisch auf sicherere, positivere Websites weiterleiten. Oder erstellen Sie eine Liste erwünschter Websites und erlauben Sie nur den Zugriff auf bestimmte Websites, statt unerwünschte Seiten zu blockieren."
+   },
+   "aboutPageIcognitoHeader": {
+      "message": "Inkognito-Modus"
+   },
+   "aboutPageIcognitoText": {
+      "message": "Alle Funktionen von BlockSite stehen Ihnen auch im Inkognito-Modus zur Verfügung. Sie müssen nur die entsprechende Option aktivieren. Folgen Sie dafür einfach diesen Anweisungen:"
+   },
+   "aboutPageKidsSafeHeader": {
+      "message": "Halten Sie Ihr Internet sicher"
+   },
+   "aboutPageKidsSafeText": {
+      "message": "Aktivieren Sie das Blockieren nicht jugendfreier Inhalte über das Erweiterungsmenü, um alle Websites mit jugendgefährdenden Inhalten mit einem einzigen Klick zu blockieren."
+   },
+   "aboutPageOtherFuncHeader": {
+      "message": "Andere Funktionen"
+   },
+   "aboutPageOtherFuncText": {
+      "message": "Sie können zwischen Ihrer Blacklist und Whitelist wechseln. Wählen Sie aus, ob das Element „BlockSite deaktivieren“ im Kontextmenü angezeigt werden soll. Aktivieren Sie das Versenden anonymer Statistiken, um uns zu helfen, die BlockSite-Funktionalität weiter zu verbessern. Die Statistiken sind vollständig anonymisiert. Aktivieren Sie auch den Erhalt von Benachrichtigungen zu neuen Funktionen und wir geben Ihnen sofort Bescheid, wenn wir neue Funktionen für Sie hinzugefügt haben. Viel Spaß mit der Erweiterung und vergessen Sie nicht, diese im Add-ons-Store von Firefox zu bewerten:"
+   },
+   "aboutPagePrivacyPolicy": {
+      "message": "Datenschutzrichtlinie"
+   },
+   "aboutPageProductivity": {
+      "message": "BlockSite ermöglicht Ihnen, konzentrierter zu arbeiten und Ihre Produktivität zu steigern. Sie können leicht störende oder schädliche Websites blockieren. Funktioniert ganz ohne Willensstärke."
+   },
+   "aboutPageRigtClickMenuHeader": {
+      "message": "Rechtsklick-Menü"
+   },
+   "aboutPageRigtClickMenuText": {
+      "message": "Das Schnellzugriff-Menü lässt sich per Rechtsklick auf einen beliebigen Punkt einer Website öffnen. Blockieren Sie Websites in Sekundenschnelle, um Zeitvergeudung zu vermeiden und konzentriert zu bleiben."
+   },
+   "aboutPageSetUpPassHeader": {
+      "message": "Passwort festlegen"
+   },
+   "aboutPageSetUpPassText": {
+      "message": "Legen Sie auf der Einstellungs-Seite ein Passwort fest, um den Zugang zu Block-Site-Optionen einzuschränken oder um den Passwortzugriff auf blockierte Websites zu aktivieren."
+   },
+   "aboutPageTerms": {
+      "message": "Nutzungsbedingungen"
+   },
+   "aboutPageTimeBlockHeader": {
+      "message": "Zu bestimmten Zeiten blockieren"
+   },
+   "aboutPageTimeBlockText": {
+      "message": "Wählen Sie aus, an welchen Tagen bzw. in welchen Zeitspannen Sie Block Site aktivieren möchten. Richten Sie individuelle, Ihrem Tagesrhythmus entsprechende Blockierzeiten ein (zum Beispiel: 09:00 – 17:00 Uhr), damit Sie tagsüber bei der Arbeit oder in der Uni keine Zeit vergeuden."
+   },
+   "aboutPageTitle": {
+      "message": "Über BlockSite"
+   },
+   "addInterval": {
+      "message": "Intervall hinzufügen"
+   },
+   "addSiteOnboarding": {
+      "message": "Beginnen Sie, Websites, die Sie blockieren möchten, zu Ihrer Liste hinzuzufügen."
+   },
+   "allSitesBlocked": {
+      "message": "Alle Websites in Ihrer Arbeitsmodus-Liste sind blockiert"
+   },
+   "allSitesUnblockedMsg": {
+      "message": "Alle Websites in Ihrer Arbeitsmodus-Liste sind freigegeben"
+   },
+   "androidQuestionHeader": {
+      "message": "Sind Sie zufrieden mit BlockSite?"
+   },
+   "androidTrytext": {
+      "message": "Probieren Sie unsere Android-App aus."
+   },
+   "appDesc": {
+      "description": "Die Beschreibung der Anwendung, die im Web-Store angezeigt wird.",
+      "message": "Besser konzentrieren und produktiver werden. Ablenkende oder schädliche Websites blockieren. Endlich Schluss mit Zeitverschwendung!"
+   },
+   "appName": {
+      "description": "Der Titel der Anwendung, der im Web-Store angezeigt wird.",
+      "message": "Block Site – Website-Blocker für Chrome™"
+   },
+   "appShortName": {
+      "description": "Der Kurztitel der Anwendung",
+      "message": "BlockSite"
+   },
+   "blockByCategoryText_adult": {
+      "message": "Hoppla! %domain% ist nicht verfügbar, da es sich um eine Kategorie für Erwachsene handelt, die Sie gesperrt haben. Bleib konzentriert, du schaffst das."
+   },
+   "blockByCategoryText_gambling": {
+      "message": "Hoppla! %domain% ist nicht verfügbar, da es sich um Glücksspiel handelt, das eine Kategorie ist, die Sie blockiert haben. Bleib konzentriert, du schaffst das."
+   },
+   "blockByCategoryText_news_and_media": {
+      "message": "Hoppla! %domain% ist nicht verfügbar, da es sich um Nachrichten handelt, die eine Kategorie sind, die Sie blockiert haben. Bleib konzentriert, du schaffst das."
+   },
+   "blockByCategoryText_social_networks_and_online_communities": {
+      "message": "Hoppla! %domain% ist nicht verfügbar, da es sich um eine soziale Kategorie handelt, die Sie blockiert haben. Bleib konzentriert, du schaffst das."
+   },
+   "blockByCategoryText_sports": {
+      "message": "Hoppla! %domain% ist nicht verfügbar, da es sich um einen Sport handelt, der eine Kategorie ist, die Sie blockiert haben. Bleib konzentriert, du schaffst das."
+   },
+   "blockByCategoryTitle_adult": {
+      "message": "Kakerlaken. Abgetrennte Gliedmaßen. John Goodman."
+   },
+   "blockByCategoryTitle_gambling": {
+      "message": "Lass das Haus nicht immer gewinnen."
+   },
+   "blockByCategoryTitle_news_and_media": {
+      "message": "Keine Nachrichten sind gute Nachrichten."
+   },
+   "blockByCategoryTitle_social_networks_and_online_communities": {
+      "message": "Kein Beitrag, keine Sympathie, nur Leben."
+   },
+   "blockByCategoryTitle_sports": {
+      "message": "Bleiben Sie ruhig und trennen Sie die Verbindung."
+   },
+   "blockByWordBlockedPageMsg": {
+      "message": "Es sieht so aus, als hätten Sie das Wort „%blocked_word%“ blockiert. Lassen Sie uns das beibehalten."
+   },
+   "blockByWordBlockedPageTitle": {
+      "message": "Oh je!"
+   },
+   "blockSitePageEveryDayLabel": {
+      "message": "Jeden Tag"
+   },
+   "blockSitePageSubtitle": {
+      "message": "Websites dauerhaft oder nach Zeitplan blockieren"
+   },
+   "blockSitePageTitle": {
+      "message": "Websites blockieren"
+   },
+   "blockedMessage1": {
+      "message": "%domain% befindet sich in Ihrer BlockSite-Liste. Dies hat wahrscheinlich seine Gründe."
+   },
+   "blockedMessage2": {
+      "message": "Sie haben %domain% blockiert, damit Sie nicht von der Arbeit abgelenkt werden. Also zurück zur Arbeit."
+   },
+   "blockedMessage3": {
+      "message": "Puh, schon besser. Jetzt zurück an die Arbeit."
+   },
+   "blockedMessage4": {
+      "message": "%domain% wurde gesperrt. Fügen Sie weitere störende Websites hinzu, um Ihre Produktivität weiter zu steigern."
+   },
+   "blockedMoreSites": {
+      "message": "Blockieren Sie weitere ablenkende Websites."
+   },
+   "blockedOptionsEnterPassText": {
+      "message": "Bitte geben Sie Ihr Passwort ein, um auf die BlockSite-Optionsseite zuzugreifen."
+   },
+   "blockedOptionsTitle": {
+      "message": "BlockSite-Optionen gesperrt"
+   },
+   "blockedOptsIncorrectPassTooltip": {
+      "message": "Hoppla! Das war nicht ganz richtig. Bitte versuchen Sie es erneut."
+   },
+   "blockedWordTitle": {
+      "message": "Blockierte Wörter"
+   },
+   "blocksiteLockedLabel": {
+      "message": "BlockSite ist gesperrt"
+   },
+   "blocksiteLockedMessage": {
+      "message": "Geben Sie Ihr Passwort ein, um zu den Erweiterungseinstellungen zu gelangen"
+   },
+   "blocksiteOffMessage": {
+      "message": "BlockSite ist momentan deaktiviert"
+   },
+   "breakIsOver": {
+      "message": "Die Pause ist vorbei."
+   },
+   "breakString": {
+      "message": "$BRAKE_TIME$ Pause",
+      "placeholders": {
+         "brake_time": {
+            "content": "1 $",
+            "example": "05:00"
+         }
+      }
+   },
+   "breakTimeLeftText": {
+      "message": "%BREAK_TIME_LEFT% Minuten bis zur Pause",
+      "placeholders": {
+         "break_time_left": {
+            "content": "1 $",
+            "example": "25"
+         }
+      }
+   },
+   "buildBlockList": {
+      "message": "Erstellen Sie Ihre Blockierliste"
+   },
+   "buildListLabel": {
+      "message": "Erstellen Sie Ihre Liste!"
+   },
+   "buildListMessage": {
+      "message": "Geben Sie Websites an, die Sie während der Arbeit nicht besuchen möchten."
+   },
+   "cantBlockRedirectSiteMsg": {
+      "message": "Weiterleitungs-Website kann nicht blockiert werden"
+   },
+   "cantBlockRedirectWordMsg": {
+      "message": "Ein Wort, das Teil der Redirect-URL ist, kann nicht blockiert werden."
+   },
+   "cantRedirectMessage1": {
+      "message": "Weiterleitungs-Website kann nicht zugelassen werden"
+   },
+   "cantRedirectMessage2": {
+      "message": "Weiterleitungs-Website kann nicht blockiert werden"
+   },
+   "cantRedirectToBlockedSite": {
+      "message": "Hoppla! Diese Umleitungsseite wird von Ihrer Block Sites Liste blockiert."
+   },
+   "cantRedirectToBlockedWord": {
+      "message": "Hoppla! Diese Weiterleitungsseite wird durch Ihre Block By Words Liste blockiert."
+   },
+   "cantRedirectToWorkModeBlockedSite": {
+      "message": "Hoppla! Diese Umleitungsseite wird von Ihrer Arbeitsmodusliste blockiert."
+   },
+   "categoriesMenuDescription": {
+      "message": "Bitte wählen Sie aus, welche Kategorien Sie blockieren möchten."
+   },
+   "changePass": {
+      "message": "Passwort ändern"
+   },
+   "context_add_currentPage": {
+      "message": "Diese Website blockieren"
+   },
+   "context_add_currentPage_whitelistOn": {
+      "message": "Diese Website zulassen"
+   },
+   "context_add_currentPage_workmode": {
+      "message": "Website zur Arbeitsmodus-Liste hinzufügen"
+   },
+   "context_add_currentPage_workmode_whitelistOn": {
+      "message": "Diese Website im Arbeitsmodus zulassen"
+   },
+   "context_add_link": {
+      "message": "Diesen Link blockieren"
+   },
+   "context_add_link_whitelistOn": {
+      "message": "Diesen Link zulassen"
+   },
+   "context_add_link_workmode": {
+      "message": "Link-Adresse zur Arbeitsmodus-Liste hinzufügen"
+   },
+   "context_add_link_workmode_whitelistOn": {
+      "message": "Diesen Link im Arbeitsmodus zulassen"
+   },
+   "continue": {
+      "message": "Weiter"
+   },
+   "continueMsg": {
+      "message": "Weiter"
+   },
+   "dayFriday": {
+      "message": "Freitag"
+   },
+   "dayFridayLabel": {
+      "message": "Fr."
+   },
+   "dayFridayLetter": {
+      "message": "F"
+   },
+   "dayMonday": {
+      "message": "Montag"
+   },
+   "dayMondayLabel": {
+      "message": "Mo."
+   },
+   "dayMondayLetter": {
+      "message": "M"
+   },
+   "dayPickerClickToDeactivate": {
+      "message": "(Auf einen Tag klicken, um diesen zu deaktivieren)"
+   },
+   "dayPickerSelectedDays": {
+      "message": "AUSGEWÄHLTE TAGE"
+   },
+   "daySaturday": {
+      "message": "Samstag"
+   },
+   "daySaturdayLabel": {
+      "message": "Sa."
+   },
+   "daySaturdayLetter": {
+      "message": "S"
+   },
+   "daySunday": {
+      "message": "Sonntag"
+   },
+   "daySundayLabel": {
+      "message": "So."
+   },
+   "daySundayLetter": {
+      "message": "S"
+   },
+   "dayThursday": {
+      "message": "Donnerstag"
+   },
+   "dayThursdayLabel": {
+      "message": "Do."
+   },
+   "dayThursdayLetter": {
+      "message": "D"
+   },
+   "dayTuesday": {
+      "message": "Dienstag"
+   },
+   "dayTuesdayLabel": {
+      "message": "Di."
+   },
+   "dayTuesdayLetter": {
+      "message": "D"
+   },
+   "dayWednesday": {
+      "message": "Mittwoch"
+   },
+   "dayWednesdayLabel": {
+      "message": "Mi."
+   },
+   "dayWednesdayLetter": {
+      "message": "M"
+   },
+   "downloadAndroidText": {
+      "description": "Der Teil zwischen ## und %% wird durch HTML-Tags eingefasst, bitte die *-Symbole nicht entfernen",
+      "message": "#Bleiben Sie produktiv %über alle Geräte hinweg%."
+   },
+   "downloadText": {
+      "message": "Herunterladen"
+   },
+   "editBlockSitesList": {
+      "message": "BlockSite-Liste bearbeiten"
+   },
+   "editWorkListMsg": {
+      "message": "Sie können die Liste später jederzeit in den Arbeitsmodus-Optionen bearbeiten"
+   },
+   "editWorkModeList": {
+      "message": "Arbeitsmodus-Liste bearbeiten"
+   },
+   "editYourListBtn": {
+      "message": "Bearbeiten Sie Ihre Liste"
+   },
+   "emailPlaceholder": {
+      "message": "Geben Sie Ihre E-Mail-Adresse ein"
+   },
+   "enableIncognitoButtonText": {
+      "message": "Im Inkognito-Modus aktivieren"
+   },
+   "end": {
+      "message": "Ende"
+   },
+   "endBreak": {
+      "message": "Pause beenden"
+   },
+   "enterPassMsg": {
+      "message": "Für Zugriff Passwort eingeben"
+   },
+   "enterPassPlaceholder": {
+      "message": "Geben Sie Ihr Passwort ein."
+   },
+   "enterWordInputPlaceholder": {
+      "message": "Geben Sie ein Wort oder eine Wortgruppe ein."
+   },
+   "errorCantRedirectToBlocked": {
+      "message": "Weiterleitung auf eine blockierte Website ist nicht möglich"
+   },
+   "errorEmptyList": {
+      "message": "Ihre Liste ist leer! Es kann nichts exportiert werden."
+   },
+   "errorIncorrectUrl": {
+      "message": "Falsche URL"
+   },
+   "exportList": {
+      "message": "Liste exportieren"
+   },
+   "exportSuccess": {
+      "message": "Ihre Liste wurde erfolgreich exportiert"
+   },
+   "feedbackFormBody": {
+      "message": "Nachricht (optional)"
+   },
+   "feedbackFormSubject": {
+      "message": "Betreff"
+   },
+   "fogotPassModalMainText": {
+      "message": "Ihr Passwort wurde gesendet an:"
+   },
+   "fogotPassModalOkBtn": {
+      "message": "OK"
+   },
+   "fogotPassModalSentTitle": {
+      "message": "Passwort gesendet"
+   },
+   "footerDownloadAndroidText": {
+      "message": "Download für Android"
+   },
+   "footerHelpText": {
+      "message": "Wir brauchen Ihre Hilfe, um uns weiter zu verbessern."
+   },
+   "footerRateText": {
+      "message": "Bewerten Sie uns"
+   },
+   "forgotPasswordText": {
+      "message": "Passwort vergessen?"
+   },
+   "getBackToWorkTitle": {
+      "message": "Klicken Sie auf „Weiter“ und machen Sie sich erneut an die Arbeit!"
+   },
+   "goBack": {
+      "message": "Zurück"
+   },
+   "goBackToWork": {
+      "message": "Zurück an die Arbeit"
+   },
+   "gotIt": {
+      "message": "Alles klar"
+   },
+   "haveAppNow": {
+      "message": "Ich habe jetzt die App"
+   },
+   "howtoEnableInIncognitoStep1": {
+      "message": "Gehen Sie zu „chrome://extensions“."
+   },
+   "howtoEnableInIncognitoStep2": {
+      "message": "Suchen Sie nach BlockSite."
+   },
+   "howtoEnableInIncognitoStep3": {
+      "message": "Aktivieren Sie das Kästchen neben „Im Inkognito-Modus zulassen“."
+   },
+   "howtoEnableInIncognitoText": {
+      "message": "Gehen Sie folgendermaßen vor, um BlockSite im Inkognito-Modus von Chrome zu aktivieren:"
+   },
+   "howtoEnableInIncognitoTitle": {
+      "message": "Wie funktioniert die Aktivierung im Inkognito-Modus?"
+   },
+   "importList": {
+      "message": "Liste importieren"
+   },
+   "importListSuccessMsg": {
+      "message": "Ihre Liste wurde erfolgreich importiert"
+   },
+   "incorrectFileStructMsg": {
+      "message": "Die Dateistruktur ist nicht gültig. Bitte exportieren Sie Ihre aktuelle Liste, um das erforderliche CSV-Format zu erfahren"
+   },
+   "incorrectUrlMsg": {
+      "message": "Falsche URL"
+   },
+   "inctoduceGetStarted": {
+      "message": "Los geht's"
+   },
+   "inctoduceMessage": {
+      "message": "Konzentrieren Sie sich voll auf Ihre Arbeit und blockieren Sie unerwünschte Websites, während Ihr Arbeitsmodus-Timer läuft."
+   },
+   "inctoduceTitle": {
+      "message": "Steigern Sie Ihre Produktivität!"
+   },
+   "invalidPassMsg": {
+      "message": "Ungültiges Passwort. Bitte versuchen Sie es erneut."
+   },
+   "letterMessageText": {
+      "message": "Sie erhalten eine E-Mail, die Sie darüber informiert, dass der Passwortschutz AKTIV ist"
+   },
+   "lockExtEmailLabel": {
+      "message": "E-MAIL-ADRESSE"
+   },
+   "lockExtEmailLabelVerify": {
+      "message": "Verifizierung erforderlich"
+   },
+   "lockExtNewPopupBtnText": {
+      "message": "Jetzt ansehen"
+   },
+   "lockExtNewPopupText1": {
+      "message": "Schützen Sie die Seite „Einstellungen“ mit einem Passwort"
+   },
+   "lockExtNewPopupText2": {
+      "message": "Zugriff auf blockierte Seiten mit einem Passwort ermöglichen"
+   },
+   "lockExtNewPopupText3": {
+      "message": "Benachrichtigung erhalten, wenn jemand BlockSite entfernt"
+   },
+   "lockExtNewPopupText4": {
+      "message": "Rufen Sie mühelos Ihr Passwort ab"
+   },
+   "lockExtNewPopupTitleNew": {
+      "message": "Neu:"
+   },
+   "lockExtNewPopupTitleProtectionText": {
+      "message": "Passwortschutz"
+   },
+   "lockExtPassChangedNotificationText": {
+      "message": "Passworteinstellungen erfolgreich geändert"
+   },
+   "lockExtPassLabel": {
+      "message": "PASSWORT"
+   },
+   "lockExtPopupResetPassRemovedText": {
+      "message": "Wenn Sie Ihr Passwort nicht zurücksetzen, wird es entfernt"
+   },
+   "lockExtPopupRestPassBtnText": {
+      "message": "Passwort zurücksetzen"
+   },
+   "lockExtPopupRestPassText": {
+      "message": "Setzen Sie bitte Ihr Passwort zurück und geben Sie eine Wiederherstellungs-E-Mail an, damit Ihr Konto geschützt bleibt."
+   },
+   "lockExtPopupRestPassTitle": {
+      "message": "Setzen Sie zur Erhöhung Ihrer Sicherheit\u003Cbr>Ihr Passwort zurück"
+   },
+   "lockExtProtectSettings": {
+      "message": "Schützen Sie Ihre bevorzugten BlockSite-Optionen und \u003Cbr>die Chrome-Erweiterungsseite mit einem Passwort\u003C/br>."
+   },
+   "lockExtRecieveEmail": {
+      "message": "Per E-Mail benachrichtigt werden, wenn BlockSite deinstalliert wird"
+   },
+   "lockExtRequirePass": {
+      "message": "Den Passwortzugriff für blockierte Websites aktivieren"
+   },
+   "lockExtSavedNotificationText": {
+      "message": "Schutzeinstellungen gespeichert"
+   },
+   "lockExtSetUpPassText": {
+      "message": "Richten Sie zur Aktivierung Ihre E-Mail-Adresse und Ihr Passwort ein"
+   },
+   "lockExtSettingsNotSavedAddBtn": {
+      "message": "E-Mail und Passwort hinzufügen"
+   },
+   "lockExtSettingsNotSavedLeave": {
+      "message": "Ohne Speichern verlassen"
+   },
+   "lockExtSettingsNotSavedText": {
+      "message": "Bitte speichern Sie Ihre E-Mail-Adresse und Ihr Passwort, um die zusätzlichen Schutzfunktionen zu aktivieren."
+   },
+   "lockExtSettingsNotSavedTitle": {
+      "message": "Einstellungen wurden nicht gespeichert"
+   },
+   "lockExtUpdateEmailAndPass": {
+      "message": "E-Mail und Passwort aktualisieren"
+   },
+   "lockExtUpdatePassText": {
+      "message": "Aktualisieren Sie zur Aktivierung Ihre E-Mail-Adresse und Ihr Passwort"
+   },
+   "lockExtensionHeaderTitle": {
+      "message": "Passwortschutz-Präferenzen"
+   },
+   "lockExtsPageTitle1": {
+      "message": "Seite „Chrome-Erweiterungen“ – geschützt"
+   },
+   "lockExtsPageTitle2": {
+      "message": "Bitte geben Sie für den Zugriff Ihr Passwort ein"
+   },
+   "lockedPopupPassPlaceholder": {
+      "message": "Geben Sie zum Entsperren Ihre E-Mail-Adresse ein"
+   },
+   "mandatoryPopupBtnAgreeText": {
+      "message": "Zustimmen"
+   },
+   "mandatoryPopupBtnDisagreeText": {
+      "message": "Ablehnen"
+   },
+   "mandatoryPopupFooterText": {
+      "message": "Wenn Sie auf „Ablehnen“ klicken, können Sie BlockSite weiterhin verwenden, jedoch ist die Funktion zum Blockieren nicht jugendfreier Inhalte dann nicht verfügbar."
+   },
+   "mandatoryPopupText": {
+      "description": "#Datenschutzrichtlinie.# Teil des Textes wird ein anklickbarer Link, #-Symbole nicht entfernen",
+      "message": "Damit BlockSite Seiten mit nicht jugendfreien Inhalten erkennen und blockieren kann, benötigen wir Ihre Zustimmung, um auf Informationen auf den von Ihnen besuchten Seiten zugreifen zu können. Bitte klicken Sie auf „Zustimmen“, um diesen Zugang und die Verwendung dieser Informationen wie in unserer #Datenschutzrichtlinie# beschrieben zu ermöglichen."
+   },
+   "mandatoryPopupTitle": {
+      "message": "Bitte treffen Sie eine Auswahl, um\u003Cbr> zu BlockSite zu gelangen."
+   },
+   "menuAbout": {
+      "message": "Über"
+   },
+   "menuBlockByWords": {
+      "message": "Blockieren nach Wörtern"
+   },
+   "menuBlockSites": {
+      "message": "Websites blockieren"
+   },
+   "menuCategoriesBlock": {
+      "message": "Kategorien"
+   },
+   "menuLockExtension": {
+      "message": "Passwortschutz"
+   },
+   "menuSettings": {
+      "message": "Einstellungen"
+   },
+   "menuWorkMode": {
+      "message": "Arbeitsmodus"
+   },
+   "mergeBtnText": {
+      "message": "Zusammenführen"
+   },
+   "messageSent": {
+      "message": "Nachricht wurde gesendet"
+   },
+   "modalPrivacyShortText": {
+      "description": "#Datenschutzrichtlinie.# Text wird ein anklickbarer Link, #-Symbole nicht beachten und nicht entfernen",
+      "message": "Sie können den Kategorienblockiermodus nicht aktivieren, es sei denn, Sie stimmen zu, uns Zugang zu Informationen über die von Ihnen besuchten Websites zu gewähren, wie in unserer #Datenschutzrichtlinie# angegeben. \u003Cbr>Klicken Sie auf Annehmen, um zu aktivieren.\u003C/br>"
+   },
+   "modalPrivacyText": {
+      "description": "#Datenschutzrichtlinie.# Text wird ein anklickbarer Link, #-Symbole nicht beachten und nicht entfernen",
+      "message": "Sie können den Kategorienblockiermodus nicht aktivieren, es sei denn, Sie stimmen zu, uns Zugang zu Ihren besuchten URLs, IP-Adressen, Betriebssystemen und Browserinformationen zu gewähren, um diese wie in unserer #Datenschutzrichtlinie# beschrieben zu verwenden.\u003Cbr> Klicken Sie auf Annehmen, um zu aktivieren.\u003C/br>"
+   },
+   "modalPrivacyTitle": {
+      "message": "Hoppla!"
+   },
+   "motivationalText1": {
+      "message": "Netter Versuch …"
+   },
+   "motivationalText10": {
+      "message": "Stopp!"
+   },
+   "motivationalText2": {
+      "message": "Auf gar keinen Fall!"
+   },
+   "motivationalText3": {
+      "message": "Vergiss es."
+   },
+   "motivationalText4": {
+      "message": "Im Ernst?"
+   },
+   "motivationalText5": {
+      "message": "Wo wollen wir denn hin?"
+   },
+   "motivationalText6": {
+      "message": "Zurück an die Arbeit!"
+   },
+   "motivationalText7": {
+      "message": "Welpen. Komische braune Muttermale. Justin Bieber."
+   },
+   "motivationalText8": {
+      "message": "Kakerlaken. Abgetrennte Gliedmaßen. John Goodman."
+   },
+   "motivationalText9": {
+      "message": "Oma. Kobe Bryant. Chirurgische Eingriffe."
+   },
+   "no": {
+      "message": "Nein"
+   },
+   "notAvalible": {
+      "message": "Nicht verfügbar auf dieser Seite"
+   },
+   "notSyncedText": {
+      "message": "Nicht mit App synchronisiert"
+   },
+   "notValidShedule": {
+      "message": "Ihr Zeitplan ist nicht gültig"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "overrideBtnText": {
+      "message": "Überschreiben"
+   },
+   "overrideOrMergeConfirmationTitle": {
+      "message": "Möchten Sie Ihre aktuelle Liste damit zusammenführen oder überschreiben?"
+   },
+   "passIsSet": {
+      "message": "PASSWORT WURDE FESTGELEGT"
+   },
+   "passLengthTooltip": {
+      "message": "Das Passwort sollte mindestens 5 Zeichen umfassen"
+   },
+   "passPlaceholder": {
+      "message": "Mindestens 5 Zeichen"
+   },
+   "passSettedMsg": {
+      "message": "Ihr Passwort wurde festgelegt"
+   },
+   "pauseBtnText": {
+      "message": "Pause"
+   },
+   "pauseFooterButton1": {
+      "message": "Pause"
+   },
+   "pauseFooterButton2": {
+      "message": "Weiterarbeiten"
+   },
+   "pauseHeaderMessage": {
+      "message": "Sind Sie sicher, dass Sie Ihre Arbeit unterbrechen und \u003Cbr> jetzt eine Pause einlegen möchten?"
+   },
+   "pauseHeaderTitle": {
+      "message": "Pausen sind nur was für Anfänger!"
+   },
+   "pauseTextTitle": {
+      "message": "Jetzt geht's los!"
+   },
+   "privacyPolicyText1": {
+      "message": "Zwecks Einhaltung relevanter Datenschutzgesetze haben wir folgende Dokumente aktualisiert:"
+   },
+   "privacyPolicyText2": {
+      "message": "Datenschutzrichtlinie"
+   },
+   "privacyPolicyText3": {
+      "message": "Bitte lesen Sie beide Dokumente durch, da die vorliegenden Änderungen Ihre Rechte betreffen."
+   },
+   "privacyPolicyTitle": {
+      "message": "Wichtiges Update"
+   },
+   "privacySettingsShortSubtitle": {
+      "description": "#Datenschutzrichtlinie.# Text wird ein anklickbarer Link, #-Symbole nicht beachten und nicht entfernen",
+      "message": "Ermöglicht BlockSite den Zugriff auf Informationen auf den von Ihnen besuchten Websites für die in unserer #Datenschutzrichtlinie# beschriebene Verwendung."
+   },
+   "privacySettingsSubtitle": {
+      "description": "#Datenschutzrichtlinie.# Text wird ein anklickbarer Link, #-Symbole nicht beachten und nicht entfernen",
+      "message": "Ermöglicht BlockSite den Zugriff auf Ihre besuchten URLs, IP-Adressen, Betriebssysteme und Browserinformationen zur Verwendung gemäß unserer #Datenschutzrichtlinie#."
+   },
+   "privacySettingsTitle": {
+      "message": "Funktion \"Block nach Kategorien\" aktivieren"
+   },
+   "redirectBlockedSites": {
+      "message": "Umleiten Ihrer blockierten Seiten"
+   },
+   "redirectBlockedWord": {
+      "message": "Umleiten Ihrer blockierten Seiten"
+   },
+   "redirectButtonText": {
+      "message": "Weiterleiten"
+   },
+   "redirectConsolidationModalMainText1": {
+      "message": "Steuern Sie Ihre Blockliste, Ihren Arbeitsmodus und die durch Wörter blockierte Umleitung an einer Stelle."
+   },
+   "redirectConsolidationModalMainText2": {
+      "message": "Zum Aktualisieren gehen Sie zu:"
+   },
+   "redirectConsolidationModalMainText3": {
+      "message": "Einstellungen --> Registerkarte Blockliste --> Umleitung"
+   },
+   "redirectConsolidationModalTitle": {
+      "message": "Eine Umleitungs-URL zur Kontrolle aller Ihrer blockierten Websites."
+   },
+   "redirectEditConsolidationModal": {
+      "message": "Umleitung bearbeiten"
+   },
+   "redirectLabelText1": {
+      "message": "Hier klicken, um eine Weiterleitungs-URL festzulegen"
+   },
+   "redirectLabelText2": {
+      "message": "Weiterleitung an $URL$",
+      "placeholders": {
+         "url": {
+            "content": "1 $",
+            "example": "https://example.com"
+         }
+      }
+   },
+   "redirectTutorialBtnText": {
+      "message": "Ok, alles klar!"
+   },
+   "redirectTutorialMainText": {
+      "message": "Sie können sich von Ihren blockierten Seiten auf jede beliebige Website weiterleiten lassen. Klicken Sie jetzt oben auf „Weiterleiten“, um dies zu ändern."
+   },
+   "redirectTutorialTitle": {
+      "message": "Zu Ihrer Information"
+   },
+   "remove": {
+      "message": "Entfernen"
+   },
+   "reportProblemText": {
+      "message": "Problem melden"
+   },
+   "reportSendBtnText": {
+      "message": "Nachricht senden"
+   },
+   "resetTimerMsg": {
+      "message": "Timer zurücksetzen"
+   },
+   "reviewCallToActionText": {
+      "message": "Dann geben Sie uns doch positives Feedback."
+   },
+   "reviewQuestion": {
+      "message": "Gefällt Ihnen BlockSite?"
+   },
+   "saveBtnText": {
+      "message": "Speichern"
+   },
+   "searchbarPlaceholder": {
+      "message": "Geben Sie eine Webadresse ein (z. B. facebook.com)."
+   },
+   "setPass": {
+      "message": "Passwort festlegen"
+   },
+   "setShedule": {
+      "message": "Zeitplan festlegen"
+   },
+   "setTimes": {
+      "message": "ZEITEN EINSTELLEN"
+   },
+   "setUpBlockingShedule": {
+      "message": "Zeitplan für das Blockieren von Websites erstellen"
+   },
+   "settingsAllowStat": {
+      "message": "Versenden anonymer Statistiken an BlockSite erlauben"
+   },
+   "settingsEnableBlockSite": {
+      "message": "Option „BlockSite“ im Kontextmenü (auch Rechtsklick-Menü) aktivieren"
+   },
+   "settingsEnablePassAccess": {
+      "message": "Den Passwortzugriff auf blockierte Websites aktivieren"
+   },
+   "settingsRequerePassAccess": {
+      "message": "Den Passwortzugriff für das Block-Site-Menü aktivieren"
+   },
+   "settingsSaved": {
+      "message": "Ihre Einstellungen wurden gespeichert"
+   },
+   "settingsSetPass": {
+      "message": "UNTEN PASSWORT FESTLEGEN"
+   },
+   "settingsShowMotivational": {
+      "message": "Auf blockierten Websites motivierende Bilder anzeigen lassen"
+   },
+   "settingsShowQuestionsChallenge": {
+      "message": "Blockierte Seite Herausforderung - zusätzlicher Schritt zur Freigabe der Seite"
+   },
+   "sheduleButtonText": {
+      "message": "Zeitplan"
+   },
+   "sheduleNegativeDiffConfirmationText": {
+      "message": "Die geplante Startzeit liegt nach der Endzeit. Das bedeutet, dass der Termin an einem Tag beginnt und am nächsten Tag endet. Sind Sie sicher?"
+   },
+   "showSyncBtn": {
+      "message": "Schaltfläche „Mit Mobilgerät synchronisieren“ anzeigen"
+   },
+   "siteAddedMsg": {
+      "message": "Website hinzugefügt"
+   },
+   "siteIsBlocked": {
+      "message": "Diese Website ist momentan blockiert"
+   },
+   "start": {
+      "message": "Start"
+   },
+   "startAnotherSeesionQuestion": {
+      "message": "Zurück in den Arbeitsmodus?"
+   },
+   "startWorking": {
+      "message": "Die Arbeitszeit läuft."
+   },
+   "suggestedWebsitesText1": {
+      "message": "EMPFOHLENE WEBSITES"
+   },
+   "suggestedWebsitesText2": {
+      "message": "WEBSITES"
+   },
+   "syncAvaliableInChrome": {
+      "message": "Derzeit auf Chrome verfügbar"
+   },
+   "syncButtonHidedMsg": {
+      "message": "Die Synchronisierungs-Schaltfläche wurde entfernt. Sie können sie in den Einstellungen wieder hinzufügen."
+   },
+   "syncComingSoon": {
+      "message": "Synchronisation wird in Kürze gestartet"
+   },
+   "syncDeviceDontHaveApp": {
+      "message": "Ich habe die App nicht"
+   },
+   "syncDeviceText": {
+      "description": "#mobile_icon# wird durch das Bild des mobilen Symbols ersetzt, ändern Sie diesen Platzhalter nicht",
+      "message": "Tippen Sie in der BlockSite App auf #mobile_icon# „Zu den Einstellungen gehen“ und dann auf „Mit Desktop synchronisieren“"
+   },
+   "syncDeviceText1": {
+      "message": "1. Öffnen Sie BlockSite auf Ihrem Smartphone"
+   },
+   "syncDeviceText2": {
+      "message": "2. Tippen Sie auf #mobile_icon#, „Einstellungen“ und „BlockSite synchronisieren“"
+   },
+   "syncDeviceText3": {
+      "message": "3. Tippen Sie auf „Jetzt scannen“ und richten Sie Ihr Gerät auf den Bildschirm, um den Code zu erfassen"
+   },
+   "syncDeviceTitle": {
+      "message": "Ihr Android-Gerät synchronisieren"
+   },
+   "syncDialogBtnClose": {
+      "message": "Schließen"
+   },
+   "syncDialogBtnSync": {
+      "message": "Jetzt synchronisieren"
+   },
+   "syncDialogContent": {
+      "message": "Sie können die BlockSite-Erweiterung jetzt mit Ihrem Android-Gerät synchronisieren"
+   },
+   "syncDialogNew": {
+      "message": "Neu!"
+   },
+   "syncDialogTitle": {
+      "message": "Mit Ihrem Android-Gerät synchronisieren"
+   },
+   "syncGoBack": {
+      "message": "Zurück"
+   },
+   "syncModalAlreadyHaveApp": {
+      "message": "Ich habe die App"
+   },
+   "syncModalCodeText": {
+      "message": "Gehen Sie in der BlockSite-App zu „Mit Desktop synchronisieren“ und geben Sie folgenden Code ein:"
+   },
+   "syncModalDoYouHaveBlocksiteForAndroid": {
+      "message": "Haben Sie BlockSite auf Ihrem Android-Gerät installiert?"
+   },
+   "syncModalGooglePlay": {
+      "message": "Google Play"
+   },
+   "syncModalHaveAppMainTitle": {
+      "message": "BlockSite synchronisieren"
+   },
+   "syncModalHaveAppSync": {
+      "message": "Sie können BlockSite jetzt mit Android synchronisieren"
+   },
+   "syncModalIDontHaveDevice": {
+      "message": "Ich habe kein Android-Gerät."
+   },
+   "syncModalQRText": {
+      "message": "QR-Code"
+   },
+   "syncModalText1": {
+      "message": "Laden Sie BlockSite für Android herunter und klicken Sie dann auf „Weiter“."
+   },
+   "syncModalTitle": {
+      "message": "BlockSite für Android herunterladen"
+   },
+   "syncNotificationError": {
+      "message": "Die Synchronisierung ist nur für Android erhältlich. Die Synchronisierungs-Schaltfläche wurde entfernt, kann aber in den Einstellungen wieder hinzugefügt werden."
+   },
+   "syncNotificationSuccess": {
+      "message": "Die BlockSite-Extension wird mit Ihrem Mobilgerät synchronisiert"
+   },
+   "syncedText": {
+      "message": "Mit App synchronisiert"
+   },
+   "tableTitleText1": {
+      "message": "ERLAUBTE WEBSITES"
+   },
+   "tableTitleText2": {
+      "message": "BLOCKIERTE WEBSITES"
+   },
+   "timeForBreak": {
+      "message": "Zeit für eine Pause!"
+   },
+   "ulrAlreadyExistMsg": {
+      "message": "URL existiert bereits"
+   },
+   "verifyEmailModalText": {
+      "description": "Der Teil zwischen ** wird fetter Text, bitte die *-Symbole nicht entfernen.",
+      "message": "Wir haben gerade eine Bestätigungs-E-Mail an %USER_EMAIL% geschickt. *Klicken Sie im gleichen Browserfenster, in dem Sie das Konto* eingerichtet haben, auf den Link, um Ihr Konto zu überprüfen und den Passwortschutz zu aktivieren. (Der Link läuft in 1 Stunde ab)"
+   },
+   "verifyEmailModalTitle": {
+      "message": "Verifizierung erforderlich"
+   },
+   "verifyEmailProtectionNotEnabledText1": {
+      "message": "Der Passwortschutz ist nicht aktiviert. Um dies zu aktivieren, öffnen Sie bitte den Link in der E-Mail im gleichen Browserfenster, mit dem Sie ursprünglich Ihr Konto eingerichtet haben."
+   },
+   "verifyEmailProtectionNotEnabledText2": {
+      "message": "Um ihn zu aktivieren, überprüfen Sie bitte Ihre E-Mail-Adresse für den Verifizierungslink."
+   },
+   "verifyEmailProtectionNotEnabledText3": {
+      "description": "Der Teil zwischen ## wird ein anklickbarer Link, bitte die #-Symbole nicht entfernen",
+      "message": "Wenn Sie die E-Mail nicht erhalten haben, #klicken Sie bitte hier, um sie erneut zu senden.#"
+   },
+   "verifyEmailSuccessMsg": {
+      "message": "Danke! Ihre E-Mail-Adresse wurde verifiziert"
+   },
+   "verifyRecieveEmailText": {
+      "message": "BlockSite sendet Ihnen eine E-Mail mit einem Link zur Verifizierung Ihrer E-Mail-Adresse.\u003Cbr>\u003Cbr>Ihre E-Mail-Adresse wird nur zum Zweck des Passwortschutzes verwendet."
+   },
+   "webAdressPlaceholder": {
+      "message": "Webadresse (z. B: google.com)"
+   },
+   "welcomeAgreeBtn": {
+      "message": "Zustimmen"
+   },
+   "welcomeConfirmDoNotEnable": {
+      "message": "Funktion nicht aktivieren"
+   },
+   "welcomeConfirmGoBack": {
+      "message": "Zurück"
+   },
+   "welcomeConfirmText": {
+      "message": "Die Funktion zum Blockieren nicht jugendfreier Websites erfordert, dass wir Zugang zu Informationen über die von Ihnen besuchten Websites haben, um nicht jugendfreie Websites zu erkennen und zu blockieren. Bitte beachten Sie, dass wir diese Daten nicht an Dritte zu Marketingzwecken oder zur Ansprache einzelner Nutzer weitergeben."
+   },
+   "welcomeConfirmTitle": {
+      "message": "Sind Sie sicher, dass Sie die Funktion zum Blockieren nicht jugendfreier Websites nicht aktivieren möchten?"
+   },
+   "welcomeDisagreeBtn": {
+      "message": "Ablehnen"
+   },
+   "welcomeInstallingTitle": {
+      "message": "Vielen Dank, dass Sie BlockSite installiert haben"
+   },
+   "welcomeMainShortText": {
+      "description": "#Datenschutzrichtlinie.# Text wird ein anklickbarer Link, #-Symbole nicht beachten und nicht entfernen",
+      "message": "Damit BlockSite Seiten mit nicht jugendfreien Inhalten erkennen und blockieren kann, benötigen wir Ihre Zustimmung, um auf Informationen auf den von Ihnen besuchten Seiten zugreifen zu können. Bitte klicken Sie auf „Zustimmen“, um diesen Zugang und die Verwendung dieser Informationen wie in unserer #Datenschutzrichtlinie# beschrieben zu ermöglichen."
+   },
+   "welcomeMainText": {
+      "description": "#Datenschutzrichtlinie.# Text wird ein anklickbarer Link, #-Symbole nicht beachten und nicht entfernen",
+      "message": "Damit BlockSite Websites mit nicht jugendfreien Inhalten erkennen und blockieren kann, benötigen wir Ihre Zustimmung, um auf von Ihnen verwendete URLs, IP-Adressen, Betriebssysteme und Browserdaten zuzugreifen. Bitte klicken Sie auf „Zustimmen“, um diesen Zugang und die Verwendung dieser Informationen wie in unserer #Datenschutzrichtlinie# beschrieben zu ermöglichen."
+   },
+   "welcomePrivacyPolicy": {
+      "message": "Datenschutzrichtlinie"
+   },
+   "welcomeToBlocksiteTitle": {
+      "message": "Willkommen bei BlockSite"
+   },
+   "welcomeUpdatingTitle": {
+      "message": "Vielen Dank, dass Sie BlockSite aktualisiert haben"
+   },
+   "whitelistBlockedPageMsg": {
+      "message": "Diese Website steht nicht auf Ihrer Whitelist. Wahrscheinlich aus gutem Grund."
+   },
+   "whitelistBlockedPageTitle": {
+      "message": "Netter Versuch …"
+   },
+   "whitelistConfirmationText": {
+      "message": "Alle Websites mit Ausnahme der Websites in der Liste werden gesperrt."
+   },
+   "whitelistConfirmationTitle": {
+      "message": "Sind Sie sicher?"
+   },
+   "whitelistMode": {
+      "message": "Whitelist-Modus"
+   },
+   "whitelistTooltip": {
+      "message": "Blockieren Sie alle Websites mit Ausnahme derjenigen in Ihrer Whitelist."
+   },
+   "wordAddedMsg": {
+      "message": "Wort hinzugefügt"
+   },
+   "wordAlreadyExistMsg": {
+      "message": "Wort existiert bereits"
+   },
+   "wordBlockingHeaderSubtitle": {
+      "message": "URLs blockieren, die bestimmte Wörter enthalten"
+   },
+   "wordBlockingHeaderTitle": {
+      "message": "Blockieren nach Wörtern"
+   },
+   "workListTitle": {
+      "message": "IHRE ARBEITSMODUS-LISTE"
+   },
+   "workModeSubtitle": {
+      "message": "Stellen Sie Ihren Arbeitsmodus-Timer so ein, dass er Websites für einen bestimmten Zeitraum blockiert."
+   },
+   "workModeTimerLabel": {
+      "message": "Arbeitsmodus-Timer"
+   },
+   "workModeTimerMessage": {
+      "message": "Wenn diese Option aktiviert ist, werden Websites auf der Arbeitsmodus-Liste blockiert"
+   },
+   "workTime": {
+      "message": "Arbeitszeit"
+   },
+   "workTimeOver": {
+      "message": "Die Arbeitszeit ist vorbei."
+   },
+   "yes": {
+      "message": "Ja"
+   }
+}

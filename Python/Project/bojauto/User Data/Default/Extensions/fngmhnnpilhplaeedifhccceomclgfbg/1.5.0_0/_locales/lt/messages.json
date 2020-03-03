@@ -1,0 +1,411 @@
+{
+   "editThis_": {
+      "message": ""
+   },
+   "editThis_AN_adsDescription": {
+      "message": "Rodyti neįkyrius skelbimus kai kuriuose mano lankomuose puslapiuose"
+   },
+   "editThis_AN_optInDescription": {
+      "message": "Leisk mums dalintis tavo naršymo duomenimis. Visi duomenys yra anoniminiai."
+   },
+   "editThis_Alert_deleteAll": {
+      "message": "Ištrinti visus slapukus šiam puslapiui?"
+   },
+   "editThis_Alert_deleteCookie": {
+      "message": "Ištrinti slapuką"
+   },
+   "editThis_Alert_deleteRule": {
+      "message": "Ištrinti šią taisyklę"
+   },
+   "editThis_Alert_submitAll": {
+      "message": "Pateikti slapuko pakeitimus"
+   },
+   "editThis_Amount": {
+      "message": "Kiekis"
+   },
+   "editThis_Blocked_Cookies": {
+      "message": "Užblokuoti slapukai"
+   },
+   "editThis_Blocked_Def": {
+      "message": "Jeigu nori programiniu būdu ištrinti slapuką, kai jis kiekvieną kartą yra sukuriamas, pridėk filtrą ir tai tavęs daugiau nebeerzins"
+   },
+   "editThis_Charity_Message": {
+      "message": "Padėsi vaikams, kuriems reikia pagalbos, visame pasaulyje, nes $1% pajamų nueis jiems"
+   },
+   "editThis_ContextMenu": {
+      "message": "Redaguoti slapukus"
+   },
+   "editThis_Contribute_Bitcoins": {
+      "message": "Aukoti su Bitcoins"
+   },
+   "editThis_Contribute_Other": {
+      "message": "Contribute with another method"
+   },
+   "editThis_Contribute_PayPal": {
+      "message": "Aukoti per PayPal"
+   },
+   "editThis_Copied_clipboard": {
+      "message": "Slapukai įklijuoti į iškarpinę"
+   },
+   "editThis_Copy_Cookies": {
+      "message": "Eksportuoti"
+   },
+   "editThis_Copy_Cookies_Type": {
+      "message": "Pasirink norimą slapukų eksportavimo formatą"
+   },
+   "editThis_Details": {
+      "message": "Detalės"
+   },
+   "editThis_Donate": {
+      "message": "Prisidėti"
+   },
+   "editThis_Donation_Date": {
+      "message": "Aukos data"
+   },
+   "editThis_Encode_Cookie_Value": {
+      "message": "Koduoti slapukų reikšmę (pagal \u003Ca href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html\u003C/a>) (rekomenduojama)"
+   },
+   "editThis_Flag_Cookie": {
+      "message": "Užblokuoti slapuką"
+   },
+   "editThis_Flag_CookieWithDomain": {
+      "message": "Užblokuoti pagal domeną"
+   },
+   "editThis_Flag_CookieWithName": {
+      "message": "Užblokuoti pagal pavadinimą"
+   },
+   "editThis_Flag_CookieWithValue": {
+      "message": "Užblokuoti pagal reikšmę"
+   },
+   "editThis_Flag_New_Cookie": {
+      "message": "Užblokuoti naują slapuką"
+   },
+   "editThis_Humanitarian_Program": {
+      "message": "Humanitarinė pagalba"
+   },
+   "editThis_Is_ReadOnly": {
+      "message": "Apsaugota"
+   },
+   "editThis_Max_Date": {
+      "message": "Nustatyti maksimalų slapuko amžių"
+   },
+   "editThis_Max_Date_Option": {
+      "message": "Perrašyk maksimalų bet kokio slapuko amžių"
+   },
+   "editThis_Money_Raised": {
+      "message": "Jau paaukoti pinigai"
+   },
+   "editThis_Options": {
+      "message": "Nustatymai"
+   },
+   "editThis_Paste_Cookie_Here": {
+      "message": "Įklijuok čia slapuką importavimui. Priimami formatai:"
+   },
+   "editThis_Paste_Cookies": {
+      "message": "Importuoti"
+   },
+   "editThis_Protected_Cookies": {
+      "message": "Apsaugoti slapukai"
+   },
+   "editThis_Rate_ETC": {
+      "message": "Įvertinkite EditThisCookie"
+   },
+   "editThis_Rate_Us_Intro": {
+      "message": "Jeigu jums patinka EditThisCookie, palikite įvertinimą Chrome Web parduotuvėje"
+   },
+   "editThis_ReadOnly_Def": {
+      "message": "Apsaugotas slapukas yra slapukas, kuris negali būti pakeistas bet kokios svetainės ar plėtinio"
+   },
+   "editThis_Save": {
+      "message": "Išsaugoti"
+   },
+   "editThis_Send_Donations_To": {
+      "message": "Galite siųsti paramą:"
+   },
+   "editThis_Set_ReadOnly": {
+      "message": "Nustatyti tik skaitymui"
+   },
+   "editThis_ShowCommandsLabels": {
+      "message": "Rodyti etiketes prie ikonų"
+   },
+   "editThis_Show_Alerts": {
+      "message": "Visada prašyti patvirtinimo"
+   },
+   "editThis_Show_Christmas_Icon": {
+      "message": "Rodyti Kalėdų senelio kepurės piktogramą"
+   },
+   "editThis_Show_ContextMenu": {
+      "message": "Rodyti \"Keisti slapukus\" konteksto meniu"
+   },
+   "editThis_Show_ContextMenu_helper": {
+      "message": "Jei įgalinta, galėsi paslėpti piktogramą įrankių juostoje, paspaudęs ant jos dešiniuoju pelės klavišu!"
+   },
+   "editThis_Show_DevTools_Panel": {
+      "message": "Rodyti DevTools panelę"
+   },
+   "editThis_Show_Domain": {
+      "message": "Rodyti domeną prie kiekvieno slapuko pavadinimo"
+   },
+   "editThis_Show_Domain_Before_Name": {
+      "message": "Rodyti domeną prieš slapuko pavadinimą"
+   },
+   "editThis_Show_Flag_And_Delete_All": {
+      "message": "Rodyti mygtuką \"Užblokuoti ir ištrinti visus\""
+   },
+   "editThis_Sort_Cookies": {
+      "message": "Rūšiuoti slapukus"
+   },
+   "editThis_Sort_Cookies_Alpha": {
+      "message": "pagal pavadinimą"
+   },
+   "editThis_Sort_Cookies_Domain_Alpha": {
+      "message": "pagal domeną ir pavadinimą"
+   },
+   "editThis_Source_Code": {
+      "message": "Išeities kodas"
+   },
+   "editThis_Source_Code_Intro": {
+      "description": "It will read: Check EditThisCookie's source code on GitHub",
+      "message": "Žiūrėti EditThisCookie kodą $1"
+   },
+   "editThis_Use_Custom_Locale": {
+      "message": "Pasirinkti kitą kalbą"
+   },
+   "editThis_addNew": {
+      "message": "Naujas slapukas"
+   },
+   "editThis_addRule": {
+      "message": "Pridėti šią taisyklę"
+   },
+   "editThis_adsInfoAndSettings": {
+      "message": "informacija ir nustatymai"
+   },
+   "editThis_advertisements": {
+      "message": "Reklamos"
+   },
+   "editThis_amountByHand": {
+      "message": "įvesti kiekį rankomis spausk čia"
+   },
+   "editThis_backToList": {
+      "message": "Grįžti į sąrašą"
+   },
+   "editThis_bugsFeatureRequest": {
+      "message": "Klaidos / Funkcijų prašymai"
+   },
+   "editThis_bugsFeatureRequestIntro": {
+      "message": "Radai klaidą ar turi pasiūlymą? Pranešk mums!"
+   },
+   "editThis_cancel": {
+      "message": "Atšaukti"
+   },
+   "editThis_contacts": {
+      "message": "Kontaktai"
+   },
+   "editThis_contactsIntro": {
+      "message": "Atsiųst mums laišką"
+   },
+   "editThis_cookiesCreated": {
+      "message": "Sukurti slapukai"
+   },
+   "editThis_cookiesDeleted": {
+      "message": "Slapukai ištrinti"
+   },
+   "editThis_cookiesExported": {
+      "message": "Eksportuoti slapukai"
+   },
+   "editThis_cookiesFlagged": {
+      "message": "Ištrinti užblokuoti slapukai"
+   },
+   "editThis_cookiesImported": {
+      "message": "Importuoti slapukai"
+   },
+   "editThis_cookiesModified": {
+      "message": "Pakeisti slapukai"
+   },
+   "editThis_cookiesProtected": {
+      "message": "Slapukai tik skaitymui apsaugoti"
+   },
+   "editThis_cookiesShortened": {
+      "message": "Slapuko pasibaigimas sutrumpintas"
+   },
+   "editThis_day": {
+      "message": "Dienos"
+   },
+   "editThis_deleteAll": {
+      "message": "Ištrinti viską"
+   },
+   "editThis_description": {
+      "message": "EditThisCookie yra slapukų valdytojas. Gali pridėti, ištrinti, keisti, ieškoti, apsaugoti ir blokuoti slapukus!"
+   },
+   "editThis_domain": {
+      "message": "Domenas"
+   },
+   "editThis_donations": {
+      "message": "Aukos"
+   },
+   "editThis_expiration": {
+      "message": "Pasibaigimas"
+   },
+   "editThis_flagAll": {
+      "message": "Užblokuoti ir viską ištrinti"
+   },
+   "editThis_getting_started": {
+      "message": "Pradžia"
+   },
+   "editThis_gospelBookTitle": {
+      "message": "The Gospel of the Flying Spaghetti Monster"
+   },
+   "editThis_help": {
+      "message": "Pagalba"
+   },
+   "editThis_helpIntro": {
+      "message": "Čia rasi šio plėtinio pagrindinių funkcijų paaiškinimus"
+   },
+   "editThis_hostOnly": {
+      "message": "HostOnly"
+   },
+   "editThis_hour": {
+      "message": "Valandos"
+   },
+   "editThis_httpOnly": {
+      "message": "HttpOnly"
+   },
+   "editThis_iWantDonate": {
+      "description": "I want to donate X euros",
+      "message": "Aš noriu aukoti"
+   },
+   "editThis_minutes": {
+      "message": "Minutės"
+   },
+   "editThis_month": {
+      "message": "Mėnesiai"
+   },
+   "editThis_name": {
+      "message": "Vardas"
+   },
+   "editThis_newFilter": {
+      "message": "Naujas filtras"
+   },
+   "editThis_no": {
+      "message": "Ne"
+   },
+   "editThis_noBlockAdded": {
+      "message": "Blokavimo taisyklės nepridėtos"
+   },
+   "editThis_noReadOnlyAdded": {
+      "message": "Dar nėra apsaugotų slapukų"
+   },
+   "editThis_noStatsNotice": {
+      "message": "Nėra duomenų :("
+   },
+   "editThis_no_cookies": {
+      "message": "Čia nėra slapukų"
+   },
+   "editThis_path": {
+      "message": "Kelias"
+   },
+   "editThis_paypalSupportCharity": {
+      "description": "It will read: Donate now with PayPal",
+      "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)\u003Cbr>\u003Cbr>Move the slider to change the amount"
+   },
+   "editThis_paypalSupportIntro": {
+      "description": "It will read: Support us using PayPal. Move the slider to change the amount",
+      "message": "Mes kuriame aukšto lygio atviro kodo programinę įrangą ir atiduodame ją nemokamai. \u003Cbr>\u003Cbr> Paremk mus $1. Pajudink šliaužiklį, norėdamas pakeisti sumą"
+   },
+   "editThis_ppBenefit1": {
+      "message": "Gausi mažą mažą vietą mano širdyje"
+   },
+   "editThis_ppBenefit2": {
+      "message": "Tavo vardas bus parašytas Šlovės sienoje"
+   },
+   "editThis_ppBenefit3": {
+      "message": "Gausi padėkos laišką"
+   },
+   "editThis_ppBenefit4": {
+      "message": "Gali pranešti apie bet kokią EditThisCookie klaidą, kuri tave erzina ir aš ją pataisysiu labai greitai"
+   },
+   "editThis_ppBenefit5": {
+      "message": "Gali įvardinti funkciją, kurią tu norėtum turėti ir aš ją įgyvendinsiu (tik neprašyk neįmanomo :P )"
+   },
+   "editThis_ppBenefit6": {
+      "message": "Jeigu mes kada nors susitiksime, aš tau duosiu itališkos kavos ir 'Babbà'"
+   },
+   "editThis_ppBenefit7": {
+      "message": "Tu esi labai dosnus! Jeigu mes susitiksime aš tau duosiu kelis alaus (ei, alus yra svarbus)"
+   },
+   "editThis_ppBenefit8": {
+      "message": "Ir itališką picą!"
+   },
+   "editThis_ppBenefit9": {
+      "message": "Būk mano pati pirmoji širdies insulto priežastis. Viskas, ką tau reikia padaryti, tai paaukoti dabar!"
+   },
+   "editThis_reloadAfterChanges": {
+      "message": "Perkrauti puslapį atlikus pakeitimus"
+   },
+   "editThis_reset": {
+      "message": "Atkurti"
+   },
+   "editThis_search": {
+      "message": "Ieškoti"
+   },
+   "editThis_seconds": {
+      "message": "Sekundės"
+   },
+   "editThis_secure": {
+      "message": "Apsaugoti"
+   },
+   "editThis_session": {
+      "message": "Sesija"
+   },
+   "editThis_skipCacheOnReload": {
+      "message": "Praleisk podėlį kai puslapis persikrauna"
+   },
+   "editThis_stats": {
+      "message": "Statistika"
+   },
+   "editThis_statsIntro": {
+      "message": "Čia gali sužinoti, kaip naudojai šį plėtinį. Duomenys yra renkami tik nuo 2012 m. liepos."
+   },
+   "editThis_statsSharePolicy": {
+      "message": "Mes garantuojame, kad jokie asmeniniai duomenys nėra dalinami!"
+   },
+   "editThis_statsSince": {
+      "message": "Slapukų statistika nuo: $1"
+   },
+   "editThis_storeID": {
+      "message": "StoreID"
+   },
+   "editThis_support": {
+      "message": "Paremkite mane"
+   },
+   "editThis_support_etc": {
+      "message": "Paremti EditThisCookie"
+   },
+   "editThis_time": {
+      "message": "Laikas"
+   },
+   "editThis_timesUsed": {
+      "message": "Naudojai 'EditThisCookie' $1 kartus"
+   },
+   "editThis_translation": {
+      "message": "Vertimas"
+   },
+   "editThis_translationIntro": {
+      "message": "Padėk mums išversti plėtinį į tavo kalbą"
+   },
+   "editThis_updated": {
+      "message": "buvo atnaujintas. Spausk čia, pažiūrėti, kas naujo."
+   },
+   "editThis_useRegularExpressions": {
+      "message": "Gali naudoti įprastąsias išraiškas"
+   },
+   "editThis_value": {
+      "message": "Reikšmė"
+   },
+   "editThis_year": {
+      "message": "Metai"
+   },
+   "editThis_yes": {
+      "message": "Taip"
+   }
+}

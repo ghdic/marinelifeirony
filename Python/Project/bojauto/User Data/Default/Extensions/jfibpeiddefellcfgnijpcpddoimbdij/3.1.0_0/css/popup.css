@@ -1,0 +1,151 @@
+.wrap {
+  width: 320px;
+  height: 30px;
+  padding: 5px;
+}
+.wrap .search {
+  float: left;
+  width: 270px;
+  height: 30px;
+}
+.wrap .search .query {
+  display: inline-block;
+  height: 30px;
+  background: #fff;
+}
+.wrap .search .query input {
+  display: inline-block;
+  width: 210px;
+  height: 28px;
+  padding: 0 6px;
+  font-size: 12px;
+  line-height: 28px;
+  outline: 0;
+  color: #000 !important;
+  background: #fff !important;
+  border: 1px solid #ccc;
+}
+.wrap .search .query input::-webkit-input-placeholder {
+  color: #666;
+}
+.wrap .search .btn {
+  display: inline-block;
+  position: relative;
+  margin-left: -3px;
+  width: 36px;
+  height: 30px;
+  line-height: 28px;
+  border: 1px solid #ccc;
+  border-left: none;
+  text-align: center;
+}
+.wrap .options {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-left: 7px;
+  border-left: 1px solid #ccc;
+  padding-left: 7px;
+  text-align: center;
+}
+.wrap .options .btn {
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 30px;
+  height: 30px;
+  text-align: center;
+}
+.wrap .options .btn:hover {
+  text-decoration: none;
+}
+.wrap .viewer-wrap {
+  width: 320px;
+  height: 180px;
+  clear: both;
+  margin-top: 35px;
+}
+.viewer-wrap {
+  position: relative;
+  margin: 10px;
+  font-size: 11px;
+  overflow-y: scroll;
+}
+.viewer-wrap .content .line {
+  margin: 8px 0;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+}
+.viewer-wrap .content .title {
+  font-size: 120%;
+  font-weight: bold;
+  color: #000000;
+}
+.viewer-wrap .content .number {
+  margin: 0;
+  color: #000000;
+  font-weight: normal;
+}
+.viewer-wrap .content .phonetic-symbol {
+  padding-left: 2px;
+  color: #666666;
+  font-weight: normal;
+}
+.viewer-wrap .content .audio-btn {
+  display: inline-block;
+  margin-left: 5px;
+  color: #666666;
+}
+.viewer-wrap .content .audio-btn.on {
+  color: #D35400;
+}
+.viewer-wrap .content .audio-btn:before {
+  position: relative;
+  top: 1px;
+}
+.viewer-wrap .content .meaning {
+  margin: 3px 0 0 3px;
+}
+.viewer-wrap .content .meaning .type {
+  font-weight: normal;
+  color: #666666;
+}
+.viewer-wrap .content .meaning .defs {
+  margin: 2px 0 0 4px;
+  font-size: 110%;
+  font-weight: bold;
+}
+.viewer-wrap .content .meaning .defs .ex-en,
+.viewer-wrap .content .meaning .defs .ex-kr {
+  margin: 0 0 0 8px;
+  font-weight: normal;
+  color: #666666;
+}
+.viewer-wrap .content .meaning .more-def {
+  margin: 3px 0 5px 3px;
+}
+.viewer-wrap .content .meaning .more-def a {
+  color: #666666;
+  font-size: 0.9em;
+}
+.viewer-wrap .content .toggle {
+  position: absolute;
+  right: 10px;
+  top: 0px;
+}
+.viewer-wrap .content .toggle .toggle-btn {
+  text-align: right;
+  color: #666666;
+}
+.viewer-wrap .content .toggle .toggle-btn:before {
+  position: relative;
+  top: 1px;
+  margin-right: 4px;
+}
+.viewer-wrap .content .toggle .toggle-btn.on {
+  color: #D35400;
+}
+.viewer-wrap .content .noresult .query {
+  color: #000000;
+  font-weight: bold;
+}

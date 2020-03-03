@@ -1,0 +1,127 @@
+#problem_difficulty span.difficulty_icon {
+    font-size: 3rem;
+}
+
+.label-difficulty {
+    width: 5ch;
+    margin-right: 2px;
+    text-align: left;
+    padding: none !important;
+}
+
+.difficulty_vote {
+    display: block;
+    margin-top: 16px;
+}
+
+.difficulty_vote_container {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 180px;
+}
+
+#problem_difficulty span.vote_caption {
+    display: block;
+    font-weight: bold;
+    margin: 16px 0 8px 0;
+    font-size: initial;
+}
+
+.level_badge.small {
+    line-height: inherit;
+    width: 1.1em;
+    height: 1.4em;
+    margin-right: 0.4em;
+    vertical-align: middle;
+}
+
+.level_badge.small:last-child {
+    margin-right: 1ch;
+}
+
+.difficulty_selector {
+    position: relative;
+    margin-bottom: 8px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 0 !important;
+    padding: 8px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+#problem_comment {
+    width: 100%;
+    resize: vertical;
+    border: 1px solid #ddd;
+}
+
+#problem_comment:focus {
+    border: 1px solid #85c8ea;
+}
+
+.comment_none {
+    color: #ccc;
+}
+
+.algorithm_tag {
+    display: inline-block;
+    background: #e5e5e5;
+    color: #000;
+    padding: 0 4px;
+    margin-right: 4px;
+    font-size: .9em;
+}
+
+.comment {
+    margin-right: 4px;
+}
+
+#algorithm_input {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.poll_shown .poll {
+    display: inherit;
+}
+
+.poll_hidden .poll {
+    display: none;
+}
+
+.title_badge {
+    font-size: 2rem;
+}
+
+.level_hidden {
+    display: none;
+}
+
+.text-kudeki {
+    color: #9c62d3;
+}
+
+.text-bronze {
+    color: #ad5600;
+}
+
+.text-silver {
+    color: #435f7a;
+}
+
+.text-gold {
+    color: #ec9a00;
+}
+
+.text-platinum {
+    color: #27e2a4;
+}
+
+.text-diamond {
+    color: #00b4fc;
+}
+
+.text-ruby {
+    color: #ff0062;
+}

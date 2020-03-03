@@ -1,0 +1,25 @@
+{
+   "author": "shiftpsh",
+   "browser_action": {
+      "default_popup": "src/options/options_login.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "src/content/utils.js", "src/content/main.js", "src/content/inject_stylesheet.js" ],
+      "matches": [ "*://*.acmicpc.net/*" ]
+   } ],
+   "description": "Problem difficulty informations for BOJ",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi+EL/hxdy4ZF8zK3nKQCt4X7srmBDJkV5VUjnwUx3sQl7tVhVEuyen2H2QSA+bCK+JimtGbTX31D+imLatrsWvH2tFzIzSc6djq9d73ELdTIiCzngwompNfifGR+Wr0608KrHdnHZsJ5mCueWWJHlJ14318OHuv4l32XNyqvAlGAFlYPLjrbf0FILLFQGjEAcuiy/36hJIYCCjRPQO/WUsQ4nWhVlqLwyJTdv6+sTmBJN/wpxiqg6hpxbDGhUh7xzu5QXUHlF3eXTPj8nUxhcYf+mV4YTfDOwCqb53eT5JBpp0Q9C8EuD6elERaYvD5f97NQ9mHO4m8M1mjIYniQ2QIDAQAB",
+   "manifest_version": 2,
+   "name": "solved.ac",
+   "permissions": [ "*://*.acmicpc.net/*", "*://*.solved.ac/*", "tabs", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.4.1",
+   "web_accessible_resources": [ "css/*.css", "svg/*.svg", "src/injected/tagify.2.31.3.min.js", "src/injected/voting.js" ]
+}

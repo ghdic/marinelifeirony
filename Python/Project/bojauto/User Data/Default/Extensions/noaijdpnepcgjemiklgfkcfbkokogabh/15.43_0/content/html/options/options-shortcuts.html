@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>ImTranslator Options</title>
+    <link rel="stylesheet" type="text/css" href="../../css/translator.css">
+</head>
+<body id=SL_body_options>
+	    <div id="SL_frozen">
+		<table width="670" cellpadding="0" cellspacing="0" style="margin-top:5px">
+			<tr>
+				<td width="35"></td>
+				<td width="270" align=left valign=middle><div id="SL_ttl"></div></td>
+				<td width="25"></td>
+				<td width="80">
+					<div id="SL_theme_ttl"></div>
+					<select name="SL_THEME" id="SL_THEME" tabindex="8">
+					    <option value="0" id="SL_theme_1"></option>
+					    <option value="1" id="SL_theme_2"></option>
+					</select>
+				</td>
+				<td width="25"></td>
+				<td width="190" align=left>
+					<div id="SL_il"></div>
+					<select name="SL_LOC" id="SL_LOC" tabindex="8">
+				            <option class="SL_opt" value="en">English</option>
+				            <option class="SL_opt" value="zh">Chinese - 中文</option>
+				            <option class="SL_opt" value="zt">Chinese Trad - 中文繁體</option>
+				            <option class="SL_opt" value="cs">Czech - Čeština</option>
+				            <option class="SL_opt" value="nl">Dutch - Nederlands</option>
+				            <option class="SL_opt" value="tl">Filipino - Filipino</option>
+				            <option class="SL_opt" value="fr">French - Français</option>
+				            <option class="SL_opt" value="de">German - Deutsch</option>
+				            <option class="SL_opt" value="el">Greek - Ελληνικά</option>
+				            <option class="SL_opt" value="hi">Hindi - हिंदी</option>
+				            <option class="SL_opt" value="it">Italian - Italiano</option>
+				            <option class="SL_opt" value="ja">Japanese - 日本語</option>
+				            <option class="SL_opt" value="ko">Korean - 한국어</option>
+				            <option class="SL_opt" value="pl">Polish - Polski</option>
+				            <option class="SL_opt" value="pt">Portuguese - Português</option>
+				            <option class="SL_opt" value="ro">Romanian - Română</option>
+				            <option class="SL_opt" value="ru">Russian - Русский</option>
+				            <option class="SL_opt" value="sr">Serbian - Српски</option>
+				            <option class="SL_opt" value="es">Spanish - Español</option>
+				            <option class="SL_opt" value="sv">Swedish - Svenska</option>
+				            <option class="SL_opt" value="tr">Turkish - Türkçe</option>
+				            <option class="SL_opt" value="uk">Ukrainian - Українська</option>
+				            <option class="SL_opt" value="vi">Vietnamese - Tiếng Việt</option>
+					</select>
+				</td>
+				<td width="0" align="right"><div id="SL_info" alt="Help" title="Help" style="position:absolute;margin-left:6px;"></div></td>
+			</tr>
+		</table>
+	        <div align=right style="position:absolute;margin-left:780px;margin-top:8px;">
+			<span id="SL_status2"></span>
+			<button id="SL_save_button2" tabindex="8"></button>
+		</div>
+	    </div>
+ <div align=left id="SL_content">
+	<div id="SL_translate_container">
+	    <br><br><br>
+	    <div id="SL_HKdiv2"></div>
+	    <div id="SL_canvas">
+
+       <table width="630" cellpadding="2" cellspacing="0">
+	<tr>
+	 <td colspan="3">
+       		<div id="HK_conflicts_msg" align=center style="margin-bottom:15px;"><span id="SL_keys"></span></div>
+		<br><br>
+	        <div id="SL_kbd" style="position:absolute; margin-left:130px;margin-top:-40px;"></div>
+	 </td>
+	</tr>
+	<tr class="SLTR" id="SL_HK_TR9">
+	 <td><div id="SL_HK9" class="SLHK"></div><input type="checkbox" id="IMT_HK9"></td>
+	 <td>ImTranslator: <span id="SL_OptTrBut"></span></td>
+	 <td>
+		<input type="text" class="SRV" id="SRV9" readonly>
+	 </td>
+	</tr>
+	<tr class="SLTR" id="SL_HK_TR1">
+	 <td width="5%"><div id="SL_HK1" class="SLHK"></div><input type="checkbox" id="IMT_HK1"></td>
+	 <td width="70%">ImTranslator: <span id="SL_twsc1"></span></td>
+	 <td width="25%">
+		<input type="text" class="SRV" id="SRV1" readonly>
+		<div class='SL_del' id="SL_del1" title=""></div>
+	 </td>
+	</tr>
+	<tr class="SLTR" id="SL_HK_TR2">
+	 <td><div id="SL_HK2" class="SLHK"></div><input type="checkbox" id="IMT_HK2"></td>
+	 <td>ImTranslator: <span id="SL_InvTr"></span></td>
+	 <td>
+		<input type="text" class="SRV" id="SRV2" readonly>
+	 </td>
+	</tr>
+	<tr class="SLTR" id="SL_HK_TR3">
+	 <td><div id="SL_HK3" class="SLHK"></div><input type="checkbox" id="IMT_HK3"></td>
+	 <td>Inline Translator: <span id="SL_twsc3"></span></td>
+	 <td>
+		<input type="text" class="SRV" id="SRV3" readonly>
+		<div class='SL_del' id="SL_del3" title=""></div>
+	 </td>
+	</tr>
+	<tr class="SLTR" id="SL_HK_TR4">
+	 <td><div id="SL_HK4" class="SLHK"></div><input type="checkbox" id="IMT_HK4"></td>
+	 <td>Inline Translator: <span id="SL_cit"></span></td>
+	 <td>
+		<input type="text" class="SRV" id="SRV4" readonly>
+	 </td>
+	</tr>
+	<tr class="SLTR" id="SL_HK_TR5">
+	 <td><div id="SL_HK5" class="SLHK"></div><input type="checkbox" id="IMT_HK5"></td>
+	 <td>Pop-up Bubble Translator: <span id="SL_twsc5"></span></td>
+	 <td><input type="text" class="SRV" id="SRV5" readonly><div class='SL_del' id="SL_del5" title=""></div></td>
+	</tr>
+
+	<tr class="SLTR" id="SL_HK_TR10">
+	 <td><div id="SL_HK10" class="SLHK"></div><input type="checkbox" id="IMT_HK10"></td>
+	 <td><span id="SL_CLOSE"></span> Pop-up Bubble</td>
+	 <td><input type="text" class="SRV" id="SRV10" readonly></td>
+	</tr>
+
+	<tr class="SLTR" id="SL_HK_TR6">
+	 <td><div id="SL_HK6" class="SLHK"></div><input type="checkbox" id="IMT_HK6"></td>
+	 <td>Webpage Translation</td>
+	 <td width="60%">
+		<input type="text" class="SRV" id="SRV6" readonly>
+	 </td>
+	</tr>
+	<tr class="SLTR" id="SL_HK_TR7">
+	 <td><div id="SL_HK7" class="SLHK"></div><input type="checkbox" id="IMT_HK7"></td>
+	 <td>Mouseover Translation</td>
+	 <td width="60%">
+		<input type="text" class="SRV" id="SRV7" readonly>
+	 </td>
+	</tr>
+	<tr class="SLTR" id="SL_HK_TR8">
+	 <td><div id="SL_HK8" class="SLHK"></div><input type="checkbox" id="IMT_HK8"></td>
+	 <td>ImTranslator <span id="SL_twsc6"></span></td>
+	 <td>
+		<input type="text" class="SRV" id="SRV8" readonly>
+	 </td>
+	</tr>
+       </table>	
+	    <table width="100%" cellpadding="1" cellspacing="1" style="margin-top:15px;">
+		<tr>
+			<td width="20%" height=40 align=center><button id="SL_save_button" tabindex="8"></button></td>
+			<td width="80%"><span id="SL_status"></span></td>
+		</tr>
+	    </table>
+	    <br><br>
+	    <div class="SL_footer2">
+		   &copy;2019 <a id="SL_copyright-link" href="https://about.imtranslator.net/about/company/" target="_blank" class="SL_about">Smart Link Corporation</a> &nbsp; <a href="https://about.imtranslator.net/terms-of-service/" class="SL_about" target="_blank">Terms of service</a> &nbsp; <a href="https://about.imtranslator.net/privacy-policy/" class="SL_about" target="_blank">Privacy policy</a>
+	    </div>
+	    <br>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="../../js/common/FExtension.js"></script>
+<script type="text/javascript" src="../../browser/js/FBrowserPopup.js"></script>
+<script type="text/javascript" src="../../browser/chrome/FBrowserPopupChrome.js"></script>
+<script type="text/javascript" src="../../js/options/ch/hkdata.js?v=1"></script>
+<script type="text/javascript" src="../../js/options/ch/options-shortcuts.js?v=1"></script>
+<script type="text/javascript" src="../../js/common/ga.js?v=1"></script>
+</body>
+</html>

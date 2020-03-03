@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "도형 및 다이어그램 만들기"
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Google 드로잉"
+   }
+}

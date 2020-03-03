@@ -1,0 +1,68 @@
+<!doctype html>
+<html ng-cloak ng-app="viewerApp">
+<head>
+  <title>사전</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/viewer.css">
+</head>
+<body class="viewer">
+<div class="wrap" ng-controller="mainCtrl">
+  <div class="content" ng-if="query">
+    <div ng-repeat="word in result" ng-if="result.length">
+      <hr class="line" ng-if="$index"/>
+      <h3>
+        <strong><a href="{{word.url}}" class="_title title" target="_blank" data-analytics-event="viewer:goToOriginPage">{{word.title}}</a></strong>
+        <sup class="number">{{word.number}}</sup>
+        <span class="phonetic-symbol">{{word.phonetic_symbol}}</span>
+        <button class="_audioBtn fui-volume audio-btn"
+          ng-class="{on:isPlayingAudio}"
+          ng-if="word.pronunciation"
+          ng-click="playAudio(word.pronunciation)"
+          data-analytics-event="viewer:playAudio:{{$index}}"></button>
+      </h3>
+      <div class="meaning" ng-repeat="meaning in word.meanings">
+        <h4 class="type">{{meaning.type}}</h4>
+        <div class="defs" ng-repeat="definition in meaning.definitions">
+          <div>{{definition.def}}</div>
+          <div class="ex-en">{{definition.ex_en}}</div>
+          <div class="ex-kr">{{definition.ex_kr}}</div>
+        </div>
+        <div class="more-def" ng-if="meaning.moreDefinition.cout">
+          <div class="more-def">
+            <a href="{{meaning.moreDefinition.url}}" target="_blank" data-analytics-event="viewer:goToMorePage">{{meaning.moreDefinition.count}}개 뜻 더보기</a>
+          </div>
+        </div>
+      </div>
+      <div class="toggle">
+        <button class="_toggleBtn toggle-btn"
+          ng-class="{'on': isEE, 'fui-checkbox-checked': isEE, 'fui-checkbox-unchecked': !isEE}"
+          ng-click="toggleDicType()"
+           data-analytics-event="viewer:toggleDicType:{{!isEE}}">영영사전</button> 
+      </div>
+    </div>
+    <div class="noresult" ng-if="!result.length">
+      <span class="query">'{{query}}'</span>에 대한 검색 결과가 없습니다.
+    </div>
+  </div>
+</div>
+
+<script src="vendor/jquery.js"></script>
+<script src="vendor/underscore.js"></script>
+<script src="vendor/angular.js"></script>
+<script src="vendor/q.js"></script>
+<script src="js/common/define.js"></script>
+<script src="js/common/constant.js"></script>
+<script src="js/common/message.js"></script>
+<script src="js/common/storage.js"></script>
+<script src="js/common/options.js"></script>
+<script src="js/common/f.js"></script>
+<script src="js/common/analytics.js"></script>
+<script src="js/content/basicWords.js"></script>
+<script src="js/content/viewer.js"></script>
+<script src="js/content/actionWatcher.js"></script>
+</body>
+</html>

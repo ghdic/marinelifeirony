@@ -1,0 +1,106 @@
+body {
+background-color: #f4f4f4;
+font-family: sans-serif;
+margin-bottom: 30%;
+}
+
+h2 {
+    margin: auto;
+    width: 600px;
+    text-align: left;
+}
+
+h3 {
+    margin: auto;
+    width: 600px;
+    text-align: left;
+    font-size:16px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+    line-height: 150%;
+    font-weight: 700;
+}
+
+
+#alloptions {
+margin: 1em auto;
+width: 600px;
+background-color: #F0F0F0;
+}
+
+.optiontable {
+margin-bottom: 2em;
+padding: 1em;
+background-color: #ffffff;
+-webkit-border-radius: 5px;
+border: 1px solid #e9e9e9;
+}
+
+.tabletitle {
+font-weight: bold;
+font-size: 1.3em;
+padding-bottom: 1em;
+margin-bottom: 1em;
+border-bottom: 2px solid #eeeeee;
+}
+
+.rowgroup {
+margin-top: 1em;
+margin-bottom: .5em;
+}
+
+.actiongrouptitle, .settinggrouptitle {
+font-weight: bold;
+font-size: 1.1em;
+}
+
+.settinggrouptitle {
+padding-bottom: .5em;
+border-bottom: 2px solid #eeeeee;
+}
+
+.actiongrouptitle a, .settinggrouptitle a {
+font-size: .8em;
+color: #666666;
+text-decoration: none;
+float: right;
+margin-right: 1em;
+cursor: pointer;
+padding:3px 6px;
+border-radius: 6px;
+}
+
+.actiongrouptitle a:hover, .settinggrouptitle a:hover {
+background-color: #e8e8e8;
+}
+
+.grouprows {
+margin-left: 3em;
+}
+
+.settingrow {
+margin-top: 0.7em;
+padding-bottom: 0.7em;
+border-bottom: 2px solid #eeeeee;
+}
+
+.settingtitle {
+font-weight: bold;
+margin-left: .5em;
+margin-bottom: .2em;
+}
+
+.settingdescrip {
+color: #444444;
+}
+
+.settingcontrol {
+float: right;
+}
+
+.settingcontrol input[type=button], .settingcontrol select {
+min-width: 5em;
+font-weight: bold;
+text-align: center;
+}
+

@@ -1,0 +1,1 @@
+(function(){function a(b){b=b.split("+").join(" ");var e={},d,c=/[?&]?([^=]+)=([^&]*)/g;while(d=c.exec(b)){e[decodeURIComponent(d[1])]=decodeURIComponent(d[2])}return e}$(window).load(function(){var b=a(document.location.search);$("#iframe").attr("src",b.page);$("#iframe").load(function(){$("#iframe").height($("#iframe").contents().find("html").height())})})}());

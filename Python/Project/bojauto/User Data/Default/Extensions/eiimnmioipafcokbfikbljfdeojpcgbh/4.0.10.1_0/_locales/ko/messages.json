@@ -1,0 +1,1069 @@
+{
+   "aboutPageBlockCategoriesHeader": {
+      "message": "블록 블록"
+   },
+   "aboutPageBlockCategoriesText": {
+      "message": "단추 토글을 사용하여 전체 카테고리를 빠르게 차단합니다."
+   },
+   "aboutPageChromeRateHeader": {
+      "message": "마음에 드시나요? 모두에게 알려 주세요."
+   },
+   "aboutPageChromeRateText": {
+      "message": "사이트 차단이 유용하다고 생각되면 Chrome 웹 스토어에서 평가해 주십시오. 저희에게 큰 힘이 됩니다."
+   },
+   "aboutPageCreateBlockListHeader": {
+      "message": "차단 목록 생성"
+   },
+   "aboutPageCreateBlockListText": {
+      "message": "차단하려는 웹 사이트 또는 페이지를 사이트 목록에 추가하고, 더 안전하고 더 무해한 사이트로 자동으로 리디렉션되도록 합니다. 친숙한 사이트 목록을 만들고 특정 사이트 차단에서 특정 사이트만 작동이 가능하도록 전환할 수도 있습니다."
+   },
+   "aboutPageIcognitoHeader": {
+      "message": "Incognito 모드"
+   },
+   "aboutPageIcognitoText": {
+      "message": "모든 Block Site 기능은 incognito 모드에서도 사용할 수 있습니다. 허용하기만 하면 됩니다. 방법을 확인하려면 다음 지침을 따르십시오:"
+   },
+   "aboutPageKidsSafeHeader": {
+      "message": "인터넷을 안전하게 보호하십시오."
+   },
+   "aboutPageKidsSafeText": {
+      "message": "확장 메뉴를 통해 성인 차단을 활성화하여 한 번의 클릭으로 모든 성인 사이트를 차단합니다."
+   },
+   "aboutPageOtherFuncHeader": {
+      "message": "다른 기능"
+   },
+   "aboutPageOtherFuncText": {
+      "message": "차단 목록과 허용 목록 간을 전환할 수 있습니다. 컨텍스트 메뉴에서 \"Block Site 비활성화\" 항목을 표시하도록 선택합니다. 익명 통계를 전송할 수 있습니다. 익명 통계는 Block Site 기능을 개선하는 데 사용되며, 모든 통계는 완벽하게 익명으로 처리되므로, 걱정하실 필요가 없습니다. 새 기능을 위해 알림을 허용하면 추가한 새 기능의 알림을 받으실 수 있습니다. 확장 기능을 즐기고 Firefox 애드온 스토어에서 평가하는 것을 잊지 마세요."
+   },
+   "aboutPagePrivacyPolicy": {
+      "message": "개인정보 보호정책"
+   },
+   "aboutPageProductivity": {
+      "message": "Block Site는 집중력을 유지하고 생산성을 개선시켜 줍니다. 집중을 방해하거나 유해한 웹 사이트를 간단히 차단할 수 있습니다. 힘들게 절제할 필요가 없어집니다."
+   },
+   "aboutPageRigtClickMenuHeader": {
+      "message": "오른쪽 클릭 메뉴"
+   },
+   "aboutPageRigtClickMenuText": {
+      "message": "웹 사이트의 아무곳에서나 마우스 오른쪽 단추를 클릭하여 빠른 액세스 메뉴를 엽니다. 몇 초 안에 사이트를 차단하여 미루는 버릇을 버리고 목표에 집중하십시오."
+   },
+   "aboutPageSetUpPassHeader": {
+      "message": "암호 설정"
+   },
+   "aboutPageSetUpPassText": {
+      "message": "설정 페이지에서 암호를 설정하여 Block Site 옵션에 대한 액세스를 제한하거나, 암호를 통해 차단된 사이트에 대한 액세스 옵션을 활성화합니다."
+   },
+   "aboutPageTerms": {
+      "message": "이용 약관"
+   },
+   "aboutPageTimeBlockHeader": {
+      "message": "특정 시간 동안 차단"
+   },
+   "aboutPageTimeBlockText": {
+      "message": "Block Site 기능을 활성화할 일 수 및 기간을 선택합니다. 작업 일정에 따라 사용자 지정 차단을 설정하므로(예: 09:00 - 17:00), 회사나 학교에 있는 동안 집중할 수 있습니다."
+   },
+   "aboutPageTitle": {
+      "message": "Block Site 정보"
+   },
+   "addInterval": {
+      "message": "기간 추가"
+   },
+   "addSiteOnboarding": {
+      "message": "차단하려는 사이트를 목록에 추가하는 것부터 시작하십시오."
+   },
+   "allSitesBlocked": {
+      "message": "작업 모드 목록에 있는 모든 사이트가 차단되었습니다"
+   },
+   "allSitesUnblockedMsg": {
+      "message": "작업 모드 목록에 있는 모든 사이트의 차단이 해제되었습니다"
+   },
+   "androidQuestionHeader": {
+      "message": "BlockSite를 즐기고 계십니까?"
+   },
+   "androidTrytext": {
+      "message": "당사의 Android 앱을 체험해 보십시오"
+   },
+   "appDesc": {
+      "description": "웹 스토어에 표시된 애플리케이션의 설명.",
+      "message": "집중력을 유지하여 생산성을 향상하십시오. 집중을 방해하거나 유해한 웹 사이트를 간단히 차단하십시오. 더 이상 중요한 일을 미루지 마십시오!"
+   },
+   "appName": {
+      "description": "웹 스토어에 표시된 애플리케이션의 제목.",
+      "message": "Block Site - Chrome™용 웹 사이트 차단기"
+   },
+   "appShortName": {
+      "description": "애플리케이션의 짧은 제목",
+      "message": "Block Site"
+   },
+   "blockByCategoryText_adult": {
+      "message": "' 앗 ! %domain% 는 독자 분이 차단하고 있는 범주인 성인과 관련된 것이므로 이용할 수 없습니다. 집중하고 있어요, 당신은 이것을 가지고 있어요."
+   },
+   "blockByCategoryText_gambling": {
+      "message": "' Oops ! %domain% 는 당신이 차단하고 있는 카테고리인 도박과 관련이 있다. 집중하고 있어요, 당신은 이것을 가지고 있어요."
+   },
+   "blockByCategoryText_news_and_media": {
+      "message": "이런 ' Oops ! %domain% 는 당신이 차단하고 있는 카테고리인 뉴스와 관련되어 있기 때문에 사용할 수 없다. 집중하고 있어요, 당신은 이것을 가지고 있어요."
+   },
+   "blockByCategoryText_social_networks_and_online_communities": {
+      "message": "' 앗 ! %domain% 는 당신이 차단하고 있는 범주인 사회와 관련되어 있기 때문에 사용할 수 없다. 집중하고 있어요, 당신은 이것을 가지고 있어요."
+   },
+   "blockByCategoryText_sports": {
+      "message": "%domain% 'Oops' 는 여러분이 차단하고 있는 카테고리인 스포츠와 관련되어 있기 때문에 사용할 수 없다. 집중하고 있어요, 당신은 이것을 가지고 있어요."
+   },
+   "blockByCategoryTitle_adult": {
+      "message": "바퀴벌레. 잘린 팔 다리. 존 굿맨."
+   },
+   "blockByCategoryTitle_gambling": {
+      "message": "집이 항상 이기는 것을 허락하지 마라."
+   },
+   "blockByCategoryTitle_news_and_media": {
+      "message": "좋은 소식은 없습니다."
+   },
+   "blockByCategoryTitle_social_networks_and_online_communities": {
+      "message": "포스팅도, 거짓말도 하지 않고 살고 있을 뿐이다."
+   },
+   "blockByCategoryTitle_sports": {
+      "message": "진정하고 단절을 유지하라."
+   },
+   "blockByWordBlockedPageMsg": {
+      "message": "\"%blocked_word%\"라는 단어를 차단한 것 같습니다. 계속 유지합니다."
+   },
+   "blockByWordBlockedPageTitle": {
+      "message": "이런!"
+   },
+   "blockSitePageEveryDayLabel": {
+      "message": "매일"
+   },
+   "blockSitePageSubtitle": {
+      "message": "사이트를 영구적으로 또는 일정에 따라 차단하십시오"
+   },
+   "blockSitePageTitle": {
+      "message": "사이트 차단"
+   },
+   "blockedMessage1": {
+      "message": "Block Sites 목록에 %domain%을(를) 입력했습니다. 이유가 있을 것입니다."
+   },
+   "blockedMessage2": {
+      "message": "작업을 처리하기 위해 %domain%을(를) 차단했습니다. 이제 다시 작업하러 가십시오."
+   },
+   "blockedMessage3": {
+      "message": "휴, 이제 나아졌군요. 하던 작업으로 돌아가십시오."
+   },
+   "blockedMessage4": {
+      "message": "%domain%이(가) 차단되었습니다. 집중력을 방해하는 사이트를 더 추가하고 생산성을 향상하십시오."
+   },
+   "blockedMoreSites": {
+      "message": "더 많은 방해 사이트 차단"
+   },
+   "blockedOptionsEnterPassText": {
+      "message": "BlockSite 옵션 페이지에 액세스하려면 암호를 입력하십시오"
+   },
+   "blockedOptionsTitle": {
+      "message": "BlockSite 옵션이 차단되었습니다"
+   },
+   "blockedOptsIncorrectPassTooltip": {
+      "message": "잘못되었습니다. 다시 시도하십시오."
+   },
+   "blockedWordTitle": {
+      "message": "차단된 단어"
+   },
+   "blocksiteLockedLabel": {
+      "message": "BlockSite가 잠겨있습니다"
+   },
+   "blocksiteLockedMessage": {
+      "message": "확장 설정에 액세스하려면 암호를 입력하십시오"
+   },
+   "blocksiteOffMessage": {
+      "message": "Block Site가 현재 꺼져있습니다"
+   },
+   "breakIsOver": {
+      "message": "휴식 시간이 끝났습니다."
+   },
+   "breakString": {
+      "message": "$BRAKE_TIME$ 휴식",
+      "placeholders": {
+         "brake_time": {
+            "content": "$1",
+            "example": "05:00"
+         }
+      }
+   },
+   "breakTimeLeftText": {
+      "message": "휴식 시간까지 %BREAK_TIME_LEFT%분 남음",
+      "placeholders": {
+         "break_time_left": {
+            "content": "$1",
+            "example": "25"
+         }
+      }
+   },
+   "buildBlockList": {
+      "message": "차단 목록 만들기"
+   },
+   "buildListLabel": {
+      "message": "목록을 만들어 보세요!"
+   },
+   "buildListMessage": {
+      "message": "작업하는 동안 차단할 사이트를 입력하십시오."
+   },
+   "cantBlockRedirectSiteMsg": {
+      "message": "리디렉션으로 설정된 사이트를 차단할 수 없습니다"
+   },
+   "cantBlockRedirectWordMsg": {
+      "message": "경로 재지정 URL의 일부인 단어를 차단할 수 없습니다."
+   },
+   "cantRedirectMessage1": {
+      "message": "리디렉션으로 설정된 사이트를 허용할 수 없습니다"
+   },
+   "cantRedirectMessage2": {
+      "message": "리디렉션으로 설정된 사이트를 차단할 수 없습니다"
+   },
+   "cantRedirectToBlockedSite": {
+      "message": "어머! 이 경로 재지정 사이트는 차단 사이트 목록에 의해 차단됨"
+   },
+   "cantRedirectToBlockedWord": {
+      "message": "어머! 이 경로 재지정 사이트는 단어별 차단 목록에 의해 차단됨"
+   },
+   "cantRedirectToWorkModeBlockedSite": {
+      "message": "어머! 이 경로 재지정 사이트가 사용자의 작업 모드 목록에 의해 차단됨"
+   },
+   "categoriesMenuDescription": {
+      "message": "차단할 카테고리를 선택하십시오."
+   },
+   "changePass": {
+      "message": "암호 변경"
+   },
+   "context_add_currentPage": {
+      "message": "이 사이트 차단"
+   },
+   "context_add_currentPage_whitelistOn": {
+      "message": "이 사이트 허용"
+   },
+   "context_add_currentPage_workmode": {
+      "message": "작업 모드 목록에 사이트 추가"
+   },
+   "context_add_currentPage_workmode_whitelistOn": {
+      "message": "작업 모드에 대해 이 사이트 허용"
+   },
+   "context_add_link": {
+      "message": "이 링크 차단"
+   },
+   "context_add_link_whitelistOn": {
+      "message": "이 링크 허용"
+   },
+   "context_add_link_workmode": {
+      "message": "작업 모드 목록에 링크 주소 추가"
+   },
+   "context_add_link_workmode_whitelistOn": {
+      "message": "작업 모드에 대해 이 링크 허용"
+   },
+   "continue": {
+      "message": "계속"
+   },
+   "continueMsg": {
+      "message": "계속"
+   },
+   "dayFriday": {
+      "message": "금요일"
+   },
+   "dayFridayLabel": {
+      "message": "금요일"
+   },
+   "dayFridayLetter": {
+      "message": "금요일"
+   },
+   "dayMonday": {
+      "message": "월요일"
+   },
+   "dayMondayLabel": {
+      "message": "월요일"
+   },
+   "dayMondayLetter": {
+      "message": "월요일"
+   },
+   "dayPickerClickToDeactivate": {
+      "message": "(비활성화할 날짜를 선택하세요)"
+   },
+   "dayPickerSelectedDays": {
+      "message": "선택한 날짜"
+   },
+   "daySaturday": {
+      "message": "토요일"
+   },
+   "daySaturdayLabel": {
+      "message": "토요일"
+   },
+   "daySaturdayLetter": {
+      "message": "일요일"
+   },
+   "daySunday": {
+      "message": "일요일"
+   },
+   "daySundayLabel": {
+      "message": "일요일"
+   },
+   "daySundayLetter": {
+      "message": "일요일"
+   },
+   "dayThursday": {
+      "message": "목요일"
+   },
+   "dayThursdayLabel": {
+      "message": "목요일"
+   },
+   "dayThursdayLetter": {
+      "message": "화요일"
+   },
+   "dayTuesday": {
+      "message": "화요일"
+   },
+   "dayTuesdayLabel": {
+      "message": "화요일"
+   },
+   "dayTuesdayLetter": {
+      "message": "화요일"
+   },
+   "dayWednesday": {
+      "message": "수요일"
+   },
+   "dayWednesdayLabel": {
+      "message": "수요일"
+   },
+   "dayWednesdayLetter": {
+      "message": "수요일"
+   },
+   "downloadAndroidText": {
+      "description": "**와 %% 사이 내용은 html 태그로 둘러싸이므로 이들 기호를 제거하지 마세요",
+      "message": "#머무는 동안 제품을 생산하지 마세요"
+   },
+   "downloadText": {
+      "message": "다운로드"
+   },
+   "editBlockSitesList": {
+      "message": "사이트 차단 목록 편집"
+   },
+   "editWorkListMsg": {
+      "message": "나중에 작업 모드 옵션에서 언제든지 편집할 수 있습니다"
+   },
+   "editWorkModeList": {
+      "message": "작업 모드 목록 편집"
+   },
+   "editYourListBtn": {
+      "message": "목록 편집"
+   },
+   "emailPlaceholder": {
+      "message": "이메일을 입력하십시오"
+   },
+   "enableIncognitoButtonText": {
+      "message": "시크릿 모드에서 활성화"
+   },
+   "end": {
+      "message": "종료"
+   },
+   "endBreak": {
+      "message": "휴식 종료"
+   },
+   "enterPassMsg": {
+      "message": "액세스하려면 암호를 입력하십시오"
+   },
+   "enterPassPlaceholder": {
+      "message": "암호를 입력하십시오"
+   },
+   "enterWordInputPlaceholder": {
+      "message": "단어 또는 구문 입력"
+   },
+   "errorCantRedirectToBlocked": {
+      "message": "차단된 사이트로 리디렉션할 수 없습니다"
+   },
+   "errorEmptyList": {
+      "message": "목록이 비어있습니다! 내보낼 목록이 없습니다."
+   },
+   "errorIncorrectUrl": {
+      "message": "잘못된 URL입니다"
+   },
+   "exportList": {
+      "message": "목록 내보내기"
+   },
+   "exportSuccess": {
+      "message": "목록을 성공적으로 내보냈습니다"
+   },
+   "feedbackFormBody": {
+      "message": "메시지(선택 사항)"
+   },
+   "feedbackFormSubject": {
+      "message": "제목"
+   },
+   "fogotPassModalMainText": {
+      "message": "암호가 다음으로 전송되었습니다"
+   },
+   "fogotPassModalOkBtn": {
+      "message": "확인"
+   },
+   "fogotPassModalSentTitle": {
+      "message": "암호 전송됨"
+   },
+   "footerDownloadAndroidText": {
+      "message": "안드로이드용 다운로드"
+   },
+   "footerHelpText": {
+      "message": "개선하는 데 도움을 주세요"
+   },
+   "footerRateText": {
+      "message": "평가하기"
+   },
+   "forgotPasswordText": {
+      "message": "암호를 잊으셨습니까?"
+   },
+   "getBackToWorkTitle": {
+      "message": "계속을 클릭하고 다시 작업하러 돌아갑니다!"
+   },
+   "goBack": {
+      "message": "돌아가기"
+   },
+   "goBackToWork": {
+      "message": "작업하러 돌아가기"
+   },
+   "gotIt": {
+      "message": "이해했습니다"
+   },
+   "haveAppNow": {
+      "message": "이제 앱이 있습니다"
+   },
+   "howtoEnableInIncognitoStep1": {
+      "message": "Chrome으로 이동합니다://extensions"
+   },
+   "howtoEnableInIncognitoStep2": {
+      "message": "Block Site를 찾습니다"
+   },
+   "howtoEnableInIncognitoStep3": {
+      "message": "'Incognito에서 허용'을 체크 표시합니다"
+   },
+   "howtoEnableInIncognitoText": {
+      "message": "Chrome Incognito 모드에서 Block Site를 활성화하려면 다음 단계에 따르십시오."
+   },
+   "howtoEnableInIncognitoTitle": {
+      "message": "Incognito에서 활성화하는 방법"
+   },
+   "importList": {
+      "message": "목록 가져오기"
+   },
+   "importListSuccessMsg": {
+      "message": "목록을 성공적으로 가져왔습니다"
+   },
+   "incorrectFileStructMsg": {
+      "message": "잘못된 파일 구조. 필수 csv 형식을 보려면 현재 목록을 내보내시기 바랍니다"
+   },
+   "incorrectUrlMsg": {
+      "message": "잘못된 URL입니다"
+   },
+   "inctoduceGetStarted": {
+      "message": "시작하기"
+   },
+   "inctoduceMessage": {
+      "message": "작업 모드 타이머가 실행 중일 때 방해되는 사이트를 차단하고 집중을 유지할 수 있도록 해 줍니다."
+   },
+   "inctoduceTitle": {
+      "message": "이제부터 생산성을 유지하십시오!"
+   },
+   "invalidPassMsg": {
+      "message": "잘못된 암호입니다. 다시 시도하십시오."
+   },
+   "letterMessageText": {
+      "message": "암호 보호가 켜져 있다는 것을 알려주는 이메일을 수신하게 됩니다"
+   },
+   "lockExtEmailLabel": {
+      "message": "이메일"
+   },
+   "lockExtEmailLabelVerify": {
+      "message": "검증 필요"
+   },
+   "lockExtNewPopupBtnText": {
+      "message": "살펴보기"
+   },
+   "lockExtNewPopupText1": {
+      "message": "암호를 통해 설정 페이지를 보호합니다"
+   },
+   "lockExtNewPopupText2": {
+      "message": "암호를 통해 차단된 페이지 액세스를 허용합니다"
+   },
+   "lockExtNewPopupText3": {
+      "message": "누군가가 BlockSite를 제거하면 알림을 받습니다"
+   },
+   "lockExtNewPopupText4": {
+      "message": "암호를 손쉽게 가져옵니다"
+   },
+   "lockExtNewPopupTitleNew": {
+      "message": "새 기능:"
+   },
+   "lockExtNewPopupTitleProtectionText": {
+      "message": "암호 보호"
+   },
+   "lockExtPassChangedNotificationText": {
+      "message": "암호 설정이 변경되었습니다"
+   },
+   "lockExtPassLabel": {
+      "message": "암호"
+   },
+   "lockExtPopupResetPassRemovedText": {
+      "message": "암호를 재설정하지 않은 경우 제거됩니다."
+   },
+   "lockExtPopupRestPassBtnText": {
+      "message": "암호 재설정"
+   },
+   "lockExtPopupRestPassText": {
+      "message": "계정을 보호된 상태로 유지하려면 암호를 재설정하고 복구 이메일을 제공하십시오."
+   },
+   "lockExtPopupRestPassTitle": {
+      "message": "더 나은 보안을 위한\u003Cbr>암호 재설정"
+   },
+   "lockExtProtectSettings": {
+      "message": "선호하는 BlockSite 옵션과 패스워드를 사용하여 크롬 확장 페이지를 \u003Cbr>한다."
+   },
+   "lockExtRecieveEmail": {
+      "message": "BlockSite가 설치 제거된 경우 이메일을 통해 알림을 받습니다"
+   },
+   "lockExtRequirePass": {
+      "message": "차단된 사이트에 액세스하려면 암호가 필요합니다"
+   },
+   "lockExtSavedNotificationText": {
+      "message": "보호 설정이 저장되었습니다"
+   },
+   "lockExtSetUpPassText": {
+      "message": "활성화하려면 이메일 및 암호를 설정합니다"
+   },
+   "lockExtSettingsNotSavedAddBtn": {
+      "message": "이메일 및 암호 추가"
+   },
+   "lockExtSettingsNotSavedLeave": {
+      "message": "저장하지 않고 나가기"
+   },
+   "lockExtSettingsNotSavedText": {
+      "message": "이메일과 암호를 저장하여 추가 보호 기능을 활성화하십시오."
+   },
+   "lockExtSettingsNotSavedTitle": {
+      "message": "설정이 저장되지 않음"
+   },
+   "lockExtUpdateEmailAndPass": {
+      "message": "이메일 및 암호 업데이트"
+   },
+   "lockExtUpdatePassText": {
+      "message": "활성화하려면 이메일과 암호를 업데이트하십시오"
+   },
+   "lockExtensionHeaderTitle": {
+      "message": "암호 보호 기본 설정"
+   },
+   "lockExtsPageTitle1": {
+      "message": "Chrome 확장 페이지 - 보호됨"
+   },
+   "lockExtsPageTitle2": {
+      "message": "액세스하려면 암호를 입력하십시오"
+   },
+   "lockedPopupPassPlaceholder": {
+      "message": "잠금 해제하려면 암호를 입력하십시오"
+   },
+   "mandatoryPopupBtnAgreeText": {
+      "message": "동의함"
+   },
+   "mandatoryPopupBtnDisagreeText": {
+      "message": "동의하지 않음"
+   },
+   "mandatoryPopupFooterText": {
+      "message": "‘동의하지 않음’을 클릭해도 BlockSite를 사용할 수는 있지만 성인 차단 기능은 작동하지 않습니다."
+   },
+   "mandatoryPopupText": {
+      "description": "#Privacy Policy.# 텍스트 일부가 클릭 가능한 링크이므로 # 기호를 제거하지 마세요",
+      "message": "BlockSite가 성인 콘텐츠가 있는 페이지를 찾아서 차단하기 위해서는 귀하가 방문하는 사이트에 대한 정보에 액세스해도 된다는 귀하의 동의가 필요합니다. 이 액세스와 #Privacy Policy#에 설명된 이 정보 사용을 활성화하려면 '동의함'을 클릭하십시오."
+   },
+   "mandatoryPopupTitle": {
+      "message": "BlockSite로 진행하려면 \u003Cbr> 선택하십시오."
+   },
+   "menuAbout": {
+      "message": "소개"
+   },
+   "menuBlockByWords": {
+      "message": "단어로 차단"
+   },
+   "menuBlockSites": {
+      "message": "사이트 차단"
+   },
+   "menuCategoriesBlock": {
+      "message": "카테고리"
+   },
+   "menuLockExtension": {
+      "message": "암호 보호"
+   },
+   "menuSettings": {
+      "message": "설정"
+   },
+   "menuWorkMode": {
+      "message": "작업 모드"
+   },
+   "mergeBtnText": {
+      "message": "병합"
+   },
+   "messageSent": {
+      "message": "보낸 메시지"
+   },
+   "modalPrivacyShortText": {
+      "description": "#Privacy Policy.# 클릭 가능한 링크이므로 # 기호를 제거하지 마세요",
+      "message": "# 개인정보 보호 Policy# \u003Cbr>명시된 대로 방문하는 사이트에 대한 정보에 대한 액세스 권한을 부여하는 것에 동의하지 않는 한, 카테고리 차단 모드를 설정할 수 없습니다."
+   },
+   "modalPrivacyText": {
+      "description": "#Privacy Policy.# 클릭 가능한 링크이므로 # 기호를 제거하지 마세요",
+      "message": "방문한 URL, IP 주소, 운영 체제 및 브라우저 정보에 대한 액세스 권한을 #개인정보 보호 Policy#에 설명된 대로 사용하기에 동의하지 않는 한, 카테고리 블로킹 모드를 사용할 수 없\u003Cbr>."
+   },
+   "modalPrivacyTitle": {
+      "message": "이런!"
+   },
+   "motivationalText1": {
+      "message": "좋은 시도였습니다..."
+   },
+   "motivationalText10": {
+      "message": "차단했습니다!"
+   },
+   "motivationalText2": {
+      "message": "말도 안돼요, Jose."
+   },
+   "motivationalText3": {
+      "message": "잊어버리세요."
+   },
+   "motivationalText4": {
+      "message": "진심이신가요?"
+   },
+   "motivationalText5": {
+      "message": "지금 뭐하시는 건가요?"
+   },
+   "motivationalText6": {
+      "message": "좀 차분해 지십시오!"
+   },
+   "motivationalText7": {
+      "message": "강아지. 이상한 갈색 사마귀. 저스틴 비버."
+   },
+   "motivationalText8": {
+      "message": "바퀴벌레. 잘린 팔 다리. 존 굿맨."
+   },
+   "motivationalText9": {
+      "message": "할머니. 코비 브라이언트. 수술."
+   },
+   "no": {
+      "message": "아니오"
+   },
+   "notAvalible": {
+      "message": "이 페이지에서는 사용할 수 없습니다"
+   },
+   "notSyncedText": {
+      "message": "앱과 동기화하지 않음"
+   },
+   "notValidShedule": {
+      "message": "일정이 유효하지 않습니다"
+   },
+   "ok": {
+      "message": "확인"
+   },
+   "overrideBtnText": {
+      "message": "재정의"
+   },
+   "overrideOrMergeConfirmationTitle": {
+      "message": "현재 목록을 병합하거나 재정의하시겠습니까?"
+   },
+   "passIsSet": {
+      "message": "암호가 설정되었습니다"
+   },
+   "passLengthTooltip": {
+      "message": "암호는 최소 5자여야 합니다"
+   },
+   "passPlaceholder": {
+      "message": "최소 5자"
+   },
+   "passSettedMsg": {
+      "message": "암호가 설정되었습니다"
+   },
+   "pauseBtnText": {
+      "message": "일시 중지"
+   },
+   "pauseFooterButton1": {
+      "message": "일시 중지"
+   },
+   "pauseFooterButton2": {
+      "message": "계속 작업하기"
+   },
+   "pauseHeaderMessage": {
+      "message": "정말로 작업을 중단하고 \u003Cbr> 지금 휴식을 취하시겠습니까?"
+   },
+   "pauseHeaderTitle": {
+      "message": "작업 중단은 약한 자들의 전유물입니다!"
+   },
+   "pauseTextTitle": {
+      "message": "이제 실력을 발휘할 시간입니다!"
+   },
+   "privacyPolicyText1": {
+      "message": "데이터 보호법을 준수하기 위해 업데이트했습니다"
+   },
+   "privacyPolicyText2": {
+      "message": "개인정보 보호정책"
+   },
+   "privacyPolicyText3": {
+      "message": "귀하의 법적 권리에 영향을 미치는 변경 사항이므로 둘 다 읽어보십시오."
+   },
+   "privacyPolicyTitle": {
+      "message": "중요 업데이트"
+   },
+   "privacySettingsShortSubtitle": {
+      "description": "#Privacy Policy# 클릭 가능한 링크이므로 # 기호를 제거하지 마세요",
+      "message": "사용자가 방문하는 사이트의 정보에 액세스하기 위해 BlockSite를 사용하여 # 개인정보 보호 Policy#에 지시된 대로 사용할 수 있다."
+   },
+   "privacySettingsSubtitle": {
+      "description": "#Privacy Policy# 클릭 가능한 링크이므로 # 기호를 제거하지 마세요",
+      "message": "BlockSite가 방문한 URL, IP 주소, 운영 체제 및 브라우저 정보에 액세스할 수 있도록 허용합니다."
+   },
+   "privacySettingsTitle": {
+      "message": "\"카테고리별 차단\" 기능 사용"
+   },
+   "redirectBlockedSites": {
+      "message": "차단된 페이지 방향 수정하기"
+   },
+   "redirectBlockedWord": {
+      "message": "차단된 페이지 방향 수정하기"
+   },
+   "redirectButtonText": {
+      "message": "리디렉션"
+   },
+   "redirectConsolidationModalMainText1": {
+      "message": "블록 목록, 작업 모드를 제어하고 한 위치에서 경로 재지정으로 차단됩니다."
+   },
+   "redirectConsolidationModalMainText2": {
+      "message": "업데이트하려면 다음을 수행한다."
+   },
+   "redirectConsolidationModalMainText3": {
+      "message": "설정 -- > 블록 목록 탭 -- 경로 재지정"
+   },
+   "redirectConsolidationModalTitle": {
+      "message": "모든 차단 사이트를 제어하기 위한 하나의 경로 재지정 URL"
+   },
+   "redirectEditConsolidationModal": {
+      "message": "방향 수정하기"
+   },
+   "redirectLabelText1": {
+      "message": "웹 사이트 리디렉션을 설정하려면 클릭하십시오"
+   },
+   "redirectLabelText2": {
+      "message": "$URL$(으)로 리디렉션",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://example.com"
+         }
+      }
+   },
+   "redirectTutorialBtnText": {
+      "message": "알겠습니다"
+   },
+   "redirectTutorialMainText": {
+      "message": "원하시는 모든 웹 사이트로 차단된 사이트를 리디렉션할 수 있습니다. 위의 리디렉션을 클릭하여 지금 이를 변경하십시오."
+   },
+   "redirectTutorialTitle": {
+      "message": "참고 사항"
+   },
+   "remove": {
+      "message": "제거"
+   },
+   "reportProblemText": {
+      "message": "문제 보고"
+   },
+   "reportSendBtnText": {
+      "message": "메시지 보내기"
+   },
+   "resetTimerMsg": {
+      "message": "타이머 초기화"
+   },
+   "reviewCallToActionText": {
+      "message": "점수를 매겨 주십시오."
+   },
+   "reviewQuestion": {
+      "message": "BlockSite에 만족하십니까?"
+   },
+   "saveBtnText": {
+      "message": "저장"
+   },
+   "searchbarPlaceholder": {
+      "message": "웹 주소 입력 (ex: facebook.com)"
+   },
+   "setPass": {
+      "message": "암호 설정"
+   },
+   "setShedule": {
+      "message": "일정 설정"
+   },
+   "setTimes": {
+      "message": "시간 설정"
+   },
+   "setUpBlockingShedule": {
+      "message": "차단 일정 설정"
+   },
+   "settingsAllowStat": {
+      "message": "Block Site로 익명 통계 전송을 허용합니다"
+   },
+   "settingsEnableBlockSite": {
+      "message": "텍스트 메뉴(즉, 오른쪽 클릭 메뉴)에서 Block Site 옵션을 활성화합니다"
+   },
+   "settingsEnablePassAccess": {
+      "message": "차단된 페이지의 액세스를 위해 암호를 활성화합니다"
+   },
+   "settingsRequerePassAccess": {
+      "message": "Block Site 메뉴에 액세스하려면 암호가 필요합니다"
+   },
+   "settingsSaved": {
+      "message": "설정이 저장되었습니다"
+   },
+   "settingsSetPass": {
+      "message": "아래 암호 설정"
+   },
+   "settingsShowMotivational": {
+      "message": "차단된 페이지에서 동기적인 이미지를 표시합니다"
+   },
+   "settingsShowQuestionsChallenge": {
+      "message": "차단된 페이지 푸시 - 블록 해제 페이지에 추가 단계 추가"
+   },
+   "sheduleButtonText": {
+      "message": "일정"
+   },
+   "sheduleNegativeDiffConfirmationText": {
+      "message": "일정 시작 시간이 마감 시간보다 늦습니다. 즉 시작한 날 다음에 마감됩니다. 계속 진행할까요?"
+   },
+   "showSyncBtn": {
+      "message": "'모바일과 동기화' 버튼 표시"
+   },
+   "siteAddedMsg": {
+      "message": "사이트 추가됨"
+   },
+   "siteIsBlocked": {
+      "message": "이 사이트는 현재 차단되어 있습니다"
+   },
+   "start": {
+      "message": "시작"
+   },
+   "startAnotherSeesionQuestion": {
+      "message": "다른 작업 모드 세션을 시작하시겠습니까?"
+   },
+   "startWorking": {
+      "message": "작업 시작"
+   },
+   "suggestedWebsitesText1": {
+      "message": "추천 웹 사이트"
+   },
+   "suggestedWebsitesText2": {
+      "message": "웹 사이트"
+   },
+   "syncAvaliableInChrome": {
+      "message": "현재 Chrome에서 사용할 수 있습니다"
+   },
+   "syncButtonHidedMsg": {
+      "message": "동기화 버튼이 제거되었습니다. 설정에 다시 추가할 수 있습니다."
+   },
+   "syncComingSoon": {
+      "message": "곧 동기화됩니다"
+   },
+   "syncDeviceDontHaveApp": {
+      "message": "앱이 없습니다"
+   },
+   "syncDeviceText": {
+      "description": "#mobile_icon#은 모바일 아이콘 이미지로 대체될 것이니, 이 자리 표시자를 변경하지 마세요",
+      "message": "BlockSite 앱에서 #mobile_icon# 설정으로 이동, 데스크탑과 동기화를 차례로 탭합니다"
+   },
+   "syncDeviceText1": {
+      "message": "1. 휴대폰에서 BlockSite를 엽니다"
+   },
+   "syncDeviceText2": {
+      "message": "2. #mobile_icon# 탭, 설정, BlockSite 동기화"
+   },
+   "syncDeviceText3": {
+      "message": "3. \"지금 스캔\"을 누르고 휴대폰을 화면으로 향하게 하여 코드를 캡처합니다"
+   },
+   "syncDeviceTitle": {
+      "message": "Android 기기 동기화"
+   },
+   "syncDialogBtnClose": {
+      "message": "닫기"
+   },
+   "syncDialogBtnSync": {
+      "message": "지금 동기화"
+   },
+   "syncDialogContent": {
+      "message": "이제 Android 기기로 BlockSite 확장을 동기화할 수 있습니다"
+   },
+   "syncDialogNew": {
+      "message": "새 기능!"
+   },
+   "syncDialogTitle": {
+      "message": "Android 기기 동기화"
+   },
+   "syncGoBack": {
+      "message": "돌아가기"
+   },
+   "syncModalAlreadyHaveApp": {
+      "message": "앱이 있습니다"
+   },
+   "syncModalCodeText": {
+      "message": "BlockSite 앱에서 \"데스크탑과 동기화\"로 이동하고 다음 코드를 입력하십시오:"
+   },
+   "syncModalDoYouHaveBlocksiteForAndroid": {
+      "message": "Android 기기에 BlockSite가 설치되어 있습니까?"
+   },
+   "syncModalGooglePlay": {
+      "message": "Google Play"
+   },
+   "syncModalHaveAppMainTitle": {
+      "message": "BlockSite 동기화"
+   },
+   "syncModalHaveAppSync": {
+      "message": "이제 Android용 BlockSite를 동기화할 수 있습니다"
+   },
+   "syncModalIDontHaveDevice": {
+      "message": "Android 기기를 가지고 있지 않음"
+   },
+   "syncModalQRText": {
+      "message": "QR 코드"
+   },
+   "syncModalText1": {
+      "message": "Android용 BlockSite를 다운로드한 후 '계속'을 클릭하십시오"
+   },
+   "syncModalTitle": {
+      "message": "Android용 BlockSite 다운로드"
+   },
+   "syncNotificationError": {
+      "message": "동기화는 Android에서만 가능합니다. 동기화 버튼이 제거되었지만 다시 설정에서 추가할 수 있습니다."
+   },
+   "syncNotificationSuccess": {
+      "message": "BlockSite 확장이 모바일과 동기화되었습니다"
+   },
+   "syncedText": {
+      "message": "앱과 동기화"
+   },
+   "tableTitleText1": {
+      "message": "허용된 사이트"
+   },
+   "tableTitleText2": {
+      "message": "차단된 사이트"
+   },
+   "timeForBreak": {
+      "message": "휴식할 시간입니다!"
+   },
+   "ulrAlreadyExistMsg": {
+      "message": "URL이 이미 존재합니다"
+   },
+   "verifyEmailModalText": {
+      "description": "** 사이 내용은 굵은체이므로 * 기호를 제거하지 마세요",
+      "message": "저희는 방금 확인 이메일을 %USER_EMAIL%했습니다. * 계정을 설정한 브라우저 창에서 * 를 클릭하여 계정을 확인하고 비밀번호 보호를 사용하려면 링크를 클릭하십시오. (링크는 1시간 후에 만기됨)"
+   },
+   "verifyEmailModalTitle": {
+      "message": "검증 필요"
+   },
+   "verifyEmailProtectionNotEnabledText1": {
+      "message": "비밀번호 보호를 사용할 수 없습니다. 사용 가능하게 하려면, 원래 계정을 설정하는 데 사용한 것과 동일한 브라우저 창에서 이메일의 링크를 여십시오."
+   },
+   "verifyEmailProtectionNotEnabledText2": {
+      "message": "활성화하려면 이메일의 검증 링크를 확인하십시오."
+   },
+   "verifyEmailProtectionNotEnabledText3": {
+      "description": "** 사이 내용은 클릭 가능한 링크이므로 * 기호를 제거하지 마세요",
+      "message": "이메일이 수신되지 않으면 #여기를 클릭하여 다시 전송하십시오#."
+   },
+   "verifyEmailSuccessMsg": {
+      "message": "감사합니다! 이메일이 검증되었습니다"
+   },
+   "verifyRecieveEmailText": {
+      "message": "BlockSite가 이메일 주소 검증 링크가 포함된 이메일을 전송합니다.\u003Cbr>귀하의 이메일 주소는 암호 보호 목적으로만 사용됩니다."
+   },
+   "webAdressPlaceholder": {
+      "message": "웹 주소(ex: google.com)"
+   },
+   "welcomeAgreeBtn": {
+      "message": "동의함"
+   },
+   "welcomeConfirmDoNotEnable": {
+      "message": "기능을 활성화하지 않음"
+   },
+   "welcomeConfirmGoBack": {
+      "message": "돌아가기"
+   },
+   "welcomeConfirmText": {
+      "message": "성능 사이트 차단 기능을 사용하려면 자동으로 성인 사이트를 감지해서 차단할 있도록 귀하가 방문하는 사이트에 대한 정보에 액세스할 수 있는 권한을 제공해 주셔야 합니다. 이 데이터는 마케팅이나 개별 사용자 타게팅 목적으로 제3자와 공유하지 않습니다."
+   },
+   "welcomeConfirmTitle": {
+      "message": "성인 사이트 차단 기능을 활성화하시겠습니까?"
+   },
+   "welcomeDisagreeBtn": {
+      "message": "동의하지 않음"
+   },
+   "welcomeInstallingTitle": {
+      "message": "BlockSite를 설치해 주셔서 감사합니다"
+   },
+   "welcomeMainShortText": {
+      "description": "#Privacy Policy.# 클릭 가능한 링크이므로 # 기호를 제거하지 마세요",
+      "message": "BlockSite가 성인 콘텐츠가 있는 페이지를 찾아서 차단하기 위해서는 귀하가 방문하는 사이트에 대한 정보에 액세스해도 된다는 귀하의 동의가 필요합니다. 이 액세스와 #Privacy Policy#에 설명된 이 정보 사용을 활성화하려면 '동의함'을 클릭하십시오."
+   },
+   "welcomeMainText": {
+      "description": "#Privacy Policy.# 클릭 가능한 링크이므로 # 기호를 제거하지 마세요",
+      "message": "BlockSite가 성인 콘텐츠가 있는 페이지를 발견하고 차단하기 위해서는 귀하가 방문하는 URL, IP 주소, 운영 체제, 브라우저 정보에 액세스해도 된다는 귀하의 동의가 필요합니다. 이 액세스와 #Privacy Policy#에 설명된 이 정보 사용을 활성화하려면 '동의함'을 클릭하십시오."
+   },
+   "welcomePrivacyPolicy": {
+      "message": "개인정보 보호정책"
+   },
+   "welcomeToBlocksiteTitle": {
+      "message": "BlockSite에 오신 것을 환영합니다"
+   },
+   "welcomeUpdatingTitle": {
+      "message": "BlockSite를 업데이트해 주셔서 감사합니다"
+   },
+   "whitelistBlockedPageMsg": {
+      "message": "이 웹 사이트는 귀하의 허용 목록에 있지 않습니다. 아마 그럴 만한 이유가 있을 겁니다."
+   },
+   "whitelistBlockedPageTitle": {
+      "message": "액세스할 수 없습니다."
+   },
+   "whitelistConfirmationText": {
+      "message": "목록에 있는 사이트를 제외한 모든 사이트가 차단됩니다"
+   },
+   "whitelistConfirmationTitle": {
+      "message": "계속 진행할까요?"
+   },
+   "whitelistMode": {
+      "message": "허용 모드"
+   },
+   "whitelistTooltip": {
+      "message": "화이트리스트에 있는 웹 사이트와 구분된 모든 웹 사이트 차단"
+   },
+   "wordAddedMsg": {
+      "message": "단어 추가됨"
+   },
+   "wordAlreadyExistMsg": {
+      "message": "단어가 이미 존재합니다"
+   },
+   "wordBlockingHeaderSubtitle": {
+      "message": "특정 단어를 포함하는 블록 URL"
+   },
+   "wordBlockingHeaderTitle": {
+      "message": "단어로 차단"
+   },
+   "workListTitle": {
+      "message": "내 작업 모드 목록"
+   },
+   "workModeSubtitle": {
+      "message": "특정 기간 동안 사이트를 차단하도록 작업 모드 타이머 설정"
+   },
+   "workModeTimerLabel": {
+      "message": "작업 모드 타이머"
+   },
+   "workModeTimerMessage": {
+      "message": "활성화하면 작업 모드 목록에 있는 사이트들이 차단됩니다"
+   },
+   "workTime": {
+      "message": "작업 시간"
+   },
+   "workTimeOver": {
+      "message": "작업 시간이 끝났습니다."
+   },
+   "yes": {
+      "message": "예"
+   }
+}

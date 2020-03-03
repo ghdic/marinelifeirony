@@ -1,0 +1,44 @@
+{
+   "background": {
+      "page": "Grammarly.html"
+   },
+   "browser_action": {
+      "default_icon": "src/icon/icon48-chrome.png",
+      "default_popup": "src/popup.html",
+      "default_title": "Grammarly"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "src/css/Grammarly.styles.css", "src/css/Grammarly-popup.styles.css" ],
+      "exclude_matches": [ "*://docs.google.com/document/*" ],
+      "js": [ "src/js/Grammarly.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": false,
+      "css": [ "src/css/Grammarly-gDocs.styles.css", "src/css/Grammarly-popup.styles.css" ],
+      "js": [ "src/js/Grammarly-gDocs.js" ],
+      "matches": [ "*://docs.google.com/document/*" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": "default-src 'none'; font-src 'self' data:; img-src * data: blob:; media-src http://d481ihvqkt377.cloudfront.net; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src https://auth.grammarly.com https://assets.grammarly.com/ https://data.grammarly.com https://capi.grammarly.com wss://capi.grammarly.com https://gnar.grammarly.com https://f-log-extension.grammarly.io https://f-log-editor.grammarly.io https://d3cv4a9a9wh0bt.cloudfront.net ;  report-uri https://f-log-extension.grammarly.io/logv2; ",
+   "description": "Write your best with Grammarly for Chrome.",
+   "externally_connectable": {
+      "matches": [ "https://*.grammarly.com/*" ]
+   },
+   "icons": {
+      "128": "src/icon/icon128.png",
+      "16": "src/icon/icon16.png",
+      "48": "src/icon/icon48-chrome.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDXGarzPXVb5UpkDTsw4cdApsrQvPTNTMXdz/7j9QVuQZoPm5R9l3o9ppfGYeae7sZRaJiueBEO/LA8s7KCuE9icPl72xSqdei3Jo0PTTUlmNQIysl9PZy6Xd520sS5wNFhPaxOy1ApHZ6+o+yMEXWmjx2fX0tHJd7dKTii47MTnQIDAQAB",
+   "manifest_version": 2,
+   "name": "Grammarly for Chrome",
+   "permissions": [ "http://*/*", "https://*/*", "tabs", "notifications", "cookies", "storage" ],
+   "storage": {
+      "managed_schema": "src/schema.json"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "14.950.0",
+   "web_accessible_resources": [ "src/popupEditorIFrame.html" ]
+}

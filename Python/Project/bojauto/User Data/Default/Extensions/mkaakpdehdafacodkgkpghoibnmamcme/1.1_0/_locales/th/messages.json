@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "สร้างรูปทรงและแผนภูมิ"
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Google วาดเขียน"
+   }
+}
