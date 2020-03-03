@@ -1,0 +1,22 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "iconInactive.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_name__"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi7n0ulq4AN6Jd26RSVY/4Ltn8XYR20HNhIbfYJgfKziovWPzNTO49H+dhI4w9bxyo5E7jwZ/LfrurdtvKz3bIN2yNfRj3NaOlkmgZXSkxLj55pFzfGrBCKr2KmEFcTkMZwksGoSVTal9rSnbTQxAINTwVCW9JndMX7F+MgqqwR+uzFLRAoxGeBofqVw1vloZOPnqdUg8/Nislno8xjo+LbPBWuOFwYNOEnAtTTzMubFji6I/MlDXlIjlYDll+VOWfI2RhF9o/tKuqWMImW1yhnixcaHuBm8TS2B1lIStqBOyT+uOnfzYbbgD48HJcQ1rI7ewi/UjJ9834BqhKipQNwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "contentSettings", "storage", "webRequest", "webNavigation", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.9"
+}

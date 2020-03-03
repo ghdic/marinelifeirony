@@ -1,0 +1,261 @@
+*[data-gramm] g {
+  display: inline;
+  color: inherit !important;
+  font-size: inherit !important;
+}
+*[data-gramm] gr_block {
+  color: inherit !important;
+  font-size: inherit !important;
+}
+*[data-gramm][data-gramm_editor] .gr-alert.gr_spell, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm {
+  border-bottom: 2px solid transparent;
+  background-repeat: no-repeat;
+  background-position: -1px calc(100% + 3px);
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnPgogIDxsaW5lIG9wYWNpdHk9JzAuNzUnIHgxPSc0JyB5MT0nMTAwJScgeDI9JzEwMCUnIHkyPScxMDAlJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMS41LCAtMi41KScgc3Ryb2tlLXdpZHRoPSczJyBzdHJva2UtbGluZWNhcD0ncm91bmQnIHN0cm9rZT0nI2ZjNTQ1NCcvPgo8L3N2Zz4K");
+  background-size: calc(100% + 1px) 100%;
+}
+*[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr_premium, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr_premium, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr_premium, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr_premium {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnPgogIDxsaW5lIG9wYWNpdHk9JzAuNzUnIHgxPSc0JyB5MT0nMTAwJScgeDI9JzEwMCUnIHkyPScxMDAlJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMS41LCAtMi41KScgc3Ryb2tlLXdpZHRoPSczJyBzdHJva2UtbGluZWNhcD0ncm91bmQnIHN0cm9rZT0nI0ZCQzczQicvPgo8L3N2Zz4K");
+}
+*[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr_spell .gr_gramm.gr-alert, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr_spell .gr_gramm.gr-alert, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr_spell .gr_gramm.gr-alert, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr_spell .gr_gramm.gr-alert, *[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr_gramm .gr_gramm.gr-alert, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr_gramm .gr_gramm.gr-alert, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr_gramm .gr_gramm.gr-alert, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr_gramm .gr_gramm.gr-alert {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnPgogIDxsaW5lIG9wYWNpdHk9JzAuNzUnIHgxPSc0JyB5MT0nMTAwJScgeDI9JzEwMCUnIHkyPScxMDAlJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMS41LCAtMi41KScgc3Ryb2tlLXdpZHRoPSczJyBzdHJva2UtbGluZWNhcD0ncm91bmQnIHN0cm9rZT0nI2ZjNTQ1NCcvPgo8L3N2Zz4K");
+}
+*[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr_spell .gr_gramm.gr-alert.gr_premium, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr_spell .gr_gramm.gr-alert.gr_premium, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr_spell .gr_gramm.gr-alert.gr_premium, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr_spell .gr_gramm.gr-alert.gr_premium, *[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr_gramm .gr_gramm.gr-alert.gr_premium, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr_gramm .gr_gramm.gr-alert.gr_premium, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr_gramm .gr_gramm.gr-alert.gr_premium, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr_gramm .gr_gramm.gr-alert.gr_premium {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnPgogIDxsaW5lIG9wYWNpdHk9JzAuNzUnIHgxPSc0JyB5MT0nMTAwJScgeDI9JzEwMCUnIHkyPScxMDAlJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMS41LCAtMi41KScgc3Ryb2tlLXdpZHRoPSczJyBzdHJva2UtbGluZWNhcD0ncm91bmQnIHN0cm9rZT0nI0ZCQzczQicvPgo8L3N2Zz4K");
+}
+*[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr_run_anim, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr_run_anim, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr_run_anim, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr_run_anim {
+  animation: gr__appear_critical 0.4s ease forwards;
+}
+@supports (-ms-ime-align: auto) {
+  *[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr_run_anim, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr_run_anim, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr_run_anim, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr_run_anim {
+    animation: none !important;
+  }
+}
+*[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr_disable_anim_appear, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr_disable_anim_appear, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr_disable_anim_appear, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr_disable_anim_appear {
+  animation: none !important;
+  background-size: calc(100% + 1px) 100% !important;
+}
+*[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr-progress, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr-progress, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr-progress, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr-progress {
+  animation: gr__appear_critical_sel_inline 0.5s ease forwards, gr__appear_critical 0.5s forwards !important;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnPgogIDxsaW5lIHgxPSc0JyB5MT0nMTAwJScgeDI9JzEwMCUnIHkyPScxMDAlJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMS41LCAtMi41KScgc3Ryb2tlLXdpZHRoPSczJyBzdHJva2UtbGluZWNhcD0ncm91bmQnIHN0cm9rZT0nI2ZjNTQ1NCcvPgo8L3N2Zz4K") !important;
+  border-bottom-width: 2px;
+}
+*[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr-progress.gr_premium, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr-progress.gr_premium, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr-progress.gr_premium, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr-progress.gr_premium {
+  animation: gr__appear_premium_sel_inline 0.5s ease forwards, gr__appear_critical 0.5s forwards !important;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnPgogIDxsaW5lIHgxPSc0JyB5MT0nMTAwJScgeDI9JzEwMCUnIHkyPScxMDAlJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMS41LCAtMi41KScgc3Ryb2tlLXdpZHRoPSczJyBzdHJva2UtbGluZWNhcD0ncm91bmQnIHN0cm9rZT0nI0ZCQzczQicvPgo8L3N2Zz4K") !important;
+}
+*[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr-progress-overlay, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr-progress-overlay, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr-progress-overlay, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr-progress-overlay {
+  animation: gr__appear_critical_sel_inline_overlay 0.5s ease forwards, gr__appear_critical 0.5s forwards !important;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnPgogIDxsaW5lIHgxPSc0JyB5MT0nMTAwJScgeDI9JzEwMCUnIHkyPScxMDAlJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMS41LCAtMi41KScgc3Ryb2tlLXdpZHRoPSczJyBzdHJva2UtbGluZWNhcD0ncm91bmQnIHN0cm9rZT0nI2ZjNTQ1NCcvPgo8L3N2Zz4K") !important;
+  border-bottom-width: 2px;
+}
+*[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr-progress-overlay.gr_premium, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr-progress-overlay.gr_premium, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr-progress-overlay.gr_premium, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr-progress-overlay.gr_premium {
+  animation: gr__appear_premium_sel_inline 0.5s ease forwards, gr__appear_critical 0.5s forwards !important;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnPgogIDxsaW5lIHgxPSc0JyB5MT0nMTAwJScgeDI9JzEwMCUnIHkyPScxMDAlJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMS41LCAtMi41KScgc3Ryb2tlLXdpZHRoPSczJyBzdHJva2UtbGluZWNhcD0ncm91bmQnIHN0cm9rZT0nI0ZCQzczQicvPgo8L3N2Zz4K") !important;
+}
+*[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr_disable_anim_appear.gr-progress, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr_disable_anim_appear.gr-progress, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr_disable_anim_appear.gr-progress, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr_disable_anim_appear.gr-progress {
+  animation: gr__appear_critical_sel_inline 0.5s ease forwards !important;
+  background-size: calc(100% + 3px) 100% !important;
+  background-position-x: -2px !important;
+}
+*[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr_disable_anim_appear.gr-progress.gr_premium, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr_disable_anim_appear.gr-progress.gr_premium, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr_disable_anim_appear.gr-progress.gr_premium, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr_disable_anim_appear.gr-progress.gr_premium {
+  animation: gr__appear_premium_sel_inline 0.5s ease forwards !important;
+}
+*[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr_disable_anim_appear.gr-progress-overlay, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr_disable_anim_appear.gr-progress-overlay, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr_disable_anim_appear.gr-progress-overlay, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr_disable_anim_appear.gr-progress-overlay {
+  animation: gr__appear_critical_sel_inline_overlay 0.5s ease forwards !important;
+  background-size: calc(100% + 3px) 100% !important;
+  background-position-x: -2px !important;
+}
+*[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr_disable_anim_appear.gr-progress-overlay.gr_premium, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr_disable_anim_appear.gr-progress-overlay.gr_premium, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr_disable_anim_appear.gr-progress-overlay.gr_premium, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr_disable_anim_appear.gr-progress-overlay.gr_premium {
+  animation: gr__appear_premium_sel_inline 0.5s ease forwards !important;
+}
+*[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr_replaced, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr_replaced, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr_replaced, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr_replaced {
+  border-bottom: 0 !important;
+  background-size: 0 !important;
+}
+*[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr_hide.sel, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr_hide.sel, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr_hide.sel, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr_hide.sel {
+  border-bottom-width: 2px;
+}
+*[data-gramm][data-gramm_editor] .gr-alert.gr_spell.gr_tiny, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell.gr_tiny, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm.gr_tiny, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm.gr_tiny, *[data-gramm][data-gramm_editor] .gr-alert.gr_spell:empty, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_spell:empty, *[data-gramm][data-gramm_editor] .gr-alert.gr_gramm:empty, body[data-gramm_id][data-gramm_editor] .gr-alert.gr_gramm:empty {
+  padding: 0 0.35em;
+  margin: 0 -0.35em;
+}
+*[data-gramm][data-gramm_editor] .kix-lineview .gr-alert.gr_spell, body[data-gramm_id][data-gramm_editor] .kix-lineview .gr-alert.gr_spell, *[data-gramm][data-gramm_editor] .kix-lineview .gr-alert.gr_gramm, body[data-gramm_id][data-gramm_editor] .kix-lineview .gr-alert.gr_gramm {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  bottom: -2px;
+  position: absolute;
+  height: 4px;
+}
+*[data-gramm][data-gramm_editor] .kix-lineview .gr-alert.gr_spell.gr_tiny, body[data-gramm_id][data-gramm_editor] .kix-lineview .gr-alert.gr_spell.gr_tiny, *[data-gramm][data-gramm_editor] .kix-lineview .gr-alert.gr_gramm.gr_tiny, body[data-gramm_id][data-gramm_editor] .kix-lineview .gr-alert.gr_gramm.gr_tiny {
+  padding: 0 0.35em !important;
+  margin: 0 -0.35em !important;
+}
+ghost *[data-gramm][data-gramm_editor] .gr-alert.gr-progress, grammarly-ghost *[data-gramm][data-gramm_editor] .gr-alert.gr-progress, ghost body[data-gramm_id][data-gramm_editor] .gr-alert.gr-progress, grammarly-ghost body[data-gramm_id][data-gramm_editor] .gr-alert.gr-progress {
+  animation: gr__appear_critical_sel_inline 0.5s ease forwards !important;
+}
+ghost *[data-gramm][data-gramm_editor] .gr-alert.gr-progress.gr_premium, grammarly-ghost *[data-gramm][data-gramm_editor] .gr-alert.gr-progress.gr_premium, ghost body[data-gramm_id][data-gramm_editor] .gr-alert.gr-progress.gr_premium, grammarly-ghost body[data-gramm_id][data-gramm_editor] .gr-alert.gr-progress.gr_premium {
+  animation: gr__appear_premium_sel_inline 0.5s ease forwards !important;
+}
+ghost .gr_highlight_replacement, grammarly-ghost .gr_highlight_replacement, *[data-gramm][data-gramm_editor] .gr_highlight_replacement, body[data-gramm_id][data-gramm_editor] .gr_highlight_replacement {
+  animation: gr__fade_replacement___ 3s ease forwards !important;
+}
+@keyframes gr__appear_critical {
+  0% {
+    background-size: 0 100%;
+  }
+  100% {
+    background-size: calc(100% + 1px) 100%;
+  }
+}
+@keyframes gr__appear_critical_sel_inline {
+  0% {
+    background-color: transparent;
+    background-size: calc(100% + 1px) 100% !important;
+  }
+  100% {
+    background-color: #f6d5d9;
+    background-size: calc(100% + 1px) 100% !important;
+  }
+}
+@keyframes gr__appear_premium_sel_inline {
+  0% {
+    background-color: transparent;
+    background-size: calc(100% + 1px) 100% !important;
+  }
+  100% {
+    background-color: rgba(250,214,51,0.25);
+    background-size: calc(100% + 1px) 100% !important;
+  }
+}
+@keyframes gr__appear_critical_sel_inline_overlay {
+  0% {
+    background-color: transparent;
+    background-size: calc(100% + 1px) 100% !important;
+  }
+  100% {
+    background-color: rgba(255,0,0,0.15);
+    background-size: calc(100% + 1px) 100% !important;
+  }
+}
+@keyframes gr__fade_replacement___ {
+  0% {
+    background-color: #cff3ec;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+body > div {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+@media print {
+  .gr-top-z-index,
+  .gr__tooltip,
+  grammarly-card,
+  gbutton-popup,
+  g-notifications,
+  onboarding_dialog,
+  signin_dialog,
+  unsupported_popup_dialog,
+  grammarly-ghost,
+  grammarly-gdocs-opt-in,
+  grammarly-gdocs-disable-after-offline,
+  grammarly-gdocs-disable-for-large-document {
+    display: none !important;
+  }
+  ._1KJtL {
+    display: none !important;
+  }
+}
+
+.u_fNK {
+  line-height: initial;
+  white-space: normal;
+  text-align: left;
+  float: initial;
+  clear: none;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: transparent;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  text-align: left !important;
+  animation: none !important;
+}
+.u_fNK div,
+.u_fNK span,
+.u_fNK h1,
+.u_fNK h2,
+.u_fNK h3,
+.u_fNK h4,
+.u_fNK h5,
+.u_fNK h6,
+.u_fNK p,
+.u_fNK a,
+.u_fNK img,
+.u_fNK b,
+.u_fNK u,
+.u_fNK i,
+.u_fNK ul,
+.u_fNK li,
+.u_fNK form,
+.u_fNK label,
+.u_fNK canvas,
+.u_fNK footer,
+.u_fNK header,
+.u_fNK nav,
+.u_fNK section {
+  line-height: initial;
+  white-space: normal;
+  text-align: left;
+  float: initial;
+  clear: none;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.u_fNK span {
+  display: inline;
+}
+.u_fNK div,
+.u_fNK span,
+.u_fNK h1,
+.u_fNK h2,
+.u_fNK h3,
+.u_fNK h4,
+.u_fNK h5,
+.u_fNK h6,
+.u_fNK p,
+.u_fNK a,
+.u_fNK img,
+.u_fNK b,
+.u_fNK u,
+.u_fNK i,
+.u_fNK ul,
+.u_fNK li,
+.u_fNK form,
+.u_fNK label,
+.u_fNK canvas,
+.u_fNK footer,
+.u_fNK header,
+.u_fNK nav,
+.u_fNK section {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  text-align: left !important;
+  animation: none !important;
+}
+
