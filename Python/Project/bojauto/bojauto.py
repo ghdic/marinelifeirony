@@ -19,7 +19,7 @@ options = webdriver.ChromeOptions()
 options.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
 driver = webdriver.Chrome('chromedriver', options=options)
 
-cnt = 40
+cnt = 41
 
 while True:
     rd = random.randint(5, 20)
@@ -39,7 +39,7 @@ while True:
     except:
         if driver.find_element_by_css_selector("div.alert-body"):
             continue
-    cnt += 1
+    #cnt += 1
     if cnt // 10 == 0:
         driver.get("https://www.naver.com/")
         time.sleep(40 + cnt/3 - rd)

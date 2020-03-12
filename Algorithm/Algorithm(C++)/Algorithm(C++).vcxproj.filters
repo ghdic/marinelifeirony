@@ -45,5 +45,11 @@
     <ClCompile Include="heavylightdecomposition.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="kruskal(mst).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="prim(mst).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

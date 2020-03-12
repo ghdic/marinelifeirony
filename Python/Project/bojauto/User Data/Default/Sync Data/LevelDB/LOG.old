@@ -1,3 +1,4 @@
-2020/03/01-18:49:01.605 31c4 Reusing MANIFEST D:\OneDrive - 호서대학교\marinelifeirony\Python\Project\bojauto\User Data\Default\Sync Data\LevelDB/MANIFEST-000001
-2020/03/01-18:49:01.605 31c4 Recovering log #3
-2020/03/01-18:49:01.605 31c4 Reusing old log D:\OneDrive - 호서대학교\marinelifeirony\Python\Project\bojauto\User Data\Default\Sync Data\LevelDB/000003.log 
+2020/03/03-14:08:46.741 274 Reusing MANIFEST C:\Users\User\OneDrive - 호서대학교\marinelifeirony\Python\Project\bojauto\User Data\Default\Sync Data\LevelDB/MANIFEST-000001
+2020/03/03-14:08:46.742 274 Recovering log #9
+2020/03/03-14:08:46.744 274 Reusing old log C:\Users\User\OneDrive - 호서대학교\marinelifeirony\Python\Project\bojauto\User Data\Default\Sync Data\LevelDB/000009.log 
+2020/03/03-14:08:46.745 274 Delete type=0 #3

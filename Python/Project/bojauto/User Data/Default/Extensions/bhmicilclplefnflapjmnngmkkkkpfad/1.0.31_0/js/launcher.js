@@ -1,1 +1,0 @@
-(function(){window.onload=function(){window.document.getElementById("splashLoading").textContent=chrome.i18n.getMessage("DESKTOP_SPLASH_LOADING")}}());

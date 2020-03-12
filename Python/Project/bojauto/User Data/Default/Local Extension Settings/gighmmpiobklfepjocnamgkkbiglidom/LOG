@@ -1,29 +1,49 @@
-2020/03/02-17:03:49.176 40c Reusing MANIFEST C:\Users\User\OneDrive - 호서대학교\marinelifeirony\Python\Project\bojauto\User Data\Default\Local Extension Settings\gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
-2020/03/02-17:04:04.322 ed0 Level-0 table #5: started
-2020/03/02-17:04:04.508 ed0 Level-0 table #5: 4029755 bytes OK
-2020/03/02-17:04:04.516 ed0 Delete type=0 #3
-2020/03/02-17:04:07.067 ed0 Level-0 table #7: started
-2020/03/02-17:04:07.302 ed0 Level-0 table #7: 3984905 bytes OK
-2020/03/02-17:04:07.310 ed0 Delete type=0 #4
-2020/03/02-17:04:25.865 ed0 Level-0 table #9: started
-2020/03/02-17:04:26.163 ed0 Level-0 table #9: 4943811 bytes OK
-2020/03/02-17:04:26.168 ed0 Delete type=0 #6
-2020/03/02-17:04:51.122 ed0 Level-0 table #11: started
-2020/03/02-17:04:51.453 ed0 Level-0 table #11: 4981636 bytes OK
-2020/03/02-17:04:51.462 ed0 Delete type=0 #8
-2020/03/02-17:04:53.643 ed0 Level-0 table #13: started
-2020/03/02-17:04:53.924 ed0 Level-0 table #13: 4981629 bytes OK
-2020/03/02-17:04:53.932 ed0 Delete type=0 #10
-2020/03/02-17:05:03.975 ed0 Level-0 table #15: started
-2020/03/02-17:05:04.193 ed0 Level-0 table #15: 4981911 bytes OK
-2020/03/02-17:05:04.201 ed0 Delete type=0 #12
-2020/03/02-17:05:04.204 ed0 Compacting 4@0 + 1@1 files
-2020/03/02-17:05:04.688 ed0 Generated table #16@0: 1 keys, 4981629 bytes
-2020/03/02-17:05:04.706 ed0 Generated table #17@0: 3 keys, 388 bytes
-2020/03/02-17:05:04.706 ed0 Compacted 4@0 + 1@1 files => 4982017 bytes
-2020/03/02-17:05:04.765 ed0 compacted to: files[ 0 2 1 0 0 0 0 ]
-2020/03/02-17:05:04.766 ed0 Delete type=2 #7
-2020/03/02-17:05:04.766 ed0 Delete type=2 #9
-2020/03/02-17:05:04.766 ed0 Delete type=2 #11
-2020/03/02-17:05:04.766 ed0 Delete type=2 #13
-2020/03/02-17:05:04.766 ed0 Delete type=2 #15
+2020/03/09-11:46:18.643 298 Reusing MANIFEST C:\Users\User\OneDrive - 호서대학교\marinelifeirony\Python\Project\bojauto\User Data\Default\Local Extension Settings\gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2020/03/09-11:46:18.645 298 Recovering log #45
+2020/03/09-11:46:18.646 298 Reusing old log C:\Users\User\OneDrive - 호서대학교\marinelifeirony\Python\Project\bojauto\User Data\Default\Local Extension Settings\gighmmpiobklfepjocnamgkkbiglidom/000045.log 
+2020/03/09-11:47:31.915 34a8 Level-0 table #51: started
+2020/03/09-11:47:32.002 34a8 Level-0 table #51: 4987310 bytes OK
+2020/03/09-11:47:32.007 34a8 Delete type=0 #45
+2020/03/09-11:47:39.272 34a8 Level-0 table #53: started
+2020/03/09-11:47:39.422 34a8 Level-0 table #53: 4983256 bytes OK
+2020/03/09-11:47:39.427 34a8 Delete type=0 #50
+2020/03/09-11:58:26.434 34a8 Level-0 table #55: started
+2020/03/09-11:58:26.537 34a8 Level-0 table #55: 4989664 bytes OK
+2020/03/09-11:58:26.542 34a8 Delete type=0 #52
+2020/03/09-12:47:31.681 34a8 Level-0 table #57: started
+2020/03/09-12:47:31.767 34a8 Level-0 table #57: 4990150 bytes OK
+2020/03/09-12:47:31.772 34a8 Delete type=0 #54
+2020/03/09-12:47:31.774 34a8 Compacting 4@0 + 2@1 files
+2020/03/09-12:47:31.965 34a8 Generated table #58@0: 1 keys, 4989666 bytes
+2020/03/09-12:47:31.976 34a8 Generated table #59@0: 5 keys, 469 bytes
+2020/03/09-12:47:31.976 34a8 Compacted 4@0 + 2@1 files => 4990135 bytes
+2020/03/09-12:47:31.979 34a8 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/03/09-12:47:31.979 34a8 Delete type=2 #47
+2020/03/09-12:47:31.979 34a8 Delete type=2 #48
+2020/03/09-12:47:31.979 34a8 Delete type=2 #51
+2020/03/09-12:47:31.979 34a8 Delete type=2 #53
+2020/03/09-12:47:31.979 34a8 Delete type=2 #55
+2020/03/09-12:47:31.979 34a8 Delete type=2 #57
+2020/03/09-12:47:35.924 34a8 Level-0 table #61: started
+2020/03/09-12:47:36.033 34a8 Level-0 table #61: 4989961 bytes OK
+2020/03/09-12:47:36.038 34a8 Delete type=0 #56
+2020/03/09-13:23:12.826 34a8 Level-0 table #63: started
+2020/03/09-13:23:12.958 34a8 Level-0 table #63: 4989668 bytes OK
+2020/03/09-13:23:12.961 34a8 Delete type=0 #60
+2020/03/09-13:47:31.408 34a8 Level-0 table #65: started
+2020/03/09-13:47:31.488 34a8 Level-0 table #65: 4989756 bytes OK
+2020/03/09-13:47:31.492 34a8 Delete type=0 #62
+2020/03/09-13:47:35.189 34a8 Level-0 table #67: started
+2020/03/09-13:47:35.288 34a8 Level-0 table #67: 4989961 bytes OK
+2020/03/09-13:47:35.293 34a8 Delete type=0 #64
+2020/03/09-13:47:35.295 34a8 Compacting 4@0 + 2@1 files
+2020/03/09-13:47:35.489 34a8 Generated table #68@0: 1 keys, 4989670 bytes
+2020/03/09-13:47:35.500 34a8 Generated table #69@0: 5 keys, 469 bytes
+2020/03/09-13:47:35.500 34a8 Compacted 4@0 + 2@1 files => 4990139 bytes
+2020/03/09-13:47:35.503 34a8 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/03/09-13:47:35.503 34a8 Delete type=2 #58
+2020/03/09-13:47:35.503 34a8 Delete type=2 #59
+2020/03/09-13:47:35.503 34a8 Delete type=2 #61
+2020/03/09-13:47:35.503 34a8 Delete type=2 #63
+2020/03/09-13:47:35.503 34a8 Delete type=2 #65
+2020/03/09-13:47:35.503 34a8 Delete type=2 #67

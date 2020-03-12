@@ -149,6 +149,8 @@
     <ClCompile Include="flownetwork(ford-fulkerson).cpp" />
     <ClCompile Include="floydwashall.cpp" />
     <ClCompile Include="heavylightdecomposition.cpp" />
+    <ClCompile Include="kruskal(mst).cpp" />
+    <ClCompile Include="prim(mst).cpp" />
     <ClCompile Include="segmenttree.cpp" />
     <ClCompile Include="SieveofEratosthenes.cpp" />
     <ClCompile Include="Trie.cpp" />

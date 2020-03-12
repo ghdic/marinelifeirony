@@ -1,3 +1,27 @@
-2020/03/01-18:49:02.583 537c Reusing MANIFEST D:\OneDrive - 호서대학교\marinelifeirony\Python\Project\bojauto\User Data\Default\Local Storage\leveldb/MANIFEST-000001
-2020/03/01-18:49:02.604 537c Recovering log #4
-2020/03/01-18:49:02.605 537c Reusing old log D:\OneDrive - 호서대학교\marinelifeirony\Python\Project\bojauto\User Data\Default\Local Storage\leveldb/000004.log 
+2020/03/09-13:54:22.252 810 Reusing MANIFEST C:\Users\User\OneDrive - 호서대학교\marinelifeirony\Python\Project\bojauto\User Data\Default\Local Storage\leveldb/MANIFEST-000001
+2020/03/09-13:54:22.253 810 Recovering log #31
+2020/03/09-13:54:22.253 810 Reusing old log C:\Users\User\OneDrive - 호서대학교\marinelifeirony\Python\Project\bojauto\User Data\Default\Local Storage\leveldb/000031.log 
+2020/03/09-13:54:28.382 3714 Level-0 table #35: started
+2020/03/09-13:54:28.387 3714 Level-0 table #35: 20924 bytes OK
+2020/03/09-13:54:28.389 3714 Delete type=0 #31
+2020/03/09-13:57:47.205 3714 Level-0 table #37: started
+2020/03/09-13:57:47.212 3714 Level-0 table #37: 20131 bytes OK
+2020/03/09-13:57:47.215 3714 Delete type=0 #34
+2020/03/09-13:57:47.217 3714 Compacting 4@0 + 1@1 files
+2020/03/09-13:57:47.233 3714 Generated table #38@0: 877 keys, 107349 bytes
+2020/03/09-13:57:47.233 3714 Compacted 4@0 + 1@1 files => 107349 bytes
+2020/03/09-13:57:47.234 3714 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/03/09-13:57:47.235 3714 Delete type=2 #28
+2020/03/09-13:57:47.235 3714 Delete type=2 #30
+2020/03/09-13:57:47.235 3714 Delete type=2 #32
+2020/03/09-13:57:47.235 3714 Delete type=2 #35
+2020/03/09-13:57:47.235 3714 Delete type=2 #37
+2020/03/09-14:02:23.447 3714 Level-0 table #40: started
+2020/03/09-14:02:23.450 3714 Level-0 table #40: 20043 bytes OK
+2020/03/09-14:02:23.451 3714 Delete type=0 #36
+2020/03/09-14:10:24.715 3714 Level-0 table #42: started
+2020/03/09-14:10:24.720 3714 Level-0 table #42: 34648 bytes OK
+2020/03/09-14:10:24.724 3714 Delete type=0 #39
+2020/03/09-14:27:01.905 3714 Level-0 table #44: started
+2020/03/09-14:27:01.914 3714 Level-0 table #44: 34004 bytes OK
+2020/03/09-14:27:01.918 3714 Delete type=0 #41

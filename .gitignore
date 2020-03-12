@@ -1,11 +1,7 @@
 ﻿################################################################################
 # 이 .gitignore 파일은 Microsoft(R) Visual Studio에서 자동으로 만들어졌습니다.
 ################################################################################
-
-/c#/DrawScreen/.vs/DrawScreen/v16/Server/sqlite3/db.lock
-/c#/DrawScreen/.vs/DrawScreen/v16
+# git rm --cached -r * 해야 기존에 있는거 지워짐
 /c#/DrawScreen/bin/Debug
-
 .vs/
-
-나만의단어장/User Data
+User Data/
