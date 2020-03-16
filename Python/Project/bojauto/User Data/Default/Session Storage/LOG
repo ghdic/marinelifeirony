@@ -1,3 +1,15 @@
-2020/03/09-14:33:10.488 3658 Reusing MANIFEST C:\Users\User\OneDrive - 호서대학교\marinelifeirony\Python\Project\bojauto\User Data\Default\Session Storage/MANIFEST-000001
-2020/03/09-14:33:10.488 3658 Recovering log #116
-2020/03/09-14:33:10.489 3658 Reusing old log C:\Users\User\OneDrive - 호서대학교\marinelifeirony\Python\Project\bojauto\User Data\Default\Session Storage/000116.log 
+2020/03/13-11:30:40.786 13e8 Reusing MANIFEST C:\Users\User\OneDrive - 호서대학교\marinelifeirony\Python\Project\bojauto\User Data\Default\Session Storage/MANIFEST-000001
+2020/03/13-11:30:40.787 13e8 Recovering log #116
+2020/03/13-11:30:40.788 13e8 Reusing old log C:\Users\User\OneDrive - 호서대학교\marinelifeirony\Python\Project\bojauto\User Data\Default\Session Storage/000116.log 
+2020/03/13-12:37:12.938 31ec Level-0 table #120: started
+2020/03/13-12:37:12.942 31ec Level-0 table #120: 48313 bytes OK
+2020/03/13-12:37:12.944 31ec Delete type=0 #116
+2020/03/13-12:37:12.944 31ec Compacting 4@0 + 1@1 files
+2020/03/13-12:37:12.957 31ec Generated table #121@0: 1733 keys, 41727 bytes
+2020/03/13-12:37:12.957 31ec Compacted 4@0 + 1@1 files => 41727 bytes
+2020/03/13-12:37:12.959 31ec compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/03/13-12:37:12.959 31ec Delete type=2 #110
+2020/03/13-12:37:12.959 31ec Delete type=2 #112
+2020/03/13-12:37:12.959 31ec Delete type=2 #115
+2020/03/13-12:37:12.959 31ec Delete type=2 #117
+2020/03/13-12:37:12.959 31ec Delete type=2 #120
