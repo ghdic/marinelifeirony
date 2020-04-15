@@ -12,23 +12,18 @@ def cleanText(readData):
     text = re.sub('[\/:*\?\"\\‘|\<\>`\']', ' ', readData)
     return text
 
-print("문제 url을 입력해주세요")
-url = input()
 options = webdriver.ChromeOptions()
-options.add_argument('headless')
-options.add_argument('window-size=1920x1080')
-options.add_argument('disable-gpu')
+#options.add_argument('headless')
+options.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
 driver = webdriver.Chrome('chromedriver', options=options)
 
-driver.get(url)
-
-# 로딩 창이 끝날때까지 기다린다.
-# title원소를 찾으면 성공 10초가 지나면
-try:
-    element = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.CSS_SELECTOR, "div.css-v3d350"))
-    )
-except TimeoutException:
-    print("타임아웃")
-    time.sleep(1)
-    exit(-1)
+driver.get("https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com")
+# id = driver.find_element_by_css_selector("#id")
+# pw = driver.find_element_by_css_selector("#pw")
+bt = driver.find_element_by_css_selector("#log\.login")
+driver.execute_script("document.getElementById('id').setAttribute('value', 'ghdic')")
+driver.execute_script("document.getElementById('pw').setAttribute('value', 'wkdwlsgh123!')")
+# id.send_keys("ghdic")
+# pw.send_keys("wkdwlsgh123!")
+time.sleep(5)
+bt.click()
