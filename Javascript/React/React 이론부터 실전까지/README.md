@@ -15,4 +15,4 @@ package-lock.json 파일 삭제하고
 npm install 하면 package.json에 있는거 설치되서 세팅댐
 ```
 
-5강
+8강

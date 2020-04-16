@@ -43,6 +43,7 @@ function tick(){
 setInterval(tick, 1000);
 */
 
+/*
 function Show(props){
   return(
       <h3>
@@ -101,3 +102,107 @@ ReactDOM.render(
     user={board.user}
     />
   , document.getElementById('root'));
+
+*/
+
+/*
+class Clock extends React.Component{
+  constructor(props){
+    super(props);
+    this.state = {
+      date: new Date()
+    };
+  }
+  
+  tick(){
+    this.setState({
+      date: new Date()
+    })
+  }
+  componentDidMount(){
+    this.timerID = setInterval(() => this.tick(), 1000);
+  }
+
+  componentWillUnmount(){
+    clearInterval(this.timerID);
+  }
+
+  goBack(){
+    let nextDate = this.state.date;
+    nextDate.setSeconds(nextDate.getSeconds() - 10);
+    this.setState({
+      date: nextDate
+    });
+  }
+
+  render(){
+    return(
+      <div>
+        <h3>현재 시각은 [{this.state.date.toLocaleTimeString()}] 입니다.</h3>
+        <button onClick={this.goBack.bind(this)}>10초 뒤로가기</button>
+      </div>
+    );
+  }
+}
+ReactDOM.render(<Clock/>, document.getElementById('root'));
+*/
+
+/*
+class ApiExample extends React.Component {
+  constructor(props){
+    super(props);
+    this.state ={
+      data: ''
+    };
+  }
+  callApi = () => {
+    fetch("https://jsonplaceholder.typicode.com/todos/1")
+      .then(res => res.json())
+      .then(json => {
+        this.setState({
+          data: json.title
+        });
+      });
+  }
+
+  componentDidMount(){
+    this.callApi();
+  }
+
+  render(){
+    return(
+      <h3>
+        {this.state.data ? this.state.data : "데이터를 불러오는 줄입니다"}
+      </h3>
+    );
+  }
+}
+
+ReactDOM.render(<ApiExample/>,
+  document.getElementById("root"));
+*/
+
+/*
+class EventHandling extends React.Component{
+  constructor(props){
+    super(props);
+    this.state={
+      isToggleOn: true
+    }
+    this.handleClick = this.handleClick.bind(this);
+  }
+  handleClick(){
+    this.setState(state => ({
+      isToggleOn: !this.state.isToggleOn
+    }))
+  }
+  render(){
+    return(
+    <button onClick={this.handleClick}>{this.state.isToggleOn ? "ON":"OFF"}</button>
+    );
+  }
+}
+
+ReactDOM.render(<EventHandling/>,
+  document.getElementById("root"));
+*/
