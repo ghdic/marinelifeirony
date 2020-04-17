@@ -1,14 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Customer from './components/Customer'
+
+const customer = {
+  'name': 'marine',
+  'birthday':'19960728',
+  'gender':'man',
+  'job':'student'
+}
 
 class App extends Component{
   render(){
     return(
-      <div className="gray-background">
-        <img src={logo} lat="logo"/>
-        <h2>Let's develop management system!</h2>
-      </div>
+      <Customer
+        name={customer.name}
+        birthday={customer.birthday}
+        gender={customer.gender}
+        job={customer.job}
+      />
     );
   }
 }
