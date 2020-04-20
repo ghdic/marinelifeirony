@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	//"math"
+)
 
-func main(){
-	fmt.Println("Hello world")
+func main() {
+	
+	// math
+	//fmt.Println(math.Pi, math.Abs(-3), math.Pow(2, 10))
 }
