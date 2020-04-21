@@ -7,7 +7,7 @@
 * [go doucument ko](https://github.com/golang-kr/golang-doc/wiki)
 * [go documentation](https://golang.org/doc/)
 * [awesome-go](https://github.com/avelino/awesome-go)
-https://go-tour-kr.appspot.com/#25 여기까지 정리함
+https://go-tour-kr.appspot.com/#40 여기까지 정리함
 # 기본 개념
 
 ## 입출력
@@ -126,5 +126,109 @@ func add(x int, y int) (sum int) {
 // 여러개도 반환 가능, args 인자 자료형이 같은 경우 마지막에만 써줘도 o
 func swap(x, y string) (string, string) {
     return y, x
+}
+```
+
+## 구조체
+c 구조체와 같음
+```
+type Vertex struct{
+	x, y int
+}
+
+func main() {
+	v := Vertex{1, 2}
+	w := Vertex{x:20} // y는 default값인 0이 들어감
+	v.x = 10
+	fmt.Println(v)
+	fmt.Println(w)
+}
+```
+
+## 포인터
+```
+type Vertex struct{
+	x, y int
+}
+
+func main() {
+	
+	p := Vertex{1, 2}
+	q := &p // type *Vertex
+	q.x = 10
+	fmt.Println(p)
+}
+```
+
+# 생성자 new
+```
+type Vertex struct{
+	x, y int
+}
+
+func main() {
+	v := new(Vertex) // 모든 필드가 0이 할당된 포인터를 반환
+	// 이것과 같음var v *Vertex = new(Vertex)
+	v.x = 10
+	fmt.Println(v)
+}
+```
+
+# 슬라이스
+배열의 값을 가르키는 포인터와 배열의 길이를 정보로 갖고 있는 것
+
+```
+func main() {
+    p := []int{2, 3, 5, 7, 11, 13}
+    fmt.Println("p ==", p)
+
+    for i := 0; i < len(p); i++ {
+        fmt.Printf("p[%d] == %d\n",
+            i, p[i])
+	}
+	
+	// 슬라이싱 p[lo:hi]
+	fmt.Println("p[1:4] ==", p[1:4])
+    fmt.Println("p[:3] ==", p[:3])
+	fmt.Println("p[4:] ==", p[4:])
+	
+	// make(type, len, capacity) T타입의 초기화 된 값을 반환하고, 메모리를 할당한다
+	// new의 경우 T* 포인터를 반환함
+	a := make([]int, 5)
+    printSlice("a", a)
+	b := make([]int, 0, 5)
+	// b[0] = 10 // capacity되어 있다고 len보다 작으면 접근 불가
+    printSlice("b", b)
+    c := b[:2]
+    printSlice("c", c)
+    d := c[2:5]
+	printSlice("d", d)
+
+	b = append(b, 10) // append함수로 추가 가능
+	printSlice("b", b)
+	printSlice("c", c) // 슬라이싱으로 할당된 배열은 얕은복사이므로 b원소 수정시 수정됨
+	for i := 0; i < 5; i++ {
+		b = append(b, 20)
+	}
+	printSlice("b", b) // capacity 넘어가면 두배로 늘려서 재할당, c++ vector와 유사
+	
+	// 빈 슬라이스의 경우 nil 이다
+	var e []int
+	printSlice("e", e)
+	if e == nil {
+		fmt.Println("nil!")
+	}
+
+	// range로 슬라이스나 맵 순회가능
+	var pow = []int{1, 2, 4, 8, 16, 32, 64, 128}
+	for i, v := range pow{
+		fmt.Printf("2**%d=%d\n", i, v)
+	}
+
+}
+
+func printSlice(s string, x []int) {
+    fmt.Printf("%s len=%d cap=%d %v\n",
+        s, len(x), cap(x), x)
 }
 ```
