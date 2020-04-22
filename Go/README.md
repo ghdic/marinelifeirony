@@ -7,7 +7,7 @@
 * [go doucument ko](https://github.com/golang-kr/golang-doc/wiki)
 * [go documentation](https://golang.org/doc/)
 * [awesome-go](https://github.com/avelino/awesome-go)
-https://go-tour-kr.appspot.com/#40 여기까지 정리함
+https://go-tour-kr.appspot.com/#45 여기까지 정리함
 # 기본 개념
 
 ## 입출력
@@ -129,6 +129,68 @@ func swap(x, y string) (string, string) {
 }
 ```
 
+함수도 변수처럼 쓰일수 있다
+
+```
+func main(){
+	hypot := func(x, y float64) float64 {
+		return math.Sqrt(x*x + y*y)
+	}
+	fmt.Println(hypot(3, 4))
+}
+```
+
+함수 클로저로 만들어보는 피보나치
+
+```
+// 클로저 함수 기본형
+funct 함수이름() func(자료형) 반환형 {
+	변수
+	return func(자료형) 반환형{
+		return 반환형
+	}
+}
+```
+
+// 함수형 변수로 사용시 static처럼 기억
+```
+func ff() func() int{
+	x := 0 // 함수형변수로 할당될 경우 static 변수처럼 기억됨
+	return func() int {
+		x = x + 1
+		return x
+	}
+}
+
+func main(){
+	fc := ff()
+	for i:=0; i < 10; i++{
+		fmt.Println(fc())
+	}
+}
+```
+
+```
+// 함수 클로져로 만드는 피보나치
+func fibonacci() func() int {
+	a1, a2, a3 := 1, 1, 2
+	return func() int{
+		a3 = a1 + a2
+		a1 = a2
+		a2 = a3
+		return a1
+	}
+}
+
+func main(){
+	f := fibonacci()
+	for i:=0; i<10; i++{
+		fibonacci()
+		fmt.Println(f())
+	}
+}
+```
+
 ## 구조체
 c 구조체와 같음
 ```
@@ -160,7 +222,7 @@ func main() {
 }
 ```
 
-# 생성자 new
+## 생성자 new
 ```
 type Vertex struct{
 	x, y int
@@ -174,7 +236,7 @@ func main() {
 }
 ```
 
-# 슬라이스
+## 슬라이스
 배열의 값을 가르키는 포인터와 배열의 길이를 정보로 갖고 있는 것
 
 ```
@@ -232,3 +294,30 @@ func printSlice(s string, x []int) {
         s, len(x), cap(x), x)
 }
 ```
+
+
+## 맵
+
+```
+type Vertex struct{
+	y, x int64
+}
+
+func main(){
+	//var m map[string]Vertex = make(map[string]Vertex)
+	var m = map[string]Vertex{"init":Vertex{0,0}, "target":{5, 5}}
+	m["go"] = Vertex{1, 1}
+	//m["temp"] = {2, 2} // 요건 에러남;; 초기화때는 되는디
+	fmt.Println(m)
+	// 요소 값 가져오기
+	element := m["go"] // 복사됨
+	fmt.Println(element)
+	delete(m, "go") // 해당 키 삭제
+	fmt.Println(m)
+	fmt.Println(m["go"]) // 해당 키가 없는 경우 default 반환
+	elem, no := m["go"]
+	elem, ok := m["target"] // 두번째인자 no, ok는 해당 키가 존재하는지 bool로 알려줌
+	fmt.Println(elem, no, ok)
+}
+```
+

@@ -2,17 +2,20 @@ package main
 
 import (
 	"fmt"
-	//"math"
+
 )
 
-type Vertex struct{
-	y, x int64
+func ff() func() int{
+	x := 0 // 함수형변수로 할당될 경우 static 변수처럼 기억됨
+	return func() int {
+		x = x + 1
+		return x
+	}
 }
 
 func main(){
-	//var m map[string]Vertex = make(map[string]Vertex)
-	var m = map[string]Vertex{"init":Vertex{0,0}, "target":{5, 5}}
-	m["go"] = Vertex{1, 1}
-	//m["temp"] = {2, 2} // 요건 에러남;; 초기화때는 되는디
-	fmt.Println(m)
+	fc := ff()
+	for i:=0; i < 10; i++{
+		fmt.Println(fc())
+	}
 }
