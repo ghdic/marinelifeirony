@@ -7,7 +7,7 @@
 * [go doucument ko](https://github.com/golang-kr/golang-doc/wiki)
 * [go documentation](https://golang.org/doc/)
 * [awesome-go](https://github.com/avelino/awesome-go)
-https://go-tour-kr.appspot.com/#45 여기까지 정리함
+https://go-tour-kr.appspot.com/#55 여기까지 정리함
 # 기본 개념
 
 ## 입출력
@@ -207,6 +207,43 @@ func main() {
 }
 ```
 
+## 메소드
+func과 메소드명 사이에 receiver명을 포인터로 넣어주면 메소드를 선언할 수 있다
+
+```
+package main
+
+import(
+	"fmt"
+	"math"
+)
+
+type Vertex struct {
+    X, Y float64
+}
+
+func (v *Vertex) Scale(f float64) {
+    v.X = v.X * f
+    v.Y = v.Y * f
+}
+
+func (v *Vertex) Abs() float64 {
+    return math.Sqrt(v.X*v.X + v.Y*v.Y)
+}
+
+// 메소드
+// func(receiver Type) MethodName(parameterList) (returnTypes){}
+func (a *Vertex) aaa(b int) float64{
+	return a.X + float64(b)
+}
+
+func main(){
+	v := &Vertex{3, 4}
+	v.Scale(5)
+	fmt.Println(v, v.Abs())
+}
+```
+
 ## 포인터
 ```
 type Vertex struct{
@@ -320,4 +357,66 @@ func main(){
 	fmt.Println(elem, no, ok)
 }
 ```
+## 스위치
+```
+import (
+	"fmt"
+	"time"
+)
 
+func main(){
+	fmt.Println("When's Saturday?")
+	today := time.Now().Weekday()
+	fmt.Println(today)
+	switch time.Saturday {
+	case today + 0: // break 안해줘도 되네!
+		fmt.Println("Today")
+	case today + 1:
+		fmt.Println("Tomorrow")
+	case today + 2:
+		fmt.Println("In two days")
+	default:
+		fmt.Println("Too far away")
+	}
+
+	t := time.Now()
+	switch{ // 조건 생략이 switch true와 동일
+	case t.Hour() < 12: // if-then-else처럼 작성 가능
+		fmt.Println("Good moring!")
+	case t.Hour() > 17:
+		fmt.Println("Good afternoon")
+	default:
+		fmt.Println("Good evening")
+	}
+}
+```
+## 인터페이스
+
+```
+package main
+
+import(
+	"fmt"
+	"os"
+)
+
+type Reader interface{
+	Read(b []byte) (n int, err error)
+}
+
+type Writer interface{
+	Write(b []byte) (n int, err error)
+}
+
+type ReadWriter interface{
+	Reader
+	Writer
+}
+
+func main(){
+	var w Writer
+	// os.Stdout에서 이미 Writer가 있음
+	w = os.Stdout
+	fmt.Fprintln(w, "hello writer!")
+}
+```

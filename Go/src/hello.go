@@ -1,21 +1,26 @@
 package main
 
-import (
+import(
 	"fmt"
-
+	"os"
 )
 
-func ff() func() int{
-	x := 0 // 함수형변수로 할당될 경우 static 변수처럼 기억됨
-	return func() int {
-		x = x + 1
-		return x
-	}
+type Reader interface{
+	Read(b []byte) (n int, err error)
+}
+
+type Writer interface{
+	Write(b []byte) (n int, err error)
+}
+
+type ReadWriter interface{
+	Reader
+	Writer
 }
 
 func main(){
-	fc := ff()
-	for i:=0; i < 10; i++{
-		fmt.Println(fc())
-	}
+	var w Writer
+	// os.Stdout에서 이미 Writer가 있음
+	w = os.Stdout
+	fmt.Fprintln(w, "hello writer!")
 }
