@@ -420,3 +420,156 @@ func main(){
 	fmt.Fprintln(w, "hello writer!")
 }
 ```
+
+## 에러
+에러가 났을때 에러메세지를 정할수 있다
+```
+import(
+	"fmt"
+	"time"
+)
+
+type MyError struct{
+	When time.Time
+	What string
+}
+
+func (e *MyError) Error() string{ // 에러 전달 문자열
+	return fmt.Sprintf("at %v, %s", e.When, e.What)
+}
+
+func run() error{ // 내장 인터페이스 타입 error
+	return &MyError{
+		time.Now(),
+		"it didn't work",
+	}
+}
+
+func main(){
+	if err := run(); err != nil{
+		fmt.Println(err)
+	}
+}
+```
+
+```
+import (
+	"fmt"
+	"math"
+)
+
+type ErrNegativeSqrt float64
+
+
+func (e ErrNegativeSqrt) Error() string{
+    return fmt.Sprintf("cannot Sqrt negative number: %f", e)
+}
+
+func Sqrt(f float64) (float64, error) {
+	if x < 0 {
+		return 0, ErrNegativeSqrt(f)
+	}
+	return math.Sqrt(f), nil
+}
+
+func main() {
+    fmt.Println(Sqrt(2))
+    fmt.Println(Sqrt(-2))
+}
+```
+
+## 웹서버
+모듈을 통해 간단하게 http 요청 및 응답을 수행할수 있다
+```
+package main
+
+import(
+	"fmt"
+	"net/http"
+)
+
+type Struct struct{
+    Greeting string
+    Punct string
+	Who string
+}
+
+type String string
+
+func (s String) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprint(w, s)
+}
+	
+func (s *Struct) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprint(w, s.Greeting, s.Punct, s.Who)
+}
+
+
+func main(){
+	http.Handle("/string", String("I'm a frayed knot."))
+    http.Handle("/struct", &Struct{"Hello", ":", "Gophers!"})
+	http.ListenAndServe("localhost:4000", nil)
+}
+
+```
+
+## 이미지
+```
+package main
+
+import (
+    "fmt"
+	"image"
+	"image/color"
+	"golang.org/x/tour/pic" // go get golang.org/x/tour/pic
+)
+
+type Image struct{
+	w int
+	h int
+}
+
+func (img *Image) ColorModel() color.Model{
+	return color.RGBAModel
+}
+
+func (img *Image) Bounds() image.Rectangle{
+	return image.Rect(0, 0, img.w, img.h)
+}
+
+func (img *Image) At(x, y int) color.Color{
+	return color.RGBA{uint8(x), uint8(y), 255, 255}
+}
+
+func main() {
+    m := &Image{256, 256}
+    fmt.Println(m.Bounds())
+	fmt.Println(m.At(0, 0).RGBA())
+	pic.ShowImage(m)
+}
+
+```
+
+## 고루틴
+고루틴은 go 런타임에서 관리되는 경량 쓰레드이다 [고루틴 관련글](https://stonzeteam.github.io/How-Goroutines-Work/)
+
+동일 주소 공간에서 실행되므로, 공유되는 자원이 반드시 동기화 되어야 한다.
+
+```
+import(
+	"fmt"
+	"time"
+)
+
+func say(s string){
+	for i := 0; i < 5; i++{
+		time.Sleep(100 * time.Millisecond)
+		fmt.Println(s)
+	}
+}
+
+func main(){
+	go say("world")
+	say("hello")
+}
+```
