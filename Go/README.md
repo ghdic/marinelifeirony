@@ -7,7 +7,8 @@
 * [go doucument ko](https://github.com/golang-kr/golang-doc/wiki)
 * [go documentation](https://golang.org/doc/)
 * [awesome-go](https://github.com/avelino/awesome-go)
-https://go-tour-kr.appspot.com/#55 여기까지 정리함
+* [예제로 배우는 go프로그래밍](http://golang.site/)
+
 # 기본 개념
 
 ## 입출력
@@ -571,5 +572,116 @@ func say(s string){
 func main(){
 	go say("world")
 	say("hello")
+}
+```
+
+## 채널
+쓰레드 동기화 문제를 해결하기 위해 채널을 이용한다
+```
+import(
+	"fmt"
+)
+
+func sum(a []int, c chan int){
+	sum := 0
+	for _, v := range a{
+		sum += v
+	}
+	c <- sum // sum을 c로 보냄
+}
+
+func main(){
+	a := []int{7, 2, 8, -9, 4, 0}
+
+	c := make(chan int)
+	go sum(a[:len(a)/2], c)
+	go sum(a[len(a)/2:], c)
+	x, y := <-c, <-c // 채널을 통해 수신받을때까지 락됨
+	fmt.Println(x, y, x+y)
+
+	c = make(chan int, 2) // 버퍼 용량이 있는 경우 버퍼가 다 찰때까지 블록
+	c <- 1
+	c <- 2
+	fmt.Println(<-c)
+	fmt.Println(<-c)
+}
+```
+
+```
+import(
+	"fmt"
+)
+
+func fibonacci(n int, c chan int){
+	x, y := 0, 1
+	for i:= 0; i < n; i++{
+		c <- x
+		x, y = y, x+y
+	}
+	close(c) // 채널은 송신측만 닫을 수 있음, 채널은 파일과 다르게 항상 닫을필요 x 더 이상 보낼 값이 없을 경우에만
+}
+
+func main(){
+	c := make(chan int, 10)
+	go fibonacci(cap(c), c)
+	for i := range c {
+		fmt.Println(i)
+	}
+}
+```
+
+## 셀렉트
+```
+import(
+	"fmt"
+)
+
+func fibonacci(c, quit chan int){
+	x, y := 0, 1
+	for {
+		select { // select ~ case 구문으로 통신 동작 중 하나가 수행 될 수 있을때까지 블록
+		case c <- x:
+			x, y = y, x+y
+		case <- quit:
+			fmt.Println("quit")
+			return
+		}
+	}
+}
+
+func main(){
+	c := make(chan int)
+	quit := make(chan int)
+	go func() {
+		for i := 0; i < 10; i++ {
+			fmt.Println(<-c)
+		}
+		quit <- 0
+	}()
+	fibonacci(c, quit)
+}
+```
+
+```
+import(
+	"fmt"
+	"time"
+)
+
+func main(){
+	tick := time.Tick(1e8)
+	boom := time.After(5e8)
+	for {
+		select {
+		case <- tick:
+			fmt.Println("tick")
+		case <- boom:
+			fmt.Println("BOOM!")
+			return
+		default: // 수행준비된 케이스가 없는 경우, 블로킹 없이 송수신할때 사용(더미데이터 주는..?)
+			fmt.Println("     .")
+			time.Sleep(5e7)
+		}
+	}
 }
 ```
