@@ -1,6 +1,8 @@
 # 강의 주소
 
 [React Js 이론부터 실전까지](https://www.youtube.com/watch?v=s2knmog2j1U&list=PLRx0vPvlEmdCED62ZIWCbI-6G_jcwmuFB)
+[React 쿡북](https://react-tuts.vlpt.us/)
+[밸로퍼트님 React](https://velopert.com/reactjs-tutorials)
 
 
 # react vscode 세팅
