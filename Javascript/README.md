@@ -6,7 +6,7 @@
 ## 공부자료
 [MDN 문서](https://developer.mozilla.org/ko/docs/Web/JavaScript)
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Values,_variables,_and_literals 데이터 구조 및 형 볼차례
-
+[모던 자바스크립트](https://ko.javascript.info/)
 
 ## 변수
 * var : 변수를 선언, 추가로 동시에 값을 초기화
