@@ -1,7 +1,23 @@
-# 리버스 쉘이란?
+# python-reverse-shell
+a python script for make a reverse shell to your server or client machine 
 
-해커가 상대방 컴퓨터를 공격할때 쓰는 기법으로
+# Screenshot:
 
-소켓을 연결할때 공격자(Server) -> 희생자(Client) 연결을 요구 경우 희생자 측 방화벽에서 해당 프로세스 포트 개방을 확인을 요구하는데
+   ![cap167](https://user-images.githubusercontent.com/29546157/57581955-bf66a580-74c7-11e9-9c15-ce65fab831e2.PNG)
 
-희생자(Server) -> 공격자(Client) 연결을 할 경우 희생자 측에서 포트 개방 확인을 특별한 설정을 하지 않는한 하지 않는다(내가 상대방 측에 연결을 하는거니 편의성 상 확인 x)
+# For Install:
+  * git clone https://github.com/Oseid/python-reverse-shell
+  * cd python-reverse-shell
+  * Download Complete
+
+# Note
+  * make sure to select the same ip and port in client file with server ip and port
+
+***
+- [x] Work on any platform has python3 or 2 installed
+***
+
+# That's All :)
+   * This Script By Oseid Aldary
+   * Thanks For Usage
+   * Have A Nice Day...GoodBye :)

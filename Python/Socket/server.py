@@ -55,7 +55,7 @@ def accepting_connections():
         try:
             conn, address = s.accept()
             s.setblocking(1) # 타임아웃 방지
-
+            print(address)
             all_connections.append(conn)
             all_address.append(address)
 
@@ -85,11 +85,10 @@ def start_turtle():
 
 def list_connections():
     results = ''
-    selectId = 0
     for i, conn in enumerate(all_connections):
         try:
             conn.send(str.encode(' '))
-            conn.recv(201480) # 연결 확인
+            k = conn.recv(201480) # 연결 확인
         except:
             del all_connections[i]
             del all_address[i]
