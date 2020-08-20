@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import QLabel, QVBoxLayout, QHBoxLayout, QRadioButton, QGroupBox,QPushButton, QButtonGroup, QComboBox
+from PyQt5.QtWidgets import QLabel, QVBoxLayout, QHBoxLayout, QRadioButton, QGroupBox,QPushButton, QButtonGroup, QComboBox, QCheckBox
 from PyQt5.QtGui import QIcon
 
 
@@ -49,11 +49,24 @@ class VideoForm:
         form.setWindowIcon(QIcon(""))
 
         self.video_label = QLabel("", form)
+        self.video_label.setScaledContents(True)
+        self.start_btn = QPushButton("Start", form)
+        self.stop_btn = QPushButton("Stop", form)
+        self.capture_btn = QPushButton("Capture", form)
+        self.save_checkbox = QCheckBox("Save as File When Closed", form)
 
 
 
 
         self.vbox = QVBoxLayout(form)
+
+        self.hbox = QHBoxLayout(form)
+        self.hbox.addWidget(self.start_btn)
+        self.hbox.addWidget(self.stop_btn)
+        self.hbox.addWidget(self.capture_btn)
+
         self.vbox.addWidget(self.video_label)
+        self.vbox.addLayout(self.hbox)
+        self.vbox.addWidget(self.save_checkbox)
 
 
