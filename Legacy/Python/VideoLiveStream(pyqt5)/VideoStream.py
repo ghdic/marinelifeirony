@@ -2,19 +2,22 @@ from ui_form import VideoForm, SettingVideoForm
 from PyQt5.QtWidgets import QWidget, QApplication, QDialog
 from PyQt5.QtCore import pyqtSlot, QTimer
 import sys
+import os
 
 import cv2
 from PyQt5.QtGui import QImage, QPixmap
 import pyaudio
 from io import BytesIO
 import numpy as np
+import socket
 
 class SettingVideoOption(QWidget, SettingVideoForm):
-    def __init__(self, server, controller, ip):
+    def __init__(self, server):
         super().__init__()
         self.server = server
-        self.controller = controller
-        self.ip = ip
+        self.server.controller.send(":video".encode("utf-8"))
+        self.server.video_controller, _ = self.server.create_controller(self.server.host_ip, self.server.video_port, socket.SOCK_STREAM, 1)
+        self.controller = self.server.video_controller
         self.audio_list = self.getAudioList(self.controller)
         self.InitUI(self)
         self.appendAudioList(self.audio_list)
@@ -25,7 +28,7 @@ class SettingVideoOption(QWidget, SettingVideoForm):
         self.audio_device_combobox.addItems(audio_list)
 
     def getAudioList(self, controller):
-        controller.send(":audio_info")
+        controller.send(":audio_info".encode('utf-8'))
         np_bytes = controller.recv()
         load_bytes = BytesIO(np_bytes)
         loaded_np = np.load(load_bytes, allow_pickle=True)
@@ -33,77 +36,67 @@ class SettingVideoOption(QWidget, SettingVideoForm):
 
     def startVideoStream(self):
         print(self.videoBtnGroup.checkedId(), self.audio_device_combobox.currentIndex())
-        self.window = VideoStream(self.server, self.controller, self.ip, self.videoBtnGroup.checkedId(), self.audio_device_combobox.currentIndex())
+        self.window = VideoStream(self.server, self.videoBtnGroup.checkedId(), self.audio_device_combobox.currentIndex())
         self.close()
 
 
 class VideoStream(QDialog, VideoForm):
-    def __init__(self, server, controller, ip, video_device, audio_device):
+    def __init__(self, server, video_device, audio_device):
         super().__init__()
-        self.servver = server
-        self.controller = controller
-        self.ip = ip
+        self.server = server
+        self.controller = self.server.video_controller
+        self.video_stream_controller = None
         self.video_device = video_device
         self.audio_device = audio_device
-        self.InitUI(self, f'[{self.ip}] 와 연결 됨')
+
+        self.InitUI(self, f'[{self.server.client_ip}] 와 연결 됨')
 
         self.start_btn.clicked.connect(self.startWebcam)
 
+        # 비디오 & 오디오
         self.cap = None
         self.timer = QTimer(self, interval=5)
         self.timer.timeout.connect(self.updateFrame)
-
-        self.timer2 = QTimer(self, interval=5)
-        self.timer2.timeout.connect(self.updateSound)
         self.rate = 44100
         self.frames_per_buffer = 1024
         self.channels = 2
         self.format = pyaudio.paInt16
         self.audio_filename = "temp_audio.wav"
         self.audio = pyaudio.PyAudio()
-        self.stream = self.audio.open(format=self.format,
-                                      channels=self.channels,
-                                      rate=self.rate,
-                                      input=True,
-                                      frames_per_buffer=self.frames_per_buffer,
-                                      input_device_index=0
-                                      )
-        self.output = self.audio.open(format=self.format,
+        self.output_audio = self.audio.open(format=self.format,
                                       channels=self.channels,
                                       rate=self.rate,
                                       output=True)
         self.audio_frames = []
-
         self.show()
 
-    @pyqtSlot()
-    def updateSound(self):
-        print(self.stream.get_read_available())
-        data = self.stream.read(self.stream.get_read_available()) # x4
-        self.output.write(data)
+
 
     @pyqtSlot()
     def startWebcam(self):
-        if self.cap is None:
-            self.cap = cv2.VideoCapture(0)
-            self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
-            self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
-            self.stream.start_stream()
+        if self.video_stream_controller is None:
+            self.controller.send(':start'.encode('utf-8'))
+            self.video_stream_controller, _ = self.server.create_controller(self.server.host_ip, self.server.video_stream_port, socket.SOCK_STREAM, 1)
+
         self.timer.start()
-        self.timer2.start()
 
     @pyqtSlot()
     def updateFrame(self):
-        ret, image = self.cap.read()
-        simage = cv2.flip(image, 1)
-        self.displayImage(image, True)
+        np_bytes = self.video_stream_controller.recv()
+        load_bytes = BytesIO(np_bytes)
+        self.image = np.load(load_bytes, allow_pickle=True)
+        self.displayImage(self.image, True)
+
+        data = self.video_stream_controller.recv()
+        self.audio_frames.append(data)
+        self.output_audio.write(data)
 
 
     @pyqtSlot()
     def captureImage(self):
-        flag, frame = self.cap.read()
-        path = r''  #
-        if flag:
+        frame = self.image
+        path = ''
+        if frame:
             QApplication.beep()
             name = "my_image.jpg"
             cv2.imwrite(os.path.join(path, name), frame)

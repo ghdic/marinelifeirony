@@ -95,7 +95,7 @@ class AudioRecorder():
                                       rate=self.rate,
                                       input=True,
                                       frames_per_buffer=self.frames_per_buffer,
-									  input_device_index=0
+									  input_device_index=1
 									  )
         self.audio_frames = []
 

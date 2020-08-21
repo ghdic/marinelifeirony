@@ -12,14 +12,13 @@ class Server(QObject):
         self.host_ip = ip
         self.host_port = port
         self.cur_con = None
-        self.sock = self.create_socket(self.host_ip, self.host_port, socket.SOCK_STREAM, 2)
-        self.video_sock = None
         self.video_controller = None
-        self.video_port = 10004
-
-        self.controller, self.client_ip = self.accept_socket(self.sock)
+        self.video_stream_controller = None
+        self.video_port = port + 1
+        self.video_stream_port = port + 2
+        self.controller, self.client_ip = self.create_controller(self.host_ip, self.host_port, socket.SOCK_STREAM, 2)
         self.App = QApplication(sys.argv)
-        self.window = SettingVideoOption(self, self.controller, self.client_ip)
+        self.window = SettingVideoOption(self)
 
         sys.exit(self.App.exec())
 
@@ -27,12 +26,13 @@ class Server(QObject):
         try:
             sock = socket.socket(socket.AF_INET, kind)
             sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-            sock.bind((self.host_ip, self.host_port))
-            sock.listen(cnt)
+            sock.bind((ip, port))
+            if kind == socket.SOCK_STREAM:
+                sock.listen(cnt)
         except socket.error as e:
             print(e)
             time.sleep(10)
-            sock = self.create_socket(sock, ip, port, kind, cnt)
+            sock = self.create_socket(ip, port, kind, cnt)
         return sock
 
     def accept_socket(self, sock):
@@ -40,23 +40,15 @@ class Server(QObject):
             conn, address = sock.accept()
             sock.setblocking(1)
             controller = SendRecv(conn)
+            print(f'{address[0]}:{str(address[1])}와 정상 연결되었습니다')
             return (controller, f'{address[0]}:{str(address[1])}')
-        except:
-            return (None, None)
-
-
-    def start(self):
-        self.video_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        self.video_sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-        self.video_sock.bind((self.host_ip, self.video_port))
-        self.video_sock.listen(1)
-        self.controller.send(":start")
-        try:
-            conn, address = self.video_sock.accept()
-            self.video_sock.setblocking(1)
-            self.video_controller = SendRecv(conn)
         except socket.error as e:
             print(e)
+            return (None, None)
+
+    def create_controller(self, ip, port, kind, cnt):
+        sock = self.create_socket(ip, port, kind, cnt)
+        return self.accept_socket(sock)
 
 
 
