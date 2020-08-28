@@ -258,48 +258,48 @@
 # import sys
 # from PyQt5 import QtGui
 # from PyQt5.QtWidgets import QMainWindow, QApplication, QMenu, QMenuBar, QAction, QStatusBar
-#
-#
+
+
 # class Window(QMainWindow):
 #     def __init__(self):
 #         super().__init__()
-#
+
 #         self.title = "QMenuBar"
 #         self.top = 200
 #         self.left = 200
 #         self.width = 600
 #         self.height = 500
-#
+
 #         self.setWindowIcon(QtGui.QIcon("LeetCode_logo.ico"))
-#
+
 #         self.InitUI()
-#
-#
+
+
 #     def InitUI(self):
-#
+
 #         self.statusbar = self.statusBar()
 #         self.statusbar.showMessage("Message is Ready")
-#
+
 #         menubar = self.menuBar()
 #         viewMenu = menubar.addMenu("View")
-#
+
 #         viewAction = QAction("View Status", self, checkable = True)
 #         viewAction.setStatusTip("View StatusBar")
 #         viewAction.setChecked(True)
 #         viewAction.triggered.connect(self.toggleMenu)
-#
+
 #         viewMenu.addAction(viewAction)
-#
+
 #         self.setWindowTitle(self.title)
 #         self.setGeometry(self.left, self.top, self.width, self.height)
 #         self.show()
-#
+
 #     def toggleMenu(self, state):
 #         if state:
 #             self.statusbar.show()
 #         else:
 #             self.statusbar.hide()
-#
+
 # App = QApplication(sys.argv)
 # window = Window()
 # sys.exit(App.exec())
@@ -592,9 +592,9 @@
 
 
 # 19. QCheckbox
-from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QCheckBox
-from PyQt5.QtCore import Qt
-import sys
+# from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QCheckBox
+# from PyQt5.QtCore import Qt
+# import sys
 
 
 # class Window(QMainWindow):
@@ -638,10 +638,10 @@ import sys
 
 
 # # 20. QSPinkbox + - 마우스로 클릭해서 숫자 조정하는거
-# from PyQt5.QtWidgets import QApplication, QMainWindow, QSpinBox, QVBoxLayout, QLabel, QDoubleSpinBox
+# from PyQt5.QtWidgets import QApplication, QMainWindow, QSpinBox, QVBoxLayout, QLabel, QDoubleSpinBox, QPushButton
 # import sys
-#
-#
+
+
 # class Window(QMainWindow):
 #     def __init__(self):
 #         super().__init__()
@@ -650,33 +650,39 @@ import sys
 #         self.left = 100
 #         self.width = 300
 #         self.height = 100
-#         self.InitWindow()
-#
+#         #self.InitWindow()
+#         self.btn = QPushButton("안녕", self)
+#         self.btn.move(150, 0)
+#         self.setWindowTitle(self.title)
+#         self.setGeometry(self.left, self.top, self.width, self.height)
+#         #self.setLayout(vBoxLayout)
+#         self.show()
+
 #     def InitWindow(self):
-#
+
 #         vBoxLayout = QVBoxLayout()
 #         self.label = QLabel("Current Value", self)
 #         self.label.move(20, 20)
 #         self.label.resize(200, 40)
 #         vBoxLayout.addWidget(self.label)
-#
+
 #         self.spinBox = QSpinBox(self)
 #         self.spinBox.move(20, 0)
 #         self.spinBox.valueChanged.connect(self.valueChanged)
 #         self.spinBox.setMaximum(500)
-#
-#         self.doubleSpinBox = QDoubleSpinBox(self)
-#         self.doubleSpinBox.move(150, 0)
-#
-#
+
+#         self.doubleSpinBox = QDoubleSpinBox()
+#         #self.doubleSpinBox.move(150, 0)
+
+
 #         self.setWindowTitle(self.title)
 #         self.setGeometry(self.left, self.top, self.width, self.height)
-#
+#         #self.setLayout(vBoxLayout)
 #         self.show()
-#
+
 #     def valueChanged(self):
 #         self.label.setText("Current Value " + str(self.spinBox.text()))
-#
+
 # App = QApplication(sys.argv)
 # window = Window()
 # sys.exit(App.exec())
@@ -790,3 +796,111 @@ import sys
 # App = QApplication(sys.argv)
 # window = Window()
 # sys.exit(App.exec())
+
+# # QListWidget
+# from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QListWidget, QLabel
+# import sys
+# from PyQt5 import QtGui
+
+
+# class Window(QWidget):
+#     def __init__(self):
+#         super().__init__()
+
+#         self.title = "PyQt5 QListWidget"
+#         self.left = 500
+#         self.top = 200
+#         self.width = 300
+#         self.height = 500
+#         self.iconName = 'temp.png'
+
+#         self.InitUI()
+
+#     def InitUI(self):
+#         self.setWindowTitle(self.title)
+#         self.setWindowIcon(QtGui.QIcon(self.iconName))
+#         self.setGeometry(self.left, self.top, self.width, self.height)
+
+#         vbox = QVBoxLayout()
+
+#         self.list = QListWidget()
+#         self.list.insertItem(0, "Python")
+#         self.list.insertItem(1, "Java")
+#         self.list.insertItem(1, "C++")
+#         self.list.insertItem(1, "C#")
+#         self.list.insertItem(1, "Ruby")
+#         self.list.insertItem(1, "Kotlin")
+
+#         self.list.clicked.connect(self.listview_clicked)
+
+#         self.label = QLabel()
+#         self.label.setFont(QtGui.QFont("Sanserif", 15))
+#         vbox.addWidget(self.label)
+#         vbox.addWidget(self.list)
+#         self.setLayout(vbox)
+#         self.show()
+    
+#     def listview_clicked(self):
+#         item = self.list.currentItem()
+#         self.label.setText(str(item.text()))
+        
+# App = QApplication(sys.argv)
+# window = Window()
+# sys.exit(App.exec())
+
+
+
+
+from PyQt5 import QtGui
+from PyQt5.QtWidgets import QApplication, QWidget, QPlainTextEdit, QVBoxLayout
+import sys
+
+
+class Window(QWidget):
+    def __init__(self):
+        super().__init__()
+
+        self.title = "PyQt5 Plain TextEdit"
+        self.top = 200
+        self.left = 500
+        self.width = 400
+        self.height = 300
+
+
+        self.InitWindow()
+
+
+    def InitWindow(self):
+        self.setWindowIcon(QtGui.QIcon("icon.png"))
+        self.setWindowTitle(self.title)
+        self.setGeometry(self.left, self.top, self.width, self.height)
+
+        vbox = QVBoxLayout()
+        plainText = QPlainTextEdit()
+        plainText.setPlaceholderText("This is some text for our plaintextedit")
+
+        #plainText.setReadOnly(True)
+
+
+        text = "Please subscribe the channel and like the videos"
+
+        plainText.appendPlainText(text)
+        plainText.setPlaceholderText(text)
+        plainText.setUndoRedoEnabled(True)
+
+
+
+
+
+        vbox.addWidget(plainText)
+
+        self.setLayout(vbox)
+
+
+        self.show()
+
+
+
+App = QApplication(sys.argv)
+window = Window()
+sys.exit(App.exec())

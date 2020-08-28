@@ -33,6 +33,8 @@ def register():
         db.session.add(user)
         db.session.commit()
         flash(f'Account created for {form.username.data}!', 'success')
+        user = User.query.filter_by(email=form.email.data).first()
+        login_user(user)
         return redirect(url_for('home'))
     return render_template('register.html', title='Register', form=form)
 
