@@ -34,7 +34,8 @@ class Client(QObject):
                                       rate=self.rate,
                                       input=True,
                                       frames_per_buffer=self.frames_per_buffer,
-                                      input_device_index=0
+                                      input_device_index=0,
+                                      stream_callback=self.updateAudioFrame
                                       )
 
 
@@ -139,7 +140,7 @@ class Client(QObject):
         np_bytes = np_bytes.getvalue()
         self.video_stream_controller.send(np_bytes)
 
-        data = self.audio_stream.read(1024)
+        data = self.audio_stream.read(self.audio_stream.get_read_available())
         self.video_stream_controller.send(data)
 
         # load_bytes = BytesIO(np_bytes)

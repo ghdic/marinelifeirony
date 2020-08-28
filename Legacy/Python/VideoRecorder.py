@@ -97,6 +97,13 @@ class AudioRecorder():
                                       frames_per_buffer=self.frames_per_buffer,
 									  input_device_index=1
 									  )
+
+        self.output = self.audio.open(format=self.format,
+										channels=self.channels,
+										rate=self.rate,
+										output=True,
+										frames_per_buffer=self.frames_per_buffer,
+										)
         self.audio_frames = []
 
 
@@ -107,6 +114,7 @@ class AudioRecorder():
         self.stream.start_stream()
         while(self.open == True):
             data = self.stream.read(self.frames_per_buffer) 
+            audio_thread.output.write(data)
             self.audio_frames.append(data)
             if self.open==False:
                 break
@@ -119,7 +127,7 @@ class AudioRecorder():
             self.open = False
             self.stream.stop_stream()
             self.stream.close()
-            self.audio.terminate()
+            #self.audio.terminate()
                
             waveFile = wave.open(self.audio_filename, 'wb')
             waveFile.setnchannels(self.channels)
@@ -193,25 +201,25 @@ def stop_AVrecording(filename):
 		time.sleep(1)
 
 	
-#	 Merging audio and video signal
+# #	 Merging audio and video signal
 	
-	if abs(recorded_fps - 6) >= 0.01:    # If the fps rate was higher/lower than expected, re-encode it to the expected
+# 	if abs(recorded_fps - 6) >= 0.01:    # If the fps rate was higher/lower than expected, re-encode it to the expected
 										
-		print("Re-encoding")
-		cmd = "ffmpeg -r " + str(recorded_fps) + " -i temp_video.avi -pix_fmt yuv420p -r 6 temp_video2.avi"
-		subprocess.call(cmd, shell=True)
+# 		print("Re-encoding")
+# 		cmd = "ffmpeg -r " + str(recorded_fps) + " -i temp_video.avi -pix_fmt yuv420p -r 6 temp_video2.avi"
+# 		subprocess.call(cmd, shell=True)
 	
-		print("Muxing")
-		cmd = "ffmpeg -ac 2 -channel_layout stereo -i temp_audio.wav -i temp_video2.avi -pix_fmt yuv420p " + filename + ".avi"
-		subprocess.call(cmd, shell=True)
+# 		print("Muxing")
+# 		cmd = "ffmpeg -ac 2 -channel_layout stereo -i temp_audio.wav -i temp_video2.avi -pix_fmt yuv420p " + filename + ".avi"
+# 		subprocess.call(cmd, shell=True)
 	
-	else:
+# 	else:
 		
-		print("Normal recording\nMuxing")
-		cmd = "ffmpeg -ac 2 -channel_layout stereo -i temp_audio.wav -i temp_video.avi -pix_fmt yuv420p " + filename + ".avi"
-		subprocess.call(cmd, shell=True)
+# 		print("Normal recording\nMuxing")
+# 		cmd = "ffmpeg -ac 2 -channel_layout stereo -i temp_audio.wav -i temp_video.avi -pix_fmt yuv420p " + filename + ".avi"
+# 		subprocess.call(cmd, shell=True)
 
-		print("..")
+# 		print("..")
 
 
 
@@ -247,3 +255,6 @@ if __name__== "__main__":
 	print("리코딩 끝")
 	stop_AVrecording(filename)
 	print("Done")
+
+	for frame in audio_thread.audio_frames:
+		audio_thread.output.write(frame)
