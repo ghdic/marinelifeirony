@@ -34,8 +34,8 @@ class Client(QObject):
                                       rate=self.rate,
                                       input=True,
                                       frames_per_buffer=self.frames_per_buffer,
-                                      input_device_index=0,
-                                      stream_callback=self.updateAudioFrame
+                                      input_device_index=0
+                                      #stream_callback=self.updateAudioFrame
                                       )
 
 
@@ -161,4 +161,4 @@ class Client(QObject):
         np_bytes = np_bytes.getvalue()
         self.video_controller.send(np_bytes)
 
-c = Client("127.0.0.1", 8888)
+c = Client("192.168.0.2", 8888)

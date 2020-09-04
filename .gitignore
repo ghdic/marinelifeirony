@@ -7,3 +7,9 @@
 User Data/
 Debug/
 src.exe
+
+build/
+dist/
+__pycache__
+__pycache__
+*.spec
