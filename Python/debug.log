@@ -6,3 +6,7 @@
 [0809/162258.478:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
 [0809/162258.571:ERROR:process_reader_win.cc(123)] NtOpenThread: {액세스 거부} 프로세스가 개체에 액세스를 요구했지만 액세스 권한이 없습니다. (0xc0000022)
 [0809/162258.577:ERROR:exception_snapshot_win.cc(98)] thread ID 7580 not found in process
+[0909/014307.121:ERROR:process_reader_win.cc(123)] NtOpenThread: {액세스 거부} 프로세스가 개체에 액세스를 요구했지만 액세스 권한이 없습니다. (0xc0000022)
+[0909/014307.122:ERROR:exception_snapshot_win.cc(99)] thread ID 13900 not found in process
+[0909/014307.204:ERROR:process_reader_win.cc(123)] NtOpenThread: {액세스 거부} 프로세스가 개체에 액세스를 요구했지만 액세스 권한이 없습니다. (0xc0000022)
+[0909/014307.204:ERROR:exception_snapshot_win.cc(99)] thread ID 17160 not found in process
