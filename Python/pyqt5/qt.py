@@ -851,56 +851,117 @@
 
 
 
-from PyQt5 import QtGui
-from PyQt5.QtWidgets import QApplication, QWidget, QPlainTextEdit, QVBoxLayout
-import sys
+# from PyQt5 import QtGui
+# from PyQt5.QtWidgets import QApplication, QWidget, QPlainTextEdit, QVBoxLayout
+# import sys
 
 
-class Window(QWidget):
-    def __init__(self):
-        super().__init__()
+# class Window(QWidget):
+#     def __init__(self):
+#         super().__init__()
 
-        self.title = "PyQt5 Plain TextEdit"
-        self.top = 200
-        self.left = 500
-        self.width = 400
-        self.height = 300
-
-
-        self.InitWindow()
+#         self.title = "PyQt5 Plain TextEdit"
+#         self.top = 200
+#         self.left = 500
+#         self.width = 400
+#         self.height = 300
 
 
-    def InitWindow(self):
-        self.setWindowIcon(QtGui.QIcon("icon.png"))
-        self.setWindowTitle(self.title)
-        self.setGeometry(self.left, self.top, self.width, self.height)
-
-        vbox = QVBoxLayout()
-        plainText = QPlainTextEdit()
-        plainText.setPlaceholderText("This is some text for our plaintextedit")
-
-        #plainText.setReadOnly(True)
+#         self.InitWindow()
 
 
-        text = "Please subscribe the channel and like the videos"
+#     def InitWindow(self):
+#         self.setWindowIcon(QtGui.QIcon("icon.png"))
+#         self.setWindowTitle(self.title)
+#         self.setGeometry(self.left, self.top, self.width, self.height)
 
-        plainText.appendPlainText(text)
-        plainText.setPlaceholderText(text)
-        plainText.setUndoRedoEnabled(True)
+#         vbox = QVBoxLayout()
+#         plainText = QPlainTextEdit()
+#         plainText.setPlaceholderText("This is some text for our plaintextedit")
 
-
-
-
-
-        vbox.addWidget(plainText)
-
-        self.setLayout(vbox)
+#         #plainText.setReadOnly(True)
 
 
-        self.show()
+#         text = "Please subscribe the channel and like the videos"
+
+#         plainText.appendPlainText(text)
+#         plainText.setPlaceholderText(text)
+#         plainText.setUndoRedoEnabled(True)
 
 
 
-App = QApplication(sys.argv)
-window = Window()
-sys.exit(App.exec())
+
+
+#         vbox.addWidget(plainText)
+
+#         self.setLayout(vbox)
+
+
+#         self.show()
+
+
+
+# App = QApplication(sys.argv)
+# window = Window()
+# sys.exit(App.exec())
+
+
+# # 콘솔 입력 가능 예제
+# import platform
+# import sys
+
+# from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+# class NativeMessenger(QtCore.QObject):
+#     messageChanged = QtCore.pyqtSignal(str)
+
+#     def __init__(self, parent=None):
+#         super().__init__(parent)
+
+#         self.m_qin = QtCore.QFile()
+
+#         self.m_qin.open(
+#             sys.stdin.fileno(), QtCore.QIODevice.ReadOnly | QtCore.QIODevice.Unbuffered
+#         )
+
+#         if platform.system() == "Windows":
+#             import win32api
+
+#             if sys.platform == "win32":
+#                 import os
+#                 import msvcrt
+
+#                 if platform.python_implementation() == "PyPy":
+#                     os.fdopen(fh.fileno(), "wb", 0)
+#                 else:
+#                     msvcrt.setmode(sys.stdin.fileno(), os.O_BINARY)
+
+#             self.m_notifier = QtCore.QWinEventNotifier(
+#                 win32api.GetStdHandle(win32api.STD_INPUT_HANDLE)
+#             )
+
+#         else:
+#             self.m_notifier = QtCore.QSocketNotifier(
+#                 sys.stdin.fileno(), QtCore.QSocketNotifier.Read, self
+#             )
+
+#         self.m_notifier.activated.connect(self.readyRead)
+
+#     @QtCore.pyqtSlot()
+#     def readyRead(self):
+#         line = self.m_qin.readLine().data().decode().strip()
+#         self.messageChanged.emit(line)
+
+
+# if __name__ == "__main__":
+#     app = QtWidgets.QApplication(sys.argv)
+
+#     w = QtWidgets.QLabel(alignment=QtCore.Qt.AlignCenter)
+#     w.resize(640, 480)
+#     w.show()
+
+#     messenger = NativeMessenger()
+#     messenger.messageChanged.connect(w.setText)
+
+#     sys.exit(app.exec_())
