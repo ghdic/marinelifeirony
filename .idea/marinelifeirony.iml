@@ -5,11 +5,16 @@
       <sourceFolder url="file://$MODULE_DIR$/Python/Flask/flaskQuiz/1111" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Python/Project/주식데이터차트그리기" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Legacy/Python/VideoLiveStream(pyqt5)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python/pyqt5/OpenTutorials_PyQt/QtFramework" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="PyDocumentationSettings">
+    <option name="renderExternalDocumentation" value="true" />
+  </component>
   <component name="TestRunnerService">
+    <option name="projectConfiguration" value="pytest" />
     <option name="PROJECT_TEST_RUNNER" value="pytest" />
   </component>
 </module>
