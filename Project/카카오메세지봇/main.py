@@ -1,17 +1,7 @@
-# from command import Command
-# kakao_opentalk_name = '슈퍼개구리'  # 톡방 이름
-# c = Command()
-# c.help(kakao_opentalk_name)
+from scheduler import Scheduler
 
-x = """
-…….0…….
-……111……
-…..22222…..
-….3333333….
-…444444444…
-..55555555555..
-.6666666666666."""
+sched = Scheduler(['방 이름'])
 
-x = x.split('\n').reverse()
-x = '\n'.join(''.join(i) for i in zip(*x))
-print(x)
+
+while True:  # 메인 스레드 종료 방지
+    continue

@@ -20,6 +20,7 @@ class Crawler:
         self.forecast_url = 'https://money.cnn.com/quote/forecast/forecast.html?symb='
         self.financial_url = 'https://money.cnn.com/quote/financials/financials.html?symb='
         self.shareholder_url = 'https://money.cnn.com/quote/shareholders/shareholders.html?symb='
+        self.stockrank_url = 'https://unbiastock.com/'
 
     def profile_save_as_png(self, ticker):
         self.driver.get(self.profile_url + ticker)

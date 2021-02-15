@@ -147,12 +147,12 @@ class MsgManager:
         # 새로 처리해야 되는 메세지 부분 찾음!
         self.len = new_len
 
-# 껏다 킬때 새로운 메세지 지점 찾는 방식
-manager = MsgManager()
-m = manager.msg_split(msg)
-res = manager.read_new_msg(m)
-new_res = manager.msg_split(msg2)
-manager.msg_reset(res, new_res)
-m2 = manager.read_new_msg(new_res)
-for k in m2:
-    print(k)
+# # 껏다 킬때 새로운 메세지 지점 찾는 방식
+# manager = MsgManager()
+# m = manager.msg_split(msg)
+# res = manager.read_new_msg(m)
+# new_res = manager.msg_split(msg2)
+# manager.msg_reset(res, new_res)
+# m2 = manager.read_new_msg(new_res)
+# for k in m2:
+#     print(k)

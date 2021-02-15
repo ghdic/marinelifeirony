@@ -1,0 +1,5 @@
+APScheduler
+pywin32
+Pillow
+selenium
+beautifulsoup4
