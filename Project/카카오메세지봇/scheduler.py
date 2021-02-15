@@ -1,21 +1,40 @@
 from apscheduler.schedulers.background import BackgroundScheduler
 import time
+from queue import Queue
+from threading import Thread
+#from kakaotalkchatbot import KakaoTalkChatBot
 
-def job():
-    p_time_ymd_hms = \
-        f"{time.localtime().tm_year}-{time.localtime().tm_mon}-{time.localtime().tm_mday} / " \
-        f"{time.localtime().tm_hour}:{time.localtime().tm_min}:{time.localtime().tm_sec}"
 
-    print(p_time_ymd_hms)
+class Scheduler:
+    sched = BackgroundScheduler()
 
-sched = BackgroundScheduler()
-sched.start()
-# https://apscheduler.readthedocs.io/en/3.0/modules/triggers/cron.html#module-apscheduler.triggers.cron
-sched.add_job(job, 'cron', second='*/5', id='test') # 매 5초마다 실행
+    def __init__(self):
+        self.sched.start()
+        # https://apscheduler.readthedocs.io/en/3.0/modules/triggers/cron.html#module-apscheduler.triggers.cron
+        self.sched.add_job(self.job, 'cron', second='*/5', id='test')  # 매 5초마다 실행
+        self.sched.add_job(self.job2, 'cron', hour='19', minute='30', id='test2')  # 매 xx:xx에 실행
+        self.q = Queue()
+        r = Thread(target=self.run)
+        r.daemon = True # 메인스레드가 끝날때까지 돌아감
+        r.start()
 
-@sched.scheduled_job('cron', hour='0', minute='21', id='test2') # 매 xx:xx에 실행
-def job2():
-    print("job2!!")
+    def run(self):
+        """ 순차적으로 큐에 쌓인 일을 한다 """
+        while True:
+            if not self.q.empty():
+                t = self.q.get()
+                t.start()
+                t.join()
+
+    def job(self):
+        print("job1")
+
+
+    def job2(self):
+        print("job2!!")
+
+
+schd = Scheduler()
 
 while True:
     time.sleep(10)
