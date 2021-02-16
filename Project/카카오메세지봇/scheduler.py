@@ -4,6 +4,7 @@ from queue import Queue
 from threading import Thread
 from kakaotalkchatbot import KakaoTalkChatBot
 from msg_manager import MsgManager
+from command import Command
 
 
 class Scheduler:
@@ -13,17 +14,20 @@ class Scheduler:
         self.sched.start()
         self.chat_bot = KakaoTalkChatBot()
         self.msg_manager = MsgManager()  # 메세지 매니저가 각 방마다 있어야함
+        self.command = Command()
+        self.q = Queue()
         for room_name in room_name_list:
-            self.sched.add_job(self.queue_manage, trigger='cron', args=('handle_msg', room_name), second='*/1', id=room_name)
+            self.sched.add_job(self.queue_manage, trigger='cron', args=('handle_msg', room_name), second='*/1',
+                               id=room_name)
             self.chat_bot.open_chat_room(room_name)  # 채팅방을 열어줌
             msg = self.chat_bot.get_msg(room_name)
             res = self.msg_manager.msg_split(msg)
             res = self.msg_manager.read_new_msg(res)  # 시작시 로드되는 채팅들은 무시함
 
         # self.sched.add_job(self.job2, 'cron', hour='19', minute='30', id='test2')  # 매 xx:xx에 실행
-        self.q = Queue()
+
         r = Thread(target=self.run)
-        r.daemon = True # 메인스레드가 끝날때까지 돌아감
+        r.daemon = True  # 메인스레드가 끝날때까지 돌아감
         r.start()
 
     def run(self):
@@ -44,7 +48,7 @@ class Scheduler:
 
     def handle_msg(self, room_name):
         """ 메세지를 처리하고 """
-        #try:  # 클립보드 사용중이라면 순서를 미뤄도 ok
+        # try:  # 클립보드 사용중이라면 순서를 미뤄도 ok
         msg = self.chat_bot.get_msg(room_name)
         # except:
         #     return
@@ -69,5 +73,10 @@ class Scheduler:
         """ 명령을 수행한다 """
         msg = command['메세지'].strip().split(' ')
         c = msg[0]
-        if c == '!인사':
-            self.chat_bot.send_msg(f'인사오지게 박습니다 "{command["닉네임"]}"형님', room_name)
+        try:
+            if c == '!인사':
+                self.chat_bot.send_msg(f'인사오지게 박습니다 "{command["닉네임"]}"형님', room_name)
+            elif c == '!stock':
+                self.command.stock_info(msg[1], room_name)
+        except:
+            self.chat_bot.send_msg("알수 없는 에러가 발생하였습니다", room_name)

@@ -17,7 +17,16 @@ class ClipBoard:
         win32clipboard.CloseClipboard()
         return data
 
-    def image_to_clipboard(self, filename):
+    def set_clipboard_text(text):
+        win32clipboard.OpenClipboard()
+        win32clipboard.EmptyClipboard()
+        win32clipboard.SetClipboard(text.encode('utf-8'),
+                                    win32clipboard.CF_TEXT)
+        # win32clipboard.SetClipboard(text,
+        #                             win32clipboard.CF_UNICODETEXT)
+        win32clipboard.CloseClipboard()
+
+    def set_clipboard_image(self, filename):
         """ 이미지를 클립보드에 업로드 """
         image = Image.open(filename)
         output = BytesIO()
@@ -25,3 +34,6 @@ class ClipBoard:
         data = output.getvalue()[14:]
         output.close()
         self.send_to_clipboard(win32clipboard.CF_DIB, data)
+
+    def aa(self):
+        win32clipboard.ChangeClipboardChain()

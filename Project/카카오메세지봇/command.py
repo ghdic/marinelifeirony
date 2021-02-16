@@ -1,5 +1,6 @@
 from kakaotalkchatbot import KakaoTalkChatBot
 import textwrap
+from stock import Stock
 
 class Command:
     help_msg = textwrap.dedent("""\
@@ -19,6 +20,13 @@ class Command:
 
     def __init__(self):
         self.chat_bot = KakaoTalkChatBot()
+        self.stock = Stock()
 
     def help(self, chatroom_name):
-        self.chat_bot.kakao_sendtext(self.help_msg, chatroom_name)
+        self.chat_bot.send_msg(self.help_msg, chatroom_name)
+
+    def stock_info(self, ticker, chatroom_name):
+        if self.stock.ticker_exist(ticker):
+            self.chat_bot.send_msg(self.stock.get_info(ticker), chatroom_name)
+        else:
+            self.chat_bot.send_msg(f'{ticker}는 존재하지 않는 티커입니다.')
