@@ -8,6 +8,7 @@ from flaskblog.forms import (RegistrationForm, LoginForm, UpdateAccountForm,
 from flaskblog.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
 from flask_mail import Message
+from flask import jsonify
 
 @app.route("/")
 @app.route("/home")
@@ -21,6 +22,9 @@ def home():
 def about():
     return render_template('about.html', title='About')
 
+@app.route("/get_client_ip", methods=["GET"])
+def get_my_ip():
+   return request.environ.get('HTTP_X_REAL_IP', request.remote_addr)
 
 @app.route("/register", methods=['GET', 'POST'])
 def register():
