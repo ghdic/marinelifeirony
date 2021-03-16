@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
 
 * {
-  box-sizing: border-box; /* 테두리를 포함한 크기 지정, default : content-box*/
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -18,18 +18,20 @@ body {
   height: 100vh;
 }
 
-.left-slide {
-  height: 100vh;
-  width: 35vw;
+.top-slide {
+  height: 35vh;
+  width: 400vw;
   position: absolute;
   top: 0;
   left: 0;
+  display: flex;
+  flex-flow: row nowrap;
   transition: transform 0.5s ease-in-out;
 }
 
-.left-slide > div {
-  height: 100vh;
-  width: 35vw;
+.top-slide > div {
+  height: 35vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,31 +39,34 @@ body {
   color: #000;
 }
 
-.left-slide h1 {
-  font-size: 10vw;
+.top-slide h1 {
+  font-size: 10vh;
   margin-bottom: 10px;
-  margin-top: -30px;
+  margin-top: 10px;
 }
 
-.left-slide p {
-  font-size: 5vw;
+.top-slide p {
+  font-size: 5vh;
 }
 
-.right-slide {
-  height: 100vh;
-  width: 65vw;
+.bottom-slide {
+  height: 65vh;
+  width: 400vw;
   position: absolute;
-  top: 0;
-  left: 35vw;
+  top: 35vh;
+  left: 0;
+  display: flex;
+  flex-flow: row nowrap;
   transition: transform 0.5s ease-in-out;
 }
 
-.right-slide > div {
+.bottom-slide > div {
+  height: 65vh;
+  width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 100vh;
-  width: 65vw;
+
 }
 
 button {
@@ -83,19 +88,19 @@ button:focus {
 
 .slider-container .action-buttons button {
   position: absolute;
-  left: 35%;
-  top: 50%;
+  left: 0;
+  top: 35%;
   z-index: 100;
 }
 
-.slider-container .action-buttons .down-button {
-  transform: translateX(-100%);
+.slider-container .action-buttons .left-button {
+  transform: translateX(0%);
   border-top-left-radius: 5px;
   border-bottom-left-radius: 10px;
 }
 
-.slider-container .action-buttons .up-button {
-  transform: translateY(-100%);
+.slider-container .action-buttons .right-button {
+  transform: translateX(100%);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 5px;
 }
