@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,600&display=swap');
+
+body {
+  align-items: center;
+  background-color: #f2f2f2;
+  display: flex;
+  font-family: "Merriweather", serif;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.person {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+
+.container {
+  border-radius: 50%;
+  height: 312px;
+  transform: scale(0.48);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: property duration timeingfunction */
+  /* cubic-bezier  https://matthewlein.com/tools/ceaser, http://www.roblaplaca.com/examples/bezierBuilder/  */
+  /*
+  ease - cubic-bezier(0.25, 0.1, 0.25, 1)와 같다. 처음과 끝을 부드럽게 (기본값)
+  linear - cubic-bezier(0, 0, 1, 1)와 같다. 등속운동
+  ease-in - cubic-bezier(0.42, 0, 1, 1)와 같다. 처음을 느리게
+  ease-out - cubic-bezier(0, 0, 0.58, 1)와 같다. 마지막을 느리게
+  ease-in-out - cubic-bezier(0.42, 0, 0.58, 1)와 같다. 처음과 마지막을 느리게 준다.
+  step-start - steps(1,start)와 같다. 시작하는 지점에 스텝을 끊어준다.
+  step-end - steps(1,end)와 같다. 끝나는 시점에 스텝을 끊어준다.
+  */
+  width: 400px;
+}
+
+.container:after {
+  background-color: #f2f2f2;
+  content: "";
+  height: 10px;
+  position: absolute;
+  top: 390px;
+  width: 100%;
+}
+
+.container:hover {
+  transform: scale(0.54)
+}
+
+.container-inner{
+  clip-path: circle(72%);
+  position: relative;
+  transform-origin: 50%;
+  top: -200px;
+}
+
+.circle {
+  background-color: #fee7d3;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 380px;
+  left: 10px;
+  pointer-events: none;
+  position: absolute;
+  top: 210px;
+  width: 380px;
+}
+
+.img {
+  pointer-events: none;
+  position: relative;
+  transform: translateY(20px) scale(1.15);
+  transform-origin: 50% bottom;
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container:hover .img {
+  transform: translateY(0) scale(1.2);
+}
+
+.img1 {
+  left: 22px;
+  top: 164px;
+  width: 340px;
+}
+
+.img2 {
+  left: -46px;
+  top: 174px;
+  width: 444px;
+}
+
+.img3 {
+  left: -16px;
+  top: 144px;
+  width: 466px;
+}
+
+.divider {
+  background-color: #ca6060;
+  height: 1px;
+  width: 160px;
+}
+
+.name {
+  color: #404245;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.title {
+  color: #6e6e6e;
+  font-family: arial;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 4px;
+}
