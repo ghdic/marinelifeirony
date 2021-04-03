@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restore Item</title>
+</head>
+<body>
+  <style>
+    .restored-item {
+      animation: openspace 0.3s ease forwards, restored-item-animation 0.3s 0.3s cubic-bezier(0, 0.8, 0.32, 1.07) forwards;
+    }
+
+    @keyframes openspace {
+      to {
+        height: auto;
+      }
+    }
+
+    @keyframes restored-item-animation {
+      0% {
+        opacity: 0;
+        transform: translateY(600px) rotateZ(90deg);
+      }
+
+      10% {
+        opacity: 1;
+        transform: translateY(600px) rotateZ(90deg);
+      }
+
+      100% {
+        opacity: 1;
+        transform: rotateZ(0);
+      }
+    }
+
+    .restored-item2 {
+      animation: openspace2 .3s ease forwards, restored-item-animation2 .3s .3s ease-out forwards;
+    }
+
+    @keyframes openspace2 {
+      to {
+        height: auto;
+      }
+    }
+
+    @keyframes restored-item-animation2 {
+      0% {
+        opacity: 0;
+        transform: scale(4);
+      }
+
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .restored-item3 {
+      animation: openspace3 .3s ease forwards, restored-item-animation3 .5s .3s cubic-bezier(.14, .25, .52, 1.56) forwards;
+    }
+
+    @keyframes openspcae3 {
+      to {
+        height: auto;
+      }
+    }
+
+    @keyframes restored-item-animation3 {
+      0% {
+        opacity: 0;
+        transform: translateX(300px);
+      }
+
+      70% {
+        opacity: 1;
+        transform: translateX(-50px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .restored-item4 {
+      animation: openspace4 .3s ease forwards, restored-item-animation4 .3s .3s cubic-bezier(0, .8, .32, 1.07) forwards;
+    }
+
+    @keyframes openspace4 {
+      to {
+        height: auto;
+      }
+    }
+
+    @keyframes restored-item-animation4 {
+      from {
+        opacity: 0;
+        transform: scale(0);
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .restored-item5 {
+      transform: translateX(300px);
+      animation: openspace5 .3s ease forwards, restored-item-animation5 .3s .3s cubic-bezier(0, .8, .32, 1.07) forwards;
+    }
+
+    @keyframes openspace5 {
+      to {
+        height: auto;
+      }
+    }
+
+    @keyframes restored-item-animation5 {
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    li.restored-item6 {
+      transform: translateX(300px);
+      animation: 
+          openspace6 .3s ease forwards, 
+          restored-item-animation6 .5s .3s cubic-bezier(.14,.25,.52,1.56) forwards;
+    }
+
+    @keyframes openspace6 {
+        to {
+            height: auto;
+        }
+    }
+
+    @keyframes restored-item-animation6 {
+      0% {
+          opacity: 0;
+          transform: translateX(300px);
+      }
+
+      70% {
+          opacity: 1;
+          transform: translateX(-50px);
+      }
+
+      100% {
+          opacity: 1;
+          transform: translateX(0);
+      }
+    }
+  </style>
+  <h2>Restore Animation</h2>
+  <ul>
+    <li class="restored-item">aaa</li>
+    <li class="restored-item2">bbb</li>
+    <li class="restored-item3">ccc</li>
+    <li class="restored-item4">ddd</li>
+    <li class="restored-item5">eee</li>
+    <li class="restored-item6">fff</li>
+  </ul>
+</body>
+</html>

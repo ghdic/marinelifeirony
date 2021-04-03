@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remove Item Effect</title>
+</head>
+<body>
+
+  <style>
+    li.removed-item {
+      animation: removed-item-animation 1s cubic-bezier(0.55, -0.04, 0.91, 0.94) forwards;
+      transform-origin: 0% 100%; /* bottom to left corner */
+    }
+
+    @keyframes removed-item-animation {
+      0% {
+        opacity: 1;
+        transform: rotateZ(0);
+      }
+
+      100% {
+        opacity: 0;
+        transform: translateY(600px) rotateZ(90deg);
+      }
+    }
+
+    .removed-item2 {
+      animation: removed-item-animation2 .6s ease-out forwards;
+      transform-origin: 50% 50%; /* 애니메이션 중심축 지정 */
+    }
+
+    @keyframes removed-item-animation2 {
+      0% {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      100% {
+        opacity: 0;
+        transform: scale(4);
+      }
+    }
+
+    .removed-item3 {
+      animation: removed-item-animation3 .8s cubic-bezier(.65, -0.02, .72, .29);
+    }
+
+    @keyframes removed-item-animation3 {
+      0% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+
+      30% {
+        opacity: 1;
+        transform: translateX(50px);
+      }
+
+      80% {
+        opacity: 1;
+        transform: translateX(-800px);
+      }
+
+      100% {
+        opacity: 0;
+        transform: translateX(-800px);
+      }
+    }
+
+    .removed-item4 {
+      animation: removed-item-animation4 .6s cubic-bezier(.55, -0.04, .91, .94) forwards;
+    }
+
+    @keyframes removed-item-animation4 {
+      from {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      to {
+        opacity: 0;
+        transform: scale(0);
+      }
+    }
+
+    .removed-item5 {
+      animation: removed-item-animation5 2s cubic-bezier(.55, -0.04, .91, .94) forwards;
+      transform-origin: 0% 100%;
+    }
+
+    @keyframes removed-item-animation5 {
+      0% {
+        opacity: 1;
+        transform: rotateZ(0);
+      }
+
+      20% {
+        opacity: 1;
+        transform: rotateZ(140deg);
+      }
+
+      40% {
+        opacity: 1;
+        transform: rotateZ(60deg);
+      }
+
+      60% {
+        opacity: 1;
+        transform: rotateZ(110deg);
+      }
+      
+      70% {
+        opacity: 1;
+        transform: rotateZ(90deg) translateX(0);
+      }
+
+      90% {
+        opacity: 1;
+        transform: rotateZ(90deg) translateX(600px);
+      }
+
+      100% {
+        opacity: 0;
+        transform: rotateZ(90deg) translateX(600px);
+      }
+    }
+
+    .removed-item6 {
+      animation: removed-item-animation6 1s linear;
+      transform-origin: 390px 100%;
+    }
+
+    @keyframes removed-item-animation6 {
+      0% {
+          opacity: 1;
+          transform: translateX(0) rotateZ(0);
+      }
+
+      50% {
+          opacity: 1;
+          transform: translateX(-400px) rotateZ(0);
+      }
+
+      75% {
+          opacity: 1;
+          transform: translateX(-420px) rotateZ(-30deg);
+      }
+
+      100% {
+          opacity: 0;
+          transform: translateX(-800px) rotateZ(-60deg)  translateY(400px);
+      }
+    }
+
+  </style>
+  <h2>Remove Item Effect</h2>
+  <ul>
+    <li class='removed-item'>aaaa</li>
+    <li class='removed-item2'>bbbb</li>
+    <li class='removed-item3'>cccc</li>
+    <li class="removed-item4">dddd</li>
+    <li class="removed-item5">eeee</li>
+    <li class="removed-item6">ffff</li>
+  </ul>
+</body>
+</html>

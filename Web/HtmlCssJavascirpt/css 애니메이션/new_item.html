@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Item</title>
+</head>
+<body>
+  <style>
+    .new-item {
+      opacity: 0;
+      animation: new-item-animation .5s linear forwards;
+    }
+
+    @keyframes new-item-animation {
+      from {
+        opacity: 0;
+        transform: translateY(-400px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .new-item2 {
+      opacity: 0;
+      animation: fadeIn .3s linear forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+  <ul>
+    <li class='new-item'>aaa</li>
+    <li class='new-item2'>bbb</li>
+    <li>ccc</li>
+  </ul>
+</body>
+</html>
