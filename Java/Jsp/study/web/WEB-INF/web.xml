@@ -49,4 +49,12 @@
         <extension>wsdl</extension>
         <mime-type>text/xml</mime-type>
     </mime-mapping>
+    <servlet>
+        <servlet-name>servletEx</servlet-name>
+        <servlet-class>dao.testservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletEx</servlet-name>
+        <url-pattern>/xmltest</url-pattern>
+    </servlet-mapping>
 </web-app>
