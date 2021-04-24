@@ -57,4 +57,15 @@
         <servlet-name>servletEx</servlet-name>
         <url-pattern>/xmltest</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>test-jsp</servlet-name>
+        <jsp-file>/test2.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>test-jsp</servlet-name>
+        <url-pattern>/test2</url-pattern>
+    </servlet-mapping>
 </web-app>
