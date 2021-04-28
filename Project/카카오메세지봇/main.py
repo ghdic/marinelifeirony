@@ -1,6 +1,6 @@
 from scheduler import Scheduler
 
-sched = Scheduler(['초보 웹개발자입니다'])
+sched = Scheduler(['미국주식 투자토론방'])
 
 
 while True:  # 메인 스레드 종료 방지

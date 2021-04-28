@@ -1,11 +1,12 @@
 import yfinance as yf
-import iexfinance
+import requests
+import json
 
 class Stock:
     def get_percent(self, price1, price2):
         return round((price1 / price2 - 1) * 100, 2)
 
-    def get_info(self, ticker):
+    def get_info2(self, ticker):
         text = ''
         target = yf.Ticker(ticker)
         data = target.get_info()
@@ -63,19 +64,59 @@ class Stock:
             index += 1
         return f'{round(num, 2)}{unit[index]}'
 
+    def get_data(self, ticker, interval, term):
+        url = requests.get(f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?region=US&lang=en-US&includePrePost=false&interval={interval}&useYfid=true&range={term}&corsDomain=finance.yahoo.com&.tsrc=finance")
+        data = json.loads(url.text)
+        data = data['chart']['result'][0]
+        # data['chart']['result'][0]['indicators']['adjclose'] 닫은 가격
+        return data
+
+    def get_info(self, ticker):
+        text = ''
+        target = yf.Ticker(ticker)
+        data = target.get_info()
+        company_name = data['longName']
+        try:
+            market_cap = self.num_to_unit(data['marketCap'])
+        except:
+            market_cap = self.num_to_unit(data['totalAssets'])
+
+        data = self.get_data(ticker, '1d', '1d')['meta']
+        symbol = data['symbol']
+        today_price = data['chartPreviousClose']
+        change_price = data['regularMarketPrice']
+        change_percent = self.get_percent(change_price, today_price)
+        data = self.get_data(ticker, '1d', '7d')['meta']
+        week_percent = self.get_percent(data['regularMarketPrice'], data['chartPreviousClose'])
+        data = self.get_data(ticker, '1mo', '1mo')['meta']
+        month_percent = self.get_percent(data['regularMarketPrice'], data['chartPreviousClose'])
+        data = self.get_data(ticker, '3mo', '3mo')['meta']
+        three_month_percent = self.get_percent(data['regularMarketPrice'], data['chartPreviousClose'])
+        data = self.get_data(ticker, '3mo', '6mo')['meta']
+        six_month_percent = self.get_percent(data['regularMarketPrice'], data['chartPreviousClose'])
+        data = self.get_data(ticker, '3mo', '1y')['meta']
+        year_percent = self.get_percent(data['regularMarketPrice'], data['chartPreviousClose'])
+        data = self.get_data(ticker, '1mo', 'ytd')['meta']
+        ytd_percent = self.get_percent(data['regularMarketPrice'], data['chartPreviousClose'])
+
+        # chartPreviousClose = data['chartPreviousClose'] # 닫을때 가격
+        # regularMarketPrice = data['regularMarketPrice'] # 현재가
+        # print(data['regularMarketPrice'])
+
+
+        text += f'{company_name} ({symbol})\n'
+        text += f'Cap : {market_cap}\n'
+        text += f'Price : ${today_price}\n'
+        text += f'Change : ${change_price} ({change_percent}%)\n'
+        text += f'1W : {week_percent}%, 1M : {month_percent}%\n'
+        text += f'3M : {three_month_percent}%, 6M : {six_month_percent}%\n'
+        text += f'1Y : {year_percent}%, YTD : {ytd_percent}%'
+        return text
+
+
 
 
 # s = Stock()
-# ticker = 'SNDL'
+# ticker = 'soxl'
 #
-# if s.ticker_exist(ticker):
-#     print(s.get_info(ticker))
-
-# a = [1, 1, 2, 1, 3, 1]
-# index = -1
-# while True:
-#     try:
-#         index = a.index(1, index+1)
-#         print(index)
-#     except:
-#         break
+# print(s.get_info(ticker))

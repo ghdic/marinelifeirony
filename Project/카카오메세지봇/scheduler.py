@@ -71,12 +71,10 @@ class Scheduler:
 
     def execute(self, command, room_name):
         """ 명령을 수행한다 """
-        msg = command['메세지'].strip().split(' ')
-        c = msg[0]
+        msg = command['메세지'].strip()
+        c = msg[0:2]
         try:
-            if c == '!인사':
-                self.chat_bot.send_msg(f'인사오지게 박습니다 "{command["닉네임"]}"형님', room_name)
-            elif c == '!stock':
-                self.command.stock_info(msg[1], room_name)
+            if c == '!s':
+                self.command.stock_info(msg[3:], room_name)
         except:
-            self.chat_bot.send_msg("알수 없는 에러가 발생하였습니다", room_name)
+            self.chat_bot.send_msg(f"{msg[3:]} 올바른 티커인지 확인해주세요 ", room_name)
