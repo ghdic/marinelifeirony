@@ -11,5 +11,16 @@ create table user (
     primary key (userID)
 );
 
-
 insert into user values('gildong', '1234', '홍길동', '남자', 'gildong@gildong.com');
+
+use bbs;
+create table bbs
+(
+    bbsID        int,
+    bbsTitle     varchar(50),
+    userID       varchar(20),
+    bbsDate      datetime,
+    bbsContent   varchar(2048),
+    bbsAvailable int,
+    primary key (bbsID)
+);

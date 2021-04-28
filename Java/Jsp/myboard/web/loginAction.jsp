@@ -22,12 +22,23 @@
 </head>
 <body>
 	<%
-		UserDAO userDAO = new UserDAO();
-		int result = userDAO.login(user.getUserID(), user.getUserPW());
 		PrintWriter script = response.getWriter();
 		script.println("<script>");
+		String userID = null;
+		if(session.getAttribute("userID") != null) {
+		    userID = (String) session.getAttribute("userID");
+		}
+		if (userID != null) {
+		    script.println("alert('이미 로그인이 되었습니다')");
+		    script.println("location.href = 'index.jsp'");
+		}
+		UserDAO userDAO = new UserDAO();
+		int result = userDAO.login(user.getUserID(), user.getUserPW());
+
+
 		if (result == 1) {
-		    script.println("location.href = 'main.jsp'");
+		    session.setAttribute("userID", user.getUserID());
+		    script.println("location.href = 'index.jsp'");
 		} else if (result == 0) {
 			script.println("alert('비밀번호가 틀립니다')");
 			script.println("history.back()");

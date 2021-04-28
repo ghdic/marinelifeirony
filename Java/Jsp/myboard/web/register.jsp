@@ -18,17 +18,17 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-	<a class="navbar-brand" href="#">게시판 구축</a>
+	<a class="navbar-brand" href="index.jsp">게시판 구축</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	<div class="collapse navbar-collapse" id="navbarNavDropdown">
 		<ul class="navbar-nav">
 			<li class="nav-item active">
-				<a class="nav-link" href="#">메인 <span class="sr-only">(current)</span></a>
+				<a class="nav-link" href="index.jsp">메인 <span class="sr-only">(current)</span></a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">게시판</a>
+				<a class="nav-link" href="bbs.jsp">게시판</a>
 			</li>
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -47,13 +47,13 @@
 	<div class="col-log-4"></div>
 	<div class="col-log-4">
 		<div class="jumbotron" style="padding-top: 20px;">
-			<form action="loginAction.jsp" method="post">
+			<form action="registerAction.jsp" method="post">
 				<h3 style="text-align: center;">회원가입 화면</h3>
 				<div class="form-group">
 					<input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20">
 				</div>
 				<div class="form-group">
-					<input type="text" class="form-control" placeholder="비밀번호" name="userPW" maxlength="20">
+					<input type="password" class="form-control" placeholder="비밀번호" name="userPW" maxlength="20">
 				</div>
 				<div class="form-group">
 					<input type="text" class="form-control" placeholder="이름" name="userName" maxlength="20">
