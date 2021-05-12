@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cors">
+    <output-path>$PROJECT_DIR$/out/artifacts/cors</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="cors/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cors" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="cos" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
