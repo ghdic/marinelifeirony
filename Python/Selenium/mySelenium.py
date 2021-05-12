@@ -33,4 +33,29 @@ from selenium import webdriver
 #     # 텍스트에 포함되어 있는 특수 문자 제거
 #     # 특수 문자 때문에 파일이나 시트 제목이 안될 경우 대비 유용
 #     text = re.sub('[\/:*\?\"\\‘|\<\>`\']', ' ', readData)
+
+
+# display: none으로 되어있는건 .text로 안긁어와진다. 실제 보여지는 컨텐츠만 긁어와짐, 이때 .get_attribute('textContent')를 사용해서 긁어 올 수 있음
+
+# alert, confirm창 처리
+try:
+    confirm = driver.switch_to.alert
+    confirm.accept()
+except:
+    pass
+
+
+# 비밀번호 같은 중요한 정보는 소스코드가 아닌 환경변수에 담기
+os.environ.get("my_pw")
+
+
+# 윈도우 창 길이 무제한으로 늘리고 싶을 때 사용
+options = webdriver.ChromeOptions()
+options.add_argument('headless')
+options.headless = True
+options.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
+global driver
+driver = webdriver.Chrome('chromedriver.exe', options=options)
+
+driver.set_window_size(1920, 100000)
 #     return text

@@ -1,8 +1,14 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: user
+  Date: 2021-04-24
+  Time: 오후 5:27
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.io.PrintWriter" %>
-<%@ page import="bbs.BBSDAO" %>
 <%@ page import="bbs.Bbs" %>
-<%@ page import="java.util.ArrayList" %>
+<%@ page import="bbs.BBSDAO" %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -12,23 +18,35 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<title>메인 페이지</title>
-	<style>
-		a, a:hover {
-			color: #000000;
-			text-decoration: none;
-		}
-	</style>
 </head>
 <body>
 <%
+	PrintWriter script = response.getWriter();
+	script.println("<script>");
 	String userID = null;
 	if (session.getAttribute("userID") != null) {
 		userID = (String) session.getAttribute("userID");
 	}
-	int pageNumber = 1;
-	if (request.getParameter("pageNumber") != null) {
-	    pageNumber = Integer.parseInt(request.getParameter("pageNumber"));
+	if (userID == null) {
+		script.println("alert('로그인이 필요합니다')");
+		script.println("location.href = 'login.jsp'");
 	}
+	int bbsID = 0;
+	if (request.getParameter("bbsID") != null) {
+	    bbsID = Integer.parseInt(request.getParameter("bbsID"));
+	}
+	if (bbsID == 0) {
+		script.println("alert('유효하지 않은 글입니다.')");
+		script.println("location.href = 'bbs.jsp ");
+	}
+	Bbs bbs = new BBSDAO().getBbs(bbsID);
+	if (!userID.equals(bbs.getUserID())) {
+	    script.println("alert('권한이 없습니다')");
+	    script.println("location.href = 'bbs.jsp'");
+	}
+
+
+	script.println("</script>");
 %>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<a class="navbar-brand" href="index.jsp">게시판 구축</a>
@@ -76,45 +94,24 @@
 
 <div class="container">
 	<div class="row">
-		<table class="table table-striped" style="text-align: center; border: 1px solid #dddddd">
-			<thead>
+		<form action="updateAction.jsp?bbsID=<%= bbsID %>" method="post">
+			<table class="table table-striped" style="text-align: center; border: 1px solid #dddddd">
+				<thead>
 				<tr>
-					<th style="background-color: #eeeeee; text-align: center;">번호</th>
-					<th style="background-color: #eeeeee; text-align: center;">제목</th>
-					<th style="background-color: #eeeeee; text-align: center;">작성자</th>
-					<th style="background-color: #eeeeee; text-align: center;">작성일</th>
+					<th style="background-color: #eeeeee; text-align: center;">게시판 글수정 양식</th>
 				</tr>
-			</thead>
-			<tbody>
-			<%
-				BBSDAO bbsDAO = new BBSDAO();
-				ArrayList<Bbs> list = bbsDAO.getList(pageNumber);
-				for(int i = 0; i < list.size(); i++) {
-			%>
-			<tr>
-				<td><%= list.get(i).getBbsID() %></td>
-				<td><a href="view.jsp?bbsID=<%= list.get(i).getBbsID() %>"><%= list.get(i).getBbsTitle() %></a></td>
-				<td><%= list.get(i).getUserID() %></td>
-				<td><%= list.get(i).getBbsDate().substring(0, 11) + list.get(i).getBbsDate().substring(11, 13) + "시" + list.get(i).getBbsDate().substring(14, 16) + "분"%></td>
-			</tr>
-			<%
-				}
-			%>
-			</tbody>
-		</table>
-		<%
-			if(pageNumber != 1) {
-		%>
-			<a href="bbs.jsp?pageNumber=<%= pageNumber - 1 %>" class="btn btn-success btn-arrow-left">이전</a>
-		<%
-			}
-			if(bbsDAO.nextPage(pageNumber + 1)) {
-		%>
-			<a href="bbs.jsp?pageNumber=<%= pageNumber + 1 %>" class="btn btn-success btn-arrow-right">다음</a>
-		<%
-			}
-		%>
-		<a href="write.jsp" class="btn btn-primary pull-right">글쓰기</a>
+				</thead>
+				<tbody>
+				<tr>
+					<td><input type="text" class="form-control" placeholder="글 제목" name="bbsTitle" maxlength="50" value="<%= bbs.getBbsTitle() %>"></td>
+				</tr>
+				<tr>
+					<td><textarea class="form-control" placeholder="글 내용" name="bbsContent" maxlength="2048" ><%= bbs.getBbsContent() %></textarea></td>
+				</tr>
+				</tbody>
+			</table>
+			<input type="submit" class="btn btn-primary pull-right" value="글수정">
+		</form>
 	</div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
