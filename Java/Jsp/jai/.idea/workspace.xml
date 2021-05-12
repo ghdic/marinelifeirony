@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="jai:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c9f7e92-5d5d-4711-8865-d541bd7710c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../cors/.idea/artifacts/cors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/.idea/libraries/cos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/cors.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/lib/cos.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/out/artifacts/cors/WEB-INF/lib/cos.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/out/artifacts/cors/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/out/artifacts/cors/다중파일업로드/fileSelectForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/out/artifacts/cors/단일파일업로드/fileSelect.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/out/artifacts/cors/단일파일업로드/fileUpload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/web/다중파일업로드/fileSelectForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/web/다중파일업로드/fileUploadPro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/web/단일파일업로드/fileSelect.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cors/web/단일파일업로드/fileUpload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/jai_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jai_core_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jai.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cos.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jai-core-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jai_codec-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jai_war_exploded/WEB-INF/lib/cos.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jai_war_exploded/WEB-INF/lib/jai-core-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jai_war_exploded/WEB-INF/lib/jai_codec-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jai_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jai_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jai_war_exploded/thumbnailAction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jai_war_exploded/upload/1619503742.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jai_war_exploded/upload/sm_1619503742.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/server-config.wsdd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/thumbnailAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/myboard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../myboard/myboard.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/ajax/WEB-INF/server-config.wsdd" beforeDir="false" afterPath="$PROJECT_DIR$/../cors/out/artifacts/cors/WEB-INF/server-config.wsdd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/ajax/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/ajax/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/classes/bbs/BBSDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/classes/bbs/Bbs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/classes/example/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/classes/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/classes/user/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/lib/jstl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/lib/mysql-connector-java-8.0.24.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/lib/standard.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/server-config.wsdd" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jai_war_exploded/WEB-INF/server-config.wsdd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/bbs.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/deleteAction.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/loginAction.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/logoutAction.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/myscript.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cors/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/registerAction.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/updateAction.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/write.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/writeAction.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard_war_exploded/WEB-INF/classes/example/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard_war_exploded/WEB-INF/server-config.wsdd" beforeDir="false" afterPath="$PROJECT_DIR$/../cors/web/WEB-INF/server-config.wsdd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/production/myboard/bbs/BBSDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/production/myboard/bbs/Bbs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/production/myboard/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/out/production/myboard/user/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myboard/web/bbs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../myboard/web/bbs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Selenium/mySelenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Python/Selenium/mySelenium.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1sQpBRKS2jJAdJozybTFJi3ynxm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jai_codec-1.1.3.jar" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\gitfolder\marinelifeirony\Java\Jsp\jai\lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.64" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.64" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="jai:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="61d2adcb-2d0a-4431-ad7c-5930ed5cf211" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53033" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="jai:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c9f7e92-5d5d-4711-8865-d541bd7710c7" name="Default Changelist" comment="" />
+      <created>1620814532501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620814532501</updated>
+      <workItem from="1620814533964" duration="704000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
