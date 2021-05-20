@@ -1,7 +1,6 @@
 <component name="libraryTable">
-  <library name="cos">
+  <library name="commons-fileupload-1.4">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/cos.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-fileupload-1.4.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-io-2.8.0.jar!/" />
     </CLASSES>

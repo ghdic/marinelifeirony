@@ -7,126 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c40b257e-d3b3-443f-a2a0-dd74f1ec44e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/cors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/cos.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cors.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cos.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/cors/WEB-INF/lib/cos.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/cors/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/cors/다중파일업로드/fileSelectForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/cors/단일파일업로드/fileSelect.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/cors/단일파일업로드/fileUpload.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/다중파일업로드/fileSelectForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/다중파일업로드/fileUploadPro.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/단일파일업로드/fileSelect.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/단일파일업로드/fileUpload.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/.idea/artifacts/jai_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/.idea/libraries/cos.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/.idea/libraries/jai_core_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/jai.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/lib/cos.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/lib/jai-core-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/lib/jai_codec-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/out/artifacts/jai_war_exploded/WEB-INF/lib/cos.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/out/artifacts/jai_war_exploded/WEB-INF/lib/jai-core-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/out/artifacts/jai_war_exploded/WEB-INF/lib/jai_codec-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/out/artifacts/jai_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/out/artifacts/jai_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/out/artifacts/jai_war_exploded/thumbnailAction.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/out/artifacts/jai_war_exploded/upload/1619503742.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/out/artifacts/jai_war_exploded/upload/sm_1619503742.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/web/WEB-INF/server-config.wsdd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jai/web/thumbnailAction.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/myboard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../myboard/myboard.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/ajax/WEB-INF/server-config.wsdd" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cors/WEB-INF/server-config.wsdd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/ajax/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/ajax/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../jai/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/classes/bbs/BBSDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/classes/bbs/Bbs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/classes/example/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/classes/user/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/classes/user/UserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/lib/jstl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/lib/mysql-connector-java-8.0.24.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/lib/standard.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/server-config.wsdd" beforeDir="false" afterPath="$PROJECT_DIR$/../jai/out/artifacts/jai_war_exploded/WEB-INF/server-config.wsdd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/bbs.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/deleteAction.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/loginAction.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/logoutAction.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/myscript.js" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/registerAction.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/update.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/updateAction.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/view.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/write.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard/writeAction.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard_war_exploded/WEB-INF/classes/example/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard_war_exploded/WEB-INF/server-config.wsdd" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/server-config.wsdd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/artifacts/myboard_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/production/myboard/bbs/BBSDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/production/myboard/bbs/Bbs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/production/myboard/user/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/out/production/myboard/user/UserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myboard/web/bbs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../myboard/web/bbs.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Python/Selenium/mySelenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Python/Selenium/mySelenium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-io-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/multipleAction.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/mutiple.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/cors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/cors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/cos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/cos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cors.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cors.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cors/다중파일업로드/fileUploadPro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cors/다중파일업로드/fileUploadPro.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -174,18 +65,35 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/cos.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/commons-io-2.8.0.jar" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\gitfolder\marinelifeirony\Java\Jsp\cors\lib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\gitfolder\marinelifeirony\Java\Jsp\cors\lib" />
       <recent name="C:\Users\user\Desktop\gitfolder\marinelifeirony\Java\Jsp\cors\web\단일파일업로드" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.64">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="multipleAction.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/multipleAction.jsp">
+      <method v="2" />
+    </configuration>
     <configuration name="Tomcat 8.5.64" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.64" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -273,6 +181,15 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 8.5.64" />
+      <item itemvalue="JavaScript Debug.multipleAction.jsp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.multipleAction.jsp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -286,6 +203,9 @@
       <workItem from="1620809244575" duration="3720000" />
       <workItem from="1620814952591" duration="293000" />
       <workItem from="1620815954634" duration="1196000" />
+      <workItem from="1620868203976" duration="5000" />
+      <workItem from="1620888006877" duration="1196000" />
+      <workItem from="1621498362580" duration="7525000" />
     </task>
     <servers />
   </component>
