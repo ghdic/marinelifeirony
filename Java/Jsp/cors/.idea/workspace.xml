@@ -6,18 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c40b257e-d3b3-443f-a2a0-dd74f1ec44e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-fileupload-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-io-2.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/multipleAction.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/mutiple.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/cors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/cors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/cos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/cos.xml" afterDir="false" />
+    <list default="true" id="c40b257e-d3b3-443f-a2a0-dd74f1ec44e9" name="Default Changelist" comment="multiple 속성 사용 하는 경우 다중 파일 업로드 구현">
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cors.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cors.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cors/다중파일업로드/fileUploadPro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cors/다중파일업로드/fileUploadPro.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,8 +196,16 @@
       <workItem from="1620815954634" duration="1196000" />
       <workItem from="1620868203976" duration="5000" />
       <workItem from="1620888006877" duration="1196000" />
-      <workItem from="1621498362580" duration="7525000" />
+      <workItem from="1621498362580" duration="8353000" />
     </task>
+    <task id="LOCAL-00001" summary="multiple 속성 사용 하는 경우 다중 파일 업로드 구현">
+      <created>1621507588045</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621507588045</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,5 +225,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="multiple 속성 사용 하는 경우 다중 파일 업로드 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiple 속성 사용 하는 경우 다중 파일 업로드 구현" />
   </component>
 </project>
