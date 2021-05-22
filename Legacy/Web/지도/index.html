@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="map" style="width:100%;height:400px;"></div>
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=[YOUR_CLIENT_ID]"></script>
+    <script>
+    var position = new naver.maps.LatLng(36.73617268835486, 127.07436939996632);
+
+    var map = new naver.maps.Map('map', {
+        center: position,
+        zoom: 17
+    });
+
+    var markerOptions = {
+        position: position.destinationPoint(0, 20),
+        map: map,
+        icon: {
+        url: 'https://i.ibb.co/DrqFNgV/active-senior-resize.jpg',
+        size: new naver.maps.Size(72, 47),
+        origin: new naver.maps.Point(0, 0),
+        anchor: new naver.maps.Point(25, 26)
+        }
+    };
+
+    var marker = new naver.maps.Marker(markerOptions);
+    </script>
+        
+    
+</body>
+</html>
