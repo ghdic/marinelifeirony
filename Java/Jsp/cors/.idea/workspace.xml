@@ -7,8 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c40b257e-d3b3-443f-a2a0-dd74f1ec44e9" name="Default Changelist" comment="multiple 속성 사용 하는 경우 다중 파일 업로드 구현">
-      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/drag.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/no.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/mutiple.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/mutiple.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jai/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jai/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project/카카오메세지봇/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Project/카카오메세지봇/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project/카카오메세지봇/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Project/카카오메세지봇/crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project/카카오메세지봇/image/fubo/fubo_chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Project/카카오메세지봇/image/fubo/fubo_chart.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -56,13 +62,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/commons-io-2.8.0.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/cors/dist" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\gitfolder\marinelifeirony\Java\Jsp\cors\out\artifacts\cors\dist" />
+      <recent name="C:\Users\user\Desktop\gitfolder\marinelifeirony\Java\Jsp\cors\web\dist" />
+      <recent name="C:\Users\user\Desktop\gitfolder\marinelifeirony\Java\Jsp\cors\web" />
       <recent name="C:\Users\user\Desktop\gitfolder\marinelifeirony\Java\Jsp\cors\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -71,17 +80,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.64">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="multipleAction.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/multipleAction.jsp">
       <method v="2" />
     </configuration>
@@ -173,8 +171,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 8.5.64" />
       <item itemvalue="JavaScript Debug.multipleAction.jsp" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.64" />
     </list>
     <recent_temporary>
       <list>
@@ -197,6 +195,11 @@
       <workItem from="1620868203976" duration="5000" />
       <workItem from="1620888006877" duration="1196000" />
       <workItem from="1621498362580" duration="8353000" />
+      <workItem from="1621677307630" duration="1467000" />
+      <workItem from="1622102469663" duration="14203000" />
+      <workItem from="1622119665159" duration="1926000" />
+      <workItem from="1622303474460" duration="7000" />
+      <workItem from="1623858589215" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="multiple 속성 사용 하는 경우 다중 파일 업로드 구현">
       <created>1621507588045</created>

@@ -18,7 +18,7 @@ class Crawler:
             "translate": {"enabled": "true"}
         }
         options.add_experimental_option('prefs', prefs)
-        #options.add_argument('headless')  # 애 쓰면 번역이 안되네...
+        options.add_argument('headless')  # 애 쓰면 번역이 안되네...
         self.driver = webdriver.Chrome(options=options)
         self.driver.set_window_size(1920, 100000)
         self.profile_url = 'https://money.cnn.com/quote/profile/profile.html?symb='

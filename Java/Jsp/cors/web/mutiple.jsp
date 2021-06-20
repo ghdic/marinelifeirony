@@ -1,10 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
 	request.setCharacterEncoding("utf-8");
-	int filecounter = 0;
-	if(request.getParameter("addcnt")!= null) {
-		filecounter = Integer.parseInt(request.getParameter("addcnt"));
-	}
 %>
 
 <html>
@@ -31,6 +27,9 @@
 		<tr>
 			<td>파일업로드</td>
 			<td><input type="file" name="files" multiple></td>
+		</tr>
+		<tr>
+			<td><input type="file" name="files"><input type="file" name="files"></td>
 		</tr>
 		<tr>
 			<td><input type="submit" value="업로드"></td>
