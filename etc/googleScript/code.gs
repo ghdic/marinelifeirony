@@ -6,7 +6,7 @@ function setValueSomeRange() {
     var ss = app.getActiveSpreadsheet();
     var activeSheet = ss.getActiveSheet();
 
-    activeSheet.getRange('A1:D4').setValue(99); // (row, colum), (start_row, start_column, end_row, end_column) 1부터 시작(0부터 x) | ("A1"), ("A1:D4")
+    activeSheet.getRange('A1:D4').setValue(99); // (row, colum), (start_row, start_column, cnt_row, cnt_column) 1부터 시작(0부터 x) | ("A1"), ("A1:D4")
 }
 
 // 특정 값의 셀에 값 더하기
