@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="/searchMemberForm.css">
+</head>
+<body>
+<div class="frame">
+    <div class="center">
+        <form action="/members/search" id="form" method="post">
+            <div>
+            <input type="text" onkeyup="recommend(this)" id="name" name="name" placeholder="이름 찾기" autocomplete="off" />
+            <input type="submit" value="검색">
+            </div>
+            <div id="recommend" class="invisible">
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    var recommendBox = document.querySelector("#recommend");
+
+    function recommend(input) {
+        if(input.value.length > 0) {
+            let like = ajax(input.value)
+            console.log(like.length)
+            if(like === null || like.length === 0)
+                recommendBox.classList.add('invisible');
+            else {
+                removeAllChildNodes(recommendBox)
+                recommendBox.classList.remove('invisible');
+
+                like.forEach(e => {
+                    let new_text = return_new_text(e.name , input.value);
+                    recommendBox.appendChild(new_text);
+                })
+            }
+
+        } else {
+            recommendBox.classList.add('invisible');
+        }
+    }
+
+    function return_new_text(text, input_text) {
+        let html = `<div class="item" onclick="hintToInputbox(this)">${text}</div>`
+        html = html.replaceAll(input_text, `<span class="text">${input_text}</span>`)
+        return htmlToElement(html)
+    }
+
+    function ajax(value) {
+        var form = {
+            name: value
+        }
+        var like = null;
+        $.ajax({
+            url: "/members/like",
+            type: "POST",
+            data: form,
+            async: false,
+            success: function(data) {
+                like = data;
+            },
+            error: function() {
+                like = null;
+            }
+        })
+        return like;
+    }
+
+    function htmlToElement(html) {
+        var template = document.createElement('template');
+        html = html.trim();
+        template.innerHTML = html;
+        return template.content.firstChild;
+    }
+
+    function removeAllChildNodes(parent) {
+        while (parent.firstChild) {
+            parent.removeChild(parent.firstChild);
+        }
+    }
+
+    function hintToInputbox(textBox) {
+        let inputBox = document.querySelector("#name");
+        inputBox.value = textBox.innerText;
+        document.querySelector("#form").submit();
+    }
+
+</script>
+</body>
+</html>
