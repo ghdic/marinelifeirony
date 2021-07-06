@@ -11,4 +11,6 @@ public interface MemberRepositroy {
     Optional<Member> findByName(String name);
     List<Member> findAll();
     List<Member> findByLike(String part);
+    int deleteByID(Long id);
+    int editMember(Member member);
 }

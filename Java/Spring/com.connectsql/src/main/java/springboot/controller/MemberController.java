@@ -1,10 +1,12 @@
 package springboot.controller;
 
+import org.dom4j.rule.Mode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import springboot.domain.Member;
 import springboot.service.MemberService;
@@ -58,5 +60,25 @@ public class MemberController {
     public List<Member> like(MemberForm form) {
         List<Member> members = memberService.findLike(form.getName());
         return members;
+    }
+
+    @PostMapping("/members/delete")
+    @ResponseBody
+    public int delete(@RequestParam("id") long id) {
+        return memberService.delete(id);
+    }
+
+    @PostMapping("/members/edit")
+    public String edit(@RequestParam("id") long id, @RequestParam("name") String name, Model model) {
+        Member member = new Member();
+        member.setName(name);
+        member.setId(id);
+        model.addAttribute("result", memberService.edit(member));
+        return "members/editAction";
+    }
+
+    @GetMapping("/members/editMember")
+    public String editMember() {
+        return "/members/editMember";
     }
 }

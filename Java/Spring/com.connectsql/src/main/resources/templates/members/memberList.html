@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
 <div class="container">
@@ -12,17 +13,63 @@
             <tr>
                 <th>#</th>
                 <th>이름</th>
+                <th></th>
+                <th></th>
             </tr>
             </thead>
             <tbody>
             <tr th:each="member : ${members}">
-                <td th:text="${member.id}"></td>
-                <td th:text="${member.name}"></td>
+                <td class="id" th:text="${member.id}"></td>
+                <td class="name" th:text="${member.name}"></td>
+                <td><button onclick="editMember(this)">수정</button></td>
+                <td><button onclick="deleteMember(this)">삭제</button></td>
             </tr>
             </tbody>
         </table>
     </div>
 </div>
+
+<script>
+    function editMember(button) {
+        let id = button.parentElement.parentElement.querySelector(".id").textContent;
+        let name = button.parentElement.parentElement.querySelector(".name").textContent;
+        window.name = "아이디 수정"
+        let openWin = window.open("/members/editMember", "childForm", "width=570px, height=350px, resizeable=no, scrollbars=no")
+        openWin.onload = () => {
+            openWin.document.getElementById("id").value = id
+            openWin.document.getElementById("name").value = name
+        }
+    }
+
+    function deleteMember(button) {
+        let id = button.parentElement.parentElement.querySelector(".id").textContent;
+        let name = button.parentElement.parentElement.querySelector(".name").textContent;
+
+        var form = {
+            id: id
+        }
+        var result = -1;
+        $.ajax({
+            url: "/members/delete",
+            type: "POST",
+            data: form,
+            async: false,
+            success: function(data) {
+                result = parseInt(data);
+            },
+            error: function() {
+                result = -1;
+            }
+        })
+        console.log(result)
+        if(result === -1) {
+            alert("삭제에 실패하였습니다!")
+        } else {
+            alert("삭제에 성공하였습니다!")
+        }
+        window.location.reload()
+    }
+</script>
 
 </body>
 </html>

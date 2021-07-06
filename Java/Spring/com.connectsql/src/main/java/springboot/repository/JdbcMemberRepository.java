@@ -130,6 +130,43 @@ public class JdbcMemberRepository implements MemberRepositroy {
     }
 
     @Override
+    public int deleteByID(Long id) {
+        String sql = "delete from member where id = ?";
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+        try {
+            conn = getConnection();
+            pstmt = conn.prepareStatement(sql);
+            pstmt.setLong(1, id);
+            return pstmt.executeUpdate();
+        } catch (Exception e) {
+            throw new IllegalStateException(e);
+        } finally {
+            close(conn, pstmt, rs);
+        }
+    }
+
+    @Override
+    public int editMember(Member member) {
+        String sql = "update member set name = ? where id = ?";
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+        try {
+            conn = getConnection();
+            pstmt = conn.prepareStatement(sql);
+            pstmt.setString(1, member.getName());
+            pstmt.setLong(2, member.getId());
+            return pstmt.executeUpdate();
+        } catch (Exception e) {
+            throw new IllegalStateException(e);
+        } finally {
+            close(conn, pstmt, rs);
+        }
+    }
+
+    @Override
     public Optional<Member> findByName(String name) {
         String sql = "select * from member where name = ?";
         Connection conn = null;

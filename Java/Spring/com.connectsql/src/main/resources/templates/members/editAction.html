@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script th:inline="javascript">
+    var result = [[${result}]]
+    if(result === -1) {
+        alert("유저 정보 수정에 실패하였습니다");
+    } else{
+        alert("유저 정보 수정에 성공하였습니다");
+    }
+
+    window.opener.location.reload();
+    window.close();
+
+</script>
+</body>
+</html>

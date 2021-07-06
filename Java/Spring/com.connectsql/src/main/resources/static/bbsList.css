@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'NotoSansKR';
+    src: url('/static/font/NotoSansKR-Medium.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'NotoSansKR', sans-serif;
+    box-sizing: border-box;
+}
+
+.cmnty-view {
+    text-align: center;
+    width: 1200px;
+    margin: 3rem auto 1rem auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.cmnty-view thead {
+    background-color: #717F9A;
+}
+
+.cmnty-view thead th {
+    color: white;
+    padding: 1rem .7rem;
+}
+
+.cmnty-view tbody {
+    background-color: #c3d8f5;
+    border-bottom: 1px solid #90b4e6;
+}
+
+.cmnty-view tbody td {
+    color: #707070;
+    padding: 0.7rem 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cmnty-view tbody td:nth-child(2) {
+    text-align: left;
+}
+
+.cmnty-view tbody a {
+    text-decoration: none;
+    color: #707070;
+}
+
+.cmnty-view tbody span {
+    color: #4376f3;
+    font-weight: bold;
+}
+
+.bottom {
+    width: 1200px;
+    text-align: center;
+    margin: 0rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.botton2 {
+    width: 1200px;
+    text-align: center;
+    margin: 0rem auto 3rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.write-button {
+    width: 55px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.prev-button {
+    width: 55px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.next-button {
+    width: 55px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
