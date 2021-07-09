@@ -4,14 +4,14 @@ import org.dom4j.rule.Mode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import springboot.domain.Member;
 import springboot.service.MemberService;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.util.List;
+import java.util.Optional;
 
 @Controller
 public class MemberController {
@@ -80,5 +80,34 @@ public class MemberController {
     @GetMapping("/members/editMember")
     public String editMember() {
         return "/members/editMember";
+    }
+
+    @GetMapping("/members/login")
+    public String login() {
+        return "members/login";
+    }
+
+    @PostMapping("/members/login")
+    public String loginAction(MemberForm memberForm, HttpServletRequest req) {
+        HttpSession session = req.getSession();
+        Optional<Member> memberOptional = memberService.findOneByName(memberForm.getName());
+        if(memberOptional.isEmpty())
+            return "redirect:/members/login";
+        else {
+            session.setAttribute("member", memberOptional.get().getName());
+            return "redirect:/";
+        }
+    }
+
+    @GetMapping("/members/login/check")
+    public String loginCheck() {
+        return "/members/loginCheck";
+    }
+
+    @GetMapping("/members/logout")
+    public String logoutAction(HttpServletRequest req) {
+        HttpSession session = req.getSession();
+        session.removeAttribute("member");
+        return "redirect:/";
     }
 }

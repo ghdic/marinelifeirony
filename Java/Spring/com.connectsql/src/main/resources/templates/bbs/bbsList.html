@@ -30,18 +30,9 @@
     </thead>
     <tbody>
 
-    <tr>
-        <td>1</td>
-        <td><a href='/bbs/view?bbsID=1'>오늘 점심은 뭘 먹을까 나는 맛있는걸 먹고 싶당</a>
-        <td>인생마린</td>
-        <td>3</td>
-        <td>5</td>
-        <td>2021-07-06</td>
-    </tr>
-
     <tr th:each="bbs : ${bbsList}">
         <td th:text="${bbs.id}"></td>
-        <td><a th:href="@{/bbs/view(bbsID=${bbs.id})}" th:text="${bbs.title}"></a></td>
+        <td><a th:href="@{'/bbs/' + ${bbs.id}}" th:text="${bbs.title}"></a></td>
         <td th:text="${bbs.userID}"></td>
         <td th:text="${bbs.recommend}"></td>
         <td th:text="${bbs.view}"></td>
@@ -52,12 +43,38 @@
 </table>
 
 <div class="bottom">
-    <button class="write-button" type="button" onclick="location.href='/bbs/write'">글쓰기</button>
+    <button class="write-button" type="button" onclick="location.href='/bbs/new'">글쓰기</button>
 </div>
 <div class="botton2">
-    <button class="prev-button" onclick="location.href='/bbs/lIst?pageNumber=1'">이전</button>
-    <button class="next-button" onclick="location.href='/bbs/list?pageNumber=2'">다음</button>
-
+    <button class="prev-button" th:onclick="movePage(false)">이전</button>
+    <button class="next-button" th:onclick="movePage(true)">다음</button>
 </div>
 </body>
+<script th:inline="javascript">
+    /*<![CDATA[*/
+    let page = /*[[${page}]]*/ 'default';
+    page = parseInt(page)
+    if(isNaN(page) || page <= 1)
+        page = 1
+
+    window.onload = () => {
+        let pbtn = document.querySelector(".prev-button")
+        let nbtn = document.querySelector(".next-button")
+
+        if(page <= 1)
+            pbtn.remove()
+
+    }
+    function movePage(dir) {
+
+        if(dir) {
+            location.href = `/bbs?page=${page + 1}`
+        } else {
+            location.href = `/bbs?page=${page - 1}`
+        }
+
+
+    }
+    /*]]*/
+</script>
 </html>

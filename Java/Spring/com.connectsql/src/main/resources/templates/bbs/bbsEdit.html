@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{|${#httpServletRequest.requestURI}|}" method="post">
+    <input type="text" name="title" placeholder="제목" th:value="${bbs.getTitle()}">
+    <textarea name="content" cols="30" rows="10" th:text="${bbs.getContent()}"></textarea>
+    <input type="submit" value="게시글 수정">
+</form>
+</body>
+</html>

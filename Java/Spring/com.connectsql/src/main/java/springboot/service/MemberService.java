@@ -36,6 +36,10 @@ public class MemberService {
         return memberRepositroy.findByID(memberID);
     }
 
+    public Optional<Member> findOneByName(String name) {
+        return memberRepositroy.findByName(name);
+    }
+
     public List<Member> findLike(String name) {
         return memberRepositroy.findByLike(name);
     }

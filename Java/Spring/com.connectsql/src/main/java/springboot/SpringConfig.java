@@ -2,10 +2,7 @@ package springboot;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import springboot.repository.BbsRepository;
-import springboot.repository.JdbcBbsRepository;
-import springboot.repository.JdbcMemberRepository;
-import springboot.repository.MemberRepositroy;
+import springboot.repository.*;
 import springboot.service.BbsService;
 import springboot.service.MemberService;
 

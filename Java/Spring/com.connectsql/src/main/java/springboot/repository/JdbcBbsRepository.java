@@ -41,6 +41,29 @@ public class JdbcBbsRepository implements BbsRepository {
     }
 
     @Override
+    public int edit(Bbs bbs) {
+        String sql = "update bbs set bbsTitle = ?, bbsContent = ? where bbsID = ?";
+
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+
+        try {
+            conn = getConnection();
+            pstmt = conn.prepareStatement(sql);
+
+            pstmt.setString(1, bbs.getTitle());
+            pstmt.setString(2, bbs.getContent());
+            pstmt.setInt(3, bbs.getId());
+            return pstmt.executeUpdate();
+        } catch (Exception e) {
+            throw new IllegalStateException(e);
+        } finally {
+            close(conn, pstmt, rs);
+        }
+    }
+
+    @Override
     public List<Bbs> findAll() {
         String sql = "select * from bbs";
         Connection conn = null;
@@ -55,6 +78,164 @@ public class JdbcBbsRepository implements BbsRepository {
                 members.add(setBbs(rs));
             }
             return members;
+        } catch (Exception e) {
+            throw new IllegalStateException(e);
+        } finally {
+            close(conn, pstmt, rs);
+        }
+    }
+
+    @Override
+    public List<Bbs> findAvailable(int page, int require) {
+        String sql = "select * from bbs where bbsAvailable = 1 order by bbsID desc limit ?, ?";
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+        try {
+            conn = getConnection();
+            pstmt = conn.prepareStatement(sql);
+            pstmt.setInt(1, (page - 1) * require);
+            pstmt.setInt(2, require);
+            rs = pstmt.executeQuery();
+            List<Bbs> members = new ArrayList<>();
+            while(rs.next()) {
+                members.add(setBbs(rs));
+            }
+            return members;
+        } catch (Exception e) {
+            throw new IllegalStateException(e);
+        } finally {
+            close(conn, pstmt, rs);
+        }
+    }
+
+    @Override
+    public int delete(int bbsID) {
+        String sql = "update bbs set bbsAvailable = 0 where bbsID = ?";
+
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+
+        try {
+            conn = getConnection();
+            pstmt = conn.prepareStatement(sql);
+
+            pstmt.setInt(1, bbsID);
+            return pstmt.executeUpdate();
+        } catch (Exception e) {
+            throw new IllegalStateException(e);
+        } finally {
+            close(conn, pstmt, rs);
+        }
+    }
+
+    @Override
+    public Bbs findOne(int bbsID) {
+        String sql = "select * from bbs where bbsID = ?";
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+        try {
+            conn = getConnection();
+            pstmt = conn.prepareStatement(sql);
+            pstmt.setInt(1, bbsID);
+            rs = pstmt.executeQuery();
+
+            if(rs.next()) {
+                return setBbs(rs);
+            }
+            return null;
+        } catch (Exception e) {
+            throw new IllegalStateException(e);
+        } finally {
+            close(conn, pstmt, rs);
+        }
+    }
+
+    @Override
+    public void viewIncrease(int bbsID) {
+        String sql = "update bbs set bbsView = bbsView + 1 where bbsID = ?";
+
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+
+        try {
+            conn = getConnection();
+            pstmt = conn.prepareStatement(sql);
+
+            pstmt.setInt(1, bbsID);
+            pstmt.executeUpdate();
+        } catch (Exception e) {
+            throw new IllegalStateException(e);
+        } finally {
+            close(conn, pstmt, rs);
+        }
+    }
+
+    @Override
+    public int recommendAdd(int bbsID, String userID) {
+        String sql = "insert into recommendTable (bbsID, userID) values (?, ?)";
+
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+
+        try {
+            conn = getConnection();
+            pstmt = conn.prepareStatement(sql);
+
+            pstmt.setInt(1, bbsID);
+            pstmt.setString(2, userID);
+            return pstmt.executeUpdate();
+        } catch (Exception e) {
+            throw new IllegalStateException(e);
+        } finally {
+            close(conn, pstmt, rs);
+        }
+    }
+
+    @Override
+    public int recommendRemove(int bbsID, String userID) {
+        String sql = "delete from recommendTable where bbsID = ? and userID = ?";
+
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+
+        try {
+            conn = getConnection();
+            pstmt = conn.prepareStatement(sql);
+
+            pstmt.setInt(1, bbsID);
+            pstmt.setString(2, userID);
+            return pstmt.executeUpdate();
+        } catch (Exception e) {
+            throw new IllegalStateException(e);
+        } finally {
+            close(conn, pstmt, rs);
+        }
+    }
+
+    @Override
+    public List<String> recommendList(int bbsID) {
+        String sql = "select * from recommendTable where bbsID = ?";
+        Connection conn = null;
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+        try {
+            conn = getConnection();
+            pstmt = conn.prepareStatement(sql);
+            pstmt.setInt(1, bbsID);
+            rs = pstmt.executeQuery();
+
+            List<String> list = new ArrayList<>();
+
+            while (rs.next()) {
+                list.add(rs.getString("userID"));
+            }
+            return list;
         } catch (Exception e) {
             throw new IllegalStateException(e);
         } finally {

@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'NotoSansKR';
+    src: url('/NotoSansKR-Medium.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'NotoSansKR', sans-serif;
+    box-sizing: border-box;
+}
+
+.board {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.board .bbs-view-title {
+    font-size: 36px;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.board .info {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 20px;
+    text-align: left;
+}
+.board .bbs-main-content {
+    margin: 0 auto;
+    display: block;
+    padding: 15px;
+    width: 1000px;
+}
+.board .info li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.board .info .edit-button {
+    display: inline-block;
+    background-color: yellowgreen;
+    width: 60px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.board .info .edit-button span {
+    vertical-align: middle;
+    color: black;
+}
+
+.board .info .remove-button {
+    display: inline-block;
+    background-color: tomato;
+    width: 60px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.board .info .remove-button span {
+    vertical-align: middle;
+    color: black;
+}
+
+.board .recommend-section {
+    margin: 300px 0 0 0;
+}
+
+.board .recommend-section a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 120px;
+    height: 110px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    line-height: 10px;
+    margin: 3rem auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.board .recommend-section a span {
+    color: black;
+    padding: 5px;
+}
+
+.board .keywords {
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.board .keywords span {
+    font-weight: normal;
+}
+
+.board .tags {
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.board .tags span {
+    font-weight: normal;
+}
+
+.board .tb-row {
+    font-size: 18px;
+    border-bottom:1px solid #dbddbd;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin: 1rem auto;
+    width: 40%;
+    padding: 10px;
+
+}
+.board .tb-row tbody th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #fcf1f4;
+}
+.board .tb-row td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}

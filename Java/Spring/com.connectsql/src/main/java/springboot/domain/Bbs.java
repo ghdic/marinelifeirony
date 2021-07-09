@@ -1,5 +1,7 @@
 package springboot.domain;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Bbs {
@@ -30,6 +32,16 @@ public class Bbs {
 
     public Date getDate() {
         return date;
+    }
+
+    public String getDateToString() {
+        return getDateToString("yyyy-MM-dd");
+    }
+
+    public String getDateToString(String format) {
+        DateFormat dateFormat  = new SimpleDateFormat(format);
+        String sd = dateFormat.format(date);
+        return sd;
     }
 
     public void setDate(Date date) {
@@ -76,3 +88,4 @@ public class Bbs {
         this.available = available;
     }
 }
+

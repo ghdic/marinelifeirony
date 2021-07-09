@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/bbsView.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="board">
+    <h3 class="bbs-view-title" th:text="${bbs.getTitle()}"></h3>
+    <ul class="info">
+        <li>
+            <i class="fas fa-user"></i><span th:text="'작성자:' + ${bbs.getUserID()}"></span>
+        </li>
+        <li>
+            <i class="far fa-eye"></i></li><span th:text="'조회수: ' + ${bbs.getView()}"></span>
+        <li>
+            <i class="far fa-thumbs-up"></i><span th:text="'추천수: ' + ${bbs.getRecommend()}"></span>
+        </li>
+        <li style="float:right;">
+            <i class="far fa-clock"></i><span th:text="${bbs.getDateToString()}"></span>
+        </li>
+        <li th:if="${session.member != null}">
+            <a th:href="@{'/bbs/' + ${bbs.getId()} + '/edit'}" class="edit-button"><span>수정</span></a>
+            <a th:href="@{'/bbs/' + ${bbs.getId()} + '/delete'}" class="remove-button" onclick="return confirm('정말로 삭제하시겠습니까?')"><span>삭제</span></a>
+        </li>
+
+    </ul>
+
+    <div class="bbs-main-content" th:utext="${bbs.getContent()}">
+    </div>
+<!--    <div th:switch="${session.member}" class="recommend-section">-->
+
+<!--        <a th:case="${null}" href="javascript:location.href = '/member/login'" onclick="return confirm('추천을 하시려면 로그인을 먼저해주세요!')"><span><%= recommendTable.size() %></span><br><span><i class="far fa-thumbs-up"></i></span></a>-->
+<!--        <% } else if (recommendTable.contains(userID)) {  %>-->
+<!--        <a href="javascript:recommend(false)" style="box-shadow: 10px 5px 5px cornflowerblue" onclick="return confirm('추천을 취소하시겠습니까??')"><span><%= recommendTable.size() %></span><br><span><i class="far fa-thumbs-up"></i></span></a>-->
+<!--        <% } else { %>-->
+<!--        <a href="javascript:recommend(true)" onclick="return confirm('이 게시글을 추천하시겠습니까?')"><span><%= recommendTable.size() %></span><br><span><i class="far fa-thumbs-up"></i></span></a>-->
+<!--        <% } %>-->
+<!--    </div>-->
+</body>
+</html>
