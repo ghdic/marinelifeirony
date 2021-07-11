@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState} from "react";
 import styled, {ThemeProvider}  from 'styled-components';
 import Button from "./components/Button";
+import Dialog from "./components/Dialog";
 
 const AppBlock = styled.div`
   width: 512px;
@@ -10,11 +11,11 @@ const AppBlock = styled.div`
   padding: 1rem;
 `
 
-const ButtonGroup = styled.div`
-  & + & {
-    margin-top: 1rem;
-  }
-`
+// const ButtonGroup = styled.div`
+//   & + & {
+//     margin-top: 1rem;
+//   }
+// `
 
 const palette = {
     blue: '#228be6',
@@ -23,24 +24,32 @@ const palette = {
 };
 
 function App() {
+    const [dialog, setDialog] = useState(false);
+    const onClick = () => {
+        setDialog(true);
+    }
+    const onConfirm = () => {
+        console.log('확인')
+        setDialog(false);
+    }
+    const onCancel = () => {
+        console.log('취소')
+        setDialog(false);
+    }
+
     return (
         <ThemeProvider theme={{palette}}>
             <AppBlock>
-                <ButtonGroup>
-                    <Button size={"large"}>BUTTON</Button>
-                    <Button color={"gray"}>BUTTON</Button>
-                    <Button size={"small"} color={"pink"}>BUTTON</Button>
-                </ButtonGroup>
-                <ButtonGroup>
-                    <Button size={"large"} outline>BUTTON</Button>
-                    <Button color={"gray"} outline>BUTTON</Button>
-                    <Button size={"small"} outline color={"pink"}>BUTTON</Button>
-                </ButtonGroup>
-                <ButtonGroup>
-                    <Button size={"large"} fullWidth>BUTTON</Button>
-                    <Button color={"gray"} fullWidth>BUTTON</Button>
-                    <Button size={"small"} fullWidth color={"pink"}>BUTTON</Button>
-                </ButtonGroup>
+                <Button color={"pink"} size={"large"} onClick={onClick}>눌러~</Button>
+                <Dialog title={"정말 삭제하시겠습니까?"}
+                        confirmText={"삭제"}
+                        cancelText={"취소"}
+                        onConfirm={onConfirm}
+                        onCancel={onCancel}
+                        visible={dialog}
+                >
+                    데이터를 정말로 삭제하겠습니까?
+                </Dialog>
             </AppBlock>
         </ThemeProvider>
     )
