@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="901bd4b1-caf3-47dc-9e87-6557fb912661" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Java/Spring/core/src/main/java/com/core/AutoAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/Spring/core/src/test/java/com/core/scan/AutoAppConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/Spring/core/src/test/java/com/core/scan/filter/BeanA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/Spring/core/src/test/java/com/core/scan/filter/BeanB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/Spring/core/src/test/java/com/core/scan/filter/ComponentFilterAppConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/Spring/core/src/test/java/com/core/scan/filter/MyExcludeComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/Spring/core/src/test/java/com/core/scan/filter/MyIncludeComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java/Spring/core/src/main/java/com/core/discount/RateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Spring/core/src/main/java/com/core/discount/RateDiscountPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java/Spring/core/src/main/java/com/core/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Spring/core/src/main/java/com/core/member/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java/Spring/core/src/main/java/com/core/member/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Spring/core/src/main/java/com/core/member/MemoryMemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java/Spring/core/src/main/java/com/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Spring/core/src/main/java/com/core/order/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-integrate/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-integrate/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-integrate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-integrate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-integrate/api-integrate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-integrate/src/Users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
@@ -99,7 +93,7 @@
       <workItem from="1625614148734" duration="8291000" />
       <workItem from="1625658538598" duration="607000" />
       <workItem from="1625694921159" duration="1202000" />
-      <workItem from="1626042685739" duration="2463000" />
+      <workItem from="1626042685739" duration="3765000" />
     </task>
     <servers />
   </component>
