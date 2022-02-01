@@ -203,6 +203,7 @@ class Client:
         check_in_data = get_check_in_data(
             booking_data["ticket"]["lsl"][0],
             booking_data["wifi"]["ports"][0]).to_json_body()
+        print(check_in_data)
         self.__stream_reader, self.__stream_writer = await asyncio.open_connection(
             check_in_data["host"], int(check_in_data["port"]))
 

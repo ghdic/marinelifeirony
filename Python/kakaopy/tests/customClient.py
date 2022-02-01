@@ -25,25 +25,35 @@ class CustomClient(Client):
 
         if chat.body['chatId'] == 18252186725340606:
             print("미국주식방")
-            if chat.body['chatLog']['message'][0:2] == '?f':
-                ticker = chat.body['chatLog']['message'][3:]
-                crawler = Crawler()
-                crawler.forecast_as_png(ticker)
-                crawler.driver.close()
-                path = 'image/' + f'{ticker}_forecast.png'
-                im = Image.open(path)
-                w, h = im.size
-                await chat.send_photo_by_path(path, w, h)
+            if chat.body['authorNickname'] == "에이봇":
+                print("에이봇")
+                if chat.body['chatLog']['message'][0] == '?' or chat.body['chatLog']['message'][0] == '/':
+                    await chat.reply("에이봇 바보")
+            # if chat.body['chatLog']['message'][0:2] == '?f':
+            #     ticker = chat.body['chatLog']['message'][3:]
+            #     crawler = Crawler()
+            #     crawler.forecast_as_png(ticker)
+            #     crawler.driver.close()
+            #     path = 'image/' + f'{ticker}_forecast.png'
+            #     im = Image.open(path)
+            #     w, h = im.size
+            #     await chat.send_photo_by_path(path, w, h)
+            #
+            # if chat.body['chatLog']['message'][0:2] == '?c':
+            #     ticker = chat.body['chatLog']['message'][3:]
+            #     crawler = Crawler()
+            #     crawler.chart_save_as_png(ticker)
+            #     crawler.driver.close()
+            #     path = 'image/' + f'{ticker}_chart.png'
+            #     im = Image.open(path)
+            #     w, h = im.size
+            #     await chat.send_photo_by_path(path, w, h)
 
-            if chat.body['chatLog']['message'][0:2] == '?c':
-                ticker = chat.body['chatLog']['message'][3:]
-                crawler = Crawler()
-                crawler.chart_save_as_png(ticker)
-                crawler.driver.close()
-                path = 'image/' + f'{ticker}_chart.png'
-                im = Image.open(path)
-                w, h = im.size
-                await chat.send_photo_by_path(path, w, h)
+        # if chat.body['chatId'] == 18169150810640733:
+        #     print("고급 수학방")
+        #     await chat.hide()
+
+
 
 
 
