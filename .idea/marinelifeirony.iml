@@ -8,7 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Python/pyqt5/OpenTutorials_PyQt/QtFramework" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Project/카카오메세지봇" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.9 (test)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.9" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
