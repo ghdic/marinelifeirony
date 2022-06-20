@@ -40,7 +40,7 @@ def send_mail(send_from, send_to, subject, message, mtype='plain', files=[],
             part.set_payload(file.read())
         encoders.encode_base64(part)
         part.add_header('Content-Disposition',
-                        'attachment; filename={}'.format(Path(path).name))
+                        'attachment', filename=Path(path).name)
         msg.attach(part)
 
     smtp = smtplib.SMTP(server, port)
@@ -57,5 +57,5 @@ email = os.environ['email']
 
 # 네이버의 경우 server='smtp.naver.com'
 send_mail(send_from=email, send_to=['ghdic77@gmail.com', 'ghdic@naver.com'],
-          subject='smtp 테스트 발송 메세지 입니다', message=f'<h1>안녕하세요</h1>{id}입니다', files=['temp.txt'],
+          subject='smtp 테스트 발송 메세지 입니다', message=f'<h1>안녕하세요</h1>{id}입니다', files=['temp.txt', '테스트.xlsx'],
           mtype='html', server='smtp.gmail.com', username=email, password=pw)

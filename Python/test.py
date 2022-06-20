@@ -139,193 +139,227 @@
 #     sys.exit(app.exec_())
 
 
-import sys
+# import sys
+# import time
+# import numpy as np
+# import pyaudio
+# from PyQt5 import QtGui, QtWidgets, QtCore
+# import matplotlib
+# import matplotlib.gridspec as gridspec
+# from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+# from matplotlib.figure import Figure
+# matplotlib.use('Qt5Agg')
+#
+#
+# class Window(QtWidgets.QMainWindow):
+#     def __init__(self):  # template for rest of GUI,
+#         super(Window, self).__init__()
+#         self.setGeometry(50, 50, 1500, 900)
+#         self.centralwidget = QtWidgets.QWidget(self)
+#         self.centralwidget.setObjectName("centralwidget")
+#
+#         self.channels = 2  # StereoSignal
+#         self.fs = 44100  # Samplingrate
+#         self.Chunks = 4096  # Buffersize
+#         self.streamstart = False
+#         self.audiodata = []  # to buffer streaming-values in
+#
+#         self.tapeLength = 4  # seconds
+#         self.tape = np.empty(self.fs * self.tapeLength) * np.nan  # tape to store signal-chunks
+#
+#         self.home()
+#
+#     def home(self):
+#         btn = QtWidgets.QPushButton("Stream and Plot", self)  # Button to start streaming
+#         btn.clicked.connect(self.plot)
+#         btn.move(100, 100)
+#
+#         btn = QtWidgets.QPushButton("Stop", self)  # Button to stop streaming
+#         btn.clicked.connect(self.stop_signal)
+#         btn.move(200, 100)
+#
+#         btn = QtWidgets.QPushButton("Evaluate", self)  # Button for the Evaluation
+#         btn.clicked.connect(self.evaluation)
+#         btn.move(100, 140)
+#
+#         self.textEdit = QtWidgets.QTextEdit(self)  # Show text of evaluation
+#         self.textEdit.move(250, 170)
+#         self.textEdit.resize(200, 200)
+#
+#         self.scrollArea = QtWidgets.QScrollArea(self)  # Scroll-Area to plot signal (Figure) in
+#         self.scrollArea.move(75, 400)
+#         self.scrollArea.resize(600, 300)
+#         self.scrollArea.setWidgetResizable(False)
+#
+#         self.figure = Figure((15, 2.8), dpi=100)  # figure instance (to plot on) F(width, height, ...)
+#         self.canvas = FigureCanvas(self.figure)
+#         self.scrollArea.setWidget(self.canvas)
+#         self.gs = gridspec.GridSpec(1, 1)
+#         self.ax = self.figure.add_subplot(self.gs[0])
+#         self.figure.subplots_adjust(left=0.05)
+#
+#     def start_stream(self, start=True):
+#         """start a Signal-Stream with pyAudio, with callback (to also play immediately)"""
+#         if start is True:
+#             self.p = pyaudio.PyAudio()
+#             self.stream = self.p.open(format=pyaudio.paFloat32, channels=self.channels, rate=self.fs, input=True,
+#                                   output=True, frames_per_buffer=self.Chunks, stream_callback=self.callback)
+#             self.streamstart = True
+#             self.stream.start_stream()
+#             print("Recording...")
+#
+#     def callback(self, in_data, frame_count, time_info, flag):
+#         """Callback-Function which stores the streaming data in a list"""
+#         data = np.fromstring(np.array(in_data).flatten(), dtype=np.float32)
+#         self.audiodata = data
+#         print("appending...")
+#         return data, pyaudio.paContinue
+#
+#     def tape_add(self):
+#         """add chunks from (callback)-list to tapes for left and right Signalparts"""
+#         if self.streamstart:
+#             self.tape[:-self.Chunks] = self.tape[self.Chunks:]
+#             self.taper = self.tape  # tape for right signal
+#             self.tapel = self.tape  # tape for left signal
+#             self.tapel[-self.Chunks:] = self.audiodata[::2]
+#             self.taper[-self.Chunks:] = self.audiodata[1::2]
+#             print("taping...")
+#         else:
+#             print("No streaming values found")
+#
+#     def plot(self):
+#         """Start the streaming an plot the signal"""
+#         print("(Stereo-)Signal streaming & plotting...")
+#
+#         self.plot_thread = PlotThead(self)
+#         self.plot_thread.start()
+#
+#     def stop_signal(self):
+#         print("Stopping Signal.")
+#         if self.streamstart:
+#             print("Stop Recording")
+#             self.stream.stop_stream()
+#             self.stream.close()
+#             self.p.terminate()
+#             self.streamstart = False
+#             self.plot_thread.stop()
+#         else:
+#             pass
+#
+#     def evaluation(self):
+#         """ Start the evaluation in another Thread"""
+#         self.thread = WorkerThread(self, self.taper, self.tapel)
+#
+#         self.thread.start()  # start thread
+#
+#
+# class PlotThead(QtCore.QThread):
+#     def __init__(self, window):
+#         QtCore.QThread.__init__(self)
+#         self.deamon = True
+#         self.__is_running = True
+#         self.window = window
+#
+#     def stop(self):
+#         self.__is_running = False
+#
+#     def run(self):
+#
+#         if self.window.streamstart:
+#             pass
+#         else:
+#             self.window.start_stream(start=True)
+#
+#         self.window.t1 = time.time()
+#         time.sleep(0.5)
+#
+#         while self.window.streamstart and self.__is_running:
+#             print("Plotting...")
+#             self.window.tape_add()
+#
+#             self.window.timeArray = np.arange(self.window.taper.size)
+#             self.window.timeArray = (self.window.timeArray / self.window.fs) * 1000  # scale to milliseconds
+#
+#             self.window.ax.clear()
+#             self.window.ax.plot(self.window.timeArray, (self.window.taper / np.max(np.abs(self.window.taper))), '-b')
+#             self.window.ax.grid()
+#             self.window.ax.set_ylabel("Amplitude")
+#             self.window.ax.set_xlabel("Samples")
+#             self.window.canvas.draw()
+#
+#
+# class WorkerThread(QtCore.QThread):
+#     def __init__(self, window, taper, tapel):  # take the tape-parts from the original thread
+#         QtCore.QThread.__init__(self)
+#         self.__taper = taper
+#         self.__tapel = tapel
+#         self.deamon = True
+#         self.window = window
+#
+#     def run(self):
+#         """Do evaluation, later mor, for now just some calculations"""
+#         print("Evaluating Signal")
+#
+#         self.tpr = self.__taper.astype(np.float32, order='C') / 32768  # here the GUI freezes and then exits
+#         self.tpl = self.__tapel.astype(np.float32, order='C') / 32768
+#         # cut nan-values if there are some
+#         self.r = self.tpr[~np.isnan(self.tpr)]
+#         self.l = self.tpl[~np.isnan(self.tpl)]
+#
+#         # normalize signals
+#         self.left2 = (self.l / np.max(np.abs(self.l)))
+#         self.right2 = (self.r / np.max(np.abs(self.r)))
+#         self.norm_audio2 = np.array((self.left2, self.right2))  # like channels (in de_interlace)
+#
+#         # do some calculations
+#
+#         self.databew = """ Mute, Loudness and PSNR/MOS...
+#                   Dominant fundamental frequencies etc.
+#                 """
+#         print(self.databew)
+#         self.window.textEdit.append(self.databew)  # would this work?
+#
+#
+# def main():
+#     app = QtWidgets.QApplication(sys.argv)
+#     GUI = Window()
+#     GUI.show()
+#
+#     sys.exit(app.exec_())
+#
+#
+# main()
+
+from tkinter import *
+import math
 import time
-import numpy as np
-import pyaudio
-from PyQt5 import QtGui, QtWidgets, QtCore
-import matplotlib
-import matplotlib.gridspec as gridspec
-from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
-from matplotlib.figure import Figure
-matplotlib.use('Qt5Agg')
 
 
-class Window(QtWidgets.QMainWindow):
-    def __init__(self):  # template for rest of GUI,
-        super(Window, self).__init__()
-        self.setGeometry(50, 50, 1500, 900)
-        self.centralwidget = QtWidgets.QWidget(self)
-        self.centralwidget.setObjectName("centralwidget")
+window = Tk()
+window.geometry('1500x700')
 
-        self.channels = 2  # StereoSignal
-        self.fs = 44100  # Samplingrate
-        self.Chunks = 4096  # Buffersize
-        self.streamstart = False
-        self.audiodata = []  # to buffer streaming-values in
+canvas = Canvas(window, width=1500, height=700, bg='tan')
+canvas.pack()
 
-        self.tapeLength = 4  # seconds
-        self.tape = np.empty(self.fs * self.tapeLength) * np.nan  # tape to store signal-chunks
+angle = 0
+while True:
+    x1 = y1 = 0
+    tx = 600
+    ty = 300
+    dist = 250
+    angle = (angle + 10) % 360
+    value = int(360 / 8)
 
-        self.home()
+    for i in range(0, 8):
+        rad = math.pi * angle / 180
+        tx = dist * math.cos(rad)
+        ty = dist * math.sin(rad)
+        angle += value
+        tx += 600
+        ty += 300
+        pic = canvas.create_rectangle(tx, ty, tx + 90, ty + 90, fill='black')
+    window.update()
+    time.sleep(0.1)
+    canvas.delete('all')
 
-    def home(self):
-        btn = QtWidgets.QPushButton("Stream and Plot", self)  # Button to start streaming
-        btn.clicked.connect(self.plot)
-        btn.move(100, 100)
-
-        btn = QtWidgets.QPushButton("Stop", self)  # Button to stop streaming
-        btn.clicked.connect(self.stop_signal)
-        btn.move(200, 100)
-
-        btn = QtWidgets.QPushButton("Evaluate", self)  # Button for the Evaluation
-        btn.clicked.connect(self.evaluation)
-        btn.move(100, 140)
-
-        self.textEdit = QtWidgets.QTextEdit(self)  # Show text of evaluation
-        self.textEdit.move(250, 170)
-        self.textEdit.resize(200, 200)
-
-        self.scrollArea = QtWidgets.QScrollArea(self)  # Scroll-Area to plot signal (Figure) in
-        self.scrollArea.move(75, 400)
-        self.scrollArea.resize(600, 300)
-        self.scrollArea.setWidgetResizable(False)
-
-        self.figure = Figure((15, 2.8), dpi=100)  # figure instance (to plot on) F(width, height, ...)
-        self.canvas = FigureCanvas(self.figure)
-        self.scrollArea.setWidget(self.canvas)
-        self.gs = gridspec.GridSpec(1, 1)
-        self.ax = self.figure.add_subplot(self.gs[0])
-        self.figure.subplots_adjust(left=0.05)
-
-    def start_stream(self, start=True):
-        """start a Signal-Stream with pyAudio, with callback (to also play immediately)"""
-        if start is True:
-            self.p = pyaudio.PyAudio()
-            self.stream = self.p.open(format=pyaudio.paFloat32, channels=self.channels, rate=self.fs, input=True,
-                                  output=True, frames_per_buffer=self.Chunks, stream_callback=self.callback)
-            self.streamstart = True
-            self.stream.start_stream()
-            print("Recording...")
-
-    def callback(self, in_data, frame_count, time_info, flag):
-        """Callback-Function which stores the streaming data in a list"""
-        data = np.fromstring(np.array(in_data).flatten(), dtype=np.float32)
-        self.audiodata = data
-        print("appending...")
-        return data, pyaudio.paContinue
-
-    def tape_add(self):
-        """add chunks from (callback)-list to tapes for left and right Signalparts"""
-        if self.streamstart:
-            self.tape[:-self.Chunks] = self.tape[self.Chunks:]
-            self.taper = self.tape  # tape for right signal
-            self.tapel = self.tape  # tape for left signal
-            self.tapel[-self.Chunks:] = self.audiodata[::2]
-            self.taper[-self.Chunks:] = self.audiodata[1::2]
-            print("taping...")
-        else:
-            print("No streaming values found")
-
-    def plot(self):
-        """Start the streaming an plot the signal"""
-        print("(Stereo-)Signal streaming & plotting...")
-
-        self.plot_thread = PlotThead(self)
-        self.plot_thread.start()
-
-    def stop_signal(self):
-        print("Stopping Signal.")
-        if self.streamstart:
-            print("Stop Recording")
-            self.stream.stop_stream()
-            self.stream.close()
-            self.p.terminate()
-            self.streamstart = False
-            self.plot_thread.stop()
-        else:
-            pass
-
-    def evaluation(self):
-        """ Start the evaluation in another Thread"""
-        self.thread = WorkerThread(self, self.taper, self.tapel)
-
-        self.thread.start()  # start thread
-
-
-class PlotThead(QtCore.QThread):
-    def __init__(self, window):
-        QtCore.QThread.__init__(self)
-        self.deamon = True
-        self.__is_running = True
-        self.window = window
-
-    def stop(self):
-        self.__is_running = False
-
-    def run(self):
-
-        if self.window.streamstart:
-            pass
-        else:
-            self.window.start_stream(start=True)
-
-        self.window.t1 = time.time()
-        time.sleep(0.5)
-
-        while self.window.streamstart and self.__is_running:
-            print("Plotting...")
-            self.window.tape_add()
-
-            self.window.timeArray = np.arange(self.window.taper.size)
-            self.window.timeArray = (self.window.timeArray / self.window.fs) * 1000  # scale to milliseconds
-
-            self.window.ax.clear()
-            self.window.ax.plot(self.window.timeArray, (self.window.taper / np.max(np.abs(self.window.taper))), '-b')
-            self.window.ax.grid()
-            self.window.ax.set_ylabel("Amplitude")
-            self.window.ax.set_xlabel("Samples")
-            self.window.canvas.draw()
-
-
-class WorkerThread(QtCore.QThread):
-    def __init__(self, window, taper, tapel):  # take the tape-parts from the original thread
-        QtCore.QThread.__init__(self)
-        self.__taper = taper
-        self.__tapel = tapel
-        self.deamon = True
-        self.window = window
-
-    def run(self):
-        """Do evaluation, later mor, for now just some calculations"""
-        print("Evaluating Signal")
-
-        self.tpr = self.__taper.astype(np.float32, order='C') / 32768  # here the GUI freezes and then exits
-        self.tpl = self.__tapel.astype(np.float32, order='C') / 32768
-        # cut nan-values if there are some
-        self.r = self.tpr[~np.isnan(self.tpr)]
-        self.l = self.tpl[~np.isnan(self.tpl)]
-
-        # normalize signals
-        self.left2 = (self.l / np.max(np.abs(self.l)))
-        self.right2 = (self.r / np.max(np.abs(self.r)))
-        self.norm_audio2 = np.array((self.left2, self.right2))  # like channels (in de_interlace)
-
-        # do some calculations
-
-        self.databew = """ Mute, Loudness and PSNR/MOS...
-                  Dominant fundamental frequencies etc.
-                """
-        print(self.databew)
-        self.window.textEdit.append(self.databew)  # would this work?
-
-
-def main():
-    app = QtWidgets.QApplication(sys.argv)
-    GUI = Window()
-    GUI.show()
-
-    sys.exit(app.exec_())
-
-
-main()
+window.mainloop()
