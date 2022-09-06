@@ -26,7 +26,7 @@
 #     video.streams.first().download(DOWNLOAD_DIR)
 
 
-# # 다운로드 진행사항 콜백
+# 다운로드 진행사항 콜백
 # from pytube import YouTube
 #
 # DOWNLOAD_DIR = r"D:\github\marinelifeirony\Python\mypytube"
@@ -45,7 +45,7 @@
 #
 # yt = YouTube(url, on_complete_callback=on_complete, on_progress_callback=on_progress)
 # yt.streams.first().download()
-# yt.register_on_complete_callback()
+# # yt.register_on_complete_callback()
 
 # # 다운로드 퀼리티
 # from pytube import YouTube
