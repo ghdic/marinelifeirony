@@ -7,7 +7,7 @@ void main() {
 
 class Idol {
   final String name;
-  final List<String> members;
+  final List<String> members; // _ 붙이면 private
 
   // const Idol(this.name, this.members); // const constructor
 
