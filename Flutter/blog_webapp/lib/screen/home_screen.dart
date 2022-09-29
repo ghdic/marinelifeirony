@@ -4,7 +4,7 @@ import 'package:webview_flutter/webview_flutter.dart';
 class HomeScreen extends StatelessWidget {
   HomeScreen({Key? key}) : super(key: key);
   WebViewController? controller;
-  final homeUrl = 'https://www.daum.net/';
+  final homeUrl = 'https://nid.naver.com/nidlogin.login';
 
   @override
   Widget build(BuildContext context) {
