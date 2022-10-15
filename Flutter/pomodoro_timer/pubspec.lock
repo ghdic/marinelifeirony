@@ -15,13 +15,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.0"
-  calendar_view:
-    dependency: "direct main"
-    description:
-      name: calendar_view
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.0"
   characters:
     dependency: transitive
     description:
@@ -74,13 +67,32 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  intl:
+  flutter_web_plugins:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  fluttertoast:
     dependency: "direct main"
     description:
-      name: intl
+      name: fluttertoast
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.17.0"
+    version: "8.0.9"
+  infinite_listview:
+    dependency: transitive
+    description:
+      name: infinite_listview
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.1.0"
+  js:
+    dependency: transitive
+    description:
+      name: js
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.6.4"
   lints:
     dependency: transitive
     description:
@@ -109,6 +121,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0"
+  numberpicker:
+    dependency: "direct main"
+    description:
+      name: numberpicker
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.1.1"
   path:
     dependency: transitive
     description:
@@ -128,6 +147,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.9.0"
+  sprintf:
+    dependency: "direct main"
+    description:
+      name: sprintf
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "6.0.2"
   stack_trace:
     dependency: transitive
     description:
@@ -135,6 +161,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.10.0"
+  step_progress_indicator:
+    dependency: "direct main"
+    description:
+      name: step_progress_indicator
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.2"
   stream_channel:
     dependency: transitive
     description:
@@ -171,5 +204,5 @@ packages:
     source: hosted
     version: "2.1.2"
 sdks:
-  dart: ">=2.18.0 <3.0.0"
-  flutter: ">=1.17.0"
+  dart: ">=2.18.2 <3.0.0"
+  flutter: ">=1.10.0"
