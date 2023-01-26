@@ -24,8 +24,6 @@ class RandomRollet:
             print(f'질문: {target_quiz}')
             time.sleep(0.1)
         del self.quiz[target_index]
-        print(self.quiz)
-        print(len(self.quiz))
         return target_quiz
 
     def shuffle_user(self, target_quiz):
@@ -38,7 +36,7 @@ class RandomRollet:
 
 
 if __name__ == '__main__':
-    randomRollet = RandomRollet(quiz_type="algorithm")
+    randomRollet = RandomRollet(quiz_type="operating_system_1")
     while True:
         while True:
             quiz = randomRollet.shuffle_quiz()
