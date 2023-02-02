@@ -36,7 +36,7 @@ class RandomRollet:
 
 
 if __name__ == '__main__':
-    randomRollet = RandomRollet(quiz_type="operating_system_2")
+    randomRollet = RandomRollet(quiz_type="database")
     while True:
         while True:
             quiz = randomRollet.shuffle_quiz()
