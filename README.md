@@ -14,17 +14,26 @@ https://marinelifeirony.tistory.com/
 
 
 # 자주 쓰는 깃헙 명령어 정리
+## 원격저장소 파일 삭제
+`.gitignore`에 해당 파일이 등록되었다는 전제
+
+```
+// 원격 저장소에 있는 파일만 삭제하고, 로컬 저장소에 있는 파일은 삭제하지 않음
+git rm --cached <FILE NAME>
+git commit -m "rm cached"
+git push master "branch 이름"
+```
+
 ## 원본유지 & 파일추적 중지
 ```
-git update-index --skip-worktree file1
-// 위 건 영구히 추적하지 않음.
-// 아래 건 변화있으면 풀림.
-git update-index --assume-unchanged file1
+// 영구히 추적하지 않음
+git update-index --skip-worktree <FILE NAME>
+// 변화있으면 풀림.
+git update-index --assume-unchanged <FILE NAME>
 ```
 
 ## 추적 다시하기
 ```
-git update-index --no-skip-worktree FILE1
-
-git update-index --no-assume-unchanged FILE1
+git update-index --no-skip-worktree <FILE NAME>
+git update-index --no-assume-unchanged <FILE NAME>
 ```
