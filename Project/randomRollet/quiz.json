@@ -130,6 +130,30 @@
       "세션 기반 인증과 토큰 기반 인증의 차이점에 대해 설명해주세요",
       "http1.0 vs http 1.1 vs http 2.0의 차이를 설명해주세여",
       "tcp/ip 계층의 네트워크 레이어는 osi 7 계층의 어떤 부분과 동일한가요?\ntcp/ip 계층의 어플리케이션 레이어는 osi 7 계층의 어떤 부분과 동일한가요?"
+    ],
+    "java": [
+      "JVM이 어떻게 동작하는지에 대해 설명해주시고 Java가 JVM를 사용함으로써 얻는 이점을 말해주세요",
+      "final 키워드를 사용하면 어떤 이점이 있나요? 컴파일 과정에서 final 키워드는 다르게 취급되나요?",
+      "인터페이스와 추상 클래스의 차이에 대해 설명해주세요",
+      "리플렉션에 대해 설명해주세요, 리플렉션은 언제 활용할 수 있을까요?",
+      "static class변수와 static method를 비교해주세요",
+      "Java Exception에 대해 설명해주세요",
+      "Synchronized 키워드에 대해 설명해주세요",
+      "Java Stream에 대해 설명해주세요",
+      "Java GC에 대해 설명해주세요",
+      "equals()와 hashcode는 어떤 연관관계가 있을까요?",
+      "자바에서 Annotation은 어떤 기능을 하나요?",
+      "자바에서 thread-safe하게 코드를 작성하는 방법을 아는대로 설명해주세요",
+      "가시성문제와 동시성문제란 무엇인가요?",
+      "OOP의 특징과 SOLID에 대해 설명해주세요",
+      "java8의 특징을 설명해주세요",
+      "java Collections Framework에 대해 설명하고 각각의 시간복잡도와 그 이유에 대해 설명해주세요",
+      "동등성 비교와 동일성 비교에 대해 설명해주세요",
+      "thread-safe하게 singletone 객체를 만들 수 있는 방법은?",
+      "String, StringBuilder, StringBuffer를 각각 비교 설명해주세요",
+      "java 직렬화 역직렬화란 무엇인가요?",
+      "오버라이딩과 오버로딩의 차이는 무엇인가요?",
+      "HashSet VS HashMap"
     ]
   }
 }

@@ -36,7 +36,7 @@ class RandomRollet:
 
 
 if __name__ == '__main__':
-    randomRollet = RandomRollet(quiz_type="network")
+    randomRollet = RandomRollet(quiz_type="java")
     while True:
         while True:
             quiz = randomRollet.shuffle_quiz()
