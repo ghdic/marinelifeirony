@@ -36,7 +36,7 @@ class RandomRollet:
 
 
 if __name__ == '__main__':
-    randomRollet = RandomRollet(quiz_type="spring_jpa")
+    randomRollet = RandomRollet(quiz_type="sort")
     while True:
         while True:
             quiz = randomRollet.shuffle_quiz()
