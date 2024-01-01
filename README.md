@@ -33,7 +33,7 @@ git update-index --assume-unchanged <FILE NAME>
 ```
 
 ## 추적 다시하기
-```
+``` 
 git update-index --no-skip-worktree <FILE NAME>
 git update-index --no-assume-unchanged <FILE NAME>
 ```
